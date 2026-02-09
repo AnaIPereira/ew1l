@@ -1,0 +1,210 @@
+%                  Higgs
+
+  [H,H,+]
+  [GM,GP,+]
+  [GZ,GZ,+]
+
+
+% Fermions
+
+ [e1,E1,-]
+ [e2,E2,-]
+ [e3,E3,-]
+
+ [n1,N1,-]
+ [n2,N2,-]
+ [n3,N3,-]
+
+ [b, B, -]
+ [d, D, -]
+ [s, S, -]
+ [c, C, -]
+ [t, T, -]
+ [u, U, -]
+
+
+%      photon, W-boson, Z-boson, g
+
+  [A,A,+]
+  [WM,WP,+]
+  [Z,Z,+]
+  [g,g,+]
+
+%    Ghosts
+
+  [cA,CA,-]
+  [cWP,CWP,-]
+  [cWM,CWM,-]
+  [cZ,CZ,-]
+  [cG,CG,-]
+
+
+% Cubic Gauge Interactions
+
+[g, g, g]
+[A, WP, WM]
+[WP, WM, Z]
+
+% Quartic Gauge Interactions
+
+[g, g, g, g]
+[A, A, WP, WM]
+[WP, WP, WM, WM]
+[A, WP, WM, Z]
+[WP, WM, Z, Z]
+
+
+% Gauge Fermion Interaction (CKM Identity)
+
+[B, b, g]
+[D, d, g]
+[S, s, g]
+[C, c, g]
+[T, t, g]
+[U, u, g]
+[B, b, A]
+[D, d, A]
+[S, s, A]
+[B, b, Z]
+[D, d, Z]
+[S, s, Z]
+[E1, e1, A]
+[E2, e2, A]
+[E3, e3, A]
+[E1, e1, Z]
+[E2, e2, Z]
+[E3, e3, Z]
+[C, c, A]
+[T, t, A]
+[U, u, A]
+[C, c, Z]
+[T, t, Z]
+[U, u, Z]
+[N1, n1, Z]
+[N2, n2, Z]
+[N3, n3, Z]
+[N1, e1, WP]
+[N2, e2, WP]
+[N3, e3, WP]
+[C, s, WP]
+[T, b, WP]
+[U, d, WP]
+[E1, n1, WM]
+[E2, n2, WM]
+[E3, n3, WM]
+[B, t, WM]
+[D, u, WM]
+[S, c, WM]
+
+
+%Yukawa Interactions (CKM = Identity)
+
+[D, u, GM]
+[D, d, H]
+[D, d, GZ]
+[U, d, GP]
+[S, c, GM]
+[S, s, H]
+[S, s, GZ]
+[C, s, GP]
+[B, t, GM]
+[B, b, H]
+[B, b, GZ]
+[T, b, GP]
+[E1, e1, H]
+[E1, e1, GZ]
+[E1, n1, GM]
+[N1, e1, GP]
+[E2, e2, H]
+[E2, e2, GZ]
+[E2, n2, GM]
+[N2, e2, GP]
+[E3, e3, H]
+[E3, e3, GZ]
+[E3, n3, GM]
+[N3, e3, GP]
+[U, u, H]
+[U, u, GZ]
+[C, c, H]
+[C, c, GZ]
+[T, t, H]
+[T, t, GZ]
+
+
+% Cubic Higgs Interactions
+
+
+[H, H, H]
+[H, GZ, GZ]
+[H, GP, GM]
+[A, GP, GM]
+[A, GM, WP]
+[H, GM, WP]
+[GZ, GM, WP]
+[A, GP, WM]
+[H, GP, WM]
+[GZ, GP, WM]
+[H, WP, WM]
+[H, GZ, Z]
+[GP, GM, Z]
+[GM, WP, Z]
+[GP, WM, Z]
+[H, Z, Z]
+
+
+% Quartic Higgs Interactions
+
+[H, H, H, H]
+[H, H, GZ, GZ]
+[GZ, GZ, GZ, GZ]
+[H, H, GP, GM]
+[GZ, GZ, GP, GM]
+[GP, GP, GM, GM]
+[A, A, GP, GM]
+[A, H, GM, WP]
+[A, GZ, GM, WP]
+[A, H, GP, WM]
+[A, GZ, GP, WM]
+[H, H, WP, WM]
+[GZ, GZ, WP, WM]
+[GP, GM, WP, WM]
+[A, GP, GM, Z]
+[H, GM, WP, Z]
+[GZ, GM, WP, Z]
+[H, GP, WM, Z]
+[GZ, GP, WM, Z]
+[H, H, Z, Z]
+[GZ, GZ, Z, Z]
+[GP, GM, Z, Z]
+
+
+% Ghosts
+
+
+[CA, cWM, WP]
+[CA, cWP, WM]
+[CWM, cA, GM]
+[CWM, cA, WM]
+[CWM, cWM, H]
+[CWM, cWM, GZ]
+[CWM, cWM, A]
+[CWM, cWM, Z]
+[CWM, cZ, GM]
+[CWM, cZ, WM]
+[CWP, cA, GP]
+[CWP, cA, WP]
+[CWP, cWP, H]
+[CWP, cWP, GZ]
+[CWP, cWP, A]
+[CWP, cWP, Z]
+[CWP, cZ, GP]
+[CWP, cZ, WP]
+[CZ, cWM, GP]
+[CZ, cWM, WP]
+[CZ, cWP, GM]
+[CZ, cWP, WM]
+[CZ, cZ, H]
+[CG, cG, g]
+
+
+

@@ -1,0 +1,20 @@
+output = 'qlist.tmp';
+style = 'qgraf-tapir.sty';
+model = 'UFO.lag';
+
+* Incoming and outgoing particles :
+in = fe , fvm ;
+out = fmu, fve;
+
+loops = 1;
+loop_momentum = k ;
+
+* No wavefunction corrections , no graphs with tadpoles
+options = onshell, notadpole ;
+
+* No internal higgs propagators
+* ( we don ' t want EW corrections ) :
+*true = iprop [h ,0 ,0];
+
+
+

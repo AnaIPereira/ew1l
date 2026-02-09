@@ -1,0 +1,9978 @@
+*--#[ d1l1 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*(ufoGC5*(d_(nu13,nu12)*d_(nu14,nu9)+d_(nu13,nu9)*d_(nu14,nu12)-2*d_(nu13,nu14)*d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l1 :
+
+*--#[ fqcd1l1 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l1 :
+
+*--#[ fqed1l1 :
+	1
+*--#] fqed1l1 :
+
+*--#[ few1l1 :
+	1
+*--#] few1l1 :
+
+*--#[ d1l2 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*(ufoGC54*(d_(nu9,nu14)*d_(nu12,nu13)+d_(nu9,nu13)*d_(nu12,nu14)-2*d_(nu9,nu12)*d_(nu13,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l2 :
+
+*--#[ fqcd1l2 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l2 :
+
+*--#[ fqed1l2 :
+	1
+*--#] fqed1l2 :
+
+*--#[ few1l2 :
+	1
+*--#] few1l2 :
+
+*--#[ d1l3 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*(ufoGC54*(d_(nu9,nu14)*d_(nu12,nu13)+d_(nu9,nu13)*d_(nu12,nu14)-2*d_(nu9,nu12)*d_(nu13,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l3 :
+
+*--#[ fqcd1l3 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l3 :
+
+*--#[ fqed1l3 :
+	1
+*--#] fqed1l3 :
+
+*--#[ few1l3 :
+	1
+*--#] few1l3 :
+
+*--#[ d1l4 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*(ufoGC53*(d_(nu9,nu14)*d_(nu13,nu12)+d_(nu9,nu12)*d_(nu13,nu14)-2*d_(nu9,nu13)*d_(nu12,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l4 :
+
+*--#[ fqcd1l4 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l4 :
+
+*--#[ fqed1l4 :
+	1
+*--#] fqed1l4 :
+
+*--#[ few1l4 :
+	1
+*--#] few1l4 :
+
+*--#[ d1l5 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*(ufoGC53*(d_(nu13,nu12)*d_(nu9,nu14)+d_(nu13,nu14)*d_(nu9,nu12)-2*d_(nu13,nu9)*d_(nu14,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l5 :
+
+*--#[ fqcd1l5 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l5 :
+
+*--#[ fqed1l5 :
+	1
+*--#] fqed1l5 :
+
+*--#[ few1l5 :
+	1
+*--#] few1l5 :
+
+*--#[ d1l6 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*DH(p3)
+	*(ufoGC52*(d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l6 :
+
+*--#[ fqcd1l6 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l6 :
+
+*--#[ fqed1l6 :
+	1
+*--#] fqed1l6 :
+
+*--#[ few1l6 :
+	1
+*--#] few1l6 :
+
+*--#[ d1l7 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dgoldst(p3,xiz)
+	*(ufoGC52*(d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l7 :
+
+*--#[ fqcd1l7 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l7 :
+
+*--#[ fqed1l7 :
+	1
+*--#] fqed1l7 :
+
+*--#[ few1l7 :
+	1
+*--#] few1l7 :
+
+*--#[ d1l8 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dgoldst(p3,xiw)
+	*(ufoGC52*(d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l8 :
+
+*--#[ fqcd1l8 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l8 :
+
+*--#[ fqed1l8 :
+	1
+*--#] fqed1l8 :
+
+*--#[ few1l8 :
+	1
+*--#] few1l8 :
+
+*--#[ d1l9 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*(ufoGC5*(d_(nu13,nu12)*d_(nu14,nu9)+d_(nu13,nu9)*d_(nu14,nu12)-2*d_(nu13,nu14)*d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l9 :
+
+*--#[ fqcd1l9 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l9 :
+
+*--#[ fqed1l9 :
+	1
+*--#] fqed1l9 :
+
+*--#[ few1l9 :
+	1
+*--#] few1l9 :
+
+*--#[ d1l10 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*(ufoGC54*(d_(nu9,nu14)*d_(nu12,nu13)+d_(nu9,nu13)*d_(nu12,nu14)-2*d_(nu9,nu12)*d_(nu13,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l10 :
+
+*--#[ fqcd1l10 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l10 :
+
+*--#[ fqed1l10 :
+	1
+*--#] fqed1l10 :
+
+*--#[ few1l10 :
+	1
+*--#] few1l10 :
+
+*--#[ d1l11 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*(ufoGC54*(d_(nu9,nu14)*d_(nu12,nu13)+d_(nu9,nu13)*d_(nu12,nu14)-2*d_(nu9,nu12)*d_(nu13,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l11 :
+
+*--#[ fqcd1l11 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l11 :
+
+*--#[ fqed1l11 :
+	1
+*--#] fqed1l11 :
+
+*--#[ few1l11 :
+	1
+*--#] few1l11 :
+
+*--#[ d1l12 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*(ufoGC53*(d_(nu9,nu14)*d_(nu13,nu12)+d_(nu9,nu12)*d_(nu13,nu14)-2*d_(nu9,nu13)*d_(nu12,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l12 :
+
+*--#[ fqcd1l12 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l12 :
+
+*--#[ fqed1l12 :
+	1
+*--#] fqed1l12 :
+
+*--#[ few1l12 :
+	1
+*--#] few1l12 :
+
+*--#[ d1l13 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*(ufoGC53*(d_(nu13,nu14)*d_(nu9,nu12)+d_(nu13,nu12)*d_(nu9,nu14)-2*d_(nu13,nu9)*d_(nu12,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l13 :
+
+*--#[ fqcd1l13 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l13 :
+
+*--#[ fqed1l13 :
+	1
+*--#] fqed1l13 :
+
+*--#[ few1l13 :
+	1
+*--#] few1l13 :
+
+*--#[ d1l14 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*DH(p3)
+	*(ufoGC52*(d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l14 :
+
+*--#[ fqcd1l14 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l14 :
+
+*--#[ fqed1l14 :
+	1
+*--#] fqed1l14 :
+
+*--#[ few1l14 :
+	1
+*--#] few1l14 :
+
+*--#[ d1l15 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dgoldst(p3,xiz)
+	*(ufoGC52*(d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l15 :
+
+*--#[ fqcd1l15 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l15 :
+
+*--#[ fqed1l15 :
+	1
+*--#] fqed1l15 :
+
+*--#[ few1l15 :
+	1
+*--#] few1l15 :
+
+*--#[ d1l16 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dgoldst(p3,xiw)
+	*(ufoGC52*(d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l16 :
+
+*--#[ fqcd1l16 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l16 :
+
+*--#[ fqed1l16 :
+	1
+*--#] fqed1l16 :
+
+*--#[ few1l16 :
+	1
+*--#] few1l16 :
+
+*--#[ d1l17 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*(ufoGC5*(d_(nu13,nu12)*d_(nu14,nu9)+d_(nu13,nu9)*d_(nu14,nu12)-2*d_(nu13,nu14)*d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l17 :
+
+*--#[ fqcd1l17 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l17 :
+
+*--#[ fqed1l17 :
+	1
+*--#] fqed1l17 :
+
+*--#[ few1l17 :
+	1
+*--#] few1l17 :
+
+*--#[ d1l18 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*(ufoGC54*(d_(nu9,nu14)*d_(nu12,nu13)+d_(nu9,nu13)*d_(nu12,nu14)-2*d_(nu9,nu12)*d_(nu13,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l18 :
+
+*--#[ fqcd1l18 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l18 :
+
+*--#[ fqed1l18 :
+	1
+*--#] fqed1l18 :
+
+*--#[ few1l18 :
+	1
+*--#] few1l18 :
+
+*--#[ d1l19 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*(ufoGC54*(d_(nu9,nu14)*d_(nu12,nu13)+d_(nu9,nu13)*d_(nu12,nu14)-2*d_(nu9,nu12)*d_(nu13,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l19 :
+
+*--#[ fqcd1l19 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l19 :
+
+*--#[ fqed1l19 :
+	1
+*--#] fqed1l19 :
+
+*--#[ few1l19 :
+	1
+*--#] few1l19 :
+
+*--#[ d1l20 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*(ufoGC53*(d_(nu9,nu14)*d_(nu13,nu12)+d_(nu9,nu12)*d_(nu13,nu14)-2*d_(nu9,nu13)*d_(nu12,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l20 :
+
+*--#[ fqcd1l20 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l20 :
+
+*--#[ fqed1l20 :
+	1
+*--#] fqed1l20 :
+
+*--#[ few1l20 :
+	1
+*--#] few1l20 :
+
+*--#[ d1l21 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*(ufoGC53*(d_(nu9,nu12)*d_(nu13,nu14)+d_(nu9,nu14)*d_(nu13,nu12)-2*d_(nu9,nu13)*d_(nu14,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l21 :
+
+*--#[ fqcd1l21 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l21 :
+
+*--#[ fqed1l21 :
+	1
+*--#] fqed1l21 :
+
+*--#[ few1l21 :
+	1
+*--#] few1l21 :
+
+*--#[ d1l22 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*DH(p3)
+	*(ufoGC52*(d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l22 :
+
+*--#[ fqcd1l22 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l22 :
+
+*--#[ fqed1l22 :
+	1
+*--#] fqed1l22 :
+
+*--#[ few1l22 :
+	1
+*--#] few1l22 :
+
+*--#[ d1l23 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dgoldst(p3,xiz)
+	*(ufoGC52*(d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l23 :
+
+*--#[ fqcd1l23 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l23 :
+
+*--#[ fqed1l23 :
+	1
+*--#] fqed1l23 :
+
+*--#[ few1l23 :
+	1
+*--#] few1l23 :
+
+*--#[ d1l24 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dgoldst(p3,xiw)
+	*(ufoGC52*(d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l24 :
+
+*--#[ fqcd1l24 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l24 :
+
+*--#[ fqed1l24 :
+	1
+*--#] fqed1l24 :
+
+*--#[ few1l24 :
+	1
+*--#] few1l24 :
+
+*--#[ d1l25 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*(ufoGC5*(d_(nu13,nu12)*d_(nu14,nu9)+d_(nu13,nu9)*d_(nu14,nu12)-2*d_(nu13,nu14)*d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l25 :
+
+*--#[ fqcd1l25 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l25 :
+
+*--#[ fqed1l25 :
+	1
+*--#] fqed1l25 :
+
+*--#[ few1l25 :
+	1
+*--#] few1l25 :
+
+*--#[ d1l26 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*(ufoGC54*(d_(nu9,nu14)*d_(nu12,nu13)+d_(nu9,nu13)*d_(nu12,nu14)-2*d_(nu9,nu12)*d_(nu13,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l26 :
+
+*--#[ fqcd1l26 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l26 :
+
+*--#[ fqed1l26 :
+	1
+*--#] fqed1l26 :
+
+*--#[ few1l26 :
+	1
+*--#] few1l26 :
+
+*--#[ d1l27 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*(ufoGC54*(d_(nu9,nu14)*d_(nu12,nu13)+d_(nu9,nu13)*d_(nu12,nu14)-2*d_(nu9,nu12)*d_(nu13,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l27 :
+
+*--#[ fqcd1l27 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l27 :
+
+*--#[ fqed1l27 :
+	1
+*--#] fqed1l27 :
+
+*--#[ few1l27 :
+	1
+*--#] few1l27 :
+
+*--#[ d1l28 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*(ufoGC53*(d_(nu9,nu14)*d_(nu13,nu12)+d_(nu9,nu12)*d_(nu13,nu14)-2*d_(nu9,nu13)*d_(nu12,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l28 :
+
+*--#[ fqcd1l28 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l28 :
+
+*--#[ fqed1l28 :
+	1
+*--#] fqed1l28 :
+
+*--#[ few1l28 :
+	1
+*--#] few1l28 :
+
+*--#[ d1l29 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*(ufoGC53*(d_(nu9,nu14)*d_(nu13,nu12)+d_(nu9,nu12)*d_(nu13,nu14)-2*d_(nu9,nu13)*d_(nu12,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l29 :
+
+*--#[ fqcd1l29 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l29 :
+
+*--#[ fqed1l29 :
+	1
+*--#] fqed1l29 :
+
+*--#[ few1l29 :
+	1
+*--#] few1l29 :
+
+*--#[ d1l30 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*DH(p3)
+	*(ufoGC52*(d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l30 :
+
+*--#[ fqcd1l30 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l30 :
+
+*--#[ fqed1l30 :
+	1
+*--#] fqed1l30 :
+
+*--#[ few1l30 :
+	1
+*--#] few1l30 :
+
+*--#[ d1l31 :
+
+	(-1)*1/2
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dgoldst(p3,xiz)
+	*(ufoGC52*(d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l31 :
+
+*--#[ fqcd1l31 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l31 :
+
+*--#[ fqed1l31 :
+	1
+*--#] fqed1l31 :
+
+*--#[ few1l31 :
+	1
+*--#] few1l31 :
+
+*--#[ d1l32 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dgoldst(p3,xiw)
+	*(ufoGC52*(d_(nu9,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l32 :
+
+*--#[ fqcd1l32 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l32 :
+
+*--#[ fqed1l32 :
+	1
+*--#] fqed1l32 :
+
+*--#[ few1l32 :
+	1
+*--#] few1l32 :
+
+*--#[ d1l33 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
+	*(ufoGC4*(Mom(nu12,p3)*d_(nu13,nu15)-Mom(nu12,p4)*d_(nu13,nu15)-Mom(nu15,p3)*d_(nu13,nu12)+Mom(nu15,-p2)*d_(nu13,nu12)+Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l33 :
+
+*--#[ fqcd1l33 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l33 :
+
+*--#[ fqed1l33 :
+	1
+*--#] fqed1l33 :
+
+*--#[ few1l33 :
+	1
+*--#] few1l33 :
+
+*--#[ d1l34 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
+	*(ufoGC4*(Mom(nu12,p3)*d_(nu13,nu15)-Mom(nu12,p4)*d_(nu13,nu15)-Mom(nu15,p3)*d_(nu13,nu12)+Mom(nu15,-p2)*d_(nu13,nu12)+Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l34 :
+
+*--#[ fqcd1l34 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l34 :
+
+*--#[ fqed1l34 :
+	1
+*--#] fqed1l34 :
+
+*--#[ few1l34 :
+	1
+*--#] few1l34 :
+
+*--#[ d1l35 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dgoldst(p4,xiw)
+	*(ufoGC93*(d_(nu14,nu9)))
+	*(ufoGC93*(d_(nu13,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l35 :
+
+*--#[ fqcd1l35 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l35 :
+
+*--#[ fqed1l35 :
+	1
+*--#] fqed1l35 :
+
+*--#[ few1l35 :
+	1
+*--#] few1l35 :
+
+*--#[ d1l36 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l36 :
+
+*--#[ fqcd1l36 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l36 :
+
+*--#[ fqed1l36 :
+	1
+*--#] fqed1l36 :
+
+*--#[ few1l36 :
+	1
+*--#] few1l36 :
+
+*--#[ d1l37 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l37 :
+
+*--#[ fqcd1l37 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l37 :
+
+*--#[ fqed1l37 :
+	1
+*--#] fqed1l37 :
+
+*--#[ few1l37 :
+	1
+*--#] few1l37 :
+
+*--#[ d1l38 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu14)))
+	*(ufoGC85*(d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l38 :
+
+*--#[ fqcd1l38 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l38 :
+
+*--#[ fqed1l38 :
+	1
+*--#] fqed1l38 :
+
+*--#[ few1l38 :
+	1
+*--#] few1l38 :
+
+*--#[ d1l39 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l39 :
+
+*--#[ fqcd1l39 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l39 :
+
+*--#[ fqed1l39 :
+	1
+*--#] fqed1l39 :
+
+*--#[ few1l39 :
+	1
+*--#] few1l39 :
+
+*--#[ d1l40 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l40 :
+
+*--#[ fqcd1l40 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l40 :
+
+*--#[ fqed1l40 :
+	1
+*--#] fqed1l40 :
+
+*--#[ few1l40 :
+	1
+*--#] few1l40 :
+
+*--#[ d1l41 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu14)))
+	*(ufoGC85*(d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l41 :
+
+*--#[ fqcd1l41 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l41 :
+
+*--#[ fqed1l41 :
+	1
+*--#] fqed1l41 :
+
+*--#[ few1l41 :
+	1
+*--#] few1l41 :
+
+*--#[ d1l42 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*DH(p4)
+	*(ufoGC90*(d_(nu9,nu14)))
+	*(ufoGC90*(d_(nu13,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l42 :
+
+*--#[ fqcd1l42 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l42 :
+
+*--#[ fqed1l42 :
+	1
+*--#] fqed1l42 :
+
+*--#[ few1l42 :
+	1
+*--#] few1l42 :
+
+*--#[ d1l43 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*DH(p4)
+	*(ufoGC90*(d_(nu9,nu14)))
+	*(ufoGC90*(d_(nu13,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l43 :
+
+*--#[ fqcd1l43 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l43 :
+
+*--#[ fqed1l43 :
+	1
+*--#] fqed1l43 :
+
+*--#[ few1l43 :
+	1
+*--#] few1l43 :
+
+*--#[ d1l44 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xia)
+	*Dghost(p4,xiw)
+	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
+	*(ufoGC3*(Mom(nu12,p3)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l44 :
+
+*--#[ fqcd1l44 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l44 :
+
+*--#[ fqed1l44 :
+	1
+*--#] fqed1l44 :
+
+*--#[ few1l44 :
+	1
+*--#] few1l44 :
+
+*--#[ d1l45 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xia)
+	*Dghost(p4,xiw)
+	*(ufoGC4*(Mom(nu9,p3)+Mom(nu9,p1)))
+	*(ufoGC4*(Mom(nu12,p4)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l45 :
+
+*--#[ fqcd1l45 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l45 :
+
+*--#[ fqed1l45 :
+	1
+*--#] fqed1l45 :
+
+*--#[ few1l45 :
+	1
+*--#] few1l45 :
+
+*--#[ d1l46 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xiz)
+	*Dghost(p4,xiw)
+	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
+	*(ufoGC68*(Mom(nu12,p3)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l46 :
+
+*--#[ fqcd1l46 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l46 :
+
+*--#[ fqed1l46 :
+	1
+*--#] fqed1l46 :
+
+*--#[ few1l46 :
+	1
+*--#] few1l46 :
+
+*--#[ d1l47 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xiz)
+	*Dghost(p4,xiw)
+	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
+	*(ufoGC69*(Mom(nu12,p4)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l47 :
+
+*--#[ fqcd1l47 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l47 :
+
+*--#[ fqed1l47 :
+	1
+*--#] fqed1l47 :
+
+*--#[ few1l47 :
+	1
+*--#] few1l47 :
+
+*--#[ d1l48 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fe,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fve,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l48 :
+
+*--#[ fqcd1l48 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l48 :
+
+*--#[ fqed1l48 :
+	1
+*--#] fqed1l48 :
+
+*--#[ few1l48 :
+	1
+*--#] few1l48 :
+
+*--#[ d1l49 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l49 :
+
+*--#[ fqcd1l49 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l49 :
+
+*--#[ fqed1l49 :
+	1
+*--#] fqed1l49 :
+
+*--#[ few1l49 :
+	1
+*--#] few1l49 :
+
+*--#[ d1l50 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fta,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvt,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l50 :
+
+*--#[ fqcd1l50 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l50 :
+
+*--#[ fqed1l50 :
+	1
+*--#] fqed1l50 :
+
+*--#[ few1l50 :
+	1
+*--#] few1l50 :
+
+*--#[ d1l51 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC119*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC59*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l51 :
+
+*--#[ fqcd1l51 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l51 :
+
+*--#[ fqed1l51 :
+	1
+*--#] fqed1l51 :
+
+*--#[ few1l51 :
+	1
+*--#] few1l51 :
+
+*--#[ d1l52 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC120*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC60*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l52 :
+
+*--#[ fqcd1l52 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l52 :
+
+*--#[ fqed1l52 :
+	1
+*--#] fqed1l52 :
+
+*--#[ few1l52 :
+	1
+*--#] few1l52 :
+
+*--#[ d1l53 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC121*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC61*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l53 :
+
+*--#[ fqcd1l53 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l53 :
+
+*--#[ fqed1l53 :
+	1
+*--#] fqed1l53 :
+
+*--#[ few1l53 :
+	1
+*--#] few1l53 :
+
+*--#[ d1l54 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC122*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC62*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l54 :
+
+*--#[ fqcd1l54 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l54 :
+
+*--#[ fqed1l54 :
+	1
+*--#] fqed1l54 :
+
+*--#[ few1l54 :
+	1
+*--#] few1l54 :
+
+*--#[ d1l55 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC123*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC63*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l55 :
+
+*--#[ fqcd1l55 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l55 :
+
+*--#[ fqed1l55 :
+	1
+*--#] fqed1l55 :
+
+*--#[ few1l55 :
+	1
+*--#] few1l55 :
+
+*--#[ d1l56 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC124*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC64*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l56 :
+
+*--#[ fqcd1l56 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l56 :
+
+*--#[ fqed1l56 :
+	1
+*--#] fqed1l56 :
+
+*--#[ few1l56 :
+	1
+*--#] few1l56 :
+
+*--#[ d1l57 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC125*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l57 :
+
+*--#[ fqcd1l57 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l57 :
+
+*--#[ fqed1l57 :
+	1
+*--#] fqed1l57 :
+
+*--#[ few1l57 :
+	1
+*--#] few1l57 :
+
+*--#[ d1l58 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC126*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l58 :
+
+*--#[ fqcd1l58 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l58 :
+
+*--#[ fqed1l58 :
+	1
+*--#] fqed1l58 :
+
+*--#[ few1l58 :
+	1
+*--#] few1l58 :
+
+*--#[ d1l59 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC127*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l59 :
+
+*--#[ fqcd1l59 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l59 :
+
+*--#[ fqed1l59 :
+	1
+*--#] fqed1l59 :
+
+*--#[ few1l59 :
+	1
+*--#] few1l59 :
+
+*--#[ d1l60 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*DH(p3)
+	*Dgoldst(p4,xiw)
+	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
+	*(ufoGC55*(Mom(nu12,p4)-Mom(nu12,p3)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l60 :
+
+*--#[ fqcd1l60 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l60 :
+
+*--#[ fqed1l60 :
+	1
+*--#] fqed1l60 :
+
+*--#[ few1l60 :
+	1
+*--#] few1l60 :
+
+*--#[ d1l61 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dgoldst(p3,xiz)
+	*Dgoldst(p4,xiw)
+	*(ufoGC57*(Mom(nu9,-p3)-Mom(nu9,-p4)))
+	*(ufoGC57*(Mom(nu12,p3)-Mom(nu12,p4)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l61 :
+
+*--#[ fqcd1l61 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l61 :
+
+*--#[ fqed1l61 :
+	1
+*--#] fqed1l61 :
+
+*--#[ few1l61 :
+	1
+*--#] few1l61 :
+
+*--#[ d1l62 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
+	*(ufoGC4*(Mom(nu12,p3)*d_(nu13,nu15)-Mom(nu12,p4)*d_(nu13,nu15)-Mom(nu15,p3)*d_(nu13,nu12)+Mom(nu15,-p2)*d_(nu13,nu12)+Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l62 :
+
+*--#[ fqcd1l62 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l62 :
+
+*--#[ fqed1l62 :
+	1
+*--#] fqed1l62 :
+
+*--#[ few1l62 :
+	1
+*--#] few1l62 :
+
+*--#[ d1l63 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
+	*(ufoGC4*(Mom(nu12,p3)*d_(nu13,nu15)-Mom(nu12,p4)*d_(nu13,nu15)-Mom(nu15,p3)*d_(nu13,nu12)+Mom(nu15,-p2)*d_(nu13,nu12)+Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l63 :
+
+*--#[ fqcd1l63 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l63 :
+
+*--#[ fqed1l63 :
+	1
+*--#] fqed1l63 :
+
+*--#[ few1l63 :
+	1
+*--#] few1l63 :
+
+*--#[ d1l64 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dgoldst(p4,xiw)
+	*(ufoGC93*(d_(nu14,nu9)))
+	*(ufoGC93*(d_(nu13,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l64 :
+
+*--#[ fqcd1l64 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l64 :
+
+*--#[ fqed1l64 :
+	1
+*--#] fqed1l64 :
+
+*--#[ few1l64 :
+	1
+*--#] few1l64 :
+
+*--#[ d1l65 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l65 :
+
+*--#[ fqcd1l65 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l65 :
+
+*--#[ fqed1l65 :
+	1
+*--#] fqed1l65 :
+
+*--#[ few1l65 :
+	1
+*--#] few1l65 :
+
+*--#[ d1l66 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l66 :
+
+*--#[ fqcd1l66 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l66 :
+
+*--#[ fqed1l66 :
+	1
+*--#] fqed1l66 :
+
+*--#[ few1l66 :
+	1
+*--#] few1l66 :
+
+*--#[ d1l67 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu14)))
+	*(ufoGC85*(d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l67 :
+
+*--#[ fqcd1l67 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l67 :
+
+*--#[ fqed1l67 :
+	1
+*--#] fqed1l67 :
+
+*--#[ few1l67 :
+	1
+*--#] few1l67 :
+
+*--#[ d1l68 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l68 :
+
+*--#[ fqcd1l68 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l68 :
+
+*--#[ fqed1l68 :
+	1
+*--#] fqed1l68 :
+
+*--#[ few1l68 :
+	1
+*--#] few1l68 :
+
+*--#[ d1l69 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l69 :
+
+*--#[ fqcd1l69 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l69 :
+
+*--#[ fqed1l69 :
+	1
+*--#] fqed1l69 :
+
+*--#[ few1l69 :
+	1
+*--#] few1l69 :
+
+*--#[ d1l70 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu14)))
+	*(ufoGC85*(d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l70 :
+
+*--#[ fqcd1l70 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l70 :
+
+*--#[ fqed1l70 :
+	1
+*--#] fqed1l70 :
+
+*--#[ few1l70 :
+	1
+*--#] few1l70 :
+
+*--#[ d1l71 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*DH(p4)
+	*(ufoGC90*(d_(nu9,nu14)))
+	*(ufoGC90*(d_(nu13,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l71 :
+
+*--#[ fqcd1l71 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l71 :
+
+*--#[ fqed1l71 :
+	1
+*--#] fqed1l71 :
+
+*--#[ few1l71 :
+	1
+*--#] few1l71 :
+
+*--#[ d1l72 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*DH(p4)
+	*(ufoGC90*(d_(nu9,nu14)))
+	*(ufoGC90*(d_(nu13,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l72 :
+
+*--#[ fqcd1l72 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l72 :
+
+*--#[ fqed1l72 :
+	1
+*--#] fqed1l72 :
+
+*--#[ few1l72 :
+	1
+*--#] few1l72 :
+
+*--#[ d1l73 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xia)
+	*Dghost(p4,xiw)
+	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
+	*(ufoGC3*(Mom(nu12,p3)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l73 :
+
+*--#[ fqcd1l73 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l73 :
+
+*--#[ fqed1l73 :
+	1
+*--#] fqed1l73 :
+
+*--#[ few1l73 :
+	1
+*--#] few1l73 :
+
+*--#[ d1l74 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xia)
+	*Dghost(p4,xiw)
+	*(ufoGC4*(Mom(nu9,p3)+Mom(nu9,p1)))
+	*(ufoGC4*(Mom(nu12,p4)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l74 :
+
+*--#[ fqcd1l74 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l74 :
+
+*--#[ fqed1l74 :
+	1
+*--#] fqed1l74 :
+
+*--#[ few1l74 :
+	1
+*--#] few1l74 :
+
+*--#[ d1l75 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xiz)
+	*Dghost(p4,xiw)
+	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
+	*(ufoGC68*(Mom(nu12,p3)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l75 :
+
+*--#[ fqcd1l75 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l75 :
+
+*--#[ fqed1l75 :
+	1
+*--#] fqed1l75 :
+
+*--#[ few1l75 :
+	1
+*--#] few1l75 :
+
+*--#[ d1l76 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xiz)
+	*Dghost(p4,xiw)
+	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
+	*(ufoGC69*(Mom(nu12,p4)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l76 :
+
+*--#[ fqcd1l76 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l76 :
+
+*--#[ fqed1l76 :
+	1
+*--#] fqed1l76 :
+
+*--#[ few1l76 :
+	1
+*--#] few1l76 :
+
+*--#[ d1l77 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fe,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fve,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l77 :
+
+*--#[ fqcd1l77 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l77 :
+
+*--#[ fqed1l77 :
+	1
+*--#] fqed1l77 :
+
+*--#[ few1l77 :
+	1
+*--#] few1l77 :
+
+*--#[ d1l78 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l78 :
+
+*--#[ fqcd1l78 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l78 :
+
+*--#[ fqed1l78 :
+	1
+*--#] fqed1l78 :
+
+*--#[ few1l78 :
+	1
+*--#] few1l78 :
+
+*--#[ d1l79 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fta,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvt,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l79 :
+
+*--#[ fqcd1l79 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l79 :
+
+*--#[ fqed1l79 :
+	1
+*--#] fqed1l79 :
+
+*--#[ few1l79 :
+	1
+*--#] few1l79 :
+
+*--#[ d1l80 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC119*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC59*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l80 :
+
+*--#[ fqcd1l80 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l80 :
+
+*--#[ fqed1l80 :
+	1
+*--#] fqed1l80 :
+
+*--#[ few1l80 :
+	1
+*--#] few1l80 :
+
+*--#[ d1l81 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC120*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC60*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l81 :
+
+*--#[ fqcd1l81 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l81 :
+
+*--#[ fqed1l81 :
+	1
+*--#] fqed1l81 :
+
+*--#[ few1l81 :
+	1
+*--#] few1l81 :
+
+*--#[ d1l82 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC121*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC61*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l82 :
+
+*--#[ fqcd1l82 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l82 :
+
+*--#[ fqed1l82 :
+	1
+*--#] fqed1l82 :
+
+*--#[ few1l82 :
+	1
+*--#] few1l82 :
+
+*--#[ d1l83 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC122*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC62*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l83 :
+
+*--#[ fqcd1l83 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l83 :
+
+*--#[ fqed1l83 :
+	1
+*--#] fqed1l83 :
+
+*--#[ few1l83 :
+	1
+*--#] few1l83 :
+
+*--#[ d1l84 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC123*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC63*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l84 :
+
+*--#[ fqcd1l84 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l84 :
+
+*--#[ fqed1l84 :
+	1
+*--#] fqed1l84 :
+
+*--#[ few1l84 :
+	1
+*--#] few1l84 :
+
+*--#[ d1l85 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC124*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC64*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l85 :
+
+*--#[ fqcd1l85 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l85 :
+
+*--#[ fqed1l85 :
+	1
+*--#] fqed1l85 :
+
+*--#[ few1l85 :
+	1
+*--#] few1l85 :
+
+*--#[ d1l86 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC125*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l86 :
+
+*--#[ fqcd1l86 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l86 :
+
+*--#[ fqed1l86 :
+	1
+*--#] fqed1l86 :
+
+*--#[ few1l86 :
+	1
+*--#] few1l86 :
+
+*--#[ d1l87 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC126*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l87 :
+
+*--#[ fqcd1l87 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l87 :
+
+*--#[ fqed1l87 :
+	1
+*--#] fqed1l87 :
+
+*--#[ few1l87 :
+	1
+*--#] few1l87 :
+
+*--#[ d1l88 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC127*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l88 :
+
+*--#[ fqcd1l88 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l88 :
+
+*--#[ fqed1l88 :
+	1
+*--#] fqed1l88 :
+
+*--#[ few1l88 :
+	1
+*--#] few1l88 :
+
+*--#[ d1l89 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*DH(p3)
+	*Dgoldst(p4,xiw)
+	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
+	*(ufoGC55*(Mom(nu12,p4)-Mom(nu12,p3)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l89 :
+
+*--#[ fqcd1l89 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l89 :
+
+*--#[ fqed1l89 :
+	1
+*--#] fqed1l89 :
+
+*--#[ few1l89 :
+	1
+*--#] few1l89 :
+
+*--#[ d1l90 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dgoldst(p3,xiz)
+	*Dgoldst(p4,xiw)
+	*(ufoGC57*(Mom(nu9,-p3)-Mom(nu9,-p4)))
+	*(ufoGC57*(Mom(nu12,p3)-Mom(nu12,p4)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l90 :
+
+*--#[ fqcd1l90 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l90 :
+
+*--#[ fqed1l90 :
+	1
+*--#] fqed1l90 :
+
+*--#[ few1l90 :
+	1
+*--#] few1l90 :
+
+*--#[ d1l91 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dph(nu14,nu13,p3,xia)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
+	*(ufoGC93*(d_(nu13,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l91 :
+
+*--#[ fqcd1l91 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l91 :
+
+*--#[ fqed1l91 :
+	1
+*--#] fqed1l91 :
+
+*--#[ few1l91 :
+	1
+*--#] few1l91 :
+
+*--#[ d1l92 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dph(nu14,nu13,p3,xia)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
+	*(ufoGC93*(d_(nu13,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l92 :
+
+*--#[ fqcd1l92 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l92 :
+
+*--#[ fqed1l92 :
+	1
+*--#] fqed1l92 :
+
+*--#[ few1l92 :
+	1
+*--#] few1l92 :
+
+*--#[ d1l93 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dph(nu14,nu13,p3,xia)
+	*Dgoldst(p4,xiw)
+	*(ufoGC93*(d_(nu14,nu9)))
+	*(ufoGC3*(Mom(nu13,p4)-Mom(nu13,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l93 :
+
+*--#[ fqcd1l93 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l93 :
+
+*--#[ fqed1l93 :
+	1
+*--#] fqed1l93 :
+
+*--#[ few1l93 :
+	1
+*--#] few1l93 :
+
+*--#[ d1l94 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC85*(d_(nu15,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l94 :
+
+*--#[ fqcd1l94 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l94 :
+
+*--#[ fqed1l94 :
+	1
+*--#] fqed1l94 :
+
+*--#[ few1l94 :
+	1
+*--#] few1l94 :
+
+*--#[ d1l95 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC85*(d_(nu15,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l95 :
+
+*--#[ fqcd1l95 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l95 :
+
+*--#[ fqed1l95 :
+	1
+*--#] fqed1l95 :
+
+*--#[ few1l95 :
+	1
+*--#] few1l95 :
+
+*--#[ d1l96 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu14)))
+	*(ufoGC80*(Mom(nu13,p4)-Mom(nu13,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l96 :
+
+*--#[ fqcd1l96 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l96 :
+
+*--#[ fqed1l96 :
+	1
+*--#] fqed1l96 :
+
+*--#[ few1l96 :
+	1
+*--#] few1l96 :
+
+*--#[ d1l97 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC85*(d_(nu15,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l97 :
+
+*--#[ fqcd1l97 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l97 :
+
+*--#[ fqed1l97 :
+	1
+*--#] fqed1l97 :
+
+*--#[ few1l97 :
+	1
+*--#] few1l97 :
+
+*--#[ d1l98 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC85*(d_(nu15,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l98 :
+
+*--#[ fqcd1l98 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l98 :
+
+*--#[ fqed1l98 :
+	1
+*--#] fqed1l98 :
+
+*--#[ few1l98 :
+	1
+*--#] few1l98 :
+
+*--#[ d1l99 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu14)))
+	*(ufoGC80*(Mom(nu13,p4)-Mom(nu13,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l99 :
+
+*--#[ fqcd1l99 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l99 :
+
+*--#[ fqed1l99 :
+	1
+*--#] fqed1l99 :
+
+*--#[ few1l99 :
+	1
+*--#] few1l99 :
+
+*--#[ d1l100 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*DH(p4)
+	*(ufoGC90*(d_(nu9,nu14)))
+	*(ufoGC56*(Mom(nu13,-p2)-Mom(nu13,p4)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l100 :
+
+*--#[ fqcd1l100 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l100 :
+
+*--#[ fqed1l100 :
+	1
+*--#] fqed1l100 :
+
+*--#[ few1l100 :
+	1
+*--#] few1l100 :
+
+*--#[ d1l101 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*DH(p4)
+	*(ufoGC90*(d_(nu9,nu14)))
+	*(ufoGC56*(Mom(nu13,-p2)-Mom(nu13,p4)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l101 :
+
+*--#[ fqcd1l101 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l101 :
+
+*--#[ fqed1l101 :
+	1
+*--#] fqed1l101 :
+
+*--#[ few1l101 :
+	1
+*--#] few1l101 :
+
+*--#[ d1l102 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dghost(p3,xia)
+	*Dghost(p4,xiw)
+	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
+	*xiw*(ufoGC92*(1))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l102 :
+
+*--#[ fqcd1l102 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l102 :
+
+*--#[ fqed1l102 :
+	1
+*--#] fqed1l102 :
+
+*--#[ few1l102 :
+	1
+*--#] few1l102 :
+
+*--#[ d1l103 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dghost(p3,xiz)
+	*Dghost(p4,xiw)
+	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
+	*xiw*(ufoGC94*(1))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l103 :
+
+*--#[ fqcd1l103 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l103 :
+
+*--#[ fqed1l103 :
+	1
+*--#] fqed1l103 :
+
+*--#[ few1l103 :
+	1
+*--#] few1l103 :
+
+*--#[ d1l104 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dghost(p3,xiz)
+	*Dghost(p4,xiw)
+	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
+	*xiz*(ufoGC95*(1))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l104 :
+
+*--#[ fqcd1l104 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l104 :
+
+*--#[ fqed1l104 :
+	1
+*--#] fqed1l104 :
+
+*--#[ few1l104 :
+	1
+*--#] few1l104 :
+
+*--#[ d1l105 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*(ufoGC15*(auxPL(j16,j13))+ufoGC24*(auxPR(j16,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l105 :
+
+*--#[ fqcd1l105 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l105 :
+
+*--#[ fqed1l105 :
+	1
+*--#] fqed1l105 :
+
+*--#[ few1l105 :
+	1
+*--#] few1l105 :
+
+*--#[ d1l106 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*(ufoGC18*(auxPL(j16,j13))+ufoGC27*(auxPR(j16,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l106 :
+
+*--#[ fqcd1l106 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l106 :
+
+*--#[ fqed1l106 :
+	1
+*--#] fqed1l106 :
+
+*--#[ few1l106 :
+	1
+*--#] few1l106 :
+
+*--#[ d1l107 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*(ufoGC21*(auxPL(j16,j13))+ufoGC30*(auxPR(j16,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l107 :
+
+*--#[ fqcd1l107 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l107 :
+
+*--#[ fqed1l107 :
+	1
+*--#] fqed1l107 :
+
+*--#[ few1l107 :
+	1
+*--#] few1l107 :
+
+*--#[ d1l108 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*DH(p3)
+	*Dgoldst(p4,xiw)
+	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
+	*(ufoGC86*(1))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l108 :
+
+*--#[ fqcd1l108 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l108 :
+
+*--#[ fqed1l108 :
+	1
+*--#] fqed1l108 :
+
+*--#[ few1l108 :
+	1
+*--#] few1l108 :
+
+*--#[ d1l109 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
+	*(ufoGC4*(Mom(nu12,p3)*d_(nu13,nu15)-Mom(nu12,p4)*d_(nu13,nu15)-Mom(nu15,p3)*d_(nu13,nu12)+Mom(nu15,-p2)*d_(nu13,nu12)+Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l109 :
+
+*--#[ fqcd1l109 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l109 :
+
+*--#[ fqed1l109 :
+	1
+*--#] fqed1l109 :
+
+*--#[ few1l109 :
+	1
+*--#] few1l109 :
+
+*--#[ d1l110 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
+	*(ufoGC4*(Mom(nu12,p3)*d_(nu13,nu15)-Mom(nu12,p4)*d_(nu13,nu15)-Mom(nu15,p3)*d_(nu13,nu12)+Mom(nu15,-p2)*d_(nu13,nu12)+Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l110 :
+
+*--#[ fqcd1l110 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l110 :
+
+*--#[ fqed1l110 :
+	1
+*--#] fqed1l110 :
+
+*--#[ few1l110 :
+	1
+*--#] few1l110 :
+
+*--#[ d1l111 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dgoldst(p4,xiw)
+	*(ufoGC93*(d_(nu14,nu9)))
+	*(ufoGC93*(d_(nu13,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l111 :
+
+*--#[ fqcd1l111 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l111 :
+
+*--#[ fqed1l111 :
+	1
+*--#] fqed1l111 :
+
+*--#[ few1l111 :
+	1
+*--#] few1l111 :
+
+*--#[ d1l112 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l112 :
+
+*--#[ fqcd1l112 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l112 :
+
+*--#[ fqed1l112 :
+	1
+*--#] fqed1l112 :
+
+*--#[ few1l112 :
+	1
+*--#] few1l112 :
+
+*--#[ d1l113 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l113 :
+
+*--#[ fqcd1l113 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l113 :
+
+*--#[ fqed1l113 :
+	1
+*--#] fqed1l113 :
+
+*--#[ few1l113 :
+	1
+*--#] few1l113 :
+
+*--#[ d1l114 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu14)))
+	*(ufoGC85*(d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l114 :
+
+*--#[ fqcd1l114 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l114 :
+
+*--#[ fqed1l114 :
+	1
+*--#] fqed1l114 :
+
+*--#[ few1l114 :
+	1
+*--#] few1l114 :
+
+*--#[ d1l115 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l115 :
+
+*--#[ fqcd1l115 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l115 :
+
+*--#[ fqed1l115 :
+	1
+*--#] fqed1l115 :
+
+*--#[ few1l115 :
+	1
+*--#] few1l115 :
+
+*--#[ d1l116 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l116 :
+
+*--#[ fqcd1l116 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l116 :
+
+*--#[ fqed1l116 :
+	1
+*--#] fqed1l116 :
+
+*--#[ few1l116 :
+	1
+*--#] few1l116 :
+
+*--#[ d1l117 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu14)))
+	*(ufoGC85*(d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l117 :
+
+*--#[ fqcd1l117 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l117 :
+
+*--#[ fqed1l117 :
+	1
+*--#] fqed1l117 :
+
+*--#[ few1l117 :
+	1
+*--#] few1l117 :
+
+*--#[ d1l118 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*DH(p4)
+	*(ufoGC90*(d_(nu9,nu14)))
+	*(ufoGC90*(d_(nu13,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l118 :
+
+*--#[ fqcd1l118 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l118 :
+
+*--#[ fqed1l118 :
+	1
+*--#] fqed1l118 :
+
+*--#[ few1l118 :
+	1
+*--#] few1l118 :
+
+*--#[ d1l119 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*DH(p4)
+	*(ufoGC90*(d_(nu9,nu14)))
+	*(ufoGC90*(d_(nu13,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l119 :
+
+*--#[ fqcd1l119 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l119 :
+
+*--#[ fqed1l119 :
+	1
+*--#] fqed1l119 :
+
+*--#[ few1l119 :
+	1
+*--#] few1l119 :
+
+*--#[ d1l120 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xia)
+	*Dghost(p4,xiw)
+	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
+	*(ufoGC3*(Mom(nu12,p3)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l120 :
+
+*--#[ fqcd1l120 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l120 :
+
+*--#[ fqed1l120 :
+	1
+*--#] fqed1l120 :
+
+*--#[ few1l120 :
+	1
+*--#] few1l120 :
+
+*--#[ d1l121 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xia)
+	*Dghost(p4,xiw)
+	*(ufoGC4*(Mom(nu9,p3)+Mom(nu9,p1)))
+	*(ufoGC4*(Mom(nu12,p4)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l121 :
+
+*--#[ fqcd1l121 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l121 :
+
+*--#[ fqed1l121 :
+	1
+*--#] fqed1l121 :
+
+*--#[ few1l121 :
+	1
+*--#] few1l121 :
+
+*--#[ d1l122 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xiz)
+	*Dghost(p4,xiw)
+	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
+	*(ufoGC68*(Mom(nu12,p3)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l122 :
+
+*--#[ fqcd1l122 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l122 :
+
+*--#[ fqed1l122 :
+	1
+*--#] fqed1l122 :
+
+*--#[ few1l122 :
+	1
+*--#] few1l122 :
+
+*--#[ d1l123 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xiz)
+	*Dghost(p4,xiw)
+	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
+	*(ufoGC69*(Mom(nu12,p4)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l123 :
+
+*--#[ fqcd1l123 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l123 :
+
+*--#[ fqed1l123 :
+	1
+*--#] fqed1l123 :
+
+*--#[ few1l123 :
+	1
+*--#] few1l123 :
+
+*--#[ d1l124 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fe,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fve,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l124 :
+
+*--#[ fqcd1l124 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l124 :
+
+*--#[ fqed1l124 :
+	1
+*--#] fqed1l124 :
+
+*--#[ few1l124 :
+	1
+*--#] few1l124 :
+
+*--#[ d1l125 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l125 :
+
+*--#[ fqcd1l125 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l125 :
+
+*--#[ fqed1l125 :
+	1
+*--#] fqed1l125 :
+
+*--#[ few1l125 :
+	1
+*--#] few1l125 :
+
+*--#[ d1l126 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fta,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvt,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l126 :
+
+*--#[ fqcd1l126 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l126 :
+
+*--#[ fqed1l126 :
+	1
+*--#] fqed1l126 :
+
+*--#[ few1l126 :
+	1
+*--#] few1l126 :
+
+*--#[ d1l127 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC119*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC59*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l127 :
+
+*--#[ fqcd1l127 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l127 :
+
+*--#[ fqed1l127 :
+	1
+*--#] fqed1l127 :
+
+*--#[ few1l127 :
+	1
+*--#] few1l127 :
+
+*--#[ d1l128 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC120*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC60*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l128 :
+
+*--#[ fqcd1l128 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l128 :
+
+*--#[ fqed1l128 :
+	1
+*--#] fqed1l128 :
+
+*--#[ few1l128 :
+	1
+*--#] few1l128 :
+
+*--#[ d1l129 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC121*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC61*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l129 :
+
+*--#[ fqcd1l129 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l129 :
+
+*--#[ fqed1l129 :
+	1
+*--#] fqed1l129 :
+
+*--#[ few1l129 :
+	1
+*--#] few1l129 :
+
+*--#[ d1l130 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC122*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC62*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l130 :
+
+*--#[ fqcd1l130 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l130 :
+
+*--#[ fqed1l130 :
+	1
+*--#] fqed1l130 :
+
+*--#[ few1l130 :
+	1
+*--#] few1l130 :
+
+*--#[ d1l131 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC123*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC63*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l131 :
+
+*--#[ fqcd1l131 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l131 :
+
+*--#[ fqed1l131 :
+	1
+*--#] fqed1l131 :
+
+*--#[ few1l131 :
+	1
+*--#] few1l131 :
+
+*--#[ d1l132 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC124*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC64*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l132 :
+
+*--#[ fqcd1l132 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l132 :
+
+*--#[ fqed1l132 :
+	1
+*--#] fqed1l132 :
+
+*--#[ few1l132 :
+	1
+*--#] few1l132 :
+
+*--#[ d1l133 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC125*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l133 :
+
+*--#[ fqcd1l133 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l133 :
+
+*--#[ fqed1l133 :
+	1
+*--#] fqed1l133 :
+
+*--#[ few1l133 :
+	1
+*--#] few1l133 :
+
+*--#[ d1l134 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC126*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l134 :
+
+*--#[ fqcd1l134 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l134 :
+
+*--#[ fqed1l134 :
+	1
+*--#] fqed1l134 :
+
+*--#[ few1l134 :
+	1
+*--#] few1l134 :
+
+*--#[ d1l135 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC127*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l135 :
+
+*--#[ fqcd1l135 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l135 :
+
+*--#[ fqed1l135 :
+	1
+*--#] fqed1l135 :
+
+*--#[ few1l135 :
+	1
+*--#] few1l135 :
+
+*--#[ d1l136 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*DH(p3)
+	*Dgoldst(p4,xiw)
+	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
+	*(ufoGC55*(Mom(nu12,p4)-Mom(nu12,p3)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l136 :
+
+*--#[ fqcd1l136 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l136 :
+
+*--#[ fqed1l136 :
+	1
+*--#] fqed1l136 :
+
+*--#[ few1l136 :
+	1
+*--#] few1l136 :
+
+*--#[ d1l137 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu12,nu11,p2,xiw,M3)
+	*Dgoldst(p3,xiz)
+	*Dgoldst(p4,xiw)
+	*(ufoGC57*(Mom(nu9,-p3)-Mom(nu9,-p4)))
+	*(ufoGC57*(Mom(nu12,p3)-Mom(nu12,p4)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l137 :
+
+*--#[ fqcd1l137 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l137 :
+
+*--#[ fqed1l137 :
+	1
+*--#] fqed1l137 :
+
+*--#[ few1l137 :
+	1
+*--#] few1l137 :
+
+*--#[ d1l138 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
+	*(ufoGC4*(Mom(nu12,p3)*d_(nu13,nu15)-Mom(nu12,p4)*d_(nu13,nu15)-Mom(nu15,p3)*d_(nu13,nu12)+Mom(nu15,-p2)*d_(nu13,nu12)+Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l138 :
+
+*--#[ fqcd1l138 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l138 :
+
+*--#[ fqed1l138 :
+	1
+*--#] fqed1l138 :
+
+*--#[ few1l138 :
+	1
+*--#] few1l138 :
+
+*--#[ d1l139 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
+	*(ufoGC4*(Mom(nu12,p3)*d_(nu13,nu15)-Mom(nu12,p4)*d_(nu13,nu15)-Mom(nu15,p3)*d_(nu13,nu12)+Mom(nu15,-p2)*d_(nu13,nu12)+Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l139 :
+
+*--#[ fqcd1l139 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l139 :
+
+*--#[ fqed1l139 :
+	1
+*--#] fqed1l139 :
+
+*--#[ few1l139 :
+	1
+*--#] few1l139 :
+
+*--#[ d1l140 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dgoldst(p4,xiw)
+	*(ufoGC93*(d_(nu14,nu9)))
+	*(ufoGC93*(d_(nu13,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l140 :
+
+*--#[ fqcd1l140 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l140 :
+
+*--#[ fqed1l140 :
+	1
+*--#] fqed1l140 :
+
+*--#[ few1l140 :
+	1
+*--#] few1l140 :
+
+*--#[ d1l141 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l141 :
+
+*--#[ fqcd1l141 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l141 :
+
+*--#[ fqed1l141 :
+	1
+*--#] fqed1l141 :
+
+*--#[ few1l141 :
+	1
+*--#] few1l141 :
+
+*--#[ d1l142 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l142 :
+
+*--#[ fqcd1l142 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l142 :
+
+*--#[ fqed1l142 :
+	1
+*--#] fqed1l142 :
+
+*--#[ few1l142 :
+	1
+*--#] few1l142 :
+
+*--#[ d1l143 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu14)))
+	*(ufoGC85*(d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l143 :
+
+*--#[ fqcd1l143 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l143 :
+
+*--#[ fqed1l143 :
+	1
+*--#] fqed1l143 :
+
+*--#[ few1l143 :
+	1
+*--#] few1l143 :
+
+*--#[ d1l144 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l144 :
+
+*--#[ fqcd1l144 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l144 :
+
+*--#[ fqed1l144 :
+	1
+*--#] fqed1l144 :
+
+*--#[ few1l144 :
+	1
+*--#] few1l144 :
+
+*--#[ d1l145 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu12)-Mom(nu13,-p2)*d_(nu15,nu12)-Mom(nu12,p4)*d_(nu15,nu13)+Mom(nu12,p3)*d_(nu15,nu13)+Mom(nu15,-p2)*d_(nu12,nu13)-Mom(nu15,p3)*d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l145 :
+
+*--#[ fqcd1l145 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l145 :
+
+*--#[ fqed1l145 :
+	1
+*--#] fqed1l145 :
+
+*--#[ few1l145 :
+	1
+*--#] few1l145 :
+
+*--#[ d1l146 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu14)))
+	*(ufoGC85*(d_(nu12,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l146 :
+
+*--#[ fqcd1l146 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l146 :
+
+*--#[ fqed1l146 :
+	1
+*--#] fqed1l146 :
+
+*--#[ few1l146 :
+	1
+*--#] few1l146 :
+
+*--#[ d1l147 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*DH(p4)
+	*(ufoGC90*(d_(nu9,nu14)))
+	*(ufoGC90*(d_(nu13,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l147 :
+
+*--#[ fqcd1l147 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l147 :
+
+*--#[ fqed1l147 :
+	1
+*--#] fqed1l147 :
+
+*--#[ few1l147 :
+	1
+*--#] few1l147 :
+
+*--#[ d1l148 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*DH(p4)
+	*(ufoGC90*(d_(nu9,nu14)))
+	*(ufoGC90*(d_(nu13,nu12)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l148 :
+
+*--#[ fqcd1l148 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l148 :
+
+*--#[ fqed1l148 :
+	1
+*--#] fqed1l148 :
+
+*--#[ few1l148 :
+	1
+*--#] few1l148 :
+
+*--#[ d1l149 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xia)
+	*Dghost(p4,xiw)
+	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
+	*(ufoGC3*(Mom(nu12,p3)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l149 :
+
+*--#[ fqcd1l149 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l149 :
+
+*--#[ fqed1l149 :
+	1
+*--#] fqed1l149 :
+
+*--#[ few1l149 :
+	1
+*--#] few1l149 :
+
+*--#[ d1l150 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xia)
+	*Dghost(p4,xiw)
+	*(ufoGC4*(Mom(nu9,p3)+Mom(nu9,p1)))
+	*(ufoGC4*(Mom(nu12,p4)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l150 :
+
+*--#[ fqcd1l150 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l150 :
+
+*--#[ fqed1l150 :
+	1
+*--#] fqed1l150 :
+
+*--#[ few1l150 :
+	1
+*--#] few1l150 :
+
+*--#[ d1l151 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xiz)
+	*Dghost(p4,xiw)
+	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
+	*(ufoGC68*(Mom(nu12,p3)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l151 :
+
+*--#[ fqcd1l151 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l151 :
+
+*--#[ fqed1l151 :
+	1
+*--#] fqed1l151 :
+
+*--#[ few1l151 :
+	1
+*--#] few1l151 :
+
+*--#[ d1l152 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dghost(p3,xiz)
+	*Dghost(p4,xiw)
+	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
+	*(ufoGC69*(Mom(nu12,p4)+Mom(nu12,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l152 :
+
+*--#[ fqcd1l152 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l152 :
+
+*--#[ fqed1l152 :
+	1
+*--#] fqed1l152 :
+
+*--#[ few1l152 :
+	1
+*--#] few1l152 :
+
+*--#[ d1l153 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fe,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fve,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l153 :
+
+*--#[ fqcd1l153 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l153 :
+
+*--#[ fqed1l153 :
+	1
+*--#] fqed1l153 :
+
+*--#[ few1l153 :
+	1
+*--#] few1l153 :
+
+*--#[ d1l154 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l154 :
+
+*--#[ fqcd1l154 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l154 :
+
+*--#[ fqed1l154 :
+	1
+*--#] fqed1l154 :
+
+*--#[ few1l154 :
+	1
+*--#] few1l154 :
+
+*--#[ d1l155 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fta,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvt,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l155 :
+
+*--#[ fqcd1l155 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l155 :
+
+*--#[ fqed1l155 :
+	1
+*--#] fqed1l155 :
+
+*--#[ few1l155 :
+	1
+*--#] few1l155 :
+
+*--#[ d1l156 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC119*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC59*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l156 :
+
+*--#[ fqcd1l156 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l156 :
+
+*--#[ fqed1l156 :
+	1
+*--#] fqed1l156 :
+
+*--#[ few1l156 :
+	1
+*--#] few1l156 :
+
+*--#[ d1l157 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC120*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC60*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l157 :
+
+*--#[ fqcd1l157 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l157 :
+
+*--#[ fqed1l157 :
+	1
+*--#] fqed1l157 :
+
+*--#[ few1l157 :
+	1
+*--#] few1l157 :
+
+*--#[ d1l158 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC121*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC61*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l158 :
+
+*--#[ fqcd1l158 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l158 :
+
+*--#[ fqed1l158 :
+	1
+*--#] fqed1l158 :
+
+*--#[ few1l158 :
+	1
+*--#] few1l158 :
+
+*--#[ d1l159 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC122*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC62*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l159 :
+
+*--#[ fqcd1l159 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l159 :
+
+*--#[ fqed1l159 :
+	1
+*--#] fqed1l159 :
+
+*--#[ few1l159 :
+	1
+*--#] few1l159 :
+
+*--#[ d1l160 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC123*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC63*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l160 :
+
+*--#[ fqcd1l160 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l160 :
+
+*--#[ fqed1l160 :
+	1
+*--#] fqed1l160 :
+
+*--#[ few1l160 :
+	1
+*--#] few1l160 :
+
+*--#[ d1l161 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC124*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC64*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l161 :
+
+*--#[ fqcd1l161 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l161 :
+
+*--#[ fqed1l161 :
+	1
+*--#] fqed1l161 :
+
+*--#[ few1l161 :
+	1
+*--#] few1l161 :
+
+*--#[ d1l162 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC125*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l162 :
+
+*--#[ fqcd1l162 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l162 :
+
+*--#[ fqed1l162 :
+	1
+*--#] fqed1l162 :
+
+*--#[ few1l162 :
+	1
+*--#] few1l162 :
+
+*--#[ d1l163 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC126*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l163 :
+
+*--#[ fqcd1l163 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l163 :
+
+*--#[ fqed1l163 :
+	1
+*--#] fqed1l163 :
+
+*--#[ few1l163 :
+	1
+*--#] few1l163 :
+
+*--#[ d1l164 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*(ufoGC127*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l164 :
+
+*--#[ fqcd1l164 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l164 :
+
+*--#[ fqed1l164 :
+	1
+*--#] fqed1l164 :
+
+*--#[ few1l164 :
+	1
+*--#] few1l164 :
+
+*--#[ d1l165 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*DH(p3)
+	*Dgoldst(p4,xiw)
+	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
+	*(ufoGC55*(Mom(nu12,p4)-Mom(nu12,p3)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l165 :
+
+*--#[ fqcd1l165 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l165 :
+
+*--#[ fqed1l165 :
+	1
+*--#] fqed1l165 :
+
+*--#[ few1l165 :
+	1
+*--#] few1l165 :
+
+*--#[ d1l166 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu12,nu11,p2,xiw,M3)
+	*Dgoldst(p3,xiz)
+	*Dgoldst(p4,xiw)
+	*(ufoGC57*(Mom(nu9,-p3)-Mom(nu9,-p4)))
+	*(ufoGC57*(Mom(nu12,p3)-Mom(nu12,p4)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l166 :
+
+*--#[ fqcd1l166 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l166 :
+
+*--#[ fqed1l166 :
+	1
+*--#] fqed1l166 :
+
+*--#[ few1l166 :
+	1
+*--#] few1l166 :
+
+*--#[ d1l167 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dph(nu14,nu13,p3,xia)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
+	*(ufoGC93*(d_(nu13,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l167 :
+
+*--#[ fqcd1l167 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l167 :
+
+*--#[ fqed1l167 :
+	1
+*--#] fqed1l167 :
+
+*--#[ few1l167 :
+	1
+*--#] few1l167 :
+
+*--#[ d1l168 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dph(nu14,nu13,p3,xia)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
+	*(ufoGC93*(d_(nu13,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l168 :
+
+*--#[ fqcd1l168 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l168 :
+
+*--#[ fqed1l168 :
+	1
+*--#] fqed1l168 :
+
+*--#[ few1l168 :
+	1
+*--#] few1l168 :
+
+*--#[ d1l169 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dph(nu14,nu13,p3,xia)
+	*Dgoldst(p4,xiw)
+	*(ufoGC93*(d_(nu14,nu9)))
+	*(ufoGC3*(Mom(nu13,p4)-Mom(nu13,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l169 :
+
+*--#[ fqcd1l169 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l169 :
+
+*--#[ fqed1l169 :
+	1
+*--#] fqed1l169 :
+
+*--#[ few1l169 :
+	1
+*--#] few1l169 :
+
+*--#[ d1l170 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC85*(d_(nu15,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l170 :
+
+*--#[ fqcd1l170 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l170 :
+
+*--#[ fqed1l170 :
+	1
+*--#] fqed1l170 :
+
+*--#[ few1l170 :
+	1
+*--#] few1l170 :
+
+*--#[ d1l171 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC85*(d_(nu15,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l171 :
+
+*--#[ fqcd1l171 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l171 :
+
+*--#[ fqed1l171 :
+	1
+*--#] fqed1l171 :
+
+*--#[ few1l171 :
+	1
+*--#] few1l171 :
+
+*--#[ d1l172 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu14)))
+	*(ufoGC80*(Mom(nu13,p4)-Mom(nu13,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l172 :
+
+*--#[ fqcd1l172 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l172 :
+
+*--#[ fqed1l172 :
+	1
+*--#] fqed1l172 :
+
+*--#[ few1l172 :
+	1
+*--#] few1l172 :
+
+*--#[ d1l173 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC85*(d_(nu15,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l173 :
+
+*--#[ fqcd1l173 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l173 :
+
+*--#[ fqed1l173 :
+	1
+*--#] fqed1l173 :
+
+*--#[ few1l173 :
+	1
+*--#] few1l173 :
+
+*--#[ d1l174 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
+	*(ufoGC85*(d_(nu15,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l174 :
+
+*--#[ fqcd1l174 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l174 :
+
+*--#[ fqed1l174 :
+	1
+*--#] fqed1l174 :
+
+*--#[ few1l174 :
+	1
+*--#] few1l174 :
+
+*--#[ d1l175 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu14)))
+	*(ufoGC80*(Mom(nu13,p4)-Mom(nu13,-p2)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l175 :
+
+*--#[ fqcd1l175 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l175 :
+
+*--#[ fqed1l175 :
+	1
+*--#] fqed1l175 :
+
+*--#[ few1l175 :
+	1
+*--#] few1l175 :
+
+*--#[ d1l176 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*DH(p4)
+	*(ufoGC90*(d_(nu9,nu14)))
+	*(ufoGC56*(Mom(nu13,-p2)-Mom(nu13,p4)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l176 :
+
+*--#[ fqcd1l176 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l176 :
+
+*--#[ fqed1l176 :
+	1
+*--#] fqed1l176 :
+
+*--#[ few1l176 :
+	1
+*--#] few1l176 :
+
+*--#[ d1l177 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*DH(p4)
+	*(ufoGC90*(d_(nu9,nu14)))
+	*(ufoGC56*(Mom(nu13,-p2)-Mom(nu13,p4)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l177 :
+
+*--#[ fqcd1l177 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l177 :
+
+*--#[ fqed1l177 :
+	1
+*--#] fqed1l177 :
+
+*--#[ few1l177 :
+	1
+*--#] few1l177 :
+
+*--#[ d1l178 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dghost(p3,xia)
+	*Dghost(p4,xiw)
+	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
+	*xiw*(ufoGC92*(1))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l178 :
+
+*--#[ fqcd1l178 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l178 :
+
+*--#[ fqed1l178 :
+	1
+*--#] fqed1l178 :
+
+*--#[ few1l178 :
+	1
+*--#] few1l178 :
+
+*--#[ d1l179 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dghost(p3,xiz)
+	*Dghost(p4,xiw)
+	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
+	*xiw*(ufoGC94*(1))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l179 :
+
+*--#[ fqcd1l179 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l179 :
+
+*--#[ fqed1l179 :
+	1
+*--#] fqed1l179 :
+
+*--#[ few1l179 :
+	1
+*--#] few1l179 :
+
+*--#[ d1l180 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*Dghost(p3,xiz)
+	*Dghost(p4,xiw)
+	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
+	*xiz*(ufoGC95*(1))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l180 :
+
+*--#[ fqcd1l180 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l180 :
+
+*--#[ fqed1l180 :
+	1
+*--#] fqed1l180 :
+
+*--#[ few1l180 :
+	1
+*--#] few1l180 :
+
+*--#[ d1l181 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*(ufoGC15*(auxPL(j16,j13))+ufoGC24*(auxPR(j16,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l181 :
+
+*--#[ fqcd1l181 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l181 :
+
+*--#[ fqed1l181 :
+	1
+*--#] fqed1l181 :
+
+*--#[ few1l181 :
+	1
+*--#] few1l181 :
+
+*--#[ d1l182 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*(ufoGC18*(auxPL(j16,j13))+ufoGC27*(auxPR(j16,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l182 :
+
+*--#[ fqcd1l182 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l182 :
+
+*--#[ fqed1l182 :
+	1
+*--#] fqed1l182 :
+
+*--#[ few1l182 :
+	1
+*--#] few1l182 :
+
+*--#[ d1l183 :
+
+	(+1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*(ufoGC21*(auxPL(j16,j13))+ufoGC30*(auxPR(j16,j13)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l183 :
+
+*--#[ fqcd1l183 :
+
+	1
+	*(1)
+	*(1)
+	*(d_(j13,j16))
+	*d_(j15,j16)
+	*(d_(j15,j14))
+	*d_(j13,j14)
+	;
+
+*--#] fqcd1l183 :
+
+*--#[ fqed1l183 :
+	1
+*--#] fqed1l183 :
+
+*--#[ few1l183 :
+	1
+*--#] few1l183 :
+
+*--#[ d1l184 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p2,xiw)
+	*DH(p3)
+	*Dgoldst(p4,xiw)
+	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
+	*(ufoGC86*(1))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l184 :
+
+*--#[ fqcd1l184 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l184 :
+
+*--#[ fqed1l184 :
+	1
+*--#] fqed1l184 :
+
+*--#[ few1l184 :
+	1
+*--#] few1l184 :
+
+*--#[ d1l185 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu11,j16,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu11,j16,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*(ufoGC81*(auxGamma(nu12,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu11,nu12,p2,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l185 :
+
+*--#[ fqcd1l185 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l185 :
+
+*--#[ fqed1l185 :
+	1
+*--#] fqed1l185 :
+
+*--#[ few1l185 :
+	1
+*--#] few1l185 :
+
+*--#[ d1l186 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu11,j16,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu11,j16,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*(ufoGC81*(auxGamma(nu12,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu11,nu12,p2,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l186 :
+
+*--#[ fqcd1l186 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l186 :
+
+*--#[ fqed1l186 :
+	1
+*--#] fqed1l186 :
+
+*--#[ few1l186 :
+	1
+*--#] few1l186 :
+
+*--#[ d1l187 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p1)*d_(nu9,nu16)-Mom(nu13,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu13)+Mom(nu16,p3)*d_(nu9,nu13)+Mom(nu9,-p4)*d_(nu16,nu13)-Mom(nu9,p3)*d_(nu16,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l187 :
+
+*--#[ fqcd1l187 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l187 :
+
+*--#[ fqed1l187 :
+	1
+*--#] fqed1l187 :
+
+*--#[ few1l187 :
+	1
+*--#] few1l187 :
+
+*--#[ d1l188 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p1)*d_(nu9,nu16)-Mom(nu13,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu13)+Mom(nu16,p3)*d_(nu9,nu13)+Mom(nu9,-p4)*d_(nu16,nu13)-Mom(nu9,p3)*d_(nu16,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l188 :
+
+*--#[ fqcd1l188 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l188 :
+
+*--#[ fqed1l188 :
+	1
+*--#] fqed1l188 :
+
+*--#[ few1l188 :
+	1
+*--#] few1l188 :
+
+*--#[ d1l189 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(j12,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l189 :
+
+*--#[ fqcd1l189 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l189 :
+
+*--#[ fqed1l189 :
+	1
+*--#] fqed1l189 :
+
+*--#[ few1l189 :
+	1
+*--#] few1l189 :
+
+*--#[ d1l190 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p1)*d_(nu9,nu16)-Mom(nu13,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu13)+Mom(nu16,p3)*d_(nu9,nu13)+Mom(nu9,-p4)*d_(nu16,nu13)-Mom(nu9,p3)*d_(nu16,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l190 :
+
+*--#[ fqcd1l190 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l190 :
+
+*--#[ fqed1l190 :
+	1
+*--#] fqed1l190 :
+
+*--#[ few1l190 :
+	1
+*--#] few1l190 :
+
+*--#[ d1l191 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p1)*d_(nu9,nu16)-Mom(nu13,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu13)+Mom(nu16,p3)*d_(nu9,nu13)+Mom(nu9,-p4)*d_(nu16,nu13)-Mom(nu9,p3)*d_(nu16,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l191 :
+
+*--#[ fqcd1l191 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l191 :
+
+*--#[ fqed1l191 :
+	1
+*--#] fqed1l191 :
+
+*--#[ few1l191 :
+	1
+*--#] few1l191 :
+
+*--#[ d1l192 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(j12,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l192 :
+
+*--#[ fqcd1l192 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l192 :
+
+*--#[ fqed1l192 :
+	1
+*--#] fqed1l192 :
+
+*--#[ few1l192 :
+	1
+*--#] few1l192 :
+
+*--#[ d1l193 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC3*(auxGamma(nu16,j12,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*Dph(nu16,nu15,p4,xia)
+	*(ufoGC4*(Mom(nu14,p4)*d_(nu15,nu9)-Mom(nu14,p1)*d_(nu15,nu9)-Mom(nu9,p4)*d_(nu15,nu14)+Mom(nu9,-p3)*d_(nu15,nu14)+Mom(nu15,p1)*d_(nu9,nu14)-Mom(nu15,-p3)*d_(nu9,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l193 :
+
+*--#[ fqcd1l193 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l193 :
+
+*--#[ fqed1l193 :
+	1
+*--#] fqed1l193 :
+
+*--#[ few1l193 :
+	1
+*--#] few1l193 :
+
+*--#[ d1l194 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p1)*d_(nu9,nu14)-Mom(nu15,-p3)*d_(nu9,nu14)-Mom(nu14,p1)*d_(nu9,nu15)+Mom(nu14,p4)*d_(nu9,nu15)+Mom(nu9,-p3)*d_(nu14,nu15)-Mom(nu9,p4)*d_(nu14,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l194 :
+
+*--#[ fqcd1l194 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l194 :
+
+*--#[ fqed1l194 :
+	1
+*--#] fqed1l194 :
+
+*--#[ few1l194 :
+	1
+*--#] few1l194 :
+
+*--#[ d1l195 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p1)*d_(nu9,nu14)-Mom(nu15,-p3)*d_(nu9,nu14)-Mom(nu14,p1)*d_(nu9,nu15)+Mom(nu14,p4)*d_(nu9,nu15)+Mom(nu9,-p3)*d_(nu14,nu15)-Mom(nu9,p4)*d_(nu14,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l195 :
+
+*--#[ fqcd1l195 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l195 :
+
+*--#[ fqed1l195 :
+	1
+*--#] fqed1l195 :
+
+*--#[ few1l195 :
+	1
+*--#] few1l195 :
+
+*--#[ d1l196 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC3*(auxGamma(nu16,j12,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*Dph(nu16,nu15,p4,xia)
+	*(ufoGC4*(Mom(nu14,p4)*d_(nu15,nu9)-Mom(nu14,p1)*d_(nu15,nu9)-Mom(nu9,p4)*d_(nu15,nu14)+Mom(nu9,-p3)*d_(nu15,nu14)+Mom(nu15,p1)*d_(nu9,nu14)-Mom(nu15,-p3)*d_(nu9,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l196 :
+
+*--#[ fqcd1l196 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l196 :
+
+*--#[ fqed1l196 :
+	1
+*--#] fqed1l196 :
+
+*--#[ few1l196 :
+	1
+*--#] few1l196 :
+
+*--#[ d1l197 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p1)*d_(nu9,nu14)-Mom(nu15,-p3)*d_(nu9,nu14)-Mom(nu14,p1)*d_(nu9,nu15)+Mom(nu14,p4)*d_(nu9,nu15)+Mom(nu9,-p3)*d_(nu14,nu15)-Mom(nu9,p4)*d_(nu14,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l197 :
+
+*--#[ fqcd1l197 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l197 :
+
+*--#[ fqed1l197 :
+	1
+*--#] fqed1l197 :
+
+*--#[ few1l197 :
+	1
+*--#] few1l197 :
+
+*--#[ d1l198 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p1)*d_(nu9,nu14)-Mom(nu15,-p3)*d_(nu9,nu14)-Mom(nu14,p1)*d_(nu9,nu15)+Mom(nu14,p4)*d_(nu9,nu15)+Mom(nu9,-p3)*d_(nu14,nu15)-Mom(nu9,p4)*d_(nu14,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l198 :
+
+*--#[ fqcd1l198 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l198 :
+
+*--#[ fqed1l198 :
+	1
+*--#] fqed1l198 :
+
+*--#[ few1l198 :
+	1
+*--#] few1l198 :
+
+*--#[ d1l199 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC3*(auxGamma(nu16,j12,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC107*(auxPR(i2,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p3,xiw)
+	*Dph(nu16,nu15,p4,xia)
+	*(ufoGC93*(d_(nu15,nu9)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l199 :
+
+*--#[ fqcd1l199 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l199 :
+
+*--#[ fqed1l199 :
+	1
+*--#] fqed1l199 :
+
+*--#[ few1l199 :
+	1
+*--#] few1l199 :
+
+*--#[ d1l200 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC107*(auxPR(i2,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p3,xiw)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	*(ufoGC85*(d_(nu9,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l200 :
+
+*--#[ fqcd1l200 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l200 :
+
+*--#[ fqed1l200 :
+	1
+*--#] fqed1l200 :
+
+*--#[ few1l200 :
+	1
+*--#] few1l200 :
+
+*--#[ d1l201 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC107*(auxPR(i2,j11)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p3,xiw)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	*(ufoGC85*(d_(nu9,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l201 :
+
+*--#[ fqcd1l201 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l201 :
+
+*--#[ fqed1l201 :
+	1
+*--#] fqed1l201 :
+
+*--#[ few1l201 :
+	1
+*--#] few1l201 :
+
+*--#[ d1l202 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu11,j16,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu11,j16,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*(ufoGC81*(auxGamma(nu12,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu11,nu12,p2,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l202 :
+
+*--#[ fqcd1l202 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l202 :
+
+*--#[ fqed1l202 :
+	1
+*--#] fqed1l202 :
+
+*--#[ few1l202 :
+	1
+*--#] few1l202 :
+
+*--#[ d1l203 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu11,j16,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu11,j16,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*(ufoGC81*(auxGamma(nu12,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu11,nu12,p2,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l203 :
+
+*--#[ fqcd1l203 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l203 :
+
+*--#[ fqed1l203 :
+	1
+*--#] fqed1l203 :
+
+*--#[ few1l203 :
+	1
+*--#] few1l203 :
+
+*--#[ d1l204 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p1)*d_(nu9,nu16)-Mom(nu13,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu13)+Mom(nu16,p3)*d_(nu9,nu13)+Mom(nu9,-p4)*d_(nu16,nu13)-Mom(nu9,p3)*d_(nu16,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l204 :
+
+*--#[ fqcd1l204 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l204 :
+
+*--#[ fqed1l204 :
+	1
+*--#] fqed1l204 :
+
+*--#[ few1l204 :
+	1
+*--#] few1l204 :
+
+*--#[ d1l205 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p1)*d_(nu9,nu16)-Mom(nu13,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu13)+Mom(nu16,p3)*d_(nu9,nu13)+Mom(nu9,-p4)*d_(nu16,nu13)-Mom(nu9,p3)*d_(nu16,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l205 :
+
+*--#[ fqcd1l205 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l205 :
+
+*--#[ fqed1l205 :
+	1
+*--#] fqed1l205 :
+
+*--#[ few1l205 :
+	1
+*--#] few1l205 :
+
+*--#[ d1l206 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(j12,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l206 :
+
+*--#[ fqcd1l206 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l206 :
+
+*--#[ fqed1l206 :
+	1
+*--#] fqed1l206 :
+
+*--#[ few1l206 :
+	1
+*--#] few1l206 :
+
+*--#[ d1l207 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p1)*d_(nu9,nu16)-Mom(nu13,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu13)+Mom(nu16,p3)*d_(nu9,nu13)+Mom(nu9,-p4)*d_(nu16,nu13)-Mom(nu9,p3)*d_(nu16,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l207 :
+
+*--#[ fqcd1l207 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l207 :
+
+*--#[ fqed1l207 :
+	1
+*--#] fqed1l207 :
+
+*--#[ few1l207 :
+	1
+*--#] few1l207 :
+
+*--#[ d1l208 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p1)*d_(nu9,nu16)-Mom(nu13,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu13)+Mom(nu16,p3)*d_(nu9,nu13)+Mom(nu9,-p4)*d_(nu16,nu13)-Mom(nu9,p3)*d_(nu16,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l208 :
+
+*--#[ fqcd1l208 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l208 :
+
+*--#[ fqed1l208 :
+	1
+*--#] fqed1l208 :
+
+*--#[ few1l208 :
+	1
+*--#] few1l208 :
+
+*--#[ d1l209 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC107*(auxPR(j12,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dgoldst(p4,xiw)
+	*(ufoGC85*(d_(nu9,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l209 :
+
+*--#[ fqcd1l209 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l209 :
+
+*--#[ fqed1l209 :
+	1
+*--#] fqed1l209 :
+
+*--#[ few1l209 :
+	1
+*--#] few1l209 :
+
+*--#[ d1l210 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC3*(auxGamma(nu16,j12,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*Dph(nu16,nu15,p4,xia)
+	*(ufoGC4*(Mom(nu14,p4)*d_(nu15,nu9)-Mom(nu14,p1)*d_(nu15,nu9)-Mom(nu9,p4)*d_(nu15,nu14)+Mom(nu9,-p3)*d_(nu15,nu14)+Mom(nu15,p1)*d_(nu9,nu14)-Mom(nu15,-p3)*d_(nu9,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l210 :
+
+*--#[ fqcd1l210 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l210 :
+
+*--#[ fqed1l210 :
+	1
+*--#] fqed1l210 :
+
+*--#[ few1l210 :
+	1
+*--#] few1l210 :
+
+*--#[ d1l211 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p1)*d_(nu9,nu14)-Mom(nu15,-p3)*d_(nu9,nu14)-Mom(nu14,p1)*d_(nu9,nu15)+Mom(nu14,p4)*d_(nu9,nu15)+Mom(nu9,-p3)*d_(nu14,nu15)-Mom(nu9,p4)*d_(nu14,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l211 :
+
+*--#[ fqcd1l211 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l211 :
+
+*--#[ fqed1l211 :
+	1
+*--#] fqed1l211 :
+
+*--#[ few1l211 :
+	1
+*--#] few1l211 :
+
+*--#[ d1l212 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p1)*d_(nu9,nu14)-Mom(nu15,-p3)*d_(nu9,nu14)-Mom(nu14,p1)*d_(nu9,nu15)+Mom(nu14,p4)*d_(nu9,nu15)+Mom(nu9,-p3)*d_(nu14,nu15)-Mom(nu9,p4)*d_(nu14,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l212 :
+
+*--#[ fqcd1l212 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l212 :
+
+*--#[ fqed1l212 :
+	1
+*--#] fqed1l212 :
+
+*--#[ few1l212 :
+	1
+*--#] few1l212 :
+
+*--#[ d1l213 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC3*(auxGamma(nu16,j12,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*Dph(nu16,nu15,p4,xia)
+	*(ufoGC4*(Mom(nu14,p4)*d_(nu15,nu9)-Mom(nu14,p1)*d_(nu15,nu9)-Mom(nu9,p4)*d_(nu15,nu14)+Mom(nu9,-p3)*d_(nu15,nu14)+Mom(nu15,p1)*d_(nu9,nu14)-Mom(nu15,-p3)*d_(nu9,nu14)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l213 :
+
+*--#[ fqcd1l213 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l213 :
+
+*--#[ fqed1l213 :
+	1
+*--#] fqed1l213 :
+
+*--#[ few1l213 :
+	1
+*--#] few1l213 :
+
+*--#[ d1l214 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p1)*d_(nu9,nu14)-Mom(nu15,-p3)*d_(nu9,nu14)-Mom(nu14,p1)*d_(nu9,nu15)+Mom(nu14,p4)*d_(nu9,nu15)+Mom(nu9,-p3)*d_(nu14,nu15)-Mom(nu9,p4)*d_(nu14,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l214 :
+
+*--#[ fqcd1l214 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l214 :
+
+*--#[ fqed1l214 :
+	1
+*--#] fqed1l214 :
+
+*--#[ few1l214 :
+	1
+*--#] few1l214 :
+
+*--#[ d1l215 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p1)*d_(nu9,nu14)-Mom(nu15,-p3)*d_(nu9,nu14)-Mom(nu14,p1)*d_(nu9,nu15)+Mom(nu14,p4)*d_(nu9,nu15)+Mom(nu9,-p3)*d_(nu14,nu15)-Mom(nu9,p4)*d_(nu14,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l215 :
+
+*--#[ fqcd1l215 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l215 :
+
+*--#[ fqed1l215 :
+	1
+*--#] fqed1l215 :
+
+*--#[ few1l215 :
+	1
+*--#] few1l215 :
+
+*--#[ d1l216 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC3*(auxGamma(nu16,j12,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC107*(auxPR(i2,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p3,xiw)
+	*Dph(nu16,nu15,p4,xia)
+	*(ufoGC93*(d_(nu15,nu9)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l216 :
+
+*--#[ fqcd1l216 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l216 :
+
+*--#[ fqed1l216 :
+	1
+*--#] fqed1l216 :
+
+*--#[ few1l216 :
+	1
+*--#] few1l216 :
+
+*--#[ d1l217 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC107*(auxPR(i2,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p3,xiw)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	*(ufoGC85*(d_(nu9,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l217 :
+
+*--#[ fqcd1l217 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l217 :
+
+*--#[ fqed1l217 :
+	1
+*--#] fqed1l217 :
+
+*--#[ few1l217 :
+	1
+*--#] few1l217 :
+
+*--#[ d1l218 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
+	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*(ufoGC107*(auxPR(i2,j11)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dgoldst(p3,xiw)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	*(ufoGC85*(d_(nu9,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l218 :
+
+*--#[ fqcd1l218 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l218 :
+
+*--#[ fqed1l218 :
+	1
+*--#] fqed1l218 :
+
+*--#[ few1l218 :
+	1
+*--#] few1l218 :
+
+*--#[ d1l219 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu11,j16,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fve,j15,j16)
+	*(ufoGC58*(auxGamma(nu10,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fe,j13,j14)
+	*(ufoGC80*(auxGamma(nu12,i1,iufo13)*auxPL(iufo13,j13))+ufoGC76*(auxGamma(nu12,i1,iufo13)*auxPR(iufo13,j13)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu11,nu12,p2,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l219 :
+
+*--#[ fqcd1l219 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l219 :
+
+*--#[ fqed1l219 :
+	1
+*--#] fqed1l219 :
+
+*--#[ few1l219 :
+	1
+*--#] few1l219 :
+
+*--#[ d1l220 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu11,j16,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fve,j15,j16)
+	*(ufoGC58*(auxGamma(nu10,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fe,j13,j14)
+	*(ufoGC80*(auxGamma(nu12,i1,iufo13)*auxPL(iufo13,j13))+ufoGC76*(auxGamma(nu12,i1,iufo13)*auxPR(iufo13,j13)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu11,nu12,p2,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l220 :
+
+*--#[ fqcd1l220 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l220 :
+
+*--#[ fqed1l220 :
+	1
+*--#] fqed1l220 :
+
+*--#[ few1l220 :
+	1
+*--#] few1l220 :
+
+*--#[ d1l221 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p3)*d_(nu13,nu10)-Mom(nu15,-p1)*d_(nu13,nu10)-Mom(nu10,p3)*d_(nu13,nu15)+Mom(nu10,p4)*d_(nu13,nu15)+Mom(nu13,-p1)*d_(nu10,nu15)-Mom(nu13,p4)*d_(nu10,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l221 :
+
+*--#[ fqcd1l221 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l221 :
+
+*--#[ fqed1l221 :
+	1
+*--#] fqed1l221 :
+
+*--#[ few1l221 :
+	1
+*--#] few1l221 :
+
+*--#[ d1l222 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p3)*d_(nu13,nu10)-Mom(nu15,-p1)*d_(nu13,nu10)-Mom(nu10,p3)*d_(nu13,nu15)+Mom(nu10,p4)*d_(nu13,nu15)+Mom(nu13,-p1)*d_(nu10,nu15)-Mom(nu13,p4)*d_(nu10,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l222 :
+
+*--#[ fqcd1l222 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l222 :
+
+*--#[ fqed1l222 :
+	1
+*--#] fqed1l222 :
+
+*--#[ few1l222 :
+	1
+*--#] few1l222 :
+
+*--#[ d1l223 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p3)*d_(nu13,nu10)-Mom(nu15,-p1)*d_(nu13,nu10)-Mom(nu10,p3)*d_(nu13,nu15)+Mom(nu10,p4)*d_(nu13,nu15)+Mom(nu13,-p1)*d_(nu10,nu15)-Mom(nu13,p4)*d_(nu10,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l223 :
+
+*--#[ fqcd1l223 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l223 :
+
+*--#[ fqed1l223 :
+	1
+*--#] fqed1l223 :
+
+*--#[ few1l223 :
+	1
+*--#] few1l223 :
+
+*--#[ d1l224 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p3)*d_(nu13,nu10)-Mom(nu15,-p1)*d_(nu13,nu10)-Mom(nu10,p3)*d_(nu13,nu15)+Mom(nu10,p4)*d_(nu13,nu15)+Mom(nu13,-p1)*d_(nu10,nu15)-Mom(nu13,p4)*d_(nu10,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l224 :
+
+*--#[ fqcd1l224 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l224 :
+
+*--#[ fqed1l224 :
+	1
+*--#] fqed1l224 :
+
+*--#[ few1l224 :
+	1
+*--#] few1l224 :
+
+*--#[ d1l225 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC3*(auxGamma(nu14,i1,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu10,p3)*d_(nu13,nu15)-Mom(nu10,p4)*d_(nu13,nu15)-Mom(nu15,p3)*d_(nu13,nu10)+Mom(nu15,-p1)*d_(nu13,nu10)+Mom(nu13,p4)*d_(nu15,nu10)-Mom(nu13,-p1)*d_(nu15,nu10)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l225 :
+
+*--#[ fqcd1l225 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l225 :
+
+*--#[ fqed1l225 :
+	1
+*--#] fqed1l225 :
+
+*--#[ few1l225 :
+	1
+*--#] few1l225 :
+
+*--#[ d1l226 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC3*(auxGamma(nu14,i1,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu10,p3)*d_(nu13,nu15)-Mom(nu10,p4)*d_(nu13,nu15)-Mom(nu15,p3)*d_(nu13,nu10)+Mom(nu15,-p1)*d_(nu13,nu10)+Mom(nu13,p4)*d_(nu15,nu10)-Mom(nu13,-p1)*d_(nu15,nu10)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l226 :
+
+*--#[ fqcd1l226 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l226 :
+
+*--#[ fqed1l226 :
+	1
+*--#] fqed1l226 :
+
+*--#[ few1l226 :
+	1
+*--#] few1l226 :
+
+*--#[ d1l227 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu10)-Mom(nu13,-p1)*d_(nu15,nu10)-Mom(nu10,p4)*d_(nu15,nu13)+Mom(nu10,p3)*d_(nu15,nu13)+Mom(nu15,-p1)*d_(nu10,nu13)-Mom(nu15,p3)*d_(nu10,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l227 :
+
+*--#[ fqcd1l227 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l227 :
+
+*--#[ fqed1l227 :
+	1
+*--#] fqed1l227 :
+
+*--#[ few1l227 :
+	1
+*--#] few1l227 :
+
+*--#[ d1l228 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu10)-Mom(nu13,-p1)*d_(nu15,nu10)-Mom(nu10,p4)*d_(nu15,nu13)+Mom(nu10,p3)*d_(nu15,nu13)+Mom(nu15,-p1)*d_(nu10,nu13)-Mom(nu15,p3)*d_(nu10,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l228 :
+
+*--#[ fqcd1l228 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l228 :
+
+*--#[ fqed1l228 :
+	1
+*--#] fqed1l228 :
+
+*--#[ few1l228 :
+	1
+*--#] few1l228 :
+
+*--#[ d1l229 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu10)-Mom(nu13,-p1)*d_(nu15,nu10)-Mom(nu10,p4)*d_(nu15,nu13)+Mom(nu10,p3)*d_(nu15,nu13)+Mom(nu15,-p1)*d_(nu10,nu13)-Mom(nu15,p3)*d_(nu10,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l229 :
+
+*--#[ fqcd1l229 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l229 :
+
+*--#[ fqed1l229 :
+	1
+*--#] fqed1l229 :
+
+*--#[ few1l229 :
+	1
+*--#] few1l229 :
+
+*--#[ d1l230 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu10)-Mom(nu13,-p1)*d_(nu15,nu10)-Mom(nu10,p4)*d_(nu15,nu13)+Mom(nu10,p3)*d_(nu15,nu13)+Mom(nu15,-p1)*d_(nu10,nu13)-Mom(nu15,p3)*d_(nu10,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l230 :
+
+*--#[ fqcd1l230 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l230 :
+
+*--#[ fqed1l230 :
+	1
+*--#] fqed1l230 :
+
+*--#[ few1l230 :
+	1
+*--#] few1l230 :
+
+*--#[ d1l231 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu11,j16,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fve,j15,j16)
+	*(ufoGC58*(auxGamma(nu10,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fe,j13,j14)
+	*(ufoGC80*(auxGamma(nu12,i1,iufo13)*auxPL(iufo13,j13))+ufoGC76*(auxGamma(nu12,i1,iufo13)*auxPR(iufo13,j13)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu11,nu12,p2,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l231 :
+
+*--#[ fqcd1l231 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l231 :
+
+*--#[ fqed1l231 :
+	1
+*--#] fqed1l231 :
+
+*--#[ few1l231 :
+	1
+*--#] few1l231 :
+
+*--#[ d1l232 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu11,j16,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p4,j15,j16)*flavourTag(fve,j15,j16)
+	*(ufoGC58*(auxGamma(nu10,j14,iufo15)*auxPL(iufo15,j15)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fe,j13,j14)
+	*(ufoGC80*(auxGamma(nu12,i1,iufo13)*auxPL(iufo13,j13))+ufoGC76*(auxGamma(nu12,i1,iufo13)*auxPR(iufo13,j13)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu11,nu12,p2,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l232 :
+
+*--#[ fqcd1l232 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l232 :
+
+*--#[ fqed1l232 :
+	1
+*--#] fqed1l232 :
+
+*--#[ few1l232 :
+	1
+*--#] few1l232 :
+
+*--#[ d1l233 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p3)*d_(nu13,nu10)-Mom(nu15,-p1)*d_(nu13,nu10)-Mom(nu10,p3)*d_(nu13,nu15)+Mom(nu10,p4)*d_(nu13,nu15)+Mom(nu13,-p1)*d_(nu10,nu15)-Mom(nu13,p4)*d_(nu10,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l233 :
+
+*--#[ fqcd1l233 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l233 :
+
+*--#[ fqed1l233 :
+	1
+*--#] fqed1l233 :
+
+*--#[ few1l233 :
+	1
+*--#] few1l233 :
+
+*--#[ d1l234 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p3)*d_(nu13,nu10)-Mom(nu15,-p1)*d_(nu13,nu10)-Mom(nu10,p3)*d_(nu13,nu15)+Mom(nu10,p4)*d_(nu13,nu15)+Mom(nu13,-p1)*d_(nu10,nu15)-Mom(nu13,p4)*d_(nu10,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l234 :
+
+*--#[ fqcd1l234 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l234 :
+
+*--#[ fqed1l234 :
+	1
+*--#] fqed1l234 :
+
+*--#[ few1l234 :
+	1
+*--#] few1l234 :
+
+*--#[ d1l235 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p3)*d_(nu13,nu10)-Mom(nu15,-p1)*d_(nu13,nu10)-Mom(nu10,p3)*d_(nu13,nu15)+Mom(nu10,p4)*d_(nu13,nu15)+Mom(nu13,-p1)*d_(nu10,nu15)-Mom(nu13,p4)*d_(nu10,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l235 :
+
+*--#[ fqcd1l235 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l235 :
+
+*--#[ fqed1l235 :
+	1
+*--#] fqed1l235 :
+
+*--#[ few1l235 :
+	1
+*--#] few1l235 :
+
+*--#[ d1l236 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	*(ufoGC69*(Mom(nu15,p3)*d_(nu13,nu10)-Mom(nu15,-p1)*d_(nu13,nu10)-Mom(nu10,p3)*d_(nu13,nu15)+Mom(nu10,p4)*d_(nu13,nu15)+Mom(nu13,-p1)*d_(nu10,nu15)-Mom(nu13,p4)*d_(nu10,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l236 :
+
+*--#[ fqcd1l236 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l236 :
+
+*--#[ fqed1l236 :
+	1
+*--#] fqed1l236 :
+
+*--#[ few1l236 :
+	1
+*--#] few1l236 :
+
+*--#[ d1l237 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC3*(auxGamma(nu14,i1,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu10,p3)*d_(nu13,nu15)-Mom(nu10,p4)*d_(nu13,nu15)-Mom(nu15,p3)*d_(nu13,nu10)+Mom(nu15,-p1)*d_(nu13,nu10)+Mom(nu13,p4)*d_(nu15,nu10)-Mom(nu13,-p1)*d_(nu15,nu10)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l237 :
+
+*--#[ fqcd1l237 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l237 :
+
+*--#[ fqed1l237 :
+	1
+*--#] fqed1l237 :
+
+*--#[ few1l237 :
+	1
+*--#] few1l237 :
+
+*--#[ d1l238 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC3*(auxGamma(nu14,i1,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dph(nu14,nu13,p3,xia)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC4*(Mom(nu10,p3)*d_(nu13,nu15)-Mom(nu10,p4)*d_(nu13,nu15)-Mom(nu15,p3)*d_(nu13,nu10)+Mom(nu15,-p1)*d_(nu13,nu10)+Mom(nu13,p4)*d_(nu15,nu10)-Mom(nu13,-p1)*d_(nu15,nu10)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l238 :
+
+*--#[ fqcd1l238 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l238 :
+
+*--#[ fqed1l238 :
+	1
+*--#] fqed1l238 :
+
+*--#[ few1l238 :
+	1
+*--#] few1l238 :
+
+*--#[ d1l239 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu10)-Mom(nu13,-p1)*d_(nu15,nu10)-Mom(nu10,p4)*d_(nu15,nu13)+Mom(nu10,p3)*d_(nu15,nu13)+Mom(nu15,-p1)*d_(nu10,nu13)-Mom(nu15,p3)*d_(nu10,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l239 :
+
+*--#[ fqcd1l239 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l239 :
+
+*--#[ fqed1l239 :
+	1
+*--#] fqed1l239 :
+
+*--#[ few1l239 :
+	1
+*--#] few1l239 :
+
+*--#[ d1l240 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu10)-Mom(nu13,-p1)*d_(nu15,nu10)-Mom(nu10,p4)*d_(nu15,nu13)+Mom(nu10,p3)*d_(nu15,nu13)+Mom(nu15,-p1)*d_(nu10,nu13)-Mom(nu15,p3)*d_(nu10,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l240 :
+
+*--#[ fqcd1l240 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l240 :
+
+*--#[ fqed1l240 :
+	1
+*--#] fqed1l240 :
+
+*--#[ few1l240 :
+	1
+*--#] few1l240 :
+
+*--#[ d1l241 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu10)-Mom(nu13,-p1)*d_(nu15,nu10)-Mom(nu10,p4)*d_(nu15,nu13)+Mom(nu10,p3)*d_(nu15,nu13)+Mom(nu15,-p1)*d_(nu10,nu13)-Mom(nu15,p3)*d_(nu10,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l241 :
+
+*--#[ fqcd1l241 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l241 :
+
+*--#[ fqed1l241 :
+	1
+*--#] fqed1l241 :
+
+*--#[ few1l241 :
+	1
+*--#] few1l241 :
+
+*--#[ d1l242 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC69*(Mom(nu13,p4)*d_(nu15,nu10)-Mom(nu13,-p1)*d_(nu15,nu10)-Mom(nu10,p4)*d_(nu15,nu13)+Mom(nu10,p3)*d_(nu15,nu13)+Mom(nu15,-p1)*d_(nu10,nu13)-Mom(nu15,p3)*d_(nu10,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l242 :
+
+*--#[ fqcd1l242 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l242 :
+
+*--#[ fqed1l242 :
+	1
+*--#] fqed1l242 :
+
+*--#[ few1l242 :
+	1
+*--#] few1l242 :
+
+*--#[ d1l243 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dgoldst(p1,xiw)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	*(ufoGC85*(d_(nu13,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l243 :
+
+*--#[ fqcd1l243 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l243 :
+
+*--#[ fqed1l243 :
+	1
+*--#] fqed1l243 :
+
+*--#[ few1l243 :
+	1
+*--#] few1l243 :
+
+*--#[ d1l244 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dgoldst(p1,xiw)
+	*Dlong(nu14,nu13,p3,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	*(ufoGC85*(d_(nu13,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l244 :
+
+*--#[ fqcd1l244 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l244 :
+
+*--#[ fqed1l244 :
+	1
+*--#] fqed1l244 :
+
+*--#[ few1l244 :
+	1
+*--#] few1l244 :
+
+*--#[ d1l245 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dgoldst(p1,xiw)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	*(ufoGC85*(d_(nu13,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l245 :
+
+*--#[ fqcd1l245 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l245 :
+
+*--#[ fqed1l245 :
+	1
+*--#] fqed1l245 :
+
+*--#[ few1l245 :
+	1
+*--#] few1l245 :
+
+*--#[ d1l246 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dgoldst(p1,xiw)
+	*Dtran(nu14,nu13,p3,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	*(ufoGC85*(d_(nu13,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l246 :
+
+*--#[ fqcd1l246 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l246 :
+
+*--#[ fqed1l246 :
+	1
+*--#] fqed1l246 :
+
+*--#[ few1l246 :
+	1
+*--#] few1l246 :
+
+*--#[ d1l247 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC3*(auxGamma(nu14,i1,j11)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dgoldst(p1,xiw)
+	*Dph(nu14,nu13,p3,xia)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC93*(d_(nu13,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l247 :
+
+*--#[ fqcd1l247 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l247 :
+
+*--#[ fqed1l247 :
+	1
+*--#] fqed1l247 :
+
+*--#[ few1l247 :
+	1
+*--#] few1l247 :
+
+*--#[ d1l248 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC3*(auxGamma(nu14,i1,j11)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dgoldst(p1,xiw)
+	*Dph(nu14,nu13,p3,xia)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC93*(d_(nu13,nu15)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l248 :
+
+*--#[ fqcd1l248 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l248 :
+
+*--#[ fqed1l248 :
+	1
+*--#] fqed1l248 :
+
+*--#[ few1l248 :
+	1
+*--#] few1l248 :
+
+*--#[ d1l249 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dgoldst(p1,xiw)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC85*(d_(nu15,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l249 :
+
+*--#[ fqcd1l249 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l249 :
+
+*--#[ fqed1l249 :
+	1
+*--#] fqed1l249 :
+
+*--#[ few1l249 :
+	1
+*--#] few1l249 :
+
+*--#[ d1l250 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dgoldst(p1,xiw)
+	*Dlong(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC85*(d_(nu15,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l250 :
+
+*--#[ fqcd1l250 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l250 :
+
+*--#[ fqed1l250 :
+	1
+*--#] fqed1l250 :
+
+*--#[ few1l250 :
+	1
+*--#] few1l250 :
+
+*--#[ d1l251 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dgoldst(p1,xiw)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	*(ufoGC85*(d_(nu15,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l251 :
+
+*--#[ fqcd1l251 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l251 :
+
+*--#[ fqed1l251 :
+	1
+*--#] fqed1l251 :
+
+*--#[ few1l251 :
+	1
+*--#] few1l251 :
+
+*--#[ d1l252 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC107*(auxPR(i2,i3)))
+	*Dgoldst(p1,xiw)
+	*Dtran(nu13,nu14,p3,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	*(ufoGC85*(d_(nu15,nu13)))
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l252 :
+
+*--#[ fqcd1l252 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l252 :
+
+*--#[ fqed1l252 :
+	1
+*--#] fqed1l252 :
+
+*--#[ few1l252 :
+	1
+*--#] few1l252 :
+
+*--#[ d1l253 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*(ufoGC81*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dlong(nu9,nu10,p1,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l253 :
+
+*--#[ fqcd1l253 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l253 :
+
+*--#[ fqed1l253 :
+	1
+*--#] fqed1l253 :
+
+*--#[ few1l253 :
+	1
+*--#] few1l253 :
+
+*--#[ d1l254 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*(ufoGC81*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dlong(nu9,nu10,p1,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l254 :
+
+*--#[ fqcd1l254 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l254 :
+
+*--#[ fqed1l254 :
+	1
+*--#] fqed1l254 :
+
+*--#[ few1l254 :
+	1
+*--#] few1l254 :
+
+*--#[ d1l255 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*(ufoGC81*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dtran(nu9,nu10,p1,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l255 :
+
+*--#[ fqcd1l255 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l255 :
+
+*--#[ fqed1l255 :
+	1
+*--#] fqed1l255 :
+
+*--#[ few1l255 :
+	1
+*--#] few1l255 :
+
+*--#[ d1l256 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*(ufoGC81*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dtran(nu9,nu10,p1,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l256 :
+
+*--#[ fqcd1l256 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l256 :
+
+*--#[ fqed1l256 :
+	1
+*--#] fqed1l256 :
+
+*--#[ few1l256 :
+	1
+*--#] few1l256 :
+
+*--#[ d1l257 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC80*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu15,j14,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*(ufoGC58*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l257 :
+
+*--#[ fqcd1l257 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l257 :
+
+*--#[ fqed1l257 :
+	1
+*--#] fqed1l257 :
+
+*--#[ few1l257 :
+	1
+*--#] few1l257 :
+
+*--#[ d1l258 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC80*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu15,j14,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*(ufoGC58*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l258 :
+
+*--#[ fqcd1l258 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l258 :
+
+*--#[ fqed1l258 :
+	1
+*--#] fqed1l258 :
+
+*--#[ few1l258 :
+	1
+*--#] few1l258 :
+
+*--#[ d1l259 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC80*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu15,j14,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*(ufoGC58*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l259 :
+
+*--#[ fqcd1l259 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l259 :
+
+*--#[ fqed1l259 :
+	1
+*--#] fqed1l259 :
+
+*--#[ few1l259 :
+	1
+*--#] few1l259 :
+
+*--#[ d1l260 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC80*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu15,j14,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*(ufoGC58*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l260 :
+
+*--#[ fqcd1l260 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l260 :
+
+*--#[ fqed1l260 :
+	1
+*--#] fqed1l260 :
+
+*--#[ few1l260 :
+	1
+*--#] few1l260 :
+
+*--#[ d1l261 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC3*(auxGamma(nu10,i1,j11)))
+	*(ufoGC3*(auxGamma(nu9,j14,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*(ufoGC58*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dph(nu10,nu9,p1,xia)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l261 :
+
+*--#[ fqcd1l261 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l261 :
+
+*--#[ fqed1l261 :
+	1
+*--#] fqed1l261 :
+
+*--#[ few1l261 :
+	1
+*--#] few1l261 :
+
+*--#[ d1l262 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC3*(auxGamma(nu10,i1,j11)))
+	*(ufoGC3*(auxGamma(nu9,j14,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*(ufoGC58*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dph(nu10,nu9,p1,xia)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l262 :
+
+*--#[ fqcd1l262 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l262 :
+
+*--#[ fqed1l262 :
+	1
+*--#] fqed1l262 :
+
+*--#[ few1l262 :
+	1
+*--#] few1l262 :
+
+*--#[ d1l263 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC80*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu9,j14,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*(ufoGC58*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dlong(nu9,nu10,p1,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l263 :
+
+*--#[ fqcd1l263 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l263 :
+
+*--#[ fqed1l263 :
+	1
+*--#] fqed1l263 :
+
+*--#[ few1l263 :
+	1
+*--#] few1l263 :
+
+*--#[ d1l264 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC80*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu9,j14,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*(ufoGC58*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dlong(nu9,nu10,p1,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l264 :
+
+*--#[ fqcd1l264 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l264 :
+
+*--#[ fqed1l264 :
+	1
+*--#] fqed1l264 :
+
+*--#[ few1l264 :
+	1
+*--#] few1l264 :
+
+*--#[ d1l265 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC80*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu9,j14,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*(ufoGC58*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dtran(nu9,nu10,p1,xiz,M4)
+	*Dlong(nu16,nu15,p4,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l265 :
+
+*--#[ fqcd1l265 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l265 :
+
+*--#[ fqed1l265 :
+	1
+*--#] fqed1l265 :
+
+*--#[ few1l265 :
+	1
+*--#] few1l265 :
+
+*--#[ d1l266 :
+
+	(-1)*1
+	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
+	*(ufoGC80*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu9,j14,iufo3)*auxPR(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*(ufoGC58*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dtran(nu9,nu10,p1,xiz,M4)
+	*Dtran(nu16,nu15,p4,xiw,M3)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l266 :
+
+*--#[ fqcd1l266 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l266 :
+
+*--#[ fqed1l266 :
+	1
+*--#] fqed1l266 :
+
+*--#[ few1l266 :
+	1
+*--#] few1l266 :
+
+*--#[ d1l267 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*(ufoGC81*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l267 :
+
+*--#[ fqcd1l267 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l267 :
+
+*--#[ fqed1l267 :
+	1
+*--#] fqed1l267 :
+
+*--#[ few1l267 :
+	1
+*--#] few1l267 :
+
+*--#[ d1l268 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*(ufoGC81*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dlong(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l268 :
+
+*--#[ fqcd1l268 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l268 :
+
+*--#[ fqed1l268 :
+	1
+*--#] fqed1l268 :
+
+*--#[ few1l268 :
+	1
+*--#] few1l268 :
+
+*--#[ d1l269 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*(ufoGC81*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dlong(nu15,nu16,p4,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l269 :
+
+*--#[ fqcd1l269 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l269 :
+
+*--#[ fqed1l269 :
+	1
+*--#] fqed1l269 :
+
+*--#[ few1l269 :
+	1
+*--#] few1l269 :
+
+*--#[ d1l270 :
+
+	(-1)*1
+	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
+	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
+	*(ufoGC58*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3)))
+	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*(ufoGC81*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
+	*Dtran(nu10,nu9,p1,xiw,M3)
+	*Dtran(nu15,nu16,p4,xiz,M4)
+	;
+
+	#define TOPOLOGY "arb"
+	#define INT1 "arb"
+
+*--#] d1l270 :
+
+*--#[ fqcd1l270 :
+
+	1
+	*(1)
+	*(1)
+	*(1)
+	*(1)
+	;
+
+*--#] fqcd1l270 :
+
+*--#[ fqed1l270 :
+	1
+*--#] fqed1l270 :
+
+*--#[ few1l270 :
+	1
+*--#] few1l270 :
+

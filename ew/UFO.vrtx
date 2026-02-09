@@ -1,0 +1,897 @@
+{G0,G0,G0,G0:*( ufoGC51 * ( 1 ))|
+		*(1)||}
+
+{G0,G0,Gm,Gp:*( ufoGC49 * ( 1 ))|
+		*(1)||}
+
+{Gm,Gm,Gp,Gp:*( ufoGC50 * ( 1 ))|
+		*(1)||}
+
+{G0,G0,H,H:*( ufoGC49 * ( 1 ))|
+		*(1)||}
+
+{Gm,Gp,H,H:*( ufoGC49 * ( 1 ))|
+		*(1)||}
+
+{H,H,H,H:*( ufoGC51 * ( 1 ))|
+		*(1)||}
+
+{G0,G0,H:*( ufoGC86 * ( 1 ))|
+		*(1)||}
+
+{Gm,Gp,H:*( ufoGC86 * ( 1 ))|
+		*(1)||}
+
+{H,H,H:*( ufoGC87 * ( 1 ))|
+		*(1)||}
+
+{a,a,Gm,Gp:*( ufoGC6 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,Gm,Gp:*( ufoGC3 * ( Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghA,CghWm,WLm:*( ufoGC3 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghA,CghWm,WTm:*( ufoGC3 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghA,CghWp,WLp:*( ufoGC4 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghA,CghWp,WTp:*( ufoGC4 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWm,CghA,Gp:*<gauge_parameter_xiW> *( ufoGC92 * ( 1 ))|
+		*(1)||}
+
+{cghWm,CghA,WLp:*( ufoGC3 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWm,CghA,WTp:*( ufoGC3 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWm,CghWm,G0:*<gauge_parameter_xiW> *( ufoGC88 * ( 1 ))|
+		*(1)||}
+
+{cghWm,CghWm,H:*<gauge_parameter_xiW> *( ufoGC89 * ( 1 ))|
+		*(1)||}
+
+{cghWm,CghWm,a:*( ufoGC4 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWm,CghWm,ZL:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWm,CghWm,ZT:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWm,CghZ,Gp:*<gauge_parameter_xiW> *( ufoGC94 * ( 1 ))|
+		*(1)||}
+
+{cghWm,CghZ,WLp:*( ufoGC68 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWm,CghZ,WTp:*( ufoGC68 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWp,CghA,Gm:*<gauge_parameter_xiW> *( ufoGC92 * ( 1 ))|
+		*(1)||}
+
+{cghWp,CghA,WLm:*( ufoGC4 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWp,CghA,WTm:*( ufoGC4 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWp,CghWp,G0:*<gauge_parameter_xiW> *( ufoGC91 * ( 1 ))|
+		*(1)||}
+
+{cghWp,CghWp,H:*<gauge_parameter_xiW> *( ufoGC89 * ( 1 ))|
+		*(1)||}
+
+{cghWp,CghWp,a:*( ufoGC3 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWp,CghWp,ZL:*( ufoGC68 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWp,CghWp,ZT:*( ufoGC68 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWp,CghZ,Gm:*<gauge_parameter_xiW> *( ufoGC94 * ( 1 ))|
+		*(1)||}
+
+{cghWp,CghZ,WLm:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghWp,CghZ,WTm:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghZ,CghWm,Gm:*<gauge_parameter_xiZ> *( ufoGC95 * ( 1 ))|
+		*(1)||}
+
+{cghZ,CghWm,WLm:*( ufoGC68 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghZ,CghWm,WTm:*( ufoGC68 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghZ,CghWp,Gp:*<gauge_parameter_xiZ> *( ufoGC95 * ( 1 ))|
+		*(1)||}
+
+{cghZ,CghWp,WLp:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghZ,CghWp,WTp:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{cghZ,CghZ,H:*<gauge_parameter_xiZ> *( ufoGC96 * ( 1 ))|
+		*(1)||}
+
+{cghG,CghG,g:*( ufoGC10 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>) + Mom(<lorentz_index_particle_3>,<outgoing_momentum_3>) ))|
+		*(ufocomplex(0,1)*V3g(<colour_index_particle_1>,<colour_index_particle_2>,<colour_index_particle_3>))||}
+
+{g,g,g:*( ufoGC10 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_2>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_2>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) ))|
+		*(ufocomplex(0,1)*V3g(<colour_index_particle_1>,<colour_index_particle_2>,<colour_index_particle_3>))||}
+
+{g,g,g,g:*( ufoGC12 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ) *nonfactag(0,1,<local_index_F>) +  ufoGC12 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) ) *nonfactag(0,0,<local_index_F>) +  ufoGC12 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ) *nonfactag(0,2,<local_index_F>))|
+		*( ufocomplex(0,1)*V3g(<colour_index_particle_-1>,<colour_index_particle_1>,<colour_index_particle_2>)*ufocomplex(0,1)*V3g(<colour_index_particle_3>,<colour_index_particle_4>,<colour_index_particle_-1>)*nonfactag(0,0,<local_index_F>) +  ufocomplex(0,1)*V3g(<colour_index_particle_-1>,<colour_index_particle_1>,<colour_index_particle_3>)*ufocomplex(0,1)*V3g(<colour_index_particle_2>,<colour_index_particle_4>,<colour_index_particle_-1>)*nonfactag(0,1,<local_index_F>) +  ufocomplex(0,1)*V3g(<colour_index_particle_-1>,<colour_index_particle_1>,<colour_index_particle_4>)*ufocomplex(0,1)*V3g(<colour_index_particle_2>,<colour_index_particle_3>,<colour_index_particle_-1>)*nonfactag(0,2,<local_index_F>))||}
+
+{fU,fd,Gp:*( ufoGC13 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC22 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fd,Gp:*( ufoGC14 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC23 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,fd,Gp:*( ufoGC15 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC24 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fU,fs,Gp:*( ufoGC16 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC25 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fs,Gp:*( ufoGC17 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC26 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,fs,Gp:*( ufoGC18 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC27 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fU,fb,Gp:*( ufoGC19 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC28 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fb,Gp:*( ufoGC20 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC29 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,fb,Gp:*( ufoGC21 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC30 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,fd,G0:*( ufoGC102 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) - auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,fs,G0:*( ufoGC110 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) - auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,fb,G0:*( ufoGC98 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) - auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,fd,H:*( ufoGC103 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) + auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,fs,H:*( ufoGC111 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) + auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,fb,H:*( ufoGC99 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) + auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fVe,fe,Gp:*( ufoGC104 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fVm,fmu,Gp:*( ufoGC107 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fVt,fta,Gp:*( ufoGC114 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fE,fe,G0:*( ufoGC105 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) - auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fMu,fmu,G0:*( ufoGC108 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) - auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fTa,fta,G0:*( ufoGC115 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) - auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fE,fe,H:*( ufoGC106 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) + auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fMu,fmu,H:*( ufoGC109 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) + auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fTa,fta,H:*( ufoGC116 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) + auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fD,fu,Gm:*( ufoGC31 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC40 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,fu,Gm:*( ufoGC32 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC41 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,fu,Gm:*( ufoGC33 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC42 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,fc,Gm:*( ufoGC34 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC43 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,fc,Gm:*( ufoGC35 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC44 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,fc,Gm:*( ufoGC36 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC45 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,ft,Gm:*( ufoGC37 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC46 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,ft,Gm:*( ufoGC38 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC47 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,ft,Gm:*( ufoGC39 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) )  +  ufoGC48 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fU,fu,G0:*( ufoGC118 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) - auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fc,G0:*( ufoGC101 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) - auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,ft,G0:*( ufoGC113 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) - auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fU,fu,H:*( ufoGC117 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) + auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fc,H:*( ufoGC100 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) + auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,ft,H:*( ufoGC112 * ( auxPL(<spinor_index_particle_2>,<spinor_index_particle_1>) + auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{a,WLm,G0,Gp:*( ufoGC70 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,WTm,G0,Gp:*( ufoGC70 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,WLm,Gp,H:*( ufoGC71 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,WTm,Gp,H:*( ufoGC71 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,WLm,Gp:*( ufoGC93 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,WTm,Gp:*( ufoGC93 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,G0,Gp:*( ufoGC57 * ( Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{WTm,G0,Gp:*( ufoGC57 * ( Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{WLm,Gp,H:*( ufoGC56 * ( Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{WTm,Gp,H:*( ufoGC56 * ( Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{a,WLm,WLp:*( ufoGC4 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_2>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_2>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) ))|
+		*(1)||}
+
+{a,WLm,WTp:*( ufoGC4 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_2>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_2>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) ))|
+		*(1)||}
+
+{a,WTm,WLp:*( ufoGC4 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_2>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_2>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) ))|
+		*(1)||}
+
+{a,WTm,WTp:*( ufoGC4 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_2>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_2>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) ))|
+		*(1)||}
+
+{a,WLp,G0,Gm:*( ufoGC72 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,WTp,G0,Gm:*( ufoGC72 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,WLp,Gm,H:*( ufoGC71 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,WTp,Gm,H:*( ufoGC71 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,WLp,Gm:*( ufoGC93 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,WTp,Gm:*( ufoGC93 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLp,G0,Gm:*( ufoGC57 * ( Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{WTp,G0,Gm:*( ufoGC57 * ( Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{WLp,Gm,H:*( ufoGC55 * ( Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{WTp,Gm,H:*( ufoGC55 * ( Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{WLm,WLp,G0,G0:*( ufoGC52 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,WTp,G0,G0:*( ufoGC52 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,WLp,G0,G0:*( ufoGC52 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,WTp,G0,G0:*( ufoGC52 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,WLp,Gm,Gp:*( ufoGC52 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,WTp,Gm,Gp:*( ufoGC52 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,WLp,Gm,Gp:*( ufoGC52 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,WTp,Gm,Gp:*( ufoGC52 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,WLp,H,H:*( ufoGC52 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,WTp,H,H:*( ufoGC52 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,WLp,H,H:*( ufoGC52 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,WTp,H,H:*( ufoGC52 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,WLp,H:*( ufoGC90 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,WTp,H:*( ufoGC90 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,WLp,H:*( ufoGC90 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,WTp,H:*( ufoGC90 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,a,WLm,WLp:*( ufoGC5 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{a,a,WLm,WTp:*( ufoGC5 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{a,a,WTm,WLp:*( ufoGC5 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{a,a,WTm,WTp:*( ufoGC5 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WLm,WLp,ZL:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_2>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_2>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) ))|
+		*(1)||}
+
+{WLm,WLp,ZT:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_2>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_2>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) ))|
+		*(1)||}
+
+{WLm,WTp,ZL:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_2>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_2>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) ))|
+		*(1)||}
+
+{WLm,WTp,ZT:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_2>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_2>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) ))|
+		*(1)||}
+
+{WTm,WLp,ZL:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_2>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_2>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) ))|
+		*(1)||}
+
+{WTm,WLp,ZT:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_2>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_2>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) ))|
+		*(1)||}
+
+{WTm,WTp,ZL:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_2>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_2>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) ))|
+		*(1)||}
+
+{WTm,WTp,ZT:*( ufoGC69 * ( Mom(<lorentz_index_particle_3>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_3>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) - Mom(<lorentz_index_particle_2>,<outgoing_momentum_1>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_2>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>) + Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) ))|
+		*(1)||}
+
+{WLm,WLm,WLp,WLp:*( ufoGC53 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WLm,WLm,WTp,WLp:*( ufoGC53 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WLm,WLm,WTp,WTp:*( ufoGC53 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WTm,WLm,WLp,WLp:*( ufoGC53 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WTm,WLm,WTp,WLp:*( ufoGC53 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WTm,WLm,WTp,WTp:*( ufoGC53 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WTm,WTm,WLp,WLp:*( ufoGC53 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WTm,WTm,WTp,WLp:*( ufoGC53 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WTm,WTm,WTp,WTp:*( ufoGC53 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{fE,fve,Gm:*( ufoGC104 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fMu,fvm,Gm:*( ufoGC107 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fTa,fvt,Gm:*( ufoGC114 * ( auxPR(<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{a,ZL,Gm,Gp:*( ufoGC82 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,ZT,Gm,Gp:*( ufoGC82 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{ZL,G0,H:*( ufoGC77 * ( Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{ZT,G0,H:*( ufoGC77 * ( Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{ZL,Gm,Gp:*( ufoGC80 * ( Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{ZT,Gm,Gp:*( ufoGC80 * ( Mom(<lorentz_index_particle_1>,<outgoing_momentum_2>) - Mom(<lorentz_index_particle_1>,<outgoing_momentum_3>) ))|
+		*(1)||}
+
+{WLm,ZL,G0,Gp:*( ufoGC9 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,ZT,G0,Gp:*( ufoGC9 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,ZL,G0,Gp:*( ufoGC9 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,ZT,G0,Gp:*( ufoGC9 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,ZL,Gp,H:*( ufoGC8 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,ZT,Gp,H:*( ufoGC8 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,ZL,Gp,H:*( ufoGC8 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,ZT,Gp,H:*( ufoGC8 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,ZL,Gp:*( ufoGC85 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,ZT,Gp:*( ufoGC85 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,ZL,Gp:*( ufoGC85 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTm,ZT,Gp:*( ufoGC85 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLp,ZL,G0,Gm:*( ufoGC7 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLp,ZT,G0,Gm:*( ufoGC7 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTp,ZL,G0,Gm:*( ufoGC7 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTp,ZT,G0,Gm:*( ufoGC7 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLp,ZL,Gm,H:*( ufoGC8 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLp,ZT,Gm,H:*( ufoGC8 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTp,ZL,Gm,H:*( ufoGC8 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTp,ZT,Gm,H:*( ufoGC8 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLp,ZL,Gm:*( ufoGC85 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLp,ZT,Gm:*( ufoGC85 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTp,ZL,Gm:*( ufoGC85 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WTp,ZT,Gm:*( ufoGC85 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{a,WLm,WLp,ZL:*( ufoGC73 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>))/2 - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>))/2 ))|
+		*(1)||}
+
+{a,WLm,WLp,ZT:*( ufoGC73 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>))/2 - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>))/2 ))|
+		*(1)||}
+
+{a,WLm,WTp,ZL:*( ufoGC73 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>))/2 - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>))/2 ))|
+		*(1)||}
+
+{a,WLm,WTp,ZT:*( ufoGC73 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>))/2 - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>))/2 ))|
+		*(1)||}
+
+{a,WTm,WLp,ZL:*( ufoGC73 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>))/2 - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>))/2 ))|
+		*(1)||}
+
+{a,WTm,WLp,ZT:*( ufoGC73 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>))/2 - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>))/2 ))|
+		*(1)||}
+
+{a,WTm,WTp,ZL:*( ufoGC73 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>))/2 - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>))/2 ))|
+		*(1)||}
+
+{a,WTm,WTp,ZT:*( ufoGC73 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>))/2 - (d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>))/2 ))|
+		*(1)||}
+
+{ZL,ZL,G0,G0:*( ufoGC84 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{ZT,ZL,G0,G0:*( ufoGC84 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{ZT,ZT,G0,G0:*( ufoGC84 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{ZL,ZL,Gm,Gp:*( ufoGC83 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{ZT,ZL,Gm,Gp:*( ufoGC83 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{ZT,ZT,Gm,Gp:*( ufoGC83 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{ZL,ZL,H,H:*( ufoGC84 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{ZT,ZL,H,H:*( ufoGC84 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{ZT,ZT,H,H:*( ufoGC84 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{ZL,ZL,H:*( ufoGC97 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{ZT,ZL,H:*( ufoGC97 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{ZT,ZT,H:*( ufoGC97 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>) ))|
+		*(1)||}
+
+{WLm,WLp,ZL,ZL:*( ufoGC54 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WLm,WLp,ZT,ZL:*( ufoGC54 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WLm,WLp,ZT,ZT:*( ufoGC54 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WLm,WTp,ZL,ZL:*( ufoGC54 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WLm,WTp,ZT,ZL:*( ufoGC54 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WLm,WTp,ZT,ZT:*( ufoGC54 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WTm,WLp,ZL,ZL:*( ufoGC54 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WTm,WLp,ZT,ZL:*( ufoGC54 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WTm,WLp,ZT,ZT:*( ufoGC54 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WTm,WTp,ZL,ZL:*( ufoGC54 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WTm,WTp,ZT,ZL:*( ufoGC54 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{WTm,WTp,ZT,ZT:*( ufoGC54 * ( d_(<lorentz_index_particle_1>,<lorentz_index_particle_4>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_3>) + d_(<lorentz_index_particle_1>,<lorentz_index_particle_3>)*d_(<lorentz_index_particle_2>,<lorentz_index_particle_4>) - 2*d_(<lorentz_index_particle_1>,<lorentz_index_particle_2>)*d_(<lorentz_index_particle_3>,<lorentz_index_particle_4>) ))|
+		*(1)||}
+
+{fE,fe,a:*( ufoGC3 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fMu,fmu,a:*( ufoGC3 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fTa,fta,a:*( ufoGC3 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fU,fu,a:*( ufoGC2 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fc,a:*( ufoGC2 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,ft,a:*( ufoGC2 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,fd,a:*( ufoGC1 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,fs,a:*( ufoGC1 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,fb,a:*( ufoGC1 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fU,fu,g:*( ufoGC11 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(GM(<colour_index_particle_3>,<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fc,g:*( ufoGC11 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(GM(<colour_index_particle_3>,<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,ft,g:*( ufoGC11 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(GM(<colour_index_particle_3>,<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,fd,g:*( ufoGC11 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(GM(<colour_index_particle_3>,<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,fs,g:*( ufoGC11 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(GM(<colour_index_particle_3>,<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,fb,g:*( ufoGC11 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_1>) ))|
+		*(GM(<colour_index_particle_3>,<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,fu,WLm:*( ufoGC59 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,fu,WTm:*( ufoGC59 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,fu,WLm:*( ufoGC60 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,fu,WTm:*( ufoGC60 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,fu,WLm:*( ufoGC61 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,fu,WTm:*( ufoGC61 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,fc,WLm:*( ufoGC62 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,fc,WTm:*( ufoGC62 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,fc,WLm:*( ufoGC63 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,fc,WTm:*( ufoGC63 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,fc,WLm:*( ufoGC64 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,fc,WTm:*( ufoGC64 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,ft,WLm:*( ufoGC65 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,ft,WTm:*( ufoGC65 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,ft,WLm:*( ufoGC66 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,ft,WTm:*( ufoGC66 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,ft,WLm:*( ufoGC67 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,ft,WTm:*( ufoGC67 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fU,fd,WLp:*( ufoGC119 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fU,fd,WTp:*( ufoGC119 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fd,WLp:*( ufoGC122 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fd,WTp:*( ufoGC122 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,fd,WLp:*( ufoGC125 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,fd,WTp:*( ufoGC125 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fU,fs,WLp:*( ufoGC120 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fU,fs,WTp:*( ufoGC120 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fs,WLp:*( ufoGC123 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fs,WTp:*( ufoGC123 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,fs,WLp:*( ufoGC126 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,fs,WTp:*( ufoGC126 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fU,fb,WLp:*( ufoGC121 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fU,fb,WTp:*( ufoGC121 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fb,WLp:*( ufoGC124 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fb,WTp:*( ufoGC124 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,fb,WLp:*( ufoGC127 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,fb,WTp:*( ufoGC127 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fE,fve,WLm:*( ufoGC58 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fE,fve,WTm:*( ufoGC58 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fMu,fvm,WLm:*( ufoGC58 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fMu,fvm,WTm:*( ufoGC58 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fTa,fvt,WLm:*( ufoGC58 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fTa,fvt,WTm:*( ufoGC58 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fVe,fe,WLp:*( ufoGC58 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fVe,fe,WTp:*( ufoGC58 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fVm,fmu,WLp:*( ufoGC58 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fVm,fmu,WTp:*( ufoGC58 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fVt,fta,WLp:*( ufoGC58 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fVt,fta,WTp:*( ufoGC58 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fU,fu,ZL:*( ufoGC79 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC75 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fU,fu,ZT:*( ufoGC79 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC75 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fc,ZL:*( ufoGC79 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC75 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fC,fc,ZT:*( ufoGC79 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC75 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,ft,ZL:*( ufoGC79 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC75 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fT,ft,ZT:*( ufoGC79 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC75 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,fd,ZL:*( ufoGC78 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC74 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fD,fd,ZT:*( ufoGC78 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC74 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,fs,ZL:*( ufoGC78 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC74 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fS,fs,ZT:*( ufoGC78 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC74 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,fb,ZL:*( ufoGC78 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC74 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fB,fb,ZT:*( ufoGC78 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC74 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(d_(<spinor_index_particle_1>,<spinor_index_particle_2>))||}
+
+{fVe,fve,ZL:*( ufoGC81 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fVe,fve,ZT:*( ufoGC81 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fVm,fvm,ZL:*( ufoGC81 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fVm,fvm,ZT:*( ufoGC81 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fVt,fvt,ZL:*( ufoGC81 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fVt,fvt,ZT:*( ufoGC81 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fE,fe,ZL:*( ufoGC80 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC76 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fE,fe,ZT:*( ufoGC80 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC76 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fMu,fmu,ZL:*( ufoGC80 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC76 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fMu,fmu,ZT:*( ufoGC80 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC76 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fTa,fta,ZL:*( ufoGC80 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC76 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
+{fTa,fta,ZT:*( ufoGC80 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPL(<spinor_index_particle_-1>,<spinor_index_particle_1>) )  +  ufoGC76 * ( auxGamma(<lorentz_index_particle_3>,<spinor_index_particle_2>,<spinor_index_particle_-1>)*auxPR(<spinor_index_particle_-1>,<spinor_index_particle_1>) ))|
+		*(1)||}
+
