@@ -2,7 +2,10 @@
 Off Statistics;
 On HighFirst;
 
-#include /home/ana/Documents/Github/ew1l/ew_form/form-declarations.h;
+
+*#include "/home/ana/Documents/Github/ew1l/ew_form/form-declarations.h";
+#include form-declarations.h;
+
 
 #ifndef `LOOPS'
 	#message Error, please specify the number of loops as LOOPS.
@@ -15,20 +18,20 @@ On HighFirst;
 
 * Load the diagram from the tapir file:
 Local d`LOOPS'l`DIA'amp =
-	#include /home/ana/Documents/Github/ew1l/ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
-	;	
+	#include dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA';	
 	
 * Load the mapped topology, and make the necessary momentum replacements
-#include /home/ana/Documents/Software/src/tapir/ew/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA' 
+#include topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA' 
 `MOMREPLACEMENT'
 .sort
 
 
 *Feynman rules
 * auxGamma are gamma matrices, their argument is a Lorentz index ans the spinor1 and spinor2.
-* Dtran, Dlong are fermion propagators, their arguments are 2 Lorenx indices, the runnin momentum, the gauge and mass.
+
 *Print ;
 *.end
+
 Identify auxPL(i1?,i2?) = cFT(g7,XX,i1,i2)/2;
 Identify auxPR(i1?,i2?) = cFT(g6,XX,i1,i2)/2;
 Identify auxSlash(?a,i1?,i2?) = cFT(?a,XX,i1,i2);
@@ -54,12 +57,14 @@ Identify auxGamma(?a,i1?,i2?) = cFT(?a,XX,i1,i2);
 #enddo
 *Print;
 *.end
-*propagators
+
+*propagators substitutions
+* Dtran, Dlong are fermion propagators, their arguments are 2 Lorenx indices, the runnin momentum, the gauge and mass.
 Identify Dph(ind1?,ind2?,?mom,gaug?) = (d_(ind1, ind2) - (1-gaug) * Vec(ind1,?mom) * Vec(ind2,?mom) * Den(?mom))* Den(?mom);
 Identify Dgoldst(?mom,gaug?) = Deng(?mom, gaug, 0);
 Identify Dlong(ind1?,ind2?,?mom,gaug?,mass?) = (gaug*Vec(ind1,?mom)*Vec(ind2,?mom)*Deng(?mom,gaug,mass))* Deng(?mom,gaug,mass);
 Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Vec(ind2,?mom)*Deng(?mom,gaug,mass))* Deng(?mom,gaug,mass);
-**
+
 
 #do i = 1,`NUMTRACES'
   Identify FT`i'(g7) = g7_(`i');
