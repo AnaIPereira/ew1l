@@ -2,10 +2,7 @@
 Off Statistics;
 On HighFirst;
 
-
-*#include "/home/ana/Documents/Github/ew1l/ew_form/form-declarations.h";
-#include form-declarations.h;
-
+#include- form-declarations.h
 
 #ifndef `LOOPS'
 	#message Error, please specify the number of loops as LOOPS.
@@ -18,19 +15,17 @@ On HighFirst;
 
 * Load the diagram from the tapir file:
 Local d`LOOPS'l`DIA'amp =
-	#include dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA';	
-	
+	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
+	;
+
 * Load the mapped topology, and make the necessary momentum replacements
-#include topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA' 
+#include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
 `MOMREPLACEMENT'
 .sort
 
 
 *Feynman rules
 * auxGamma are gamma matrices, their argument is a Lorentz index ans the spinor1 and spinor2.
-
-*Print ;
-*.end
 
 Identify auxPL(i1?,i2?) = cFT(g7,XX,i1,i2)/2;
 Identify auxPR(i1?,i2?) = cFT(g6,XX,i1,i2)/2;
@@ -95,7 +90,6 @@ Identify Vec(ind?,momen?)*Vec(ind1,momen1?) = 1/d* momen.momen1 * d_(ind,ind1);
 
 Print +s;
 .end
-
 
 * Compute the traces:
 *Tracen,i1;
