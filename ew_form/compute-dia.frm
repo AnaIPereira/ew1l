@@ -88,14 +88,14 @@ Identify Vec(ind1?,momen?)*Vec(ind2?,momen1?)*Vec(ind3?,momen1?)*Vec(ind4?,momen
 *tensor reduction for rank 2
 Identify Vec(ind?,momen?)*Vec(ind1,momen1?) = 1/d* momen.momen1 * d_(ind,ind1);
 
-Print +s;
-.end
 
 * Compute the traces:
-*Tracen,i1;
-*Tracen,i2;
-*.sort
+Tracen,1;
+Tracen,2;
+.sort
 
+Print +s;
+.end
 
 * Write the propagators into the notation expected by the tapir topology file.
 * Massive, simj = 1/(Mj^2 - pi.pi)
