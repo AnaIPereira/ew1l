@@ -71,11 +71,6 @@ integralfamilies:
       - ["M4^2 - p4^2", 0]
       - ["-p4^2", 0]
       - ["M3^2 - p4^2", 0]
-  - name: "d1l225"
-    loop_momenta: [p4]
-    propagators:
-      - ["M3^2 - p4^2", 0]
-      - ["-p4^2", 0]
   - name: "d1l227"
     loop_momenta: [p4]
     propagators:

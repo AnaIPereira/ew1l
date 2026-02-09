@@ -97,14 +97,19 @@ Identify Vec(ind?,momen?)*Vec(ind1?,momen1?) = 1/d* momen.momen1 * d_(ind,ind1);
 Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
 .sort
 
-*Print +s;
-*.end
+Print +s;
+.end
 
 Argument Vec;
-    #include filename # NUMERATORMOMENTA
+ 	#include- ../ew_tapir/topo/d`LOOPS'l`DIA' # NUMERATORMOMENTA
+	;
 EndArgument;
 SplitArg Vec;
-Identify Vec(p1?,p2?,ind?) = Vec(p1,ind) + Vec(p2,ind);
+
+Identify Vec(ind?,p1?,p2?) = Vec(ind,p1) + Vec(ind,p2);
+
+Print +s;
+.end
 
 * Write the propagators into the notation expected by the tapir topology file.
 * Massive, simj = 1/(Mj^2 - pi.pi)

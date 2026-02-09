@@ -8,9 +8,9 @@
 
 *--#[ EXTERNALMOMENTA :
 *
-id q4 = 0;
-id q3 = 0;
+id q1 = 0;
 id q2 = 0;
+id q3 = 0;
 
 .sort
 
@@ -50,29 +50,6 @@ id p4.p4 = -1/s4m3 + M3^2;
 
 *--#[ KINEMATICRELATIONS :
 *
-
-* Apply kinematic relations
-id q1.q1 = 0;
-id q2.q2 = 0;
-id q3.q3 = 0;
-id q4.q4 = 0;
-id q1.q2 = 0;
-id q1.q3 = 0;
-id q1.q4 = 0;
-id q2.q3 = 0;
-id q3.q4 = 0;
-id q1.p2 = 0;
-id q2.p2 = 0;
-id q3.p2 = 0;
-id q4.p2 = 0;
-id q1.p3 = 0;
-id q2.p3 = 0;
-id q3.p3 = 0;
-id q4.p3 = 0;
-id q1.p4 = 0;
-id q2.p4 = 0;
-id q3.p4 = 0;
-id q4.p4 = 0;
 
 .sort
 
