@@ -22,16 +22,14 @@ Local d`LOOPS'l`DIA'amp =
 	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
 	;
 
-Print +s;
-.end
+*Print +s;
+*.end
 
 * Load the mapped topology, and make the necessary momentum replacements
 #include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
 `MOMREPLACEMENT'
 .sort
 
-Print +s;
-.end
 
 Argument;
    `BRIDGEMOMENTA';
@@ -91,6 +89,9 @@ Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Ve
 
 Identify Vec(ind?,0) = 0;
 
+*Print +s;
+*.end
+
 *TENSOR REDUCTION
 * contract all the scalar product pi^2, etc
 Identify Vec(ind?,momen?)*Vec(ind?,momen?) = momen.momen;
@@ -106,30 +107,30 @@ Identify Vec(ind1?,momen?)*Vec(ind2?,momen1?)*Vec(ind3?,momen1?)*Vec(ind4?,momen
 *tensor reduction for rank 2
 Identify Vec(ind?,momen?)*Vec(ind1?,momen1?) = 1/d* momen.momen1 * d_(ind,ind1);
 
-
 * Compute the traces:
 *Trace4,1;
 *Trace4,2;
 *.sort
 
+*Print +s;
+*.end
+
 *project in operator basis
 Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
 .sort
 
-*Print +s;
-*.end
+Print +s;
+.end
 
-*Argument Vec;
-* 	#include- ../ew_tapir/topo/d`LOOPS'l`DIA' # NUMERATORMOMENTA
-*	;
-*EndArgument;
-*SplitArg Vec;
 
+Argument Vec;
+ 	#include- ../ew_tapir/topo/d`LOOPS'l`DIA' # NUMERATORMOMENTA
+	;
+EndArgument;
+SplitArg Vec;
 
 *Identify Vec(ind?,p1?,p2?) = Vec(ind,p1) + Vec(ind,p2);
 
-Print +s;
-.end
 
 
 * Write the propagators into the notation expected by the tapir topology file.
