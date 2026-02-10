@@ -11,7 +11,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l1 :
 
@@ -46,7 +46,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l2 :
 
@@ -81,7 +81,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l3 :
 
@@ -116,7 +116,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l4 :
 
@@ -151,7 +151,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l5 :
 
@@ -186,7 +186,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l6 :
 
@@ -221,7 +221,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l7 :
 
@@ -256,7 +256,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l8 :
 
@@ -291,7 +291,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l9 :
 
@@ -326,7 +326,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l10 :
 
@@ -361,7 +361,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l11 :
 
@@ -396,7 +396,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l12 :
 
@@ -431,7 +431,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l13 :
 
@@ -466,7 +466,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l14 :
 
@@ -501,7 +501,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l15 :
 
@@ -536,7 +536,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l16 :
 
@@ -571,7 +571,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l17 :
 
@@ -606,7 +606,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l18 :
 
@@ -641,7 +641,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l19 :
 
@@ -676,7 +676,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l20 :
 
@@ -711,7 +711,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l21 :
 
@@ -746,7 +746,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l22 :
 
@@ -781,7 +781,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l23 :
 
@@ -816,7 +816,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l24 :
 
@@ -851,7 +851,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l25 :
 
@@ -886,7 +886,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l26 :
 
@@ -921,7 +921,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l27 :
 
@@ -956,7 +956,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l28 :
 
@@ -991,7 +991,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l29 :
 
@@ -1026,7 +1026,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l30 :
 
@@ -1061,7 +1061,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l31 :
 
@@ -1096,7 +1096,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l32 :
 
@@ -1133,7 +1133,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l33 :
 
@@ -1171,7 +1171,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l34 :
 
@@ -1209,7 +1209,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l35 :
 
@@ -1247,7 +1247,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l36 :
 
@@ -1285,7 +1285,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l37 :
 
@@ -1323,7 +1323,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l38 :
 
@@ -1361,7 +1361,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l39 :
 
@@ -1399,7 +1399,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l40 :
 
@@ -1437,7 +1437,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l41 :
 
@@ -1475,7 +1475,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l42 :
 
@@ -1513,7 +1513,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l43 :
 
@@ -1551,7 +1551,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l44 :
 
@@ -1589,7 +1589,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l45 :
 
@@ -1627,7 +1627,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l46 :
 
@@ -1665,7 +1665,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l47 :
 
@@ -1703,7 +1703,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l48 :
 
@@ -1741,7 +1741,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l49 :
 
@@ -1779,7 +1779,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l50 :
 
@@ -1817,7 +1817,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l51 :
 
@@ -1857,7 +1857,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l52 :
 
@@ -1897,7 +1897,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l53 :
 
@@ -1937,7 +1937,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l54 :
 
@@ -1977,7 +1977,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l55 :
 
@@ -2017,7 +2017,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l56 :
 
@@ -2057,7 +2057,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l57 :
 
@@ -2097,7 +2097,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l58 :
 
@@ -2137,7 +2137,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l59 :
 
@@ -2177,7 +2177,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l60 :
 
@@ -2215,7 +2215,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l61 :
 
@@ -2253,7 +2253,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l62 :
 
@@ -2291,7 +2291,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l63 :
 
@@ -2329,7 +2329,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l64 :
 
@@ -2367,7 +2367,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l65 :
 
@@ -2405,7 +2405,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l66 :
 
@@ -2443,7 +2443,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l67 :
 
@@ -2481,7 +2481,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l68 :
 
@@ -2519,7 +2519,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l69 :
 
@@ -2557,7 +2557,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l70 :
 
@@ -2595,7 +2595,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l71 :
 
@@ -2633,7 +2633,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l72 :
 
@@ -2671,7 +2671,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l73 :
 
@@ -2709,7 +2709,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l74 :
 
@@ -2747,7 +2747,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l75 :
 
@@ -2785,7 +2785,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l76 :
 
@@ -2823,7 +2823,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l77 :
 
@@ -2861,7 +2861,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l78 :
 
@@ -2899,7 +2899,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l79 :
 
@@ -2937,7 +2937,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l80 :
 
@@ -2977,7 +2977,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l81 :
 
@@ -3017,7 +3017,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l82 :
 
@@ -3057,7 +3057,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l83 :
 
@@ -3097,7 +3097,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l84 :
 
@@ -3137,7 +3137,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l85 :
 
@@ -3177,7 +3177,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l86 :
 
@@ -3217,7 +3217,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l87 :
 
@@ -3257,7 +3257,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l88 :
 
@@ -3297,7 +3297,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l89 :
 
@@ -3335,7 +3335,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l90 :
 
@@ -3373,7 +3373,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l91 :
 
@@ -3411,7 +3411,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l92 :
 
@@ -3449,7 +3449,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l93 :
 
@@ -3487,7 +3487,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l94 :
 
@@ -3525,7 +3525,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l95 :
 
@@ -3563,7 +3563,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l96 :
 
@@ -3601,7 +3601,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l97 :
 
@@ -3639,7 +3639,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l98 :
 
@@ -3677,7 +3677,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l99 :
 
@@ -3715,7 +3715,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l100 :
 
@@ -3753,7 +3753,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l101 :
 
@@ -3791,7 +3791,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l102 :
 
@@ -3829,7 +3829,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l103 :
 
@@ -3867,7 +3867,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l104 :
 
@@ -3905,7 +3905,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l105 :
 
@@ -3945,7 +3945,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l106 :
 
@@ -3985,7 +3985,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l107 :
 
@@ -4025,7 +4025,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l108 :
 
@@ -4063,7 +4063,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l109 :
 
@@ -4101,7 +4101,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l110 :
 
@@ -4139,7 +4139,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l111 :
 
@@ -4177,7 +4177,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l112 :
 
@@ -4215,7 +4215,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l113 :
 
@@ -4253,7 +4253,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l114 :
 
@@ -4291,7 +4291,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l115 :
 
@@ -4329,7 +4329,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l116 :
 
@@ -4367,7 +4367,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l117 :
 
@@ -4405,7 +4405,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l118 :
 
@@ -4443,7 +4443,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l119 :
 
@@ -4481,7 +4481,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l120 :
 
@@ -4519,7 +4519,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l121 :
 
@@ -4557,7 +4557,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l122 :
 
@@ -4595,7 +4595,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l123 :
 
@@ -4633,7 +4633,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l124 :
 
@@ -4671,7 +4671,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l125 :
 
@@ -4709,7 +4709,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l126 :
 
@@ -4747,7 +4747,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l127 :
 
@@ -4787,7 +4787,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l128 :
 
@@ -4827,7 +4827,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l129 :
 
@@ -4867,7 +4867,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l130 :
 
@@ -4907,7 +4907,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l131 :
 
@@ -4947,7 +4947,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l132 :
 
@@ -4987,7 +4987,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l133 :
 
@@ -5027,7 +5027,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l134 :
 
@@ -5067,7 +5067,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l135 :
 
@@ -5107,7 +5107,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l136 :
 
@@ -5145,7 +5145,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l137 :
 
@@ -5183,7 +5183,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l138 :
 
@@ -5221,7 +5221,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l139 :
 
@@ -5259,7 +5259,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l140 :
 
@@ -5297,7 +5297,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l141 :
 
@@ -5335,7 +5335,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l142 :
 
@@ -5373,7 +5373,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l143 :
 
@@ -5411,7 +5411,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l144 :
 
@@ -5449,7 +5449,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l145 :
 
@@ -5487,7 +5487,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l146 :
 
@@ -5525,7 +5525,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l147 :
 
@@ -5563,7 +5563,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l148 :
 
@@ -5601,7 +5601,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l149 :
 
@@ -5639,7 +5639,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l150 :
 
@@ -5677,7 +5677,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l151 :
 
@@ -5715,7 +5715,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l152 :
 
@@ -5753,7 +5753,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l153 :
 
@@ -5791,7 +5791,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l154 :
 
@@ -5829,7 +5829,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l155 :
 
@@ -5867,7 +5867,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l156 :
 
@@ -5907,7 +5907,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l157 :
 
@@ -5947,7 +5947,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l158 :
 
@@ -5987,7 +5987,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l159 :
 
@@ -6027,7 +6027,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l160 :
 
@@ -6067,7 +6067,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l161 :
 
@@ -6107,7 +6107,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l162 :
 
@@ -6147,7 +6147,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l163 :
 
@@ -6187,7 +6187,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l164 :
 
@@ -6227,7 +6227,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l165 :
 
@@ -6265,7 +6265,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l166 :
 
@@ -6303,7 +6303,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l167 :
 
@@ -6341,7 +6341,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l168 :
 
@@ -6379,7 +6379,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l169 :
 
@@ -6417,7 +6417,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l170 :
 
@@ -6455,7 +6455,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l171 :
 
@@ -6493,7 +6493,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l172 :
 
@@ -6531,7 +6531,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l173 :
 
@@ -6569,7 +6569,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l174 :
 
@@ -6607,7 +6607,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l175 :
 
@@ -6645,7 +6645,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l176 :
 
@@ -6683,7 +6683,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l177 :
 
@@ -6721,7 +6721,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l178 :
 
@@ -6759,7 +6759,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l179 :
 
@@ -6797,7 +6797,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l180 :
 
@@ -6835,7 +6835,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l181 :
 
@@ -6875,7 +6875,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l182 :
 
@@ -6915,7 +6915,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l183 :
 
@@ -6955,7 +6955,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3; id p2 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0; id p2 = 2*0;"
 
 *--#] d1l184 :
 
@@ -6993,7 +6993,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l185 :
 
@@ -7031,7 +7031,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l186 :
 
@@ -7069,7 +7069,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l187 :
 
@@ -7107,7 +7107,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l188 :
 
@@ -7145,7 +7145,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l189 :
 
@@ -7183,7 +7183,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l190 :
 
@@ -7221,7 +7221,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l191 :
 
@@ -7259,7 +7259,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l192 :
 
@@ -7297,7 +7297,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l193 :
 
@@ -7335,7 +7335,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l194 :
 
@@ -7373,7 +7373,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l195 :
 
@@ -7411,7 +7411,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l196 :
 
@@ -7449,7 +7449,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l197 :
 
@@ -7487,7 +7487,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l198 :
 
@@ -7525,7 +7525,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l199 :
 
@@ -7563,7 +7563,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l200 :
 
@@ -7601,7 +7601,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l201 :
 
@@ -7639,7 +7639,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l202 :
 
@@ -7677,7 +7677,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l203 :
 
@@ -7715,7 +7715,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l204 :
 
@@ -7753,7 +7753,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l205 :
 
@@ -7791,7 +7791,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l206 :
 
@@ -7829,7 +7829,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l207 :
 
@@ -7867,7 +7867,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l208 :
 
@@ -7905,7 +7905,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l209 :
 
@@ -7943,7 +7943,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l210 :
 
@@ -7981,7 +7981,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l211 :
 
@@ -8019,7 +8019,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l212 :
 
@@ -8057,7 +8057,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l213 :
 
@@ -8095,7 +8095,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l214 :
 
@@ -8133,7 +8133,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l215 :
 
@@ -8171,7 +8171,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l216 :
 
@@ -8209,7 +8209,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l217 :
 
@@ -8247,7 +8247,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l218 :
 
@@ -8285,7 +8285,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l219 :
 
@@ -8323,7 +8323,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l220 :
 
@@ -8361,7 +8361,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l221 :
 
@@ -8399,7 +8399,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l222 :
 
@@ -8437,7 +8437,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l223 :
 
@@ -8475,7 +8475,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l224 :
 
@@ -8513,7 +8513,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l225 :
 
@@ -8551,7 +8551,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l226 :
 
@@ -8589,7 +8589,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l227 :
 
@@ -8627,7 +8627,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l228 :
 
@@ -8665,7 +8665,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l229 :
 
@@ -8703,7 +8703,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l230 :
 
@@ -8741,7 +8741,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l231 :
 
@@ -8779,7 +8779,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l232 :
 
@@ -8817,7 +8817,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l233 :
 
@@ -8855,7 +8855,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l234 :
 
@@ -8893,7 +8893,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l235 :
 
@@ -8931,7 +8931,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l236 :
 
@@ -8969,7 +8969,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l237 :
 
@@ -9007,7 +9007,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l238 :
 
@@ -9045,7 +9045,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l239 :
 
@@ -9083,7 +9083,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l240 :
 
@@ -9121,7 +9121,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l241 :
 
@@ -9159,7 +9159,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l242 :
 
@@ -9197,7 +9197,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l243 :
 
@@ -9235,7 +9235,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l244 :
 
@@ -9273,7 +9273,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l245 :
 
@@ -9311,7 +9311,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l246 :
 
@@ -9349,7 +9349,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l247 :
 
@@ -9387,7 +9387,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l248 :
 
@@ -9425,7 +9425,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l249 :
 
@@ -9463,7 +9463,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l250 :
 
@@ -9501,7 +9501,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l251 :
 
@@ -9539,7 +9539,7 @@
 
 	#define TOPOLOGY "arb"
 	#define INT1 "arb"
-	#define BRIDGEMOMENTA "id p1 = q2 + q3;"
+	#define BRIDGEMOMENTA "id p1 = 2*0;"
 
 *--#] d1l252 :
 

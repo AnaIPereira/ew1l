@@ -18,12 +18,17 @@ Local d`LOOPS'l`DIA'amp =
 	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
 	;
 
+Local d`LOOPS'l`DIA'amp =
+	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
+	;
+
 * Load the mapped topology, and make the necessary momentum replacements
 #include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
 `MOMREPLACEMENT'
 .sort
 
-
+*Print +s;
+*.end
 *Feynman rules
 * auxGamma are gamma matrices, their argument is a Lorentz index ans the spinor1 and spinor2.
 
@@ -88,17 +93,17 @@ Identify Vec(ind1?,momen?)*Vec(ind2?,momen1?)*Vec(ind3?,momen1?)*Vec(ind4?,momen
 *tensor reduction for rank 2
 Identify Vec(ind?,momen?)*Vec(ind1?,momen1?) = 1/d* momen.momen1 * d_(ind,ind1);
 
+
 * Compute the traces:
-*Tracen,1;
-*Tracen,2;
+*Trace4,1;
+*Trace4,2;
 *.sort
 
 *project in operator basis
 Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
 .sort
 
-Print +s;
-.end
+
 
 Argument Vec;
  	#include- ../ew_tapir/topo/d`LOOPS'l`DIA' # NUMERATORMOMENTA
@@ -106,9 +111,18 @@ Argument Vec;
 EndArgument;
 SplitArg Vec;
 
+
 Identify Vec(ind?,p1?,p2?) = Vec(ind,p1) + Vec(ind,p2);
 
 Print +s;
+.end
+
+
+Argument;
+   `BRIDGEMOMENTA';
+EndArgument;
+
+*Print +s;
 .end
 
 * Write the propagators into the notation expected by the tapir topology file.
