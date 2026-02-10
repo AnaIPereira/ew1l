@@ -22,13 +22,16 @@ Local d`LOOPS'l`DIA'amp =
 	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
 	;
 
+Print +s;
+.end
+
 * Load the mapped topology, and make the necessary momentum replacements
 #include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
 `MOMREPLACEMENT'
 .sort
 
-*Print +s;
-*.end
+Print +s;
+.end
 
 Argument;
    `BRIDGEMOMENTA';
