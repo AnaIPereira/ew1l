@@ -1,10 +1,10 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 13:18:16 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 15:06:01 2026
     #-
 
    d1l148amp =
-       + 1/4*Deng(0,xiw,M3)^2*Deng(p3,xiw,M3)^2*DH(p4)*p3.p3*d^-1*ufoGC58^2*
-      ufoGC90^2*Op
-       - 1/4*Deng(0,xiw,M3)^2*Deng(p3,xiw,M3)*DH(p4)*ufoGC58^2*ufoGC90^2*Op
+       - auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)*auxGamma(nu11,i2,iufo3)*
+      auxPL(iufo3,i3)*Dtran(nu10,nu14,p1,xiw,M3)*Dtran(nu12,nu11,p2,xiw,M3)*
+      Dtran(nu14,nu12,p3,xiw,M3)*DH(p4)*ufoGC58^2*ufoGC90^2
       ;
 
   0.00 sec out of 0.00 sec
