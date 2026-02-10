@@ -29,6 +29,14 @@ Local d`LOOPS'l`DIA'amp =
 
 *Print +s;
 *.end
+
+Argument;
+   `BRIDGEMOMENTA';
+EndArgument;
+
+*Print +s;
+*.end
+
 *Feynman rules
 * auxGamma are gamma matrices, their argument is a Lorentz index ans the spinor1 and spinor2.
 
@@ -78,6 +86,8 @@ Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Ve
 	Identify FT`i'(i1?,i2?) = 1;
 #enddo
 
+Identify Vec(ind?,0) = 0;
+
 *TENSOR REDUCTION
 * contract all the scalar product pi^2, etc
 Identify Vec(ind?,momen?)*Vec(ind?,momen?) = momen.momen;
@@ -103,27 +113,21 @@ Identify Vec(ind?,momen?)*Vec(ind1?,momen1?) = 1/d* momen.momen1 * d_(ind,ind1);
 Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
 .sort
 
+*Print +s;
+*.end
+
+*Argument Vec;
+* 	#include- ../ew_tapir/topo/d`LOOPS'l`DIA' # NUMERATORMOMENTA
+*	;
+*EndArgument;
+*SplitArg Vec;
 
 
-Argument Vec;
- 	#include- ../ew_tapir/topo/d`LOOPS'l`DIA' # NUMERATORMOMENTA
-	;
-EndArgument;
-SplitArg Vec;
-
-
-Identify Vec(ind?,p1?,p2?) = Vec(ind,p1) + Vec(ind,p2);
+*Identify Vec(ind?,p1?,p2?) = Vec(ind,p1) + Vec(ind,p2);
 
 Print +s;
 .end
 
-
-Argument;
-   `BRIDGEMOMENTA';
-EndArgument;
-
-*Print +s;
-.end
 
 * Write the propagators into the notation expected by the tapir topology file.
 * Massive, simj = 1/(Mj^2 - pi.pi)
