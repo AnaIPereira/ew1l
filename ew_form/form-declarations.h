@@ -55,6 +55,9 @@ CFunction Den,Deng,Dlong,Dph,Dgoldst,Dtran,DH,Dghost;
 *#define GAUGEz "xiz"
 *Symbol xiz;
 
+*Symbol operator basis
+Symbol Op, Ev3, Ev5;
+
 
 * Symbols used in IBP reduction rules from Kira:
 CFunction num, den;
