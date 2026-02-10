@@ -1,12 +1,6 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 15:06:01 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 16:47:27 2026
     #-
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Undeclared variable ufoGC92
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-Program terminating at compute-dia.frm Line 25 --> 
-Terminate called from pre.c:1086 (PreProcessor)
+
+   d1l102amp = 0;
+
   0.00 sec out of 0.00 sec

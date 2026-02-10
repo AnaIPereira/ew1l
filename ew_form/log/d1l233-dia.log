@@ -1,41 +1,87 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 15:06:02 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 16:47:28 2026
     #-
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-Program terminating at compute-dia.frm Line 25 --> 
-Terminate called from pre.c:1086 (PreProcessor)
+
+   d1l233amp =
+       + 1/4*g_(1,6_,nu14)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu9,p3)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4
+      )^2*p3.p3*p4.p4*d*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       - 1/4*g_(1,6_,nu14)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu9,p3)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4
+      )^2*p3.p4^2*d^2*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       - 1/4*g_(1,6_,nu14)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu9,p4)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4
+      )^2*p3.p3*p4.p4*d*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       - 1/4*g_(1,6_,nu14)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu9,p4)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4
+      )^2*p3.p3*p4.p4*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       + 1/4*g_(1,6_,nu14)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu9,p4)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4
+      )^2*p3.p4^2*d^2*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       + 1/4*g_(1,6_,nu14)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu9,p4)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4
+      )^2*p3.p4^2*d*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       + 1/4*g_(1,6_,nu14)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu9,0)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4)
+      ^2*p3.p3*p4.p4*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       - 1/4*g_(1,6_,nu14)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu9,0)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4)
+      ^2*p3.p4^2*d*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       + 1/4*g_(1,6_,nu14)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu13,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu13,p4)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,
+      M4)^2*p3.p3*p4.p4*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       - 1/4*g_(1,6_,nu14)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu13,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu13,p4)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,
+      M4)^2*p3.p4^2*d*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       - 1/4*g_(1,6_,nu14)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu13,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu13,0)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4
+      )^2*p3.p3*p4.p4*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       + 1/4*g_(1,6_,nu14)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu13,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu13,0)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4
+      )^2*p3.p4^2*d*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       - 1/4*g_(1,6_,nu9)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)*
+      cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu14,p3)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,
+      M4)^2*p3.p3*p4.p4*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       + 1/4*g_(1,6_,nu9)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)*
+      cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu14,p3)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,
+      M4)^2*p3.p4^2*d*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       + 1/4*g_(1,6_,nu9)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)*
+      cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu14,0)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4
+      )^2*p3.p3*p4.p4*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       - 1/4*g_(1,6_,nu9)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)*
+      cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu14,0)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4
+      )^2*p3.p4^2*d*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       + 1/4*g_(1,6_,nu13)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu14,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu13,p4)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,
+      M4)^2*p3.p3*p4.p4*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       - 1/4*g_(1,6_,nu13)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu14,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu13,p4)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,
+      M4)^2*p3.p4^2*d*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       - 1/4*g_(1,6_,nu13)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu14,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu13,0)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4
+      )^2*p3.p3*p4.p4*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+       + 1/4*g_(1,6_,nu13)*g_(2,p2)*auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu14,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)/(d^3 + d^2 - 2*d)*flavourTag(
+      fve,j11,j12)*Mom(nu13,0)*Deng(0,xiw,M3)*Deng(p3,xiw,M3)^2*Deng(p4,xiz,M4
+      )^2*p3.p4^2*d*xiw*xiz*ufoGC58^2*ufoGC69*ufoGC81
+      ;
+
   0.00 sec out of 0.00 sec
