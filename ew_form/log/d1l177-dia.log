@@ -1,17 +1,15 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 15:06:02 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 16:47:28 2026
     #-
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Illegal use of function arguments
-../ew_tapir/dia/munuenu-1l.dia Line 1 --> Internal error in code generator. Unk
-nown object: -20
-Program terminating at compute-dia.frm Line 25 --> 
-Terminate called from pre.c:1086 (PreProcessor)
+
+   d1l177amp =
+       - 1/4*g_(1,6_,nu13)*FT2(g6)*Mom(nu13,p4)*Deng(0,xiw,0)*Deng(0,xiw,M3)*
+      Deng(p3,xiw,M3)^2*DH(p4)*p3.p3*d^-1*ufoGC58*ufoGC107*ufoGC90*ufoGC56
+       + 1/4*g_(1,6_,nu13)*FT2(g6)*Mom(nu13,p4)*Deng(0,xiw,0)*Deng(0,xiw,M3)*
+      Deng(p3,xiw,M3)*DH(p4)*ufoGC58*ufoGC107*ufoGC90*ufoGC56
+       + 1/4*g_(1,6_,nu13)*FT2(g6)*Mom(nu13,0)*Deng(0,xiw,0)*Deng(0,xiw,M3)*
+      Deng(p3,xiw,M3)^2*DH(p4)*p3.p3*d^-1*ufoGC58*ufoGC107*ufoGC90*ufoGC56
+       - 1/4*g_(1,6_,nu13)*FT2(g6)*Mom(nu13,0)*Deng(0,xiw,0)*Deng(0,xiw,M3)*
+      Deng(p3,xiw,M3)*DH(p4)*ufoGC58*ufoGC107*ufoGC90*ufoGC56
+      ;
+
   0.00 sec out of 0.00 sec

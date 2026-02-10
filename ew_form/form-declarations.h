@@ -23,21 +23,24 @@ Symbol g7, XX, g6
 * Kinematic variables and masses
 Symbol M1,M2,M3,M4,mass,mom,mom1;
 
-Symbol flavourTag;
-Symbol fve,fvm;
+Cfunction flavourTag;
+Symbol fve,fvm,fe,fmu,fta,fvt,fu,fd,fs,fb,fc,ft;
 
-Symbol Mom;
+CFunction Mom;
 
 Vector momen,momen1;
 
 *Coupling constants and gauge parameters
 Symbol gaug, xia, xiw, xiz;
 Symbol ufoGC58,ufoGC5,ufoGC54,ufoGC107, ufoGC90,ufoGC56,ufoGC53,ufoGC52,ufoGC69,ufoGC3,ufoGC55,ufoGC76,ufoGC80,ufoGC85,
-ufoGC81,iufo11, iufo13,ufoGC4;
+ufoGC81,iufo11, iufo13,ufoGC4,ufoGC93,ufoGC68,ufoGC119,ufoGC59,ufoGC120,ufoGC60,
+ufoGC121,ufoGC61,ufoGC122,ufoGC62,ufoGC123,ufoGC63,ufoGC124,ufoGC64,ufoGC125,ufoGC65,
+ufoGC126,ufoGC66,ufoGC127,ufoGC67,ufoGC57,ufoGC92,ufoGC94,ufoGC95,ufoGC15,ufoGC24,ufoGC18,
+ufoGC27,ufoGC21,ufoGC30,ufoGC86;
 
 *indices
 Symbol mu,spin;
-Indices ind,ind1,ind2,ind3, ind4,nu,i,iufo3,iufo4;
+Indices ind,ind1,ind2,ind3, ind4,nu,i,iufo3,iufo4,iufo15;
 
 *gamma matrices
 Function auxGamma, auxPL, auxPR,auxSlash;

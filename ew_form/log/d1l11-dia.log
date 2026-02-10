@@ -1,16 +1,6 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 15:06:01 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 16:47:27 2026
     #-
 
-   d1l11amp =
-       + auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)*auxGamma(nu11,i2,iufo3)*
-      auxPL(iufo3,i3)*Dlong(nu10,nu12,p1,xiw,M3)*Dtran(nu12,nu11,p2,xiw,M3)*
-      Dtran(nu14,nu14,p3,xiz,M4)*ufoGC58^2*ufoGC54
-       - 1/2*auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)*auxGamma(nu11,i2,iufo3)*
-      auxPL(iufo3,i3)*Dlong(nu10,nu13,p1,xiw,M3)*Dtran(nu13,nu14,p3,xiz,M4)*
-      Dtran(nu14,nu11,p2,xiw,M3)*ufoGC58^2*ufoGC54
-       - 1/2*auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)*auxGamma(nu11,i2,iufo3)*
-      auxPL(iufo3,i3)*Dlong(nu10,nu14,p1,xiw,M3)*Dtran(nu13,nu11,p2,xiw,M3)*
-      Dtran(nu13,nu14,p3,xiz,M4)*ufoGC58^2*ufoGC54
-      ;
+   d1l11amp = 0;
 
   0.00 sec out of 0.00 sec
