@@ -22,14 +22,10 @@ Local d`LOOPS'l`DIA'amp =
 	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
 	;
 
-*Print +s;
-*.end
-
 * Load the mapped topology, and make the necessary momentum replacements
 #include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
 `MOMREPLACEMENT'
 .sort
-
 
 Argument;
    `BRIDGEMOMENTA';
@@ -64,8 +60,6 @@ Identify auxGamma(?a,i1?,i2?) = cFT(?a,XX,i1,i2);
   .sort
 
 #enddo
-*Print;
-*.end
 
 *propagators substitutions
 * Dtran, Dlong are fermion propagators, their arguments are 2 Lorenx indices, the runnin momentum, the gauge and mass.
@@ -121,7 +115,6 @@ Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
 
 Print +s;
 .end
-
 
 Argument Vec;
  	#include- ../ew_tapir/topo/d`LOOPS'l`DIA' # NUMERATORMOMENTA
