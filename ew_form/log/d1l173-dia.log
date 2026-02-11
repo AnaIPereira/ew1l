@@ -1,67 +1,8 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 17:13:04 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Feb 11 10:58:45 2026
     #-
-
-   d1l173amp =
-       + 1/4*g_(1,6_,nu9)*FT2(g6)*Mom(nu9,-p3)*Deng(0,xiw,0)*Deng(0,xiw,M3)*
-      Deng(p3,xiz,M4)*Deng(p4,xiw,M3)^2*p4.p4*xiw*ufoGC58*ufoGC107*ufoGC69*
-      ufoGC85
-       - 1/4*g_(1,6_,nu9)*FT2(g6)*Mom(nu9,-p4)*Deng(0,xiw,0)*Deng(0,xiw,M3)*
-      Deng(p3,xiz,M4)*Deng(p4,xiw,M3)^2*p4.p4*xiw*ufoGC58*ufoGC107*ufoGC69*
-      ufoGC85
-       + 1/4*g_(1,6_,nu9)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu9,-p3)*Deng(0,xiw,0)
-      *Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p3*p4.p4*d^2*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       + 1/4*g_(1,6_,nu9)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu9,-p3)*Deng(0,xiw,0)
-      *Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p3*p4.p4*d*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       - 1/4*g_(1,6_,nu9)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu9,-p3)*Deng(0,xiw,0)
-      *Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p4^2*d^3*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       - 1/4*g_(1,6_,nu9)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu9,-p3)*Deng(0,xiw,0)
-      *Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p4^2*d^2*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       - 1/4*g_(1,6_,nu9)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu9,-p4)*Deng(0,xiw,0)
-      *Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p3*p4.p4*d^2*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       - 1/4*g_(1,6_,nu9)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu9,-p4)*Deng(0,xiw,0)
-      *Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p3*p4.p4*d*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       + 1/4*g_(1,6_,nu9)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu9,-p4)*Deng(0,xiw,0)
-      *Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p4^2*d^3*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       + 1/4*g_(1,6_,nu9)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu9,-p4)*Deng(0,xiw,0)
-      *Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p4^2*d^2*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       - 1/4*g_(1,6_,nu16)*FT2(g6)*Mom(nu16,-p3)*Deng(0,xiw,0)*Deng(0,xiw,M3)*
-      Deng(p3,xiz,M4)*Deng(p4,xiw,M3)^2*p4.p4*d^-1*xiw*ufoGC58*ufoGC107*
-      ufoGC69*ufoGC85
-       + 1/4*g_(1,6_,nu16)*FT2(g6)*Mom(nu16,-p4)*Deng(0,xiw,0)*Deng(0,xiw,M3)*
-      Deng(p3,xiz,M4)*Deng(p4,xiw,M3)^2*p4.p4*d^-1*xiw*ufoGC58*ufoGC107*
-      ufoGC69*ufoGC85
-       - 1/4*g_(1,6_,nu16)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu16,-p3)*Deng(0,xiw,
-      0)*Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p3*p4.p4*d*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       - 1/4*g_(1,6_,nu16)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu16,-p3)*Deng(0,xiw,
-      0)*Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p3*p4.p4*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       + 1/4*g_(1,6_,nu16)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu16,-p3)*Deng(0,xiw,
-      0)*Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p4^2*d^2*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       + 1/4*g_(1,6_,nu16)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu16,-p3)*Deng(0,xiw,
-      0)*Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p4^2*d*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       + 1/4*g_(1,6_,nu16)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu16,-p4)*Deng(0,xiw,
-      0)*Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p3*p4.p4*d*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       + 1/4*g_(1,6_,nu16)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu16,-p4)*Deng(0,xiw,
-      0)*Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p3*p4.p4*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       - 1/4*g_(1,6_,nu16)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu16,-p4)*Deng(0,xiw,
-      0)*Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p4^2*d^2*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-       - 1/4*g_(1,6_,nu16)*FT2(g6)/(d^3 + d^2 - 2*d)*Mom(nu16,-p4)*Deng(0,xiw,
-      0)*Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,M3)^2*p3.p4^2*d*xiw*
-      ufoGC58*ufoGC107*ufoGC69*ufoGC85
-      ;
-
+compute-dia.frm Line 115 --> Unrecognized statement d1l36
+compute-dia.frm Line 119 ==> LocateFile: Cannot find file ../ew_tapir/topo/d1l1
+73
+Program terminating at compute-dia.frm Line 115 --> 
+Terminate called from message.c:70 (Error1)
   0.00 sec out of 0.00 sec

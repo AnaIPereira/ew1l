@@ -1,23 +1,8 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 17:13:05 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Feb 11 10:58:45 2026
     #-
-
-   d1l203amp =
-       - 1/8*g_(1,6_,nu9)*g_(2,6_,nu12)*cFT(-p4,XX,j15,j16)*cFT(nu9,XX,j14,
-      iufo15)*cFT(g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*auxGamma(nu12,i2,
-      iufo13)*auxPL(iufo13,j13)*flavourTag(fvm,j13,j14)*flavourTag(fmu,j15,j16
-      )*Deng(0,xiw,M3)*Deng(p2,xiz,M4)*ufoGC58^2*ufoGC80*ufoGC81
-       + 1/8*g_(1,6_,nu9)*g_(2,6_,nu12)*cFT(-p4,XX,j15,j16)*cFT(nu9,XX,j14,
-      iufo15)*cFT(g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*auxGamma(nu12,i2,
-      iufo13)*auxPL(iufo13,j13)*flavourTag(fvm,j13,j14)*flavourTag(fmu,j15,j16
-      )*Deng(0,xiw,M3)*Deng(p2,xiz,M4)^2*p2.p2*d^-1*ufoGC58^2*ufoGC80*ufoGC81
-       - 1/8*g_(1,6_,nu9)*g_(2,nu12)*FT2(g6)*cFT(-p4,XX,j15,j16)*cFT(nu9,XX,
-      j14,iufo15)*cFT(g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*auxGamma(nu12,i2,
-      iufo13)*auxPL(iufo13,j13)*flavourTag(fvm,j13,j14)*flavourTag(fmu,j15,j16
-      )*Deng(0,xiw,M3)*Deng(p2,xiz,M4)*ufoGC58^2*ufoGC76*ufoGC81
-       + 1/8*g_(1,6_,nu9)*g_(2,nu12)*FT2(g6)*cFT(-p4,XX,j15,j16)*cFT(nu9,XX,
-      j14,iufo15)*cFT(g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*auxGamma(nu12,i2,
-      iufo13)*auxPL(iufo13,j13)*flavourTag(fvm,j13,j14)*flavourTag(fmu,j15,j16
-      )*Deng(0,xiw,M3)*Deng(p2,xiz,M4)^2*p2.p2*d^-1*ufoGC58^2*ufoGC76*ufoGC81
-      ;
-
+compute-dia.frm Line 115 --> Unrecognized statement d1l185
+compute-dia.frm Line 119 ==> LocateFile: Cannot find file ../ew_tapir/topo/d1l2
+03
+Program terminating at compute-dia.frm Line 115 --> 
+Terminate called from message.c:70 (Error1)
   0.00 sec out of 0.00 sec

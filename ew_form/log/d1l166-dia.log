@@ -1,15 +1,8 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 17:13:04 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Feb 11 10:58:45 2026
     #-
-
-   d1l166amp =
-       - 1/4*g_(1,6_,nu9)*g_(2,6_,nu11)*Mom(nu11,p3)*Mom(nu9,-p3)*Deng(0,xiw,
-      M3)^2*Deng(p3,xiz,0)*Deng(p4,xiw,0)*ufoGC58^2*ufoGC57^2
-       + 1/4*g_(1,6_,nu9)*g_(2,6_,nu11)*Mom(nu11,p3)*Mom(nu9,-p4)*Deng(0,xiw,
-      M3)^2*Deng(p3,xiz,0)*Deng(p4,xiw,0)*ufoGC58^2*ufoGC57^2
-       + 1/4*g_(1,6_,nu9)*g_(2,6_,nu11)*Mom(nu11,p4)*Mom(nu9,-p3)*Deng(0,xiw,
-      M3)^2*Deng(p3,xiz,0)*Deng(p4,xiw,0)*ufoGC58^2*ufoGC57^2
-       - 1/4*g_(1,6_,nu9)*g_(2,6_,nu11)*Mom(nu11,p4)*Mom(nu9,-p4)*Deng(0,xiw,
-      M3)^2*Deng(p3,xiz,0)*Deng(p4,xiw,0)*ufoGC58^2*ufoGC57^2
-      ;
-
+compute-dia.frm Line 115 --> Unrecognized statement d1l36
+compute-dia.frm Line 119 ==> LocateFile: Cannot find file ../ew_tapir/topo/d1l1
+66
+Program terminating at compute-dia.frm Line 115 --> 
+Terminate called from message.c:70 (Error1)
   0.00 sec out of 0.00 sec
