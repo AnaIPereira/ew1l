@@ -105,8 +105,6 @@ Identify Vec(ind?,2*p1?,p2?) = 2*Vec(ind,p1) + Vec(ind,p2);
 Identify Vec(ind?,3*p1?,?a) = 3 * Vec(ind,p1) + Vec(ind,?a);
 Identify Vec(ind?,3*p1?,p2?) = 3*Vec(ind,p1) + Vec(ind,p2);
 Identify Vec(ind?, - p1?) = - Vec(ind, p1);
-Print +s;
-.end
 
 *start setting some ext mom to zero
 Identify Vec(ind?,q1) = 0;
