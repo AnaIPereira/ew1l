@@ -15,12 +15,8 @@ On HighFirst;
 
 * Load the diagram from the tapir file:
 Local d`LOOPS'l`DIA'amp =
-	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
-	;
+	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA';
 
-Local d`LOOPS'l`DIA'amp =
-	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
-	;
 
 * Load the mapped topology, and make the necessary momentum replacements
 #include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
@@ -113,18 +109,23 @@ Identify Vec(ind?,momen?)*Vec(ind1?,momen1?) = 1/d* momen.momen1 * d_(ind,ind1);
 Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
 .sort
 
-Print +s;
-.end
+*Print +s;
+*.end
 
 Argument Vec;
- 	#include- ../ew_tapir/topo/d`LOOPS'l`DIA' # NUMERATORMOMENTA
-	;
+#include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
+`INT1';
+ 	#include- ../ew_tapir/topo/d`LOOPS'l`DIA' # NUMERATORMOMENTA;
 EndArgument;
 SplitArg Vec;
 
+Print +s;
+.end
+
 *Identify Vec(ind?,p1?,p2?) = Vec(ind,p1) + Vec(ind,p2);
 
-
+*Print +s;
+*.end
 
 * Write the propagators into the notation expected by the tapir topology file.
 * Massive, simj = 1/(Mj^2 - pi.pi)
