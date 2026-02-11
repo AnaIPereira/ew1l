@@ -1,6 +1,87 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Feb 11 10:58:42 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Feb 11 13:45:51 2026
     #-
-compute-dia.frm Line 115 --> Unrecognized statement d1l57
-Program terminating at compute-dia.frm Line 122 --> 
-Terminate called from pre.c:1086 (PreProcessor)
+
+   d1l57amp =
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q2)*Vec(nu9,q2)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q2)*Vec(nu9,q3)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q3)*Vec(nu9,q2)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q3)*Vec(nu9,q3)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q2)*Vec(nu9,q2)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q2)*Vec(nu9,q3)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q3)*Vec(nu9,q2)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q3)*Vec(nu9,q3)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q2)*Vec(nu9,q2)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q2)*Vec(nu9,q3)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q3)*Vec(nu9,q2)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q3)*Vec(nu9,q3)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q2)*Vec(nu9,q2)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q2)*Vec(nu9,q3)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q3)*Vec(nu9,q2)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*auxGamma(nu12,j16,iufo13)*auxPL(
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(-p3,XX,j13,j14)*flavourTag(fd,j15,j16)*flavourTag(
+      ft,j13,j14)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q3)*Vec(nu9,q3)*Deng(q2
+       + q3,xiw,M3)^4*xiw^2*ufoGC58^2*ufoGC125*ufoGC65
+      ;
+
   0.00 sec out of 0.00 sec

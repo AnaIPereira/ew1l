@@ -1,6 +1,55 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Feb 11 10:58:45 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Feb 11 13:45:52 2026
     #-
-compute-dia.frm Line 115 --> Unrecognized statement d1l219
-Program terminating at compute-dia.frm Line 122 --> 
-Terminate called from pre.c:1086 (PreProcessor)
+
+   d1l219amp =
+       + 1/8*g_(1,6_,nu11)*g_(2,p4)*cFT(nu10,XX,j14,iufo15)*cFT(g7,XX,iufo15,
+      j15)*cFT( - p2 - q1,XX,j13,j14)*auxGamma(nu12,i1,iufo13)*auxPL(iufo13,
+      j13)*cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)*flavourTag(fve,j15,j16)*
+      flavourTag(fe,j13,j14)*Vec(nu11,p2)*Vec(nu10,q2)*Vec(nu12,p2)*Vec(nu9,q2
+      )*Deng(p2,xiz,M4)^2*Deng(q2 + q3,xiw,M3)^2*xiw*xiz*ufoGC58^2*ufoGC80*
+      ufoGC81
+       + 1/8*g_(1,6_,nu11)*g_(2,p4)*cFT(nu10,XX,j14,iufo15)*cFT(g7,XX,iufo15,
+      j15)*cFT( - p2 - q1,XX,j13,j14)*auxGamma(nu12,i1,iufo13)*auxPL(iufo13,
+      j13)*cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)*flavourTag(fve,j15,j16)*
+      flavourTag(fe,j13,j14)*Vec(nu11,p2)*Vec(nu10,q2)*Vec(nu12,p2)*Vec(nu9,q3
+      )*Deng(p2,xiz,M4)^2*Deng(q2 + q3,xiw,M3)^2*xiw*xiz*ufoGC58^2*ufoGC80*
+      ufoGC81
+       + 1/8*g_(1,6_,nu11)*g_(2,p4)*cFT(nu10,XX,j14,iufo15)*cFT(g7,XX,iufo15,
+      j15)*cFT( - p2 - q1,XX,j13,j14)*auxGamma(nu12,i1,iufo13)*auxPL(iufo13,
+      j13)*cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)*flavourTag(fve,j15,j16)*
+      flavourTag(fe,j13,j14)*Vec(nu11,p2)*Vec(nu10,q3)*Vec(nu12,p2)*Vec(nu9,q2
+      )*Deng(p2,xiz,M4)^2*Deng(q2 + q3,xiw,M3)^2*xiw*xiz*ufoGC58^2*ufoGC80*
+      ufoGC81
+       + 1/8*g_(1,6_,nu11)*g_(2,p4)*cFT(nu10,XX,j14,iufo15)*cFT(g7,XX,iufo15,
+      j15)*cFT( - p2 - q1,XX,j13,j14)*auxGamma(nu12,i1,iufo13)*auxPL(iufo13,
+      j13)*cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)*flavourTag(fve,j15,j16)*
+      flavourTag(fe,j13,j14)*Vec(nu11,p2)*Vec(nu10,q3)*Vec(nu12,p2)*Vec(nu9,q3
+      )*Deng(p2,xiz,M4)^2*Deng(q2 + q3,xiw,M3)^2*xiw*xiz*ufoGC58^2*ufoGC80*
+      ufoGC81
+       + 1/8*g_(1,6_,nu11)*g_(2,p4)*cFT(nu10,XX,j14,iufo15)*cFT(g7,XX,iufo15,
+      j15)*cFT( - p2 - q1,XX,j13,j14)*auxGamma(nu12,i1,iufo13)*auxPR(iufo13,
+      j13)*cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)*flavourTag(fve,j15,j16)*
+      flavourTag(fe,j13,j14)*Vec(nu11,p2)*Vec(nu10,q2)*Vec(nu12,p2)*Vec(nu9,q2
+      )*Deng(p2,xiz,M4)^2*Deng(q2 + q3,xiw,M3)^2*xiw*xiz*ufoGC58^2*ufoGC76*
+      ufoGC81
+       + 1/8*g_(1,6_,nu11)*g_(2,p4)*cFT(nu10,XX,j14,iufo15)*cFT(g7,XX,iufo15,
+      j15)*cFT( - p2 - q1,XX,j13,j14)*auxGamma(nu12,i1,iufo13)*auxPR(iufo13,
+      j13)*cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)*flavourTag(fve,j15,j16)*
+      flavourTag(fe,j13,j14)*Vec(nu11,p2)*Vec(nu10,q2)*Vec(nu12,p2)*Vec(nu9,q3
+      )*Deng(p2,xiz,M4)^2*Deng(q2 + q3,xiw,M3)^2*xiw*xiz*ufoGC58^2*ufoGC76*
+      ufoGC81
+       + 1/8*g_(1,6_,nu11)*g_(2,p4)*cFT(nu10,XX,j14,iufo15)*cFT(g7,XX,iufo15,
+      j15)*cFT( - p2 - q1,XX,j13,j14)*auxGamma(nu12,i1,iufo13)*auxPR(iufo13,
+      j13)*cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)*flavourTag(fve,j15,j16)*
+      flavourTag(fe,j13,j14)*Vec(nu11,p2)*Vec(nu10,q3)*Vec(nu12,p2)*Vec(nu9,q2
+      )*Deng(p2,xiz,M4)^2*Deng(q2 + q3,xiw,M3)^2*xiw*xiz*ufoGC58^2*ufoGC76*
+      ufoGC81
+       + 1/8*g_(1,6_,nu11)*g_(2,p4)*cFT(nu10,XX,j14,iufo15)*cFT(g7,XX,iufo15,
+      j15)*cFT( - p2 - q1,XX,j13,j14)*auxGamma(nu12,i1,iufo13)*auxPR(iufo13,
+      j13)*cFT(nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)*flavourTag(fve,j15,j16)*
+      flavourTag(fe,j13,j14)*Vec(nu11,p2)*Vec(nu10,q3)*Vec(nu12,p2)*Vec(nu9,q3
+      )*Deng(p2,xiz,M4)^2*Deng(q2 + q3,xiw,M3)^2*xiw*xiz*ufoGC58^2*ufoGC76*
+      ufoGC81
+      ;
+
   0.00 sec out of 0.00 sec
