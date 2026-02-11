@@ -1,16 +1,7 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 16:47:28 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Feb 11 13:45:52 2026
     #-
-
-   d1l216amp =
-       - 1/4*g_(1,6_,nu9)*g_(2,nu9)*cFT(-p2,XX,j11,j12)*cFT(g6,XX,i2,j11)*
-      flavourTag(fmu,j11,j12)*Den(p4)^2*Deng(0,xiw,M3)*Deng(p3,xiw,0)*p4.p4*
-      d^-1*xia*ufoGC58*ufoGC107*ufoGC3*ufoGC93
-       + 1/4*g_(1,6_,nu9)*g_(2,nu9)*cFT(-p2,XX,j11,j12)*cFT(g6,XX,i2,j11)*
-      flavourTag(fmu,j11,j12)*Den(p4)^2*Deng(0,xiw,M3)*Deng(p3,xiw,0)*p4.p4*
-      d^-1*ufoGC58*ufoGC107*ufoGC3*ufoGC93
-       - 1/4*g_(1,6_,nu9)*g_(2,nu9)*cFT(-p2,XX,j11,j12)*cFT(g6,XX,i2,j11)*
-      flavourTag(fmu,j11,j12)*Den(p4)*Deng(0,xiw,M3)*Deng(p3,xiw,0)*ufoGC58*
-      ufoGC107*ufoGC3*ufoGC93
-      ;
-
+compute-dia.frm Line 75 ==> LocateFile: Cannot find file ../ew_tapir/topo/d1l21
+6
+Program terminating at compute-dia.frm Line 73 --> 
+Terminate called from message.c:70 (Error1)
   0.00 sec out of 0.00 sec

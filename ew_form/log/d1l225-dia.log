@@ -1,6 +1,343 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 16:47:28 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Feb 11 13:45:52 2026
     #-
 
-   d1l225amp = 0;
+   d1l225amp =
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q2)*Vec(nu15
+      ,p4)*Vec(nu15, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q2)*Vec(nu15
+      ,p4)*Vec(nu15, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q3)*Vec(nu15
+      ,p4)*Vec(nu15, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q3)*Vec(nu15
+      ,p4)*Vec(nu15, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q2)*Vec(nu15
+      ,p4)*Vec(nu15, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q2)*Vec(nu15
+      ,p4)*Vec(nu15, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q3)*Vec(nu15
+      ,p4)*Vec(nu15, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q3)*Vec(nu15
+      ,p4)*Vec(nu15, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q2)*Vec(nu15,p4)*Vec(nu15
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q2)*Vec(nu15,p4)*Vec(nu15
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q3)*Vec(nu15,p4)*Vec(nu15
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q3)*Vec(nu15,p4)*Vec(nu15
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q2)*Vec(nu15,p4)*Vec(nu15
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q2)*Vec(nu15,p4)*Vec(nu15
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q3)*Vec(nu15,p4)*Vec(nu15
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q3)*Vec(nu15,p4)*Vec(nu15
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,p4)*Vec(nu10,q2)*
+      Vec(nu13, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,p4)*Vec(nu10,q2)*
+      Vec(nu13, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,p4)*Vec(nu10,q3)*
+      Vec(nu13, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,p4)*Vec(nu10,q3)*
+      Vec(nu13, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,p4)*Vec(nu10,q2)*
+      Vec(nu13, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,p4)*Vec(nu10,q2)*
+      Vec(nu13, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,p4)*Vec(nu10,q3)*
+      Vec(nu13, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,p4)*Vec(nu10,q3)*
+      Vec(nu13, - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,p4)*Vec(nu10,q2)*Vec(nu13
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,p4)*Vec(nu10,q2)*Vec(nu13
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,p4)*Vec(nu10,q3)*Vec(nu13
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,p4)*Vec(nu10,q3)*Vec(nu13
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,p4)*Vec(nu10,q2)*Vec(nu13
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,p4)*Vec(nu10,q2)*Vec(nu13
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,p4)*Vec(nu10,q3)*Vec(nu13
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13,p4)*Vec(nu16,p4)*
+      Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,p4)*Vec(nu10,q3)*Vec(nu13
+      , - p4 + q2 + q3)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(q2 + q3,
+      xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q2)*Vec(nu10
+      , - p4 + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q2)*Vec(nu10
+      , - p4 + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q3)*Vec(nu10
+      , - p4 + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q3)*Vec(nu10
+      , - p4 + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q2)*Vec(nu10
+      , - p4 + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q2)*Vec(nu10
+      , - p4 + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q3)*Vec(nu10
+      , - p4 + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q3)*Vec(nu10
+      , - p4 + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*
+      Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q2)*Vec(nu10, - p4
+       + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q2)*Vec(nu10, - p4
+       + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q3)*Vec(nu10, - p4
+       + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q2)*Vec(nu10,q3)*Vec(nu10, - p4
+       + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q2)*Vec(nu10, - p4
+       + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q2)*Vec(nu10, - p4
+       + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q3)*Vec(nu10, - p4
+       + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xia*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu14,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu14, - p4 + q2 + q3)*Vec(nu9,q3)*Vec(nu10,q3)*Vec(nu10, - p4
+       + q2 + q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)^2*Deng(p4,xiw,M3)^2*Deng(
+      q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu10,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu9,q2)*Vec(nu10,q2)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*
+      Deng(p4,xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu10,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu9,q2)*Vec(nu10,q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*
+      Deng(p4,xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu10,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu9,q3)*Vec(nu10,q2)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*
+      Deng(p4,xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu10,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu9,q3)*Vec(nu10,q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*
+      Deng(p4,xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu10,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu9,q2)*Vec(nu10,q2)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*Deng(p4,
+      xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu10,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu9,q2)*Vec(nu10,q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*Deng(p4,
+      xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu10,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu9,q3)*Vec(nu10,q2)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*Deng(p4,
+      xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu10,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu15, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu9,q3)*Vec(nu10,q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*Deng(p4,
+      xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu13,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu9,q2)*Vec(nu10,p4)*Vec(nu10,q2)*Den( - p4 + q2 + q3)*Deng(p4,
+      xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu13,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu9,q2)*Vec(nu10,p4)*Vec(nu10,q3)*Den( - p4 + q2 + q3)*Deng(p4,
+      xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu13,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu9,q3)*Vec(nu10,p4)*Vec(nu10,q2)*Den( - p4 + q2 + q3)*Deng(p4,
+      xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu13,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13, - q2 - q3)*Vec(nu16
+      ,p4)*Vec(nu9,q3)*Vec(nu10,p4)*Vec(nu10,q3)*Den( - p4 + q2 + q3)*Deng(p4,
+      xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu13,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13,p4)*Vec(nu16,p4)*
+      Vec(nu9,q2)*Vec(nu10,p4)*Vec(nu10,q2)*Den( - p4 + q2 + q3)*Deng(p4,xiw,
+      M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu13,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13,p4)*Vec(nu16,p4)*
+      Vec(nu9,q2)*Vec(nu10,p4)*Vec(nu10,q3)*Den( - p4 + q2 + q3)*Deng(p4,xiw,
+      M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu13,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13,p4)*Vec(nu16,p4)*
+      Vec(nu9,q3)*Vec(nu10,p4)*Vec(nu10,q2)*Den( - p4 + q2 + q3)*Deng(p4,xiw,
+      M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu13,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu13,p4)*Vec(nu16,p4)*
+      Vec(nu9,q3)*Vec(nu10,p4)*Vec(nu10,q3)*Den( - p4 + q2 + q3)*Deng(p4,xiw,
+      M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu15,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu9,q2)*Vec(nu10,q2)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*
+      Deng(p4,xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu15,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu9,q2)*Vec(nu10,q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*
+      Deng(p4,xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu15,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu9,q3)*Vec(nu10,q2)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*
+      Deng(p4,xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu15,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10, - p4 + q2 + q3)*
+      Vec(nu16,p4)*Vec(nu9,q3)*Vec(nu10,q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*
+      Deng(p4,xiw,M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu15,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10,p4)*Vec(nu16,p4)*
+      Vec(nu9,q2)*Vec(nu10,q2)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*Deng(p4,xiw,
+      M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu15,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10,p4)*Vec(nu16,p4)*
+      Vec(nu9,q2)*Vec(nu10,q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*Deng(p4,xiw,
+      M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu15,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10,p4)*Vec(nu16,p4)*
+      Vec(nu9,q3)*Vec(nu10,q2)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*Deng(p4,xiw,
+      M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+       - 1/4*g_(1,6_,nu16)*g_(2,p2)*cFT(nu15,XX,i1,j11)*cFT(nu9,XX,i2,iufo3)*
+      cFT(g7,XX,iufo3,i3)*flavourTag(fe,j11,j12)*Mom(nu10,p4)*Vec(nu16,p4)*
+      Vec(nu9,q3)*Vec(nu10,q3)*Vec(nu15,p4)*Den( - p4 + q2 + q3)*Deng(p4,xiw,
+      M3)^2*Deng(q2 + q3,xiw,M3)^2*xiw^2*ufoGC58^2*ufoGC3*ufoGC4
+      ;
 
   0.00 sec out of 0.00 sec

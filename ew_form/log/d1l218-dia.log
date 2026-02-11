@@ -1,19 +1,7 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 16:47:28 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Feb 11 13:45:52 2026
     #-
-
-   d1l218amp =
-       - 1/8*g_(1,6_,nu16)*g_(2,nu16)*FT2(g6)*cFT(p2,XX,j11,j12)*cFT(g6,XX,i2,
-      j11)*flavourTag(fmu,j11,j12)*Deng(0,xiw,M3)*Deng(p3,xiz,M4)*Deng(p4,xiw,
-      0)*ufoGC58*ufoGC107*ufoGC76*ufoGC85
-       + 1/8*g_(1,6_,nu15)*g_(2,nu15)*FT2(g6)*cFT(p2,XX,j11,j12)*cFT(g6,XX,i2,
-      j11)*flavourTag(fmu,j11,j12)*Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,
-      xiw,0)*p3.p3*d^-1*ufoGC58*ufoGC107*ufoGC76*ufoGC85
-       + 1/8*cFT(p2,XX,j11,j12)*cFT(g6,XX,i2,j11)*flavourTag(fmu,j11,j12)*
-      Deng(0,xiw,M3)*Deng(p3,xiz,M4)^2*Deng(p4,xiw,0)*p3.p3*d^-1*ufoGC58*
-      ufoGC107*ufoGC80*ufoGC85*Op
-       - 1/8*cFT(p2,XX,j11,j12)*cFT(g6,XX,i2,j11)*flavourTag(fmu,j11,j12)*
-      Deng(0,xiw,M3)*Deng(p3,xiz,M4)*Deng(p4,xiw,0)*ufoGC58*ufoGC107*ufoGC80*
-      ufoGC85*Op
-      ;
-
+compute-dia.frm Line 75 ==> LocateFile: Cannot find file ../ew_tapir/topo/d1l21
+8
+Program terminating at compute-dia.frm Line 73 --> 
+Terminate called from message.c:70 (Error1)
   0.00 sec out of 0.00 sec

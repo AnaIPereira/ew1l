@@ -1,43 +1,7 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 16:47:28 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Feb 11 13:45:52 2026
     #-
-
-   d1l248amp =
-       - 1/4*g_(1,6_,nu14)*g_(2,p4)*cFT(nu14,XX,i1,j11)*cFT(g6,XX,i2,i3)/(d^3
-       + d^2 - 2*d)*flavourTag(fe,j11,j12)*Den(p2)^2*Deng(0,xiw,0)*Deng(p3,xiw
-      ,M3)^2*p2.p2*p3.p3*d*xia*ufoGC58*ufoGC107*ufoGC3*ufoGC93
-       + 1/4*g_(1,6_,nu14)*g_(2,p4)*cFT(nu14,XX,i1,j11)*cFT(g6,XX,i2,i3)/(d^3
-       + d^2 - 2*d)*flavourTag(fe,j11,j12)*Den(p2)^2*Deng(0,xiw,0)*Deng(p3,xiw
-      ,M3)^2*p2.p2*p3.p3*d*ufoGC58*ufoGC107*ufoGC3*ufoGC93
-       - 1/4*g_(1,6_,nu14)*g_(2,p4)*cFT(nu14,XX,i1,j11)*cFT(g6,XX,i2,i3)/(d^3
-       + d^2 - 2*d)*flavourTag(fe,j11,j12)*Den(p2)^2*Deng(0,xiw,0)*Deng(p3,xiw
-      ,M3)^2*p2.p2*p3.p3*xia*ufoGC58*ufoGC107*ufoGC3*ufoGC93
-       + 1/4*g_(1,6_,nu14)*g_(2,p4)*cFT(nu14,XX,i1,j11)*cFT(g6,XX,i2,i3)/(d^3
-       + d^2 - 2*d)*flavourTag(fe,j11,j12)*Den(p2)^2*Deng(0,xiw,0)*Deng(p3,xiw
-      ,M3)^2*p2.p2*p3.p3*ufoGC58*ufoGC107*ufoGC3*ufoGC93
-       + 1/4*g_(1,6_,nu14)*g_(2,p4)*cFT(nu14,XX,i1,j11)*cFT(g6,XX,i2,i3)/(d^3
-       + d^2 - 2*d)*flavourTag(fe,j11,j12)*Den(p2)^2*Deng(0,xiw,0)*Deng(p3,xiw
-      ,M3)^2*p2.p3^2*d^2*xia*ufoGC58*ufoGC107*ufoGC3*ufoGC93
-       - 1/4*g_(1,6_,nu14)*g_(2,p4)*cFT(nu14,XX,i1,j11)*cFT(g6,XX,i2,i3)/(d^3
-       + d^2 - 2*d)*flavourTag(fe,j11,j12)*Den(p2)^2*Deng(0,xiw,0)*Deng(p3,xiw
-      ,M3)^2*p2.p3^2*d^2*ufoGC58*ufoGC107*ufoGC3*ufoGC93
-       + 1/4*g_(1,6_,nu14)*g_(2,p4)*cFT(nu14,XX,i1,j11)*cFT(g6,XX,i2,i3)/(d^3
-       + d^2 - 2*d)*flavourTag(fe,j11,j12)*Den(p2)^2*Deng(0,xiw,0)*Deng(p3,xiw
-      ,M3)^2*p2.p3^2*d*xia*ufoGC58*ufoGC107*ufoGC3*ufoGC93
-       - 1/4*g_(1,6_,nu14)*g_(2,p4)*cFT(nu14,XX,i1,j11)*cFT(g6,XX,i2,i3)/(d^3
-       + d^2 - 2*d)*flavourTag(fe,j11,j12)*Den(p2)^2*Deng(0,xiw,0)*Deng(p3,xiw
-      ,M3)^2*p2.p3^2*d*ufoGC58*ufoGC107*ufoGC3*ufoGC93
-       - 1/4*g_(1,6_,nu15)*g_(2,p4)*cFT(nu15,XX,i1,j11)*cFT(g6,XX,i2,i3)*
-      flavourTag(fe,j11,j12)*Den(p2)^2*Deng(0,xiw,0)*Deng(p3,xiw,M3)*p2.p2*
-      d^-1*xia*ufoGC58*ufoGC107*ufoGC3*ufoGC93
-       + 1/4*g_(1,6_,nu15)*g_(2,p4)*cFT(nu15,XX,i1,j11)*cFT(g6,XX,i2,i3)*
-      flavourTag(fe,j11,j12)*Den(p2)^2*Deng(0,xiw,0)*Deng(p3,xiw,M3)*p2.p2*
-      d^-1*ufoGC58*ufoGC107*ufoGC3*ufoGC93
-       - 1/4*g_(1,6_,nu15)*g_(2,p4)*cFT(nu15,XX,i1,j11)*cFT(g6,XX,i2,i3)*
-      flavourTag(fe,j11,j12)*Den(p2)*Deng(0,xiw,0)*Deng(p3,xiw,M3)*ufoGC58*
-      ufoGC107*ufoGC3*ufoGC93
-       + 1/4*g_(1,6_,nu15)*g_(2,p4)*cFT(nu15,XX,i1,j11)*cFT(g6,XX,i2,i3)*
-      flavourTag(fe,j11,j12)*Den(p2)*Deng(0,xiw,0)*Deng(p3,xiw,M3)^2*p3.p3*
-      d^-1*ufoGC58*ufoGC107*ufoGC3*ufoGC93
-      ;
-
+compute-dia.frm Line 75 ==> LocateFile: Cannot find file ../ew_tapir/topo/d1l24
+8
+Program terminating at compute-dia.frm Line 73 --> 
+Terminate called from message.c:70 (Error1)
   0.00 sec out of 0.00 sec

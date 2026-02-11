@@ -1,21 +1,180 @@
 integralfamilies:
-  - name: "d1l44"
-    loop_momenta: [k1]
+  - name: "d1l1"
+    loop_momenta: [p3]
     propagators:
-      - ["-k1^2", 0]
-  - name: "d1l6"
-    loop_momenta: [k1]
-    propagators:
-      - ["M2^2 - k1^2", 0]
-  - name: "d1l4"
-    loop_momenta: [k1]
-    propagators:
-      - ["M3^2 - k1^2", 0]
+      - ["-p3^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p3 + q3)^2", 0]
+      - ["-(p3 + q2)^2", 0]
+      - ["-(p3 + q1)^2", 0]
   - name: "d1l2"
-    loop_momenta: [k1]
+    loop_momenta: [p3]
     propagators:
-      - ["M4^2 - k1^2", 0]
-  - name: "d1l57w0"
-    loop_momenta: [k1]
+      - ["M4^2 - p3^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p3 + q3)^2", 0]
+      - ["-(p3 + q2)^2", 0]
+      - ["-(p3 + q1)^2", 0]
+  - name: "d1l4"
+    loop_momenta: [p3]
     propagators:
-      - ["M1^2 - k1^2", 0]
+      - ["M3^2 - p3^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p3 + q3)^2", 0]
+      - ["-(p3 + q2)^2", 0]
+      - ["-(p3 + q1)^2", 0]
+  - name: "d1l6"
+    loop_momenta: [p3]
+    propagators:
+      - ["M2^2 - p3^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p3 + q3)^2", 0]
+      - ["-(p3 + q2)^2", 0]
+      - ["-(p3 + q1)^2", 0]
+  - name: "d1l33"
+    loop_momenta: [p4]
+    propagators:
+      - ["M3^2 - p4^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p4 - q2 - q3)^2", 0]
+      - ["-(p4 + q3)^2", 0]
+      - ["-(p4 + q1)^2", 0]
+  - name: "d1l36"
+    loop_momenta: [p4]
+    propagators:
+      - ["M3^2 - p4^2", 0]
+      - ["M4^2 - (-p4 + q2 + q3)^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p4 + q3)^2", 0]
+      - ["-(p4 + q1)^2", 0]
+  - name: "d1l42"
+    loop_momenta: [p4]
+    propagators:
+      - ["M2^2 - p4^2", 0]
+      - ["M3^2 - (-p4 + q2 + q3)^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p4 + q3)^2", 0]
+      - ["-(p4 + q1)^2", 0]
+  - name: "d1l44"
+    loop_momenta: [p3]
+    propagators:
+      - ["-p3^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p3 - q2 - q3)^2", 0]
+      - ["-(p3 + q3)^2", 0]
+      - ["-(p3 + q1)^2", 0]
+  - name: "d1l57"
+    loop_momenta: [p3]
+    propagators:
+      - ["M1^2 - p3^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p3 - q2 - q3)^2", 0]
+      - ["-(p3 + q3)^2", 0]
+      - ["-(p3 + q1)^2", 0]
+  - name: "d1l60"
+    loop_momenta: [p4]
+    propagators:
+      - ["M3^2 - p4^2", 0]
+      - ["M2^2 - (-p4 + q2 + q3)^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p4 + q3)^2", 0]
+      - ["-(p4 + q1)^2", 0]
+  - name: "d1l185"
+    loop_momenta: [p2]
+    propagators:
+      - ["M4^2 - p2^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p2 + q2)^2", 0]
+      - ["-(p2 - q3)^2", 0]
+      - ["-(p2 + q1)^2", 0]
+  - name: "d1l187"
+    loop_momenta: [p4]
+    propagators:
+      - ["M3^2 - p4^2", 0]
+      - ["M4^2 - (p4 - q2 - q3)^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p4 - q3)^2", 0]
+      - ["-(p4 + q1)^2", 0]
+  - name: "d1l193"
+    loop_momenta: [p3]
+    propagators:
+      - ["M3^2 - p3^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p3 - q2)^2", 0]
+      - ["-(p3 - q2 - q3)^2", 0]
+      - ["-(p3 + q1)^2", 0]
+  - name: "d1l194"
+    loop_momenta: [p4]
+    propagators:
+      - ["M4^2 - p4^2", 0]
+      - ["M3^2 - (p4 + q2 + q3)^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p4 + q3)^2", 0]
+      - ["-(p4 + q1)^2", 0]
+  - name: "d1l219"
+    loop_momenta: [p2]
+    propagators:
+      - ["M4^2 - p2^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p2 + q1)^2", 0]
+      - ["-(p2 + q1 + q2 + q3)^2", 0]
+      - ["-(p2 + q3)^2", 0]
+  - name: "d1l221"
+    loop_momenta: [p4]
+    propagators:
+      - ["M4^2 - p4^2", 0]
+      - ["M3^2 - (-p4 + q2 + q3)^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p4 - q1 - q2 - q3)^2", 0]
+      - ["-(p4 + q3)^2", 0]
+  - name: "d1l225"
+    loop_momenta: [p4]
+    propagators:
+      - ["M3^2 - p4^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p4 - q1 - q2 - q3)^2", 0]
+      - ["-(p4 - q2 - q3)^2", 0]
+      - ["-(p4 + q3)^2", 0]
+  - name: "d1l227"
+    loop_momenta: [p4]
+    propagators:
+      - ["M3^2 - p4^2", 0]
+      - ["M4^2 - (-p4 + q2 + q3)^2", 0]
+      - ["M3^2 - (q2 + q3)^2", 0]
+      - ["-(p4 - q1 - q2 - q3)^2", 0]
+      - ["-(p4 + q3)^2", 0]
+  - name: "d1l253"
+    loop_momenta: [p4]
+    propagators:
+      - ["M3^2 - p4^2", 0]
+      - ["M4^2 - (-p4 + q2 + q3)^2", 0]
+      - ["-(p4 - q1 - q2 - q3)^2", 0]
+      - ["-(p4 - q3)^2", 0]
+  - name: "d1l257"
+    loop_momenta: [p4]
+    propagators:
+      - ["M4^2 - p4^2", 0]
+      - ["M3^2 - (-p4 + q2 + q3)^2", 0]
+      - ["-(p4 - q1 - q2 - q3)^2", 0]
+      - ["-(p4 - q3)^2", 0]
+  - name: "d1l261"
+    loop_momenta: [p4]
+    propagators:
+      - ["M3^2 - p4^2", 0]
+      - ["-(p4 - q2 - q3)^2", 0]
+      - ["-(p4 - q1 - q2 - q3)^2", 0]
+      - ["-(p4 - q2)^2", 0]
+  - name: "d1l263"
+    loop_momenta: [p4]
+    propagators:
+      - ["M3^2 - p4^2", 0]
+      - ["M4^2 - (-p4 + q2 + q3)^2", 0]
+      - ["-(p4 - q1 - q2 - q3)^2", 0]
+      - ["-(p4 - q2)^2", 0]
+  - name: "d1l267"
+    loop_momenta: [p4]
+    propagators:
+      - ["M4^2 - p4^2", 0]
+      - ["M3^2 - (-p4 + q2 + q3)^2", 0]
+      - ["-(p4 - q1 - q2 - q3)^2", 0]
+      - ["-(p4 - q2)^2", 0]

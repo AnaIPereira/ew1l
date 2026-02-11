@@ -15,28 +15,12 @@ On HighFirst;
 
 * Load the diagram from the tapir file:
 Local d`LOOPS'l`DIA'amp =
-	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
-	;
-
-Local d`LOOPS'l`DIA'amp =
-	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
-	;
-
-*Print +s;
-*.end
+	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA';
 
 * Load the mapped topology, and make the necessary momentum replacements
 #include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
 `MOMREPLACEMENT'
 .sort
-
-
-Argument;
-   `BRIDGEMOMENTA';
-EndArgument;
-
-*Print +s;
-*.end
 
 *Feynman rules
 * auxGamma are gamma matrices, their argument is a Lorentz index ans the spinor1 and spinor2.
@@ -64,8 +48,6 @@ Identify auxGamma(?a,i1?,i2?) = cFT(?a,XX,i1,i2);
   .sort
 
 #enddo
-*Print;
-*.end
 
 *propagators substitutions
 * Dtran, Dlong are fermion propagators, their arguments are 2 Lorenx indices, the runnin momentum, the gauge and mass.
@@ -73,7 +55,6 @@ Identify Dph(ind1?,ind2?,?mom,gaug?) = (d_(ind1, ind2) - (1-gaug) * Vec(ind1,?mo
 Identify Dgoldst(?mom,gaug?) = Deng(?mom, gaug, 0);
 Identify Dlong(ind1?,ind2?,?mom,gaug?,mass?) = (gaug*Vec(ind1,?mom)*Vec(ind2,?mom)*Deng(?mom,gaug,mass))* Deng(?mom,gaug,mass);
 Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Vec(ind2,?mom)*Deng(?mom,gaug,mass))* Deng(?mom,gaug,mass);
-
 
 #do i = 1,`NUMTRACES'
   Identify FT`i'(g7) = g7_(`i');
@@ -87,10 +68,24 @@ Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Ve
 	Identify FT`i'(i1?,i2?) = 1;
 #enddo
 
+*problem with mappint topologies and diagrams. it calls for d1li for i the #diag but I want to call topologies.
+*could do one by one but want to do it generically
+Argument;
+   #include- ../ew_tapir/topo/d`LOOPS'l`DIA' # NUMERATORMOMENTA;
+EndArgument;
+
+Identify Vec(ind?,q2 + q3) = Vec(ind,q2)+Vec(ind,q3);
+
+*set the ext mom to zero in the numerator where possible
+Identify q1 = 0;
+Identify q2 = 0;
+Identify q3 = 0;
+Identify q4 = 0;
 Identify Vec(ind?,0) = 0;
 
-*Print +s;
-*.end
+Print +s;
+.end
+
 
 *TENSOR REDUCTION
 * contract all the scalar product pi^2, etc
@@ -119,17 +114,8 @@ Identify Vec(ind?,momen?)*Vec(ind1?,momen1?) = 1/d* momen.momen1 * d_(ind,ind1);
 Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
 .sort
 
-Print +s;
-.end
-
-
-Argument Vec;
- 	#include- ../ew_tapir/topo/d`LOOPS'l`DIA' # NUMERATORMOMENTA
-	;
-EndArgument;
-SplitArg Vec;
-
-*Identify Vec(ind?,p1?,p2?) = Vec(ind,p1) + Vec(ind,p2);
+*Print +s;
+*.end
 
 
 

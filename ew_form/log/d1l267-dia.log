@@ -1,6 +1,13 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 16:47:28 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Feb 11 13:45:52 2026
     #-
-compute-dia.frm Line 35 ==> Undefined preprocessor variable BRIDGEMOMENTA
-Program terminating at compute-dia.frm Line 34 --> 
-Terminate called from message.c:70 (Error1)
+
+   d1l267amp =
+       + 1/4*g_(1,6_,nu16)*g_(2,p2)*auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)
+      *cFT(nu9,XX,j14,iufo3)*cFT(g7,XX,iufo3,i3)*cFT(p4 - q2,XX,j13,j14)*
+      auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)*flavourTag(fve,j11,j12)*
+      flavourTag(fvm,j13,j14)*Vec(nu16,p4)*Vec(nu10, - p4 + q2 + q3)*Vec(nu9,
+       - p4 + q2 + q3)*Vec(nu15,p4)*Deng(p4,xiz,M4)^2*Deng( - p4 + q2 + q3,xiw
+      ,M3)^2*xiw*xiz*ufoGC58^2*ufoGC81^2
+      ;
+
   0.00 sec out of 0.00 sec

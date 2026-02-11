@@ -1,25 +1,7 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Feb 10 16:47:28 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Feb 11 13:45:52 2026
     #-
-
-   d1l232amp =
-       + 1/8*g_(1,6_,nu12)*g_(2,p4)*cFT(nu9,XX,j14,iufo15)*cFT(g7,XX,iufo15,
-      j15)*cFT(-p3,XX,j13,j14)*auxGamma(nu12,i1,iufo13)*auxPL(iufo13,j13)*cFT(
-      nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)*flavourTag(fve,j15,j16)*flavourTag(
-      fe,j13,j14)*Deng(0,xiw,M3)*Deng(p2,xiz,M4)*ufoGC58^2*ufoGC80*ufoGC81
-       - 1/8*g_(1,6_,nu12)*g_(2,p4)*cFT(nu9,XX,j14,iufo15)*cFT(g7,XX,iufo15,
-      j15)*cFT(-p3,XX,j13,j14)*auxGamma(nu12,i1,iufo13)*auxPL(iufo13,j13)*cFT(
-      nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)*flavourTag(fve,j15,j16)*flavourTag(
-      fe,j13,j14)*Deng(0,xiw,M3)*Deng(p2,xiz,M4)^2*p2.p2*d^-1*ufoGC58^2*
-      ufoGC80*ufoGC81
-       + 1/8*g_(1,6_,nu12)*g_(2,p4)*cFT(nu9,XX,j14,iufo15)*cFT(g7,XX,iufo15,
-      j15)*cFT(-p3,XX,j13,j14)*auxGamma(nu12,i1,iufo13)*auxPR(iufo13,j13)*cFT(
-      nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)*flavourTag(fve,j15,j16)*flavourTag(
-      fe,j13,j14)*Deng(0,xiw,M3)*Deng(p2,xiz,M4)*ufoGC58^2*ufoGC76*ufoGC81
-       - 1/8*g_(1,6_,nu12)*g_(2,p4)*cFT(nu9,XX,j14,iufo15)*cFT(g7,XX,iufo15,
-      j15)*cFT(-p3,XX,j13,j14)*auxGamma(nu12,i1,iufo13)*auxPR(iufo13,j13)*cFT(
-      nu9,XX,i2,iufo3)*cFT(g7,XX,iufo3,i3)*flavourTag(fve,j15,j16)*flavourTag(
-      fe,j13,j14)*Deng(0,xiw,M3)*Deng(p2,xiz,M4)^2*p2.p2*d^-1*ufoGC58^2*
-      ufoGC76*ufoGC81
-      ;
-
+compute-dia.frm Line 75 ==> LocateFile: Cannot find file ../ew_tapir/topo/d1l23
+2
+Program terminating at compute-dia.frm Line 73 --> 
+Terminate called from message.c:70 (Error1)
   0.00 sec out of 0.00 sec
