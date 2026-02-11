@@ -3,7 +3,6 @@ integralfamilies:
     loop_momenta: [p3]
     propagators:
       - ["-p3^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p3 + q3)^2", 0]
       - ["-(p3 + q2)^2", 0]
       - ["-(p3 + q1)^2", 0]
@@ -11,7 +10,6 @@ integralfamilies:
     loop_momenta: [p3]
     propagators:
       - ["M4^2 - p3^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p3 + q3)^2", 0]
       - ["-(p3 + q2)^2", 0]
       - ["-(p3 + q1)^2", 0]
@@ -19,7 +17,6 @@ integralfamilies:
     loop_momenta: [p3]
     propagators:
       - ["M3^2 - p3^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p3 + q3)^2", 0]
       - ["-(p3 + q2)^2", 0]
       - ["-(p3 + q1)^2", 0]
@@ -27,7 +24,6 @@ integralfamilies:
     loop_momenta: [p3]
     propagators:
       - ["M2^2 - p3^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p3 + q3)^2", 0]
       - ["-(p3 + q2)^2", 0]
       - ["-(p3 + q1)^2", 0]
@@ -35,7 +31,6 @@ integralfamilies:
     loop_momenta: [p4]
     propagators:
       - ["M3^2 - p4^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p4 - q2 - q3)^2", 0]
       - ["-(p4 + q3)^2", 0]
       - ["-(p4 + q1)^2", 0]
@@ -44,7 +39,6 @@ integralfamilies:
     propagators:
       - ["M3^2 - p4^2", 0]
       - ["M4^2 - (-p4 + q2 + q3)^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p4 + q3)^2", 0]
       - ["-(p4 + q1)^2", 0]
   - name: "d1l42"
@@ -52,14 +46,12 @@ integralfamilies:
     propagators:
       - ["M2^2 - p4^2", 0]
       - ["M3^2 - (-p4 + q2 + q3)^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p4 + q3)^2", 0]
       - ["-(p4 + q1)^2", 0]
   - name: "d1l44"
     loop_momenta: [p3]
     propagators:
       - ["-p3^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p3 - q2 - q3)^2", 0]
       - ["-(p3 + q3)^2", 0]
       - ["-(p3 + q1)^2", 0]
@@ -67,7 +59,6 @@ integralfamilies:
     loop_momenta: [p3]
     propagators:
       - ["M1^2 - p3^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p3 - q2 - q3)^2", 0]
       - ["-(p3 + q3)^2", 0]
       - ["-(p3 + q1)^2", 0]
@@ -76,14 +67,12 @@ integralfamilies:
     propagators:
       - ["M3^2 - p4^2", 0]
       - ["M2^2 - (-p4 + q2 + q3)^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p4 + q3)^2", 0]
       - ["-(p4 + q1)^2", 0]
   - name: "d1l185"
     loop_momenta: [p2]
     propagators:
       - ["M4^2 - p2^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p2 + q2)^2", 0]
       - ["-(p2 - q3)^2", 0]
       - ["-(p2 + q1)^2", 0]
@@ -92,14 +81,12 @@ integralfamilies:
     propagators:
       - ["M3^2 - p4^2", 0]
       - ["M4^2 - (p4 - q2 - q3)^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p4 - q3)^2", 0]
       - ["-(p4 + q1)^2", 0]
   - name: "d1l193"
     loop_momenta: [p3]
     propagators:
       - ["M3^2 - p3^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p3 - q2)^2", 0]
       - ["-(p3 - q2 - q3)^2", 0]
       - ["-(p3 + q1)^2", 0]
@@ -108,14 +95,12 @@ integralfamilies:
     propagators:
       - ["M4^2 - p4^2", 0]
       - ["M3^2 - (p4 + q2 + q3)^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p4 + q3)^2", 0]
       - ["-(p4 + q1)^2", 0]
   - name: "d1l219"
     loop_momenta: [p2]
     propagators:
       - ["M4^2 - p2^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p2 + q1)^2", 0]
       - ["-(p2 + q1 + q2 + q3)^2", 0]
       - ["-(p2 + q3)^2", 0]
@@ -124,14 +109,12 @@ integralfamilies:
     propagators:
       - ["M4^2 - p4^2", 0]
       - ["M3^2 - (-p4 + q2 + q3)^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p4 - q1 - q2 - q3)^2", 0]
       - ["-(p4 + q3)^2", 0]
   - name: "d1l225"
     loop_momenta: [p4]
     propagators:
       - ["M3^2 - p4^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p4 - q1 - q2 - q3)^2", 0]
       - ["-(p4 - q2 - q3)^2", 0]
       - ["-(p4 + q3)^2", 0]
@@ -140,7 +123,6 @@ integralfamilies:
     propagators:
       - ["M3^2 - p4^2", 0]
       - ["M4^2 - (-p4 + q2 + q3)^2", 0]
-      - ["M3^2 - (q2 + q3)^2", 0]
       - ["-(p4 - q1 - q2 - q3)^2", 0]
       - ["-(p4 + q3)^2", 0]
   - name: "d1l253"

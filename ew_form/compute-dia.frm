@@ -3,6 +3,7 @@ Off Statistics;
 On HighFirst;
 
 #include- form-declarations.h
+Symbol integer;
 
 #ifndef `LOOPS'
 	#message Error, please specify the number of loops as LOOPS.
@@ -70,21 +71,55 @@ Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Ve
 
 *problem with mappint topologies and diagrams. it calls for d1li for i the #diag but I want to call topologies.
 *could do one by one but want to do it generically
-Argument;
-   #include- ../ew_tapir/topo/d`LOOPS'l`DIA' # NUMERATORMOMENTA;
+Argument Vec;
+   #include- ../ew_tapir/topo/d1l1 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l2 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l4 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l6 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l33 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l36 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l42 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l44 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l57 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l60 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l185 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l187 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l193 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l194 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l219 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l221 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l225 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l227 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l253 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l257 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l261 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l263 # NUMERATORMOMENTA;
+   #include- ../ew_tapir/topo/d1l267 # NUMERATORMOMENTA;
 EndArgument;
 
-Identify Vec(ind?,q2 + q3) = Vec(ind,q2)+Vec(ind,q3);
+*split the momenta in the numerator
+SplitArg Vec;
+Identify Vec(ind?,p1?,?a) = Vec(ind,p1) + Vec(ind,?a);
+Identify Vec(ind?,2*p1?,?a) = 2 * Vec(ind,p1) + Vec(ind,?a);
+Identify Vec(ind?,2*p1?,p2?) = 2*Vec(ind,p1) + Vec(ind,p2);
+Identify Vec(ind?,3*p1?,?a) = 3 * Vec(ind,p1) + Vec(ind,?a);
+Identify Vec(ind?,3*p1?,p2?) = 3*Vec(ind,p1) + Vec(ind,p2);
+Identify Vec(ind?, - p1?) = - Vec(ind, p1);
+Print +s;
+.end
 
-*set the ext mom to zero in the numerator where possible
-Identify q1 = 0;
-Identify q2 = 0;
-Identify q3 = 0;
-Identify q4 = 0;
-Identify Vec(ind?,0) = 0;
+*start setting some ext mom to zero
+Identify Vec(ind?,q1) = 0;
+Identify Vec(ind?,q2) = 0;
+Identify Vec(ind?,q3) = 0;
+Identify Vec(ind?,q4) = 0;
+
 
 Print +s;
 .end
+
+
+
 
 
 *TENSOR REDUCTION
@@ -137,9 +172,6 @@ Print +s;
 * as inverse propagators.
 *#include- /home/ana/Documents/Software/src/tapir/ew/topo/`INT1'
 
-*test - take off once you want to run the rest of the file 
-Print;
-.end
 
 * Clean up the notation:
 *PolyRatFun prf;

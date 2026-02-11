@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2026.2.9)  11 FEB 2026 11:32
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2026.2.9)  11 FEB 2026 16:44
  restricted system commands enabled.
 **topologies-1l.tex
 (./topologies-1l.tex
@@ -578,13 +578,13 @@ mpat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on
  input line 5.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 21.
+(Font)              <10.95> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 21.
+(Font)              <8> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 21.
+(Font)              <6> on input line 19.
 
-Overfull \hbox (16.87787pt too wide) in paragraph at lines 7--398
+Overfull \hbox (16.87787pt too wide) in paragraph at lines 7--370
 []$[]$ $[]$ $[]$
  []
 
@@ -593,19 +593,19 @@ Overfull \hbox (16.87787pt too wide) in paragraph at lines 7--398
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./topologies-1l.aux))
 
 Here is how much of LuaTeX's memory you used:
- 17005 strings out of 477805
- 596185,953878 words of node,token memory allocated
+ 16992 strings out of 477805
+ 476963,953878 words of node,token memory allocated
  413 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 48 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 1:18,2:49250,3:20288,4:10,5:59,6:84,7:36829,8:2,9:9140,10:1
- 37094 multiletter control sequences out of 65536+600000
+   avail lists: 1:12,2:41650,3:15356,4:10,5:56,6:78,7:28376,8:2,9:6936,10:1
+ 37081 multiletter control sequences out of 65536+600000
  25 fonts using 1345375 bytes
  114i,15n,111p,448b,1895s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on topologies-1l.pdf (2 pages, 34269 bytes).
+Output written on topologies-1l.pdf (2 pages, 32786 bytes).
 
 PDF statistics: 29 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream

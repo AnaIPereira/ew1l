@@ -10,13 +10,11 @@
         \tikzfeynmanset{every vertex/.style={dot}}
         \feynmandiagram[large, horizontal = e1 to e2 ]{
 				e1[particle = {$q_{1}$}] -- [charged scalar] i1,
-				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
-				e3[particle = {$q_{3}$}] -- [charged scalar] i2,
+				e2[particle = {$q_{2}$}] -- [charged scalar] i1,
+				e3[particle = {$q_{3}$}] -- [charged scalar] i1,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i3  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
-				i2  -- [fermion, edge label = {$p_{2}$,M3}] i3 ,
-				i3  -- [charged scalar, edge label = {$p_{3}$}, half left, looseness = 1.5] s3 ,
-				s3  -- [charged scalar, edge label = {$p_{3}$}, half left, looseness = 1.5] i3 
+				i1  -- [charged scalar, edge label = {$p_{3}$}, half left, looseness = 1.5] s1 ,
+				s1  -- [charged scalar, edge label = {$p_{3}$}, half left, looseness = 1.5] i1 
         };
     }\\
 d1l1
@@ -27,13 +25,11 @@ d1l1
         \tikzfeynmanset{every vertex/.style={dot}}
         \feynmandiagram[large, horizontal = e1 to e2 ]{
 				e1[particle = {$q_{1}$}] -- [charged scalar] i1,
-				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
-				e3[particle = {$q_{3}$}] -- [charged scalar] i2,
+				e2[particle = {$q_{2}$}] -- [charged scalar] i1,
+				e3[particle = {$q_{3}$}] -- [charged scalar] i1,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i3  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
-				i2  -- [fermion, edge label = {$p_{2}$,M3}] i3 ,
-				i3  -- [fermion, edge label = {$p_{3}$,M4}, half left, looseness = 1.5] s3 ,
-				s3  -- [fermion, edge label = {$p_{3}$,M4}, half left, looseness = 1.5] i3 
+				i1  -- [fermion, edge label = {$p_{3}$,M4}, half left, looseness = 1.5] s1 ,
+				s1  -- [fermion, edge label = {$p_{3}$,M4}, half left, looseness = 1.5] i1 
         };
     }\\
 d1l2
@@ -44,13 +40,11 @@ d1l2
         \tikzfeynmanset{every vertex/.style={dot}}
         \feynmandiagram[large, horizontal = e1 to e2 ]{
 				e1[particle = {$q_{1}$}] -- [charged scalar] i1,
-				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
-				e3[particle = {$q_{3}$}] -- [charged scalar] i2,
+				e2[particle = {$q_{2}$}] -- [charged scalar] i1,
+				e3[particle = {$q_{3}$}] -- [charged scalar] i1,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i3  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
-				i2  -- [fermion, edge label = {$p_{2}$,M3}] i3 ,
-				i3  -- [fermion, edge label = {$p_{3}$,M3}, half left, looseness = 1.5] s3 ,
-				s3  -- [fermion, edge label = {$p_{3}$,M3}, half left, looseness = 1.5] i3 
+				i1  -- [fermion, edge label = {$p_{3}$,M3}, half left, looseness = 1.5] s1 ,
+				s1  -- [fermion, edge label = {$p_{3}$,M3}, half left, looseness = 1.5] i1 
         };
     }\\
 d1l4
@@ -61,13 +55,11 @@ d1l4
         \tikzfeynmanset{every vertex/.style={dot}}
         \feynmandiagram[large, horizontal = e1 to e2 ]{
 				e1[particle = {$q_{1}$}] -- [charged scalar] i1,
-				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
-				e3[particle = {$q_{3}$}] -- [charged scalar] i2,
+				e2[particle = {$q_{2}$}] -- [charged scalar] i1,
+				e3[particle = {$q_{3}$}] -- [charged scalar] i1,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i3  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
-				i2  -- [fermion, edge label = {$p_{2}$,M3}] i3 ,
-				i3  -- [fermion, edge label = {$p_{3}$,M2}, half left, looseness = 1.5] s3 ,
-				s3  -- [fermion, edge label = {$p_{3}$,M2}, half left, looseness = 1.5] i3 
+				i1  -- [fermion, edge label = {$p_{3}$,M2}, half left, looseness = 1.5] s1 ,
+				s1  -- [fermion, edge label = {$p_{3}$,M2}, half left, looseness = 1.5] i1 
         };
     }\\
 d1l6
@@ -81,10 +73,8 @@ d1l6
 				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
 				e3[particle = {$q_{3}$}] -- [charged scalar] i2,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i3  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
-				i2  -- [fermion, edge label = {$p_{2}$,M3}] i4 ,
-				i4  -- [charged scalar, edge label = {$p_{3}$}, half left, looseness = 0.75] i3 ,
-				i4  -- [fermion, edge label = {$p_{4}$,M3}, half right, looseness = 0.75] i3 
+				i2  -- [charged scalar, edge label = {$p_{3}$}, half left, looseness = 0.75] i1 ,
+				i2  -- [fermion, edge label = {$p_{4}$,M3}, half right, looseness = 0.75] i1 
         };
     }\\
 d1l33
@@ -98,10 +88,8 @@ d1l33
 				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
 				e3[particle = {$q_{3}$}] -- [charged scalar] i2,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i3  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
-				i2  -- [fermion, edge label = {$p_{2}$,M3}] i4 ,
-				i4  -- [fermion, edge label = {$p_{3}$,M4}, half left, looseness = 0.75] i3 ,
-				i4  -- [fermion, edge label = {$p_{4}$,M3}, half right, looseness = 0.75] i3 
+				i2  -- [fermion, edge label = {$p_{3}$,M4}, half left, looseness = 0.75] i1 ,
+				i2  -- [fermion, edge label = {$p_{4}$,M3}, half right, looseness = 0.75] i1 
         };
     }\\
 d1l36
@@ -115,10 +103,8 @@ d1l36
 				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
 				e3[particle = {$q_{3}$}] -- [charged scalar] i2,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i3  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
-				i2  -- [fermion, edge label = {$p_{2}$,M3}] i4 ,
-				i4  -- [fermion, edge label = {$p_{3}$,M3}, half left, looseness = 0.75] i3 ,
-				i4  -- [fermion, edge label = {$p_{4}$,M2}, half right, looseness = 0.75] i3 
+				i2  -- [fermion, edge label = {$p_{3}$,M3}, half left, looseness = 0.75] i1 ,
+				i2  -- [fermion, edge label = {$p_{4}$,M2}, half right, looseness = 0.75] i1 
         };
     }\\
 d1l42
@@ -132,10 +118,8 @@ d1l42
 				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
 				e3[particle = {$q_{3}$}] -- [charged scalar] i2,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i3  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
-				i2  -- [fermion, edge label = {$p_{2}$,M3}] i4 ,
-				i4  -- [charged scalar, edge label = {$p_{3}$}, half left, looseness = 0.75] i3 ,
-				i3  -- [charged scalar, edge label = {$p_{4}$}, half left, looseness = 0.75] i4 
+				i2  -- [charged scalar, edge label = {$p_{3}$}, half left, looseness = 0.75] i1 ,
+				i1  -- [charged scalar, edge label = {$p_{4}$}, half left, looseness = 0.75] i2 
         };
     }\\
 d1l44
@@ -149,10 +133,8 @@ d1l44
 				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
 				e3[particle = {$q_{3}$}] -- [charged scalar] i2,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i3  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
-				i2  -- [fermion, edge label = {$p_{2}$,M3}] i4 ,
-				i4  -- [fermion, edge label = {$p_{3}$,M1}, half left, looseness = 0.75] i3 ,
-				i3  -- [charged scalar, edge label = {$p_{4}$}, half left, looseness = 0.75] i4 
+				i2  -- [fermion, edge label = {$p_{3}$,M1}, half left, looseness = 0.75] i1 ,
+				i1  -- [charged scalar, edge label = {$p_{4}$}, half left, looseness = 0.75] i2 
         };
     }\\
 d1l57
@@ -166,10 +148,8 @@ d1l57
 				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
 				e3[particle = {$q_{3}$}] -- [charged scalar] i2,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i3  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
-				i2  -- [fermion, edge label = {$p_{2}$,M3}] i4 ,
-				i4  -- [fermion, edge label = {$p_{3}$,M2}, half left, looseness = 0.75] i3 ,
-				i4  -- [fermion, edge label = {$p_{4}$,M3}, half right, looseness = 0.75] i3 
+				i2  -- [fermion, edge label = {$p_{3}$,M2}, half left, looseness = 0.75] i1 ,
+				i2  -- [fermion, edge label = {$p_{4}$,M3}, half right, looseness = 0.75] i1 
         };
     }\\
 d1l60
@@ -183,10 +163,9 @@ d1l60
 				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
 				e3[particle = {$q_{3}$}] -- [charged scalar] i3,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i4  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
 				i3  -- [fermion, edge label = {$p_{2}$,M4}] i2 ,
-				i2  -- [charged scalar, edge label = {$p_{3}$}] i4 ,
-				i4  -- [charged scalar, edge label = {$p_{4}$}] i3 
+				i2  -- [charged scalar, edge label = {$p_{3}$}] i1 ,
+				i1  -- [charged scalar, edge label = {$p_{4}$}] i3 
         };
     }\\
 d1l185
@@ -200,10 +179,9 @@ d1l185
 				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
 				e3[particle = {$q_{3}$}] -- [charged scalar] i3,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i4  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
 				i2  -- [charged scalar, edge label = {$p_{2}$}] i3 ,
-				i4  -- [fermion, edge label = {$p_{3}$,M4}] i2 ,
-				i3  -- [fermion, edge label = {$p_{4}$,M3}] i4 
+				i1  -- [fermion, edge label = {$p_{3}$,M4}] i2 ,
+				i3  -- [fermion, edge label = {$p_{4}$,M3}] i1 
         };
     }\\
 d1l187
@@ -217,10 +195,9 @@ d1l187
 				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
 				e3[particle = {$q_{3}$}] -- [charged scalar] i3,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i4  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
 				i2  -- [charged scalar, edge label = {$p_{2}$}] i3 ,
-				i2  -- [fermion, edge label = {$p_{3}$,M3}] i4 ,
-				i4  -- [charged scalar, edge label = {$p_{4}$}] i3 
+				i2  -- [fermion, edge label = {$p_{3}$,M3}] i1 ,
+				i1  -- [charged scalar, edge label = {$p_{4}$}] i3 
         };
     }\\
 d1l193
@@ -234,10 +211,9 @@ d1l193
 				e2[particle = {$q_{2}$}] -- [charged scalar] i2,
 				e3[particle = {$q_{3}$}] -- [charged scalar] i3,
 				e4[particle = {$q_{4}$}] -- [charged scalar] i1,
-				i4  -- [fermion, edge label = {$p_{1}$,M3}] i1 ,
 				i2  -- [charged scalar, edge label = {$p_{2}$}] i3 ,
-				i2  -- [fermion, edge label = {$p_{3}$,M3}] i4 ,
-				i4  -- [fermion, edge label = {$p_{4}$,M4}] i3 
+				i2  -- [fermion, edge label = {$p_{3}$,M3}] i1 ,
+				i1  -- [fermion, edge label = {$p_{4}$,M4}] i3 
         };
     }\\
 d1l194
@@ -247,14 +223,13 @@ d1l194
     \resizebox{0.8 \textwidth}{!}{
         \tikzfeynmanset{every vertex/.style={dot}}
         \feynmandiagram[large, horizontal = e1 to e2 ]{
-				e1[particle = {$q_{1}$}] -- [charged scalar] i2,
-				e2[particle = {$q_{2}$}] -- [charged scalar] i1,
-				e3[particle = {$q_{3}$}] -- [charged scalar] i1,
-				e4[particle = {$q_{4}$}] -- [charged scalar] i3,
-				i1  -- [fermion, edge label = {$p_{1}$,M3}] i4 ,
-				i3  -- [fermion, edge label = {$p_{2}$,M4}] i2 ,
-				i2  -- [charged scalar, edge label = {$p_{3}$}] i4 ,
-				i4  -- [charged scalar, edge label = {$p_{4}$}] i3 
+				e1[particle = {$q_{1}$}] -- [charged scalar] i1,
+				e2[particle = {$q_{2}$}] -- [charged scalar] i3,
+				e3[particle = {$q_{3}$}] -- [charged scalar] i3,
+				e4[particle = {$q_{4}$}] -- [charged scalar] i2,
+				i2  -- [fermion, edge label = {$p_{2}$,M4}] i1 ,
+				i1  -- [charged scalar, edge label = {$p_{3}$}] i3 ,
+				i3  -- [charged scalar, edge label = {$p_{4}$}] i2 
         };
     }\\
 d1l219
@@ -264,14 +239,13 @@ d1l219
     \resizebox{0.8 \textwidth}{!}{
         \tikzfeynmanset{every vertex/.style={dot}}
         \feynmandiagram[large, horizontal = e1 to e2 ]{
-				e1[particle = {$q_{1}$}] -- [charged scalar] i2,
-				e2[particle = {$q_{2}$}] -- [charged scalar] i1,
-				e3[particle = {$q_{3}$}] -- [charged scalar] i1,
-				e4[particle = {$q_{4}$}] -- [charged scalar] i3,
-				i1  -- [fermion, edge label = {$p_{1}$,M3}] i4 ,
-				i2  -- [charged scalar, edge label = {$p_{2}$}] i3 ,
-				i4  -- [fermion, edge label = {$p_{3}$,M3}] i2 ,
-				i4  -- [fermion, edge label = {$p_{4}$,M4}] i3 
+				e1[particle = {$q_{1}$}] -- [charged scalar] i1,
+				e2[particle = {$q_{2}$}] -- [charged scalar] i3,
+				e3[particle = {$q_{3}$}] -- [charged scalar] i3,
+				e4[particle = {$q_{4}$}] -- [charged scalar] i2,
+				i1  -- [charged scalar, edge label = {$p_{2}$}] i2 ,
+				i3  -- [fermion, edge label = {$p_{3}$,M3}] i1 ,
+				i3  -- [fermion, edge label = {$p_{4}$,M4}] i2 
         };
     }\\
 d1l221
@@ -281,14 +255,13 @@ d1l221
     \resizebox{0.8 \textwidth}{!}{
         \tikzfeynmanset{every vertex/.style={dot}}
         \feynmandiagram[large, horizontal = e1 to e2 ]{
-				e1[particle = {$q_{1}$}] -- [charged scalar] i2,
-				e2[particle = {$q_{2}$}] -- [charged scalar] i1,
-				e3[particle = {$q_{3}$}] -- [charged scalar] i1,
-				e4[particle = {$q_{4}$}] -- [charged scalar] i3,
-				i1  -- [fermion, edge label = {$p_{1}$,M3}] i4 ,
-				i2  -- [charged scalar, edge label = {$p_{2}$}] i3 ,
-				i4  -- [charged scalar, edge label = {$p_{3}$}] i2 ,
-				i4  -- [fermion, edge label = {$p_{4}$,M3}] i3 
+				e1[particle = {$q_{1}$}] -- [charged scalar] i1,
+				e2[particle = {$q_{2}$}] -- [charged scalar] i3,
+				e3[particle = {$q_{3}$}] -- [charged scalar] i3,
+				e4[particle = {$q_{4}$}] -- [charged scalar] i2,
+				i1  -- [charged scalar, edge label = {$p_{2}$}] i2 ,
+				i3  -- [charged scalar, edge label = {$p_{3}$}] i1 ,
+				i3  -- [fermion, edge label = {$p_{4}$,M3}] i2 
         };
     }\\
 d1l225
@@ -298,14 +271,13 @@ d1l225
     \resizebox{0.8 \textwidth}{!}{
         \tikzfeynmanset{every vertex/.style={dot}}
         \feynmandiagram[large, horizontal = e1 to e2 ]{
-				e1[particle = {$q_{1}$}] -- [charged scalar] i2,
-				e2[particle = {$q_{2}$}] -- [charged scalar] i1,
-				e3[particle = {$q_{3}$}] -- [charged scalar] i1,
-				e4[particle = {$q_{4}$}] -- [charged scalar] i3,
-				i1  -- [fermion, edge label = {$p_{1}$,M3}] i4 ,
-				i2  -- [charged scalar, edge label = {$p_{2}$}] i3 ,
-				i4  -- [fermion, edge label = {$p_{3}$,M4}] i2 ,
-				i4  -- [fermion, edge label = {$p_{4}$,M3}] i3 
+				e1[particle = {$q_{1}$}] -- [charged scalar] i1,
+				e2[particle = {$q_{2}$}] -- [charged scalar] i3,
+				e3[particle = {$q_{3}$}] -- [charged scalar] i3,
+				e4[particle = {$q_{4}$}] -- [charged scalar] i2,
+				i1  -- [charged scalar, edge label = {$p_{2}$}] i2 ,
+				i3  -- [fermion, edge label = {$p_{3}$,M4}] i1 ,
+				i3  -- [fermion, edge label = {$p_{4}$,M3}] i2 
         };
     }\\
 d1l227
