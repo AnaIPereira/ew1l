@@ -47,7 +47,8 @@ Function auxGamma, auxPL, auxPR,auxSlash;
 
 *momentum
 CFunction Vec;
-Vectors p1,...,p4, q;
+Vectors p1,...,p4;
+Vectors q1,...,q4;
 *CFunction to hold rational polynomials:
 CFunction prf;
 
