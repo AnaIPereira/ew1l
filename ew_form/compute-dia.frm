@@ -119,7 +119,7 @@ Identify Vec(ind?,momen?)*Vec(ind1?,momen1?) = 1/d* momen.momen1 * d_(ind,ind1);
 *Tracen,1;
 *Tracen,2;
 *.sort
-
+*test
 *Print +s;
 *.end
 
