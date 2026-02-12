@@ -99,25 +99,19 @@ EndArgument;
 
 *split the momenta in the numerator
 SplitArg Vec;
-Identify Vec(ind?,p1?,?a) = Vec(ind,p1) + Vec(ind,?a);
-Identify Vec(ind?,2*p1?,?a) = 2 * Vec(ind,p1) + Vec(ind,?a);
-Identify Vec(ind?,2*p1?,p2?) = 2*Vec(ind,p1) + Vec(ind,p2);
-Identify Vec(ind?,3*p1?,?a) = 3 * Vec(ind,p1) + Vec(ind,?a);
-Identify Vec(ind?,3*p1?,p2?) = 3*Vec(ind,p1) + Vec(ind,p2);
-Identify Vec(ind?, - p1?) = - Vec(ind, p1);
-
-*start setting some ext mom to zero
-Identify Vec(ind?,q1) = 0;
-Identify Vec(ind?,q2) = 0;
-Identify Vec(ind?,q3) = 0;
-Identify Vec(ind?,q4) = 0;
-
+Repeat;
+Identify Vec(ind?,?a,2 *p1?,?b) = 2 *Vec(ind,?a,p1,?b);
+Identify Vec(ind?,?a,3 *p1?,?b) = 3 *Vec(ind,?a,p1,?b);
+Identify Vec(ind?,?a,-p1?,?b) = -Vec(ind,?a,p1,?b);
+Identify Vec(ind?,p1?,p2?,?a) = Vec(ind,p1) + Vec(ind,p2,?a);
+Identify Vec(ind?, ?a, q1, ?b) = 0;
+Identify Vec(ind?, ?a, q2, ?b) = 0;
+Identify Vec(ind?, ?a, q3, ?b) = 0;
+Identify Vec(ind?, ?a, q4, ?b) = 0;
+EndRepeat;
 
 Print +s;
 .end
-
-
-
 
 
 *TENSOR REDUCTION
