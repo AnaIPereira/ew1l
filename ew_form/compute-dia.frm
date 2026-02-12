@@ -15,20 +15,24 @@ On HighFirst;
 
 * Load the diagram from the tapir file:
 Local d`LOOPS'l`DIA'amp =
-	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA';
+	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
+
 
 * Load the mapped topology, and make the necessary momentum replacements
 #include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
 `MOMREPLACEMENT'
 .sort
 
-*#include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
-*`INT1'
-*.sort
+Argument;
+`BRIDGEMOMENTA'
+EndArgument;
 
-*#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
-*`BRIDGEMOMENTA'
-*.sort
+Argument;
+#include ../ew_tapir/topo/`INT1' # NUMERATORMOMENTA
+EndArgument;
+.sort
+
+
 
 *Feynman rules
 * auxGamma are gamma matrices, their argument is a Lorentz index ans the spinor1 and spinor2.
@@ -76,16 +80,6 @@ Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Ve
 	Identify FT`i'(i1?,i2?) = 1;
 #enddo
 
-Argument;
-   `BRIDGEMOMENTA'
-EndArgument;
-
-*trying to map topologies into diagrams
-#include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
-`INT1'
-Argument;
-`NUMERATORMOMENTA'
-EndArgument;
 
 
 Print +s;
