@@ -3,7 +3,6 @@ Off Statistics;
 On HighFirst;
 
 #include- form-declarations.h
-Symbol integer;
 
 #ifndef `LOOPS'
 	#message Error, please specify the number of loops as LOOPS.
@@ -22,6 +21,14 @@ Local d`LOOPS'l`DIA'amp =
 #include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
 `MOMREPLACEMENT'
 .sort
+
+*#include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
+*`INT1'
+*.sort
+
+*#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
+*`BRIDGEMOMENTA'
+*.sort
 
 *Feynman rules
 * auxGamma are gamma matrices, their argument is a Lorentz index ans the spinor1 and spinor2.
@@ -69,33 +76,20 @@ Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Ve
 	Identify FT`i'(i1?,i2?) = 1;
 #enddo
 
-*problem with mappint topologies and diagrams. it calls for d1li for i the #diag but I want to call topologies.
-*could do one by one but want to do it generically
-Argument Vec;
-   #include- ../ew_tapir/topo/d1l1 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l2 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l4 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l6 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l33 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l36 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l42 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l44 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l57 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l60 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l185 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l187 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l193 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l194 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l219 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l221 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l225 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l227 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l253 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l257 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l261 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l263 # NUMERATORMOMENTA;
-   #include- ../ew_tapir/topo/d1l267 # NUMERATORMOMENTA;
+Argument;
+   `BRIDGEMOMENTA'
 EndArgument;
+
+*trying to map topologies into diagrams
+#include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
+`INT1'
+Argument;
+`NUMERATORMOMENTA'
+EndArgument;
+
+
+Print +s;
+.end
 
 *split the momenta in the numerator
 SplitArg Vec;
@@ -110,9 +104,7 @@ Identify Vec(ind?, ?a, q3, ?b) = 0;
 Identify Vec(ind?, ?a, q4, ?b) = 0;
 EndRepeat;
 
-Print +s;
-.end
-
+*set the momenta to zero in the propagators
 
 *TENSOR REDUCTION
 * contract all the scalar product pi^2, etc
@@ -130,8 +122,8 @@ Identify Vec(ind1?,momen?)*Vec(ind2?,momen1?)*Vec(ind3?,momen1?)*Vec(ind4?,momen
 Identify Vec(ind?,momen?)*Vec(ind1?,momen1?) = 1/d* momen.momen1 * d_(ind,ind1);
 
 * Compute the traces:
-*Trace4,1;
-*Trace4,2;
+*Tracen,1;
+*Tracen,2;
 *.sort
 
 *Print +s;
