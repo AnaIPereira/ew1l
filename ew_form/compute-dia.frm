@@ -80,11 +80,6 @@ Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Ve
 	Identify FT`i'(i1?,i2?) = 1;
 #enddo
 
-
-
-Print +s;
-.end
-
 *split the momenta in the numerator
 SplitArg Vec;
 Repeat;
@@ -92,13 +87,15 @@ Identify Vec(ind?,?a,2 *p1?,?b) = 2 *Vec(ind,?a,p1,?b);
 Identify Vec(ind?,?a,3 *p1?,?b) = 3 *Vec(ind,?a,p1,?b);
 Identify Vec(ind?,?a,-p1?,?b) = -Vec(ind,?a,p1,?b);
 Identify Vec(ind?,p1?,p2?,?a) = Vec(ind,p1) + Vec(ind,p2,?a);
-Identify Vec(ind?, ?a, q1, ?b) = 0;
-Identify Vec(ind?, ?a, q2, ?b) = 0;
-Identify Vec(ind?, ?a, q3, ?b) = 0;
-Identify Vec(ind?, ?a, q4, ?b) = 0;
+*Identify Vec(ind?, ?a, q1, ?b) = 0;
+*Identify Vec(ind?, ?a, q2, ?b) = 0;
+*Identify Vec(ind?, ?a, q3, ?b) = 0;
+*Identify Vec(ind?, ?a, q4, ?b) = 0;
 EndRepeat;
 
-*set the momenta to zero in the propagators
+Print +s;
+.end
+
 
 *TENSOR REDUCTION
 * contract all the scalar product pi^2, etc
