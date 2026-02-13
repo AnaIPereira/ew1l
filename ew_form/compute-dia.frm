@@ -17,20 +17,21 @@ On HighFirst;
 Local d`LOOPS'l`DIA'amp =
 	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
 
-
 * Load the mapped topology, and make the necessary momentum replacements
 #include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
 `MOMREPLACEMENT'
 .sort
 
-*Argument;
-*`BRIDGEMOMENTA'
-*EndArgument;
+Argument;
+`BRIDGEMOMENTA'
+EndArgument;
 
-*Argument;
-*#include ../ew_tapir/topo/`INT1' # NUMERATORMOMENTA
-*EndArgument;
-*.sort
+Argument;
+#include ../ew_tapir/topo/`INT1' # NUMERATORMOMENTA
+EndArgument;
+.sort
+
+*On code;
 
 Identify Mom(?a) = Vec(?a);
 
@@ -38,28 +39,22 @@ Identify Mom(?a) = Vec(?a);
 * auxGamma are gamma matrices, their argument is a Lorentz index ans the spinor1 and spinor2.
 
 *Identify flavourTag(?f,i1?,i2?) = delta_(i1,i2);
-*contract;
 
 Identify auxPL(i1?,i2?) = cFT(g7,XX,i1,i2)/2;
 Identify auxPR(i1?,i2?) = cFT(g6,XX,i1,i2)/2;
 Identify auxSlash(?a,i1?,i2?) = cFT(?a,XX,i1,i2);
 Identify auxGamma(?a,i1?,i2?) = cFT(?a,XX,i1,i2);
 
-Identify auxPL(j1?,j2?) = cFT(g7,XX,j1,j2)/2;
-Identify auxPR(j1?,j2?) = cFT(g6,XX,j1,j2)/2;
-Identify auxSlash(?a,j1?,j2?) = cFT(?a,XX,j1,j2);
-Identify auxGamma(?a,j1?,j2?) = cFT(?a,XX,j1,j2);
-.sort
-
 Identify cFT(- p1?, ?a) = - cFT(p1, ?a);
 
 #do i = 1,2
 
   Identify once cFT(?a) = FT`i'(?a);
-
   Repeat;
     Identify FT`i'(?a,i1?,i2?) * cFT(?b,i2?,i3?) = FT`i'(?a,XX,?b,XX,i1,i3);
     Identify cFT(?b,i3?,i1?) * FT`i'(?a,i1?,i2?) = FT`i'(?b,XX,?a,XX,i3,i2);
+    Identify FT`i'(?a,i1?,i2?) * cFT(?b,i3?,i1?) = FT`i'(?a,XX,?b,XX,i2,i3);
+    Identify cFT(?b,i3?,i1?) * FT`i'(?a,i2?,i3?) = FT`i'(?b,XX,?a,XX,i1,i2);
     Identify FT`i'(?a,i1?,i1?) = FT`i'(?a);
   EndRepeat;
   Repeat;
@@ -92,28 +87,42 @@ Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Ve
 	Identify FT`i'(i1?,i2?) = 1;
 #enddo
 
-Print +s;
-.end
-
 *split the momenta in the numerator
 SplitArg Vec;
 Repeat;
-Identify Vec(ind?,?a,2 *p1?,?b) = 2 *Vec(ind,?a,p1,?b);
-Identify Vec(ind?,?a,3 *p1?,?b) = 3 *Vec(ind,?a,p1,?b);
-Identify Vec(ind?,?a,-p1?,?b) = -Vec(ind,?a,p1,?b);
-Identify Vec(ind?,p1?,p2?,?a) = Vec(ind,p1) + Vec(ind,p2,?a);
+*Identify Vec(ind?,?a,2 *mom?,?b) = 2 *Vec(ind,?a,mom,?b);
+*Identify Vec(ind?,?a,3 * mom?,?b) = 3 *Vec(ind,?a,mom,?b);
+*Identify Vec(ind?,?a,-mom?,?b) = -Vec(ind,?a,mom,?b);
+Identify Vec(ind?,mom?,mom1?,?a) = Vec(ind,mom) + Vec(ind,mom1,?a);
 *Identify Vec(ind?, ?a, q1, ?b) = 0;
 *Identify Vec(ind?, ?a, q2, ?b) = 0;
 *Identify Vec(ind?, ?a, q3, ?b) = 0;
 *Identify Vec(ind?, ?a, q4, ?b) = 0;
 EndRepeat;
 
+*Print +s;
+*.end
 
-#include- tensorred.frm
+*TENSOR REDUCTION
+* contract all the scalar product pi^2, etc
+Identify Vecr(ind?,momen?)*Vecr(ind?,momen?) = momen.momen;
+Identify Vecr(ind?,momen?)^2 = momen.momen;
+
+*tensor reduction for rank 4 - no symmetries, most generic 
+*Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?)*Vecr(ind3?,momen3?)*Vecr(ind4?,momen4?)=1/(d* (-2 + d + d^2))*(d_(ind1, ind4)* d_(ind2, ind3) *((1 + d)* momen1.momen4 * momen2.momen3 - momen1.momen3 * momen2.momen4 - momen1.momen2 * momen3.momen4) +   d_(ind1, ind3) * d_(ind2, ind4)* (-momen1.momen4 momen2.momen3 +  (1 + d)* momen1.momen3 * momen2.momen4 - momen1.momen2 * momen3.momen4) + d_(ind1, ind2) * d_(ind3, ind4)* (-momen1.momen4 * momen2.momen4 - momen1.momen3 * momen2.momen4 + (1 + d) *momen1.momen2 * momen3.momen4));
+
+*tensor reduction for rank 4 with symmetries
+Identify Vecr(ind1?,momen?)*Vecr(ind2?,momen?)*Vecr(ind3?,momen1?)*Vecr(ind4?,momen1?) = 1/(d *(d^2 + d - 2))*(- momen.momen * momen1.momen1 + d* (momen.momen1)^2)*(d_(ind1,ind3)*d_(ind2,ind4) + d_(ind1,ind4)*d_(ind2,ind3));
+Identify Vecr(ind1?,momen?)*Vecr(ind3?,momen1?)*Vecr(ind2?,momen?)*Vecr(ind4?,momen1?) = 1/(d *(d^2 + d - 2))*(- momen.momen * momen1.momen1 + d* (momen.momen1)^2)*(d_(ind1,ind3)*d_(ind2,ind4) + d_(ind1,ind4)*d_(ind2,ind3));
+Identify Vecr(ind1?,momen?)*Vecr(ind2?,momen1?)*Vecr(ind3?,momen1?)*Vecr(ind4?,momen1?) =1/(d^2+2*d)*(momen.momen1)*(momen1.momen1)*(d_(ind1,ind2)*d_(ind3,ind4)+d_(ind1,ind4)*d_(ind3,ind2)+d_(ind1,ind3)*d_(ind2,ind4));
+
 
 
 Print +s;
 .end
+
+#include- tensorred.frm
+
 
 * Compute the traces:
 *Tracen,1;

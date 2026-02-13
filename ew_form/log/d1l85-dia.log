@@ -1,17 +1,217 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 13 15:00:05 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 13 17:54:08 2026
     #-
 
    d1l85amp =
-       + 1/16*g_(1,6_,nu10)*g_(2,6_,nu11)*cFT(nu11,XX,j16,iufo13)*cFT(g7,XX,
-      iufo13,j13)*cFT(p4,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(g7,XX,iufo15,
-      j15)*cFT(p3,XX,j13,j14)*flavourTag(fb,j15,j16)*flavourTag(fc,j13,j14)*
-      Vec(nu10,p1)*Vec(nu9,p1)*Deng(p1,xiw,M3)^2*Deng(p2,xiw,M3)*xiw*ufoGC58^2
-      *ufoGC124*ufoGC64
-       - 1/16*g_(1,6_,nu10)*g_(2,6_,nu11)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
-      iufo13,j13)*cFT(p4,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(g7,XX,iufo15,
-      j15)*cFT(p3,XX,j13,j14)*flavourTag(fb,j15,j16)*flavourTag(fc,j13,j14)*
-      Vec(nu10,p1)*Vec(nu11,p2)*Vec(nu12,p2)*Vec(nu9,p1)*Deng(p1,xiw,M3)^2*
-      Deng(p2,xiw,M3)^2*xiw*ufoGC58^2*ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu10)*g_(2,6_,nu10)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu12,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q2.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu10)*g_(2,6_,nu10)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu12,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3*q3.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu10)*cFT(nu9,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q2.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu10)*cFT(nu9,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3*q3.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       - 1/16*g_(1,6_,nu10)*g_(2,6_,nu11)*cFT(nu11,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)*flavourTag(fb,j15,j16)*flavourTag(
+      fc,j13,j14)*Vec(nu10,q2)*Vec(nu9,q2)*Deng(q2 + q3,xiw,M3)^3*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       - 1/16*g_(1,6_,nu10)*g_(2,6_,nu11)*cFT(nu11,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)*flavourTag(fb,j15,j16)*flavourTag(
+      fc,j13,j14)*Vec(nu10,q2)*Vec(nu9,q3)*Deng(q2 + q3,xiw,M3)^3*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       - 1/16*g_(1,6_,nu10)*g_(2,6_,nu11)*cFT(nu11,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)*flavourTag(fb,j15,j16)*flavourTag(
+      fc,j13,j14)*Vec(nu10,q3)*Vec(nu9,q2)*Deng(q2 + q3,xiw,M3)^3*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       - 1/16*g_(1,6_,nu10)*g_(2,6_,nu11)*cFT(nu11,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)*flavourTag(fb,j15,j16)*flavourTag(
+      fc,j13,j14)*Vec(nu10,q3)*Vec(nu9,q3)*Deng(q2 + q3,xiw,M3)^3*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu10)*g_(2,6_,nu12)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu10,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q2.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu10)*g_(2,6_,nu12)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu10,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3*q3.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu9)*cFT(nu10,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q2.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       + 1/8*g_(1,6_,nu10)*g_(2,6_,nu9)*cFT(nu10,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3*q3.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       - 1/8*g_(1,6_,nu11)*g_(2,6_,nu11)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu12,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q3.q3*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/8*g_(1,6_,nu11)*g_(2,6_,nu11)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu12,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3^2*d*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       - 1/8*g_(1,6_,nu11)*g_(2,6_,nu11)*cFT(nu9,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q3.q3*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/8*g_(1,6_,nu11)*g_(2,6_,nu11)*cFT(nu9,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3^2*d*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu11)*g_(2,6_,nu11)*cFT(nu9,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q2.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu11)*g_(2,6_,nu11)*cFT(nu9,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3*q3.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       - 1/8*g_(1,6_,nu12)*g_(2,6_,nu11)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu11,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q3.q3*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/8*g_(1,6_,nu12)*g_(2,6_,nu11)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu11,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3^2*d*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu12)*g_(2,6_,nu11)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu11,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q2.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu12)*g_(2,6_,nu11)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu11,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3*q3.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu12)*g_(2,6_,nu9)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2^2*d*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       - 1/16*g_(1,6_,nu12)*g_(2,6_,nu9)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2^2*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       - 1/8*g_(1,6_,nu12)*g_(2,6_,nu9)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q3.q3*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/8*g_(1,6_,nu12)*g_(2,6_,nu9)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3^2*d*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu12)*g_(2,6_,nu9)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q3.q3^2*d*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       - 1/16*g_(1,6_,nu12)*g_(2,6_,nu9)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q3.q3^2*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu12)*g_(2,6_,nu9)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q2.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu12)*g_(2,6_,nu9)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3*q3.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       - 1/8*g_(1,6_,nu9)*g_(2,6_,nu11)*cFT(nu11,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q3.q3*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/8*g_(1,6_,nu9)*g_(2,6_,nu11)*cFT(nu11,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3^2*d*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/8*g_(1,6_,nu9)*g_(2,6_,nu11)*cFT(nu11,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q2.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       + 1/8*g_(1,6_,nu9)*g_(2,6_,nu11)*cFT(nu11,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3*q3.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu9)*g_(2,6_,nu12)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2^2*d*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       - 1/16*g_(1,6_,nu9)*g_(2,6_,nu12)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2^2*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       - 1/8*g_(1,6_,nu9)*g_(2,6_,nu12)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q3.q3*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/8*g_(1,6_,nu9)*g_(2,6_,nu12)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3^2*d*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu9)*g_(2,6_,nu12)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q3.q3^2*d*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       - 1/16*g_(1,6_,nu9)*g_(2,6_,nu12)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^3 + d^2 - 2*d)*flavourTag(fb,j15
+      ,j16)*flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q3.q3^2*xiw*
+      ufoGC58^2*ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu9)*g_(2,6_,nu12)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q2*q2.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
+       + 1/16*g_(1,6_,nu9)*g_(2,6_,nu12)*cFT(nu12,XX,j16,iufo13)*cFT(g7,XX,
+      iufo13,j13)*cFT( - p3 + q2 + q3,XX,j15,j16)*cFT(nu9,XX,j14,iufo15)*cFT(
+      g7,XX,iufo15,j15)*cFT(p3,XX,j13,j14)/(d^2 + 2*d)*flavourTag(fb,j15,j16)*
+      flavourTag(fc,j13,j14)*Deng(q2 + q3,xiw,M3)^4*q2.q3*q3.q3*xiw*ufoGC58^2*
+      ufoGC124*ufoGC64
       ;
 
   0.00 sec out of 0.00 sec

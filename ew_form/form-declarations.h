@@ -21,14 +21,14 @@ AutoDeclare Function cFT, FT;
 Symbol g7, XX, g6
 
 * Kinematic variables and masses
-Symbol M1,M2,M3,M4,mass,mom,mom1;
-
+Symbol M1,M2,M3,M4,mass;
+Vector mom, mom1;
 Cfunction flavourTag;
 Symbol fve,fvm,fe,fmu,fta,fvt,fu,fd,fs,fb,fc,ft;
 
 CFunction Mom;
 
-Vector momen,momen1;
+AutoDeclare Vector momen;
 
 *Coupling constants and gauge parameters
 Symbol gaug, xia, xiw, xiz;
@@ -38,15 +38,15 @@ AutoDeclare Symbol ufoGC;
 
 *indices
 Symbol mu,spin;
-Indices ind,ind1,ind2,ind3, ind4,nu,i,j,iufo3,iufo13,iufo4,iufo15;
+Indices ind,ind1,ind2,ind3,ind4,i,j,nu;
 
 *gamma matrices
 Function auxGamma, auxPL, auxPR,auxSlash;
 
 *momentum
-CFunction Vec;
-Symbol p1,...,p4;
-Symbol q1,...,q4;
+CFunction Vec, Vecr;
+Vector p1,...,p4;
+Vector q1,...,q4;
 Symbol p,q;
 *CFunction to hold rational polynomials:
 CFunction prf;

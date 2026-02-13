@@ -1,31 +1,6 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 13 15:00:07 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 13 17:55:44 2026
     #-
-
-   d1l262amp =
-       + 1/4*g_(1,6_,nu16)*FT2(p2)*cFT(nu10,XX,i1,j11)*cFT(nu9,XX,j14,i3)*cFT(
-      p3,XX,j13,j14)*cFT(nu15,XX,i2,iufo13)*cFT(g7,XX,iufo13,j13)*flavourTag(
-      fe,j11,j12)*flavourTag(fmu,j13,j14)*Vec(nu16,p4)*Vec(nu10,p1)*Vec(nu9,p1
-      )*Vec(nu15,p4)*Den(p1)^2*Deng(p4,xiw,M3)^2*xia*ufoGC58^2*ufoGC3^2
-       - 1/4*g_(1,6_,nu16)*FT2(p2)*cFT(nu10,XX,i1,j11)*cFT(nu9,XX,j14,i3)*cFT(
-      p3,XX,j13,j14)*cFT(nu15,XX,i2,iufo13)*cFT(g7,XX,iufo13,j13)*flavourTag(
-      fe,j11,j12)*flavourTag(fmu,j13,j14)*Vec(nu16,p4)*Vec(nu10,p1)*Vec(nu9,p1
-      )*Vec(nu15,p4)*Den(p1)^2*Deng(p4,xiw,M3)^2*ufoGC58^2*ufoGC3^2
-       + 1/4*g_(1,6_,nu16)*FT2(p2)*cFT(nu9,XX,i1,j11)*cFT(nu9,XX,j14,i3)*cFT(
-      p3,XX,j13,j14)*cFT(nu15,XX,i2,iufo13)*cFT(g7,XX,iufo13,j13)*flavourTag(
-      fe,j11,j12)*flavourTag(fmu,j13,j14)*Vec(nu16,p4)*Vec(nu15,p4)*Den(p1)*
-      Deng(p4,xiw,M3)^2*ufoGC58^2*ufoGC3^2
-       - 1/4*g_(1,6_,nu15)*FT2(p2)*cFT(nu10,XX,i1,j11)*cFT(nu9,XX,j14,i3)*cFT(
-      p3,XX,j13,j14)*cFT(nu15,XX,i2,iufo13)*cFT(g7,XX,iufo13,j13)*flavourTag(
-      fe,j11,j12)*flavourTag(fmu,j13,j14)*Vec(nu10,p1)*Vec(nu9,p1)*Den(p1)^2*
-      Deng(p4,xiw,M3)*xia*ufoGC58^2*ufoGC3^2
-       + 1/4*g_(1,6_,nu15)*FT2(p2)*cFT(nu10,XX,i1,j11)*cFT(nu9,XX,j14,i3)*cFT(
-      p3,XX,j13,j14)*cFT(nu15,XX,i2,iufo13)*cFT(g7,XX,iufo13,j13)*flavourTag(
-      fe,j11,j12)*flavourTag(fmu,j13,j14)*Vec(nu10,p1)*Vec(nu9,p1)*Den(p1)^2*
-      Deng(p4,xiw,M3)*ufoGC58^2*ufoGC3^2
-       - 1/4*g_(1,6_,nu15)*FT2(p2)*cFT(nu9,XX,i1,j11)*cFT(nu9,XX,j14,i3)*cFT(
-      p3,XX,j13,j14)*cFT(nu15,XX,i2,iufo13)*cFT(g7,XX,iufo13,j13)*flavourTag(
-      fe,j11,j12)*flavourTag(fmu,j13,j14)*Den(p1)*Deng(p4,xiw,M3)*ufoGC58^2*
-      ufoGC3^2
-      ;
-
+compute-dia.frm Line 26 ==> Undefined preprocessor variable BRIDGEMOMENTA
+Program terminating at compute-dia.frm Line 25 --> 
+Terminate called from message.c:70 (Error1)
   0.00 sec out of 0.00 sec
