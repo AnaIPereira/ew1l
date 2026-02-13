@@ -40,7 +40,7 @@ ufoGC27,ufoGC21,ufoGC30,ufoGC86;
 
 *indices
 Symbol mu,spin;
-Indices ind,ind1,ind2,ind3, ind4,nu,i,iufo3,iufo4,iufo15;
+Indices ind,ind1,ind2,ind3, ind4,nu,i,j,iufo3,iufo4,iufo15;
 
 *gamma matrices
 Function auxGamma, auxPL, auxPR,auxSlash;

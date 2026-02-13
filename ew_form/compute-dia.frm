@@ -23,24 +23,35 @@ Local d`LOOPS'l`DIA'amp =
 `MOMREPLACEMENT'
 .sort
 
-Argument;
-`BRIDGEMOMENTA'
-EndArgument;
+*Argument;
+*`BRIDGEMOMENTA'
+*EndArgument;
 
-Argument;
-#include ../ew_tapir/topo/`INT1' # NUMERATORMOMENTA
-EndArgument;
-.sort
+*Argument;
+*#include ../ew_tapir/topo/`INT1' # NUMERATORMOMENTA
+*EndArgument;
+*.sort
 
-
+Identify Mom(?a) = Vec(?a);
 
 *Feynman rules
 * auxGamma are gamma matrices, their argument is a Lorentz index ans the spinor1 and spinor2.
+
+*Identify flavourTag(?f,i1?,i2?) = delta_(i1,i2);
+*contract;
 
 Identify auxPL(i1?,i2?) = cFT(g7,XX,i1,i2)/2;
 Identify auxPR(i1?,i2?) = cFT(g6,XX,i1,i2)/2;
 Identify auxSlash(?a,i1?,i2?) = cFT(?a,XX,i1,i2);
 Identify auxGamma(?a,i1?,i2?) = cFT(?a,XX,i1,i2);
+
+Identify auxPL(j1?,j2?) = cFT(g7,XX,j1,j2)/2;
+Identify auxPR(j1?,j2?) = cFT(g6,XX,j1,j2)/2;
+Identify auxSlash(?a,j1?,j2?) = cFT(?a,XX,j1,j2);
+Identify auxGamma(?a,j1?,j2?) = cFT(?a,XX,j1,j2);
+.sort
+
+Identify cFT(- p1?, ?a) = - cFT(p1, ?a);
 
 #do i = 1,2
 
@@ -68,6 +79,7 @@ Identify Dgoldst(?mom,gaug?) = Deng(?mom, gaug, 0);
 Identify Dlong(ind1?,ind2?,?mom,gaug?,mass?) = (gaug*Vec(ind1,?mom)*Vec(ind2,?mom)*Deng(?mom,gaug,mass))* Deng(?mom,gaug,mass);
 Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Vec(ind2,?mom)*Deng(?mom,gaug,mass))* Deng(?mom,gaug,mass);
 
+
 #do i = 1,`NUMTRACES'
   Identify FT`i'(g7) = g7_(`i');
 #enddo
@@ -79,6 +91,9 @@ Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Ve
 #do i = 1,`NUMTRACES'
 	Identify FT`i'(i1?,i2?) = 1;
 #enddo
+
+Print +s;
+.end
 
 *split the momenta in the numerator
 SplitArg Vec;
@@ -93,30 +108,17 @@ Identify Vec(ind?,p1?,p2?,?a) = Vec(ind,p1) + Vec(ind,p2,?a);
 *Identify Vec(ind?, ?a, q4, ?b) = 0;
 EndRepeat;
 
+
+#include- tensorred.frm
+
+
 Print +s;
 .end
-
-
-*TENSOR REDUCTION
-* contract all the scalar product pi^2, etc
-Identify Vec(ind?,momen?)*Vec(ind?,momen?) = momen.momen;
-Identify Vec(ind?,momen?)^2 = momen.momen;
-
-*tensor reduction for rank 4
-Identify Vec(ind1?,momen?)*Vec(ind2?,momen?)*Vec(ind3?,momen1?)*Vec(ind4?,momen1?) =
-1/(d *(d^2 + d - 2))*(- momen.momen * momen1.momen1 + d* (momen.momen1)^2)*(d_(ind1,ind3)*d_(ind2,ind4) + d_(ind1,ind4)*d_(ind2,ind3));
-
-Identify Vec(ind1?,momen?)*Vec(ind2?,momen1?)*Vec(ind3?,momen1?)*Vec(ind4?,momen1?) =
-1/(d^2+2*d)*(momen.momen1)*(momen1.momen1)*(d_(ind1,ind2)*d_(ind3,ind4)+d_(ind1,ind4)*d_(ind3,ind2)+d_(ind1,ind3)*d_(ind2,ind4));
-
-*tensor reduction for rank 2
-Identify Vec(ind?,momen?)*Vec(ind1?,momen1?) = 1/d* momen.momen1 * d_(ind,ind1);
 
 * Compute the traces:
 *Tracen,1;
 *Tracen,2;
 *.sort
-*test
 *Print +s;
 *.end
 

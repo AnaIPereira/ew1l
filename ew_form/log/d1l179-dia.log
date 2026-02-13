@@ -1,0 +1,17 @@
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 13 14:19:02 2026
+    #-
+
+   d1l179amp =
+       - 1/4*g_(1,6_,nu10)*FT2(g6)*Vec(nu10,p1)*Vec(nu9,p1)^2*Deng(p1,xiw,M3)^
+      2*Deng(p2,xiw,0)*Dghost(p3,xiz)*Dghost(p4,xiw)*xiw*ufoGC58*ufoGC107*
+      ufoGC68*ufoGC94
+       - 1/4*g_(1,6_,nu10)*FT2(g6)*Vec(nu10,p1)*Vec(nu9,p1)*Vec(nu9,p4)*Deng(
+      p1,xiw,M3)^2*Deng(p2,xiw,0)*Dghost(p3,xiz)*Dghost(p4,xiw)*xiw*ufoGC58*
+      ufoGC107*ufoGC68*ufoGC94
+       + 1/4*g_(1,6_,nu9)*FT2(g6)*Vec(nu9,p1)*Deng(p1,xiw,M3)*Deng(p2,xiw,0)*
+      Dghost(p3,xiz)*Dghost(p4,xiw)*xiw*ufoGC58*ufoGC107*ufoGC68*ufoGC94
+       + 1/4*g_(1,6_,nu9)*FT2(g6)*Vec(nu9,p4)*Deng(p1,xiw,M3)*Deng(p2,xiw,0)*
+      Dghost(p3,xiz)*Dghost(p4,xiw)*xiw*ufoGC58*ufoGC107*ufoGC68*ufoGC94
+      ;
+
+  0.00 sec out of 0.00 sec
