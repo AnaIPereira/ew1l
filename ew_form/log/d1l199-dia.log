@@ -1,18 +1,18 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 13 14:19:03 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 13 15:00:06 2026
     #-
 
    d1l199amp =
        + 1/4*g_(1,6_,nu10)*g_(2,nu16)*cFT(p2,XX,j11,j12)*cFT(g6,XX,i2,j11)*
       flavourTag(fmu,j11,j12)*Vec(nu10,p1)*Vec(nu16,p4)*Vec(nu9,p1)*Vec(nu9,p4
-      )*Den(p4)^2*Deng(p1,xiw,M3)^2*Deng(p3,xiw,0)*xia*xiw*ufoGC58*ufoGC107*
-      ufoGC3*ufoGC93
+      )*Den(p4)^2*Deng(p1,xiw,M3)^2*Deng(p3,xiw,0)*xia*xiw*ufoGC58*ufoGC3*
+      ufoGC107*ufoGC93
        - 1/4*g_(1,6_,nu10)*g_(2,nu16)*cFT(p2,XX,j11,j12)*cFT(g6,XX,i2,j11)*
       flavourTag(fmu,j11,j12)*Vec(nu10,p1)*Vec(nu16,p4)*Vec(nu9,p1)*Vec(nu9,p4
-      )*Den(p4)^2*Deng(p1,xiw,M3)^2*Deng(p3,xiw,0)*xiw*ufoGC58*ufoGC107*ufoGC3
+      )*Den(p4)^2*Deng(p1,xiw,M3)^2*Deng(p3,xiw,0)*xiw*ufoGC58*ufoGC3*ufoGC107
       *ufoGC93
        + 1/4*g_(1,6_,nu10)*g_(2,nu9)*cFT(p2,XX,j11,j12)*cFT(g6,XX,i2,j11)*
       flavourTag(fmu,j11,j12)*Vec(nu10,p1)*Vec(nu9,p1)*Den(p4)*Deng(p1,xiw,M3)
-      ^2*Deng(p3,xiw,0)*xiw*ufoGC58*ufoGC107*ufoGC3*ufoGC93
+      ^2*Deng(p3,xiw,0)*xiw*ufoGC58*ufoGC3*ufoGC107*ufoGC93
       ;
 
   0.00 sec out of 0.00 sec
