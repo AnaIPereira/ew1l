@@ -36,6 +36,8 @@ Symbol gaug, xia, xiw, xiz;
 AutoDeclare Index iufo;
 AutoDeclare Symbol ufoGC;
 
+Symbol x;
+
 *indices
 Symbol mu,spin;
 Indices ind,ind1,ind2,ind3,ind4,i,j,nu;

@@ -126,6 +126,11 @@ Identify Vecr(ind1?,momen?)*Vecr(ind2?,momen1?)*Vecr(ind3?,momen1?)*Vecr(ind4?,m
 *tensor reduction for rank 3
 Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?)*Vecr(ind3?,momen3?) = 0;
 
+*tensor reduction for rank 2
+Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?) = d_(ind1,ind2) * 1/d * momen1.momen2;
+
+*tensor reduction for rank 1
+Identify Vecr(ind1?,momen1?) = 0;
 
 Print +s;
 .end

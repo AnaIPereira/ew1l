@@ -1,4 +1,4 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:40:03 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Mar  3 13:53:23 2026
     #-
 
    d1l9amp =
@@ -6,36 +6,16 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:
       ^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu9,q2)
       *Vec(nu9,q3)*Den(p3)*Deng(q2 + q3,xiw,M3)^4*xiw*ufoGC58^2*ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu9,q2)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu9,q2)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu9,q2)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu9,q2)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
        + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu9,q3)
       ^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*xiw*ufoGC58^2*ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu9,q3)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu9,q3)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu9,q3)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu9,q3)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q2
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q2
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*ufoGC5
+       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q2
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xia*xiw*ufoGC58^2*ufoGC5
+       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q2
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xiw*ufoGC58^2*ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q2
       )^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*d*xiw*ufoGC58^2*ufoGC5
        + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q2
@@ -46,6 +26,12 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:
        + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q2
       )*Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
       ufoGC5
+       + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q2
+      )*Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xia*xiw*
+      ufoGC58^2*ufoGC5
+       - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q2
+      )*Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xiw*ufoGC58^2
+      *ufoGC5
        - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q2
       )*Vec(nu12,q3)*Den(p3)*Deng(q2 + q3,xiw,M3)^4*d*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q2
@@ -54,6 +40,10 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q3
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*ufoGC5
+       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q3
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xia*xiw*ufoGC58^2*ufoGC5
+       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q3
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xiw*ufoGC58^2*ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q3
       )^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*d*xiw*ufoGC58^2*ufoGC5
        + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12,q3
@@ -70,36 +60,16 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:
       ^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu9,q2)
       *Vec(nu9,q3)*Den(p3)*Deng(q2 + q3,xiw,M3)^4*xiw*ufoGC58^2*ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu9,q2)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu9,q2)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu9,q2)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu9,q2)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
        + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu9,q3)
       ^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*xiw*ufoGC58^2*ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu9,q3)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu9,q3)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu9,q3)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu9,q3)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q2
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q2
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*ufoGC5
+       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q2
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xia*xiw*ufoGC58^2*ufoGC5
+       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q2
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xiw*ufoGC58^2*ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q2
       )^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*d*xiw*ufoGC58^2*ufoGC5
        + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q2
@@ -110,6 +80,12 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:
        + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q2
       )*Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
       ufoGC5
+       + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q2
+      )*Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xia*xiw*
+      ufoGC58^2*ufoGC5
+       - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q2
+      )*Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xiw*ufoGC58^2
+      *ufoGC5
        - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q2
       )*Vec(nu12,q3)*Den(p3)*Deng(q2 + q3,xiw,M3)^4*d*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q2
@@ -118,6 +94,10 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q3
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*ufoGC5
+       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q3
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xia*xiw*ufoGC58^2*ufoGC5
+       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q3
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xiw*ufoGC58^2*ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q3
       )^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*d*xiw*ufoGC58^2*ufoGC5
        + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12,q3
@@ -130,48 +110,20 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:
       Deng(q2 + q3,xiw,M3)^3*d*xiw*ufoGC58^2*ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Den(p3)*
       Deng(q2 + q3,xiw,M3)^3*xiw*ufoGC58^2*ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu9,q2)*Den(p3)^2*
-      Deng(q2 + q3,xiw,M3)^3*p3.p3*xia*xiw*ufoGC58^2*ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu9,q2)*Den(p3)^2*
-      Deng(q2 + q3,xiw,M3)^3*p3.p3*xiw*ufoGC58^2*ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu9,q3)*Den(p3)^2*
-      Deng(q2 + q3,xiw,M3)^3*p3.p3*xia*xiw*ufoGC58^2*ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu9,q3)*Den(p3)^2*
-      Deng(q2 + q3,xiw,M3)^3*p3.p3*xiw*ufoGC58^2*ufoGC5
        + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu9,q2)
       ^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu9,q2)
       *Vec(nu9,q3)*Den(p3)*Deng(q2 + q3,xiw,M3)^4*xiw*ufoGC58^2*ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu9,q2)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu9,q2)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu9,q2)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu9,q2)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
        + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu9,q3)
       ^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*xiw*ufoGC58^2*ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu9,q3)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu9,q3)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu9,q3)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu9,q3)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q2
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q2
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*ufoGC5
+       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q2
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xia*xiw*ufoGC58^2*ufoGC5
+       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q2
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xiw*ufoGC58^2*ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q2
       )^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*d*xiw*ufoGC58^2*ufoGC5
        + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q2
@@ -182,6 +134,12 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:
        + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q2
       )*Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
       ufoGC5
+       + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q2
+      )*Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xia*xiw*
+      ufoGC58^2*ufoGC5
+       - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q2
+      )*Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xiw*ufoGC58^2
+      *ufoGC5
        - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q2
       )*Vec(nu12,q3)*Den(p3)*Deng(q2 + q3,xiw,M3)^4*d*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q2
@@ -190,6 +148,10 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q3
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*ufoGC5
+       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q3
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xia*xiw*ufoGC58^2*ufoGC5
+       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q3
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xiw*ufoGC58^2*ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q3
       )^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*d*xiw*ufoGC58^2*ufoGC5
        + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12,q3
@@ -206,36 +168,16 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:
       ^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu9,q2)
       *Vec(nu9,q3)*Den(p3)*Deng(q2 + q3,xiw,M3)^4*xiw*ufoGC58^2*ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu9,q2)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu9,q2)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu9,q2)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu9,q2)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
        + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu9,q3)
       ^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*xiw*ufoGC58^2*ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu9,q3)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu9,q3)
-      *Vec(nu12,q2)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu9,q3)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*
-      ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu9,q3)
-      *Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
-      ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q2
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q2
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*ufoGC5
+       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q2
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xia*xiw*ufoGC58^2*ufoGC5
+       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q2
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xiw*ufoGC58^2*ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q2
       )^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*d*xiw*ufoGC58^2*ufoGC5
        + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q2
@@ -246,6 +188,12 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:
        + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q2
       )*Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*
       ufoGC5
+       + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q2
+      )*Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xia*xiw*
+      ufoGC58^2*ufoGC5
+       - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q2
+      )*Vec(nu12,q3)*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xiw*ufoGC58^2
+      *ufoGC5
        - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q2
       )*Vec(nu12,q3)*Den(p3)*Deng(q2 + q3,xiw,M3)^4*d*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q2
@@ -254,6 +202,10 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xia*xiw*ufoGC58^2*ufoGC5
        + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q3
       )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*xiw*ufoGC58^2*ufoGC5
+       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q3
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xia*xiw*ufoGC58^2*ufoGC5
+       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q3
+      )^2*Den(p3)^2*Deng(q2 + q3,xiw,M3)^4*p3.p3*d^-1*xiw*ufoGC58^2*ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q3
       )^2*Den(p3)*Deng(q2 + q3,xiw,M3)^4*d*xiw*ufoGC58^2*ufoGC5
        + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12,q3
@@ -266,14 +218,22 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Feb 27 14:
       Deng(q2 + q3,xiw,M3)^3*d*xiw*ufoGC58^2*ufoGC5
        - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Den(p3)*
       Deng(q2 + q3,xiw,M3)^3*xiw*ufoGC58^2*ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu9,q2)*Den(p3)^2*
-      Deng(q2 + q3,xiw,M3)^3*p3.p3*xia*xiw*ufoGC58^2*ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu9,q2)*Den(p3)^2*
-      Deng(q2 + q3,xiw,M3)^3*p3.p3*xiw*ufoGC58^2*ufoGC5
-       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu9,q3)*Den(p3)^2*
-      Deng(q2 + q3,xiw,M3)^3*p3.p3*xia*xiw*ufoGC58^2*ufoGC5
-       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu9,q3)*Den(p3)^2*
-      Deng(q2 + q3,xiw,M3)^3*p3.p3*xiw*ufoGC58^2*ufoGC5
+       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu9)*Vec(nu10,q2)*Vec(nu9,q2)*Den(p3)^2*
+      Deng(q2 + q3,xiw,M3)^3*p3.p3*d^-1*xia*xiw*ufoGC58^2*ufoGC5
+       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu9)*Vec(nu10,q2)*Vec(nu9,q2)*Den(p3)^2*
+      Deng(q2 + q3,xiw,M3)^3*p3.p3*d^-1*xiw*ufoGC58^2*ufoGC5
+       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu9)*Vec(nu10,q2)*Vec(nu9,q3)*Den(p3)^2*
+      Deng(q2 + q3,xiw,M3)^3*p3.p3*d^-1*xia*xiw*ufoGC58^2*ufoGC5
+       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu9)*Vec(nu10,q2)*Vec(nu9,q3)*Den(p3)^2*
+      Deng(q2 + q3,xiw,M3)^3*p3.p3*d^-1*xiw*ufoGC58^2*ufoGC5
+       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu9)*Vec(nu10,q3)*Vec(nu9,q2)*Den(p3)^2*
+      Deng(q2 + q3,xiw,M3)^3*p3.p3*d^-1*xia*xiw*ufoGC58^2*ufoGC5
+       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu9)*Vec(nu10,q3)*Vec(nu9,q2)*Den(p3)^2*
+      Deng(q2 + q3,xiw,M3)^3*p3.p3*d^-1*xiw*ufoGC58^2*ufoGC5
+       - 1/4*g_(1,6_,nu10)*g_(2,6_,nu9)*Vec(nu10,q3)*Vec(nu9,q3)*Den(p3)^2*
+      Deng(q2 + q3,xiw,M3)^3*p3.p3*d^-1*xia*xiw*ufoGC58^2*ufoGC5
+       + 1/4*g_(1,6_,nu10)*g_(2,6_,nu9)*Vec(nu10,q3)*Vec(nu9,q3)*Den(p3)^2*
+      Deng(q2 + q3,xiw,M3)^3*p3.p3*d^-1*xiw*ufoGC58^2*ufoGC5
       ;
 
   0.00 sec out of 0.00 sec
