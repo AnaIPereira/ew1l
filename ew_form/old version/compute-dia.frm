@@ -17,9 +17,7 @@ On HighFirst;
 Local d`LOOPS'l`DIA'amp =
 	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
 
-#ifndef `BRIDGEMOMENTA'
-	#define BRIDGEMOMENTA ""
-#endif
+#if
 
 * Load the mapped topology, and make the necessary momentum replacements
 #include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
@@ -94,37 +92,40 @@ Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Ve
 *split the momenta in the numerator
 SplitArg Vec;
 Repeat;
-	Identify Vec(ind?,mom?,?a) = Vecr(ind,mom) + Vec(ind,?a);
-	Identify Vec(ind?) = 0;
+*Identify Vec(ind?,?a,2 *mom?,?b) = 2 *Vec(ind,?a,mom,?b);
+*Identify Vec(ind?,?a,3 * mom?,?b) = 3 *Vec(ind,?a,mom,?b);
+*Identify Vec(ind?,?a,-mom?,?b) = -Vec(ind,?a,mom,?b);
+Identify Vec(ind?,mom?,mom1?,?a) = Vec(ind,mom) + Vec(ind,mom1,?a);
 EndRepeat;
-FactArg Vecr;
-Identify Vecr(ind?,x?number_,mom?) = x * Vecr(ind,mom);
-Identify Vecr(?a) = Vec(?a);
+
+*Repeat;
+*Identify Vec(ind?,?a,-mom?,?b) = -Vec(ind,?a,mom,?b);
+*EndRepeat;
 
 *change the label in the loop momenta so that only internal momenta enter tensor reduction
 * external momenta are to be set to zero after tensor reduction
-#do i = 1,4
-	Identify Vec(ind?,p`i') = Vecr(ind,p`i');
-#enddo
+Repeat;
+Identify Vec(ind?,p1) = Vecr(ind,p1);
+Identify Vec(ind?,p2) = Vecr(ind,p2);
+Identify Vec(ind?,p3) = Vecr(ind,p3);
+Identify Vec(ind?,p4) = Vecr(ind,p4);
+EndRepeat;
 
-
-*TENSOR REDUCTION : highest ranks first
+*TENSOR REDUCTION
 * contract all the scalar product pi^2, etc
-Identify Vecr(ind?,momen1?)*Vecr(ind?,momen2?) = momen1.momen2;
-
+*Identify Vecr(ind?,momen?)*Vecr(ind1?,momen1?) = momen.momen1;
+Identify Vecr(ind?,momen?)^2 = momen.momen;
 
 *tensor reduction for rank 4 - no symmetries, most generic (commented for now as it might not be needed)
 *Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?)*Vecr(ind3?,momen3?)*Vecr(ind4?,momen4?)=1/(d* (-2 + d + d^2))*(d_(ind1, ind4)* d_(ind2, ind3) *((1 + d)* momen1.momen4 * momen2.momen3 - momen1.momen3 * momen2.momen4 - momen1.momen2 * momen3.momen4) +   d_(ind1, ind3) * d_(ind2, ind4)* (-momen1.momen4 momen2.momen3 +  (1 + d)* momen1.momen3 * momen2.momen4 - momen1.momen2 * momen3.momen4) + d_(ind1, ind2) * d_(ind3, ind4)* (-momen1.momen4 * momen2.momen4 - momen1.momen3 * momen2.momen4 + (1 + d) *momen1.momen2 * momen3.momen4));
 
+*tensor reduction for rank 3
+*Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?)*Vecr(ind3?,momen3?) = 0;
 
 *tensor reduction for rank 4 with symmetries
 Identify Vecr(ind1?,momen?)*Vecr(ind2?,momen?)*Vecr(ind3?,momen1?)*Vecr(ind4?,momen1?) = 1/(d *(d^2 + d - 2))*(- momen.momen * momen1.momen1 + d* (momen.momen1)^2)*(d_(ind1,ind3)*d_(ind2,ind4) + d_(ind1,ind4)*d_(ind2,ind3));
 Identify Vecr(ind1?,momen?)*Vecr(ind3?,momen1?)*Vecr(ind2?,momen?)*Vecr(ind4?,momen1?) = 1/(d *(d^2 + d - 2))*(- momen.momen * momen1.momen1 + d* (momen.momen1)^2)*(d_(ind1,ind3)*d_(ind2,ind4) + d_(ind1,ind4)*d_(ind2,ind3));
 Identify Vecr(ind1?,momen?)*Vecr(ind2?,momen1?)*Vecr(ind3?,momen1?)*Vecr(ind4?,momen1?) =1/(d^2+2*d)*(momen.momen1)*(momen1.momen1)*(d_(ind1,ind2)*d_(ind3,ind4)+d_(ind1,ind4)*d_(ind3,ind2)+d_(ind1,ind3)*d_(ind2,ind4));
-
-
-*tensor reduction for rank 3
-Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?)*Vecr(ind3?,momen3?) = 0;
 
 
 Print +s;
