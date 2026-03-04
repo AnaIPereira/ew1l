@@ -73,10 +73,10 @@ Identify cFT(- p1?, ?a) = - cFT(p1, ?a);
 
 *propagators substitutions
 * Dtran, Dlong are fermion propagators, their arguments are 2 Lorenx indices, the runnin momentum, the gauge and mass.
-Identify Dph(ind1?,ind2?,?mom,gaug?) = (d_(ind1, ind2) - (1-gaug) * Vec(ind1,?mom) * Vec(ind2,?mom) * Den(?mom))* Den(?mom);
-Identify Dgoldst(?mom,gaug?) = Deng(?mom, gaug, 0);
-Identify Dlong(ind1?,ind2?,?mom,gaug?,mass?) = (gaug*Vec(ind1,?mom)*Vec(ind2,?mom)*Deng(?mom,gaug,mass))* Deng(?mom,gaug,mass);
-Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Vec(ind2,?mom)*Deng(?mom,gaug,mass))* Deng(?mom,gaug,mass);
+Identify Dph(ind1?,ind2?,?mom,gaug?) = (d_(ind1, ind2) - (1-gaug) * Vec(ind1,?mom) * Vec(ind2,?mom) * Den(?mom,0,0))* Den(?mom,0,0);
+Identify Dgoldst(?mom,gaug?) = Den(?mom, gaug, 0);
+Identify Dlong(ind1?,ind2?,?mom,gaug?,mass?) = (gaug*Vec(ind1,?mom)*Vec(ind2,?mom)*Den(?mom,gaug,mass))* Den(?mom,gaug,mass);
+Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Vec(ind2,?mom)*Den(?mom,gaug,mass))* Den(?mom,gaug,mass);
 
 
 #do i = 1,`NUMTRACES'
@@ -101,8 +101,10 @@ FactArg Vecr;
 Identify Vecr(ind?,x?number_,mom?) = x * Vecr(ind,mom);
 Identify Vecr(?a) = Vec(?a);
 
+.sort
+
 *change the label in the loop momenta so that only internal momenta enter tensor reduction
-* external momenta are to be set to zero after tensor reduction
+* p1 to p4 are truly internal momenta because we have previously applied the bridges
 #do i = 1,4
 	Identify Vec(ind?,p`i') = Vecr(ind,p`i');
 #enddo
@@ -132,7 +134,8 @@ Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?) = d_(ind1,ind2) * 1/d * momen1.
 *tensor reduction for rank 1
 Identify Vecr(ind1?,momen1?) = 0;
 
-Print +s;
+Bracket Den;
+Print[];
 .end
 
 * rewrite the scalar products in terms of denominators
