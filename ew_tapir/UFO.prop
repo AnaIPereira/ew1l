@@ -70,9 +70,9 @@
 {H,H:*DH(<momentum>)|
 		||}
 
-{G0,G0:*Dgoldst(<momentum>,<gauge_parameter_xiZ>)|
+{G0,G0:*Dgoldst(<momentum>,<gauge_parameter_xiZ>,<physical_mass_ZT>)|
 		||}
 
-{Gp,Gm:*Dgoldst(<momentum>,<gauge_parameter_xiW>)|
+{Gp,Gm:*Dgoldst(<momentum>,<gauge_parameter_xiW>,<physical_mass_WTp>)|
 		||}
 

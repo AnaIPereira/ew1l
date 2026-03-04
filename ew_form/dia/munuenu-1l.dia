@@ -215,7 +215,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*Dgoldst(p3,xiz)
+	*Dgoldst(p3,xiz,M4)
 	*(ufoGC52*(d_(nu9,nu12)))
 	;
 
@@ -250,7 +250,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*Dgoldst(p3,xiw)
+	*Dgoldst(p3,xiw,M3)
 	*(ufoGC52*(d_(nu9,nu12)))
 	;
 
@@ -495,7 +495,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*Dgoldst(p3,xiz)
+	*Dgoldst(p3,xiz,M4)
 	*(ufoGC52*(d_(nu9,nu12)))
 	;
 
@@ -530,7 +530,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*Dgoldst(p3,xiw)
+	*Dgoldst(p3,xiw,M3)
 	*(ufoGC52*(d_(nu9,nu12)))
 	;
 
@@ -775,7 +775,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*Dgoldst(p3,xiz)
+	*Dgoldst(p3,xiz,M4)
 	*(ufoGC52*(d_(nu9,nu12)))
 	;
 
@@ -810,7 +810,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*Dgoldst(p3,xiw)
+	*Dgoldst(p3,xiw,M3)
 	*(ufoGC52*(d_(nu9,nu12)))
 	;
 
@@ -1055,7 +1055,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*Dgoldst(p3,xiz)
+	*Dgoldst(p3,xiz,M4)
 	*(ufoGC52*(d_(nu9,nu12)))
 	;
 
@@ -1090,7 +1090,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*Dgoldst(p3,xiw)
+	*Dgoldst(p3,xiw,M3)
 	*(ufoGC52*(d_(nu9,nu12)))
 	;
 
@@ -1202,7 +1202,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dph(nu14,nu13,p3,xia)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC93*(d_(nu14,nu9)))
 	*(ufoGC93*(d_(nu13,nu12)))
 	;
@@ -1316,7 +1316,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu14)))
 	*(ufoGC85*(d_(nu12,nu13)))
 	;
@@ -1430,7 +1430,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu14)))
 	*(ufoGC85*(d_(nu12,nu13)))
 	;
@@ -2170,7 +2170,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*DH(p3)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
 	*(ufoGC55*(Mom(nu12,p4)-Mom(nu12,p3)))
 	;
@@ -2207,8 +2207,8 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*Dgoldst(p3,xiz)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p3,xiz,M4)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC57*(Mom(nu9,-p3)-Mom(nu9,-p4)))
 	*(ufoGC57*(Mom(nu12,p3)-Mom(nu12,p4)))
 	;
@@ -2322,7 +2322,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dph(nu14,nu13,p3,xia)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC93*(d_(nu14,nu9)))
 	*(ufoGC93*(d_(nu13,nu12)))
 	;
@@ -2436,7 +2436,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu14)))
 	*(ufoGC85*(d_(nu12,nu13)))
 	;
@@ -2550,7 +2550,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu14)))
 	*(ufoGC85*(d_(nu12,nu13)))
 	;
@@ -3290,7 +3290,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*DH(p3)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
 	*(ufoGC55*(Mom(nu12,p4)-Mom(nu12,p3)))
 	;
@@ -3327,8 +3327,8 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*Dgoldst(p3,xiz)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p3,xiz,M4)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC57*(Mom(nu9,-p3)-Mom(nu9,-p4)))
 	*(ufoGC57*(Mom(nu12,p3)-Mom(nu12,p4)))
 	;
@@ -3364,7 +3364,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dph(nu14,nu13,p3,xia)
 	*Dlong(nu16,nu15,p4,xiw,M3)
 	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
@@ -3402,7 +3402,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dph(nu14,nu13,p3,xia)
 	*Dtran(nu16,nu15,p4,xiw,M3)
 	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
@@ -3440,9 +3440,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dph(nu14,nu13,p3,xia)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC93*(d_(nu14,nu9)))
 	*(ufoGC3*(Mom(nu13,p4)-Mom(nu13,-p2)))
 	;
@@ -3478,7 +3478,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
 	*Dlong(nu16,nu15,p4,xiw,M3)
 	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
@@ -3516,7 +3516,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
 	*Dtran(nu16,nu15,p4,xiw,M3)
 	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
@@ -3554,9 +3554,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu14)))
 	*(ufoGC80*(Mom(nu13,p4)-Mom(nu13,-p2)))
 	;
@@ -3592,7 +3592,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
 	*Dlong(nu16,nu15,p4,xiw,M3)
 	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
@@ -3630,7 +3630,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
 	*Dtran(nu16,nu15,p4,xiw,M3)
 	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
@@ -3668,9 +3668,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu14)))
 	*(ufoGC80*(Mom(nu13,p4)-Mom(nu13,-p2)))
 	;
@@ -3706,7 +3706,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
 	*DH(p4)
 	*(ufoGC90*(d_(nu9,nu14)))
@@ -3744,7 +3744,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
 	*DH(p4)
 	*(ufoGC90*(d_(nu9,nu14)))
@@ -3782,7 +3782,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dghost(p3,xia)
 	*Dghost(p4,xiw)
 	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
@@ -3820,7 +3820,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dghost(p3,xiz)
 	*Dghost(p4,xiw)
 	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
@@ -3858,7 +3858,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dghost(p3,xiz)
 	*Dghost(p4,xiw)
 	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
@@ -3900,7 +3900,7 @@
 	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
 	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	;
 
 	#define TOPOLOGY "arb"
@@ -3940,7 +3940,7 @@
 	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
 	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	;
 
 	#define TOPOLOGY "arb"
@@ -3980,7 +3980,7 @@
 	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
 	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	;
 
 	#define TOPOLOGY "arb"
@@ -4016,9 +4016,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*DH(p3)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
 	*(ufoGC86*(1))
 	;
@@ -4132,7 +4132,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dph(nu14,nu13,p3,xia)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC93*(d_(nu14,nu9)))
 	*(ufoGC93*(d_(nu13,nu12)))
 	;
@@ -4246,7 +4246,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu14)))
 	*(ufoGC85*(d_(nu12,nu13)))
 	;
@@ -4360,7 +4360,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu14)))
 	*(ufoGC85*(d_(nu12,nu13)))
 	;
@@ -5100,7 +5100,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*DH(p3)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
 	*(ufoGC55*(Mom(nu12,p4)-Mom(nu12,p3)))
 	;
@@ -5137,8 +5137,8 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*Dgoldst(p3,xiz)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p3,xiz,M4)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC57*(Mom(nu9,-p3)-Mom(nu9,-p4)))
 	*(ufoGC57*(Mom(nu12,p3)-Mom(nu12,p4)))
 	;
@@ -5252,7 +5252,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dph(nu14,nu13,p3,xia)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC93*(d_(nu14,nu9)))
 	*(ufoGC93*(d_(nu13,nu12)))
 	;
@@ -5366,7 +5366,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu14)))
 	*(ufoGC85*(d_(nu12,nu13)))
 	;
@@ -5480,7 +5480,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu14)))
 	*(ufoGC85*(d_(nu12,nu13)))
 	;
@@ -6220,7 +6220,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*DH(p3)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
 	*(ufoGC55*(Mom(nu12,p4)-Mom(nu12,p3)))
 	;
@@ -6257,8 +6257,8 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*Dgoldst(p3,xiz)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p3,xiz,M4)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC57*(Mom(nu9,-p3)-Mom(nu9,-p4)))
 	*(ufoGC57*(Mom(nu12,p3)-Mom(nu12,p4)))
 	;
@@ -6294,7 +6294,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dph(nu14,nu13,p3,xia)
 	*Dlong(nu16,nu15,p4,xiw,M3)
 	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
@@ -6332,7 +6332,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dph(nu14,nu13,p3,xia)
 	*Dtran(nu16,nu15,p4,xiw,M3)
 	*(ufoGC4*(Mom(nu16,-p3)*d_(nu14,nu9)-Mom(nu16,p1)*d_(nu14,nu9)-Mom(nu9,-p3)*d_(nu14,nu16)+Mom(nu9,-p4)*d_(nu14,nu16)+Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)))
@@ -6370,9 +6370,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dph(nu14,nu13,p3,xia)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC93*(d_(nu14,nu9)))
 	*(ufoGC3*(Mom(nu13,p4)-Mom(nu13,-p2)))
 	;
@@ -6408,7 +6408,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
 	*Dlong(nu16,nu15,p4,xiw,M3)
 	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
@@ -6446,7 +6446,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
 	*Dtran(nu16,nu15,p4,xiw,M3)
 	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
@@ -6484,9 +6484,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu14)))
 	*(ufoGC80*(Mom(nu13,p4)-Mom(nu13,-p2)))
 	;
@@ -6522,7 +6522,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
 	*Dlong(nu16,nu15,p4,xiw,M3)
 	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
@@ -6560,7 +6560,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
 	*Dtran(nu16,nu15,p4,xiw,M3)
 	*(ufoGC69*(Mom(nu14,p1)*d_(nu9,nu16)-Mom(nu14,-p4)*d_(nu9,nu16)-Mom(nu16,p1)*d_(nu9,nu14)+Mom(nu16,-p3)*d_(nu9,nu14)+Mom(nu9,-p4)*d_(nu16,nu14)-Mom(nu9,-p3)*d_(nu16,nu14)))
@@ -6598,9 +6598,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu14)))
 	*(ufoGC80*(Mom(nu13,p4)-Mom(nu13,-p2)))
 	;
@@ -6636,7 +6636,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
 	*DH(p4)
 	*(ufoGC90*(d_(nu9,nu14)))
@@ -6674,7 +6674,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
 	*DH(p4)
 	*(ufoGC90*(d_(nu9,nu14)))
@@ -6712,7 +6712,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dghost(p3,xia)
 	*Dghost(p4,xiw)
 	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
@@ -6750,7 +6750,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dghost(p3,xiz)
 	*Dghost(p4,xiw)
 	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
@@ -6788,7 +6788,7 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*Dghost(p3,xiz)
 	*Dghost(p4,xiw)
 	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
@@ -6830,7 +6830,7 @@
 	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
 	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	;
 
 	#define TOPOLOGY "arb"
@@ -6870,7 +6870,7 @@
 	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
 	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	;
 
 	#define TOPOLOGY "arb"
@@ -6910,7 +6910,7 @@
 	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
 	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	;
 
 	#define TOPOLOGY "arb"
@@ -6946,9 +6946,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p2,xiw)
+	*Dgoldst(p2,xiw,M3)
 	*DH(p3)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
 	*(ufoGC86*(1))
 	;
@@ -7139,7 +7139,7 @@
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu13)))
 	;
 
@@ -7253,7 +7253,7 @@
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu13)))
 	;
 
@@ -7518,7 +7518,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC107*(auxPR(i2,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p3,xiw)
+	*Dgoldst(p3,xiw,M3)
 	*Dph(nu16,nu15,p4,xia)
 	*(ufoGC93*(d_(nu15,nu9)))
 	;
@@ -7556,7 +7556,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC107*(auxPR(i2,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p3,xiw)
+	*Dgoldst(p3,xiw,M3)
 	*Dlong(nu15,nu16,p4,xiz,M4)
 	*(ufoGC85*(d_(nu9,nu15)))
 	;
@@ -7594,7 +7594,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC107*(auxPR(i2,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p3,xiw)
+	*Dgoldst(p3,xiw,M3)
 	*Dtran(nu15,nu16,p4,xiz,M4)
 	*(ufoGC85*(d_(nu9,nu15)))
 	;
@@ -7785,7 +7785,7 @@
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu13)))
 	;
 
@@ -7899,7 +7899,7 @@
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
-	*Dgoldst(p4,xiw)
+	*Dgoldst(p4,xiw,M3)
 	*(ufoGC85*(d_(nu9,nu13)))
 	;
 
@@ -8164,7 +8164,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC107*(auxPR(i2,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p3,xiw)
+	*Dgoldst(p3,xiw,M3)
 	*Dph(nu16,nu15,p4,xia)
 	*(ufoGC93*(d_(nu15,nu9)))
 	;
@@ -8202,7 +8202,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC107*(auxPR(i2,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p3,xiw)
+	*Dgoldst(p3,xiw,M3)
 	*Dlong(nu15,nu16,p4,xiz,M4)
 	*(ufoGC85*(d_(nu9,nu15)))
 	;
@@ -8240,7 +8240,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC107*(auxPR(i2,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
-	*Dgoldst(p3,xiw)
+	*Dgoldst(p3,xiw,M3)
 	*Dtran(nu15,nu16,p4,xiz,M4)
 	*(ufoGC85*(d_(nu9,nu15)))
 	;
@@ -9189,7 +9189,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
-	*Dgoldst(p1,xiw)
+	*Dgoldst(p1,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
 	*Dlong(nu15,nu16,p4,xiz,M4)
 	*(ufoGC85*(d_(nu13,nu15)))
@@ -9227,7 +9227,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
-	*Dgoldst(p1,xiw)
+	*Dgoldst(p1,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
 	*Dtran(nu15,nu16,p4,xiz,M4)
 	*(ufoGC85*(d_(nu13,nu15)))
@@ -9265,7 +9265,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
-	*Dgoldst(p1,xiw)
+	*Dgoldst(p1,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
 	*Dlong(nu15,nu16,p4,xiz,M4)
 	*(ufoGC85*(d_(nu13,nu15)))
@@ -9303,7 +9303,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
-	*Dgoldst(p1,xiw)
+	*Dgoldst(p1,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
 	*Dtran(nu15,nu16,p4,xiz,M4)
 	*(ufoGC85*(d_(nu13,nu15)))
@@ -9341,7 +9341,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC3*(auxGamma(nu14,i1,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
-	*Dgoldst(p1,xiw)
+	*Dgoldst(p1,xiw,M3)
 	*Dph(nu14,nu13,p3,xia)
 	*Dlong(nu16,nu15,p4,xiw,M3)
 	*(ufoGC93*(d_(nu13,nu15)))
@@ -9379,7 +9379,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC3*(auxGamma(nu14,i1,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
-	*Dgoldst(p1,xiw)
+	*Dgoldst(p1,xiw,M3)
 	*Dph(nu14,nu13,p3,xia)
 	*Dtran(nu16,nu15,p4,xiw,M3)
 	*(ufoGC93*(d_(nu13,nu15)))
@@ -9417,7 +9417,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
-	*Dgoldst(p1,xiw)
+	*Dgoldst(p1,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
 	*Dlong(nu16,nu15,p4,xiw,M3)
 	*(ufoGC85*(d_(nu15,nu13)))
@@ -9455,7 +9455,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
-	*Dgoldst(p1,xiw)
+	*Dgoldst(p1,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
 	*Dtran(nu16,nu15,p4,xiw,M3)
 	*(ufoGC85*(d_(nu15,nu13)))
@@ -9493,7 +9493,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
-	*Dgoldst(p1,xiw)
+	*Dgoldst(p1,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
 	*Dlong(nu16,nu15,p4,xiw,M3)
 	*(ufoGC85*(d_(nu15,nu13)))
@@ -9531,7 +9531,7 @@
 	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
-	*Dgoldst(p1,xiw)
+	*Dgoldst(p1,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
 	*Dtran(nu16,nu15,p4,xiw,M3)
 	*(ufoGC85*(d_(nu15,nu13)))

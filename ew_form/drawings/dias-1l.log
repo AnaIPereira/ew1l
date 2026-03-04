@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2026.2.9)  11 FEB 2026 16:42
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2026.2.9)  4 MAR 2026 20:50
  restricted system commands enabled.
 **dias-1l.tex
 (./dias-1l.tex
@@ -491,9 +491,9 @@ File: l3backend-luatex.def 2022-01-12 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box66
 )
-No file dias-1l.aux.
-
+(./dias-1l.aux)
 \openout1 = dias-1l.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
@@ -505,7 +505,7 @@ LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
 .
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5.
@@ -594,7 +594,7 @@ Overfull \hbox (16.87787pt too wide) in paragraph at lines 7--4597
 [7] [8] [9] [10] [11] [12] [13] (./dias-1l.aux))
 
 Here is how much of LuaTeX's memory you used:
- 18182 strings out of 477805
+ 18187 strings out of 477805
  4441892,3417909 words of node,token memory allocated
  413 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 48 glue_spec,

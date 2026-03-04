@@ -1,7 +1,9 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Tue Mar  3 14:55:19 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Mar  4 22:18:15 2026
     #-
 
    d1l223amp =
-       + 1 * (  6 terms );
+       + Den(p4,xiw,M3)^2*Den(p4,xiz,M4)^2*Den(xiw,M3)^2 * (  256 terms )
 
-  0.00 sec out of 0.00 sec
+       + Den(p4,xiw,M3)*Den(p4,xiz,M4)^2*Den(xiw,M3)^2 * (  88 terms );
+
+  0.04 sec out of 0.04 sec

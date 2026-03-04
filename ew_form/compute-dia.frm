@@ -73,8 +73,9 @@ Identify cFT(- p1?, ?a) = - cFT(p1, ?a);
 
 *propagators substitutions
 * Dtran, Dlong are fermion propagators, their arguments are 2 Lorenx indices, the runnin momentum, the gauge and mass.
+*Dgoldst is the goldstone propagator, that should have a mass
 Identify Dph(ind1?,ind2?,?mom,gaug?) = (d_(ind1, ind2) - (1-gaug) * Vec(ind1,?mom) * Vec(ind2,?mom) * Den(?mom,0,0))* Den(?mom,0,0);
-Identify Dgoldst(?mom,gaug?) = Den(?mom, gaug, 0);
+Identify Dgoldst(?mom,gaug?,mass?) = Den(?mom, gaug, mass);
 Identify Dlong(ind1?,ind2?,?mom,gaug?,mass?) = (gaug*Vec(ind1,?mom)*Vec(ind2,?mom)*Den(?mom,gaug,mass))* Den(?mom,gaug,mass);
 Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Vec(ind2,?mom)*Den(?mom,gaug,mass))* Den(?mom,gaug,mass);
 
@@ -133,6 +134,30 @@ Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?) = d_(ind1,ind2) * 1/d * momen1.
 
 *tensor reduction for rank 1
 Identify Vecr(ind1?,momen1?) = 0;
+
+*Bracket Den;
+*Print[];
+*.end
+
+
+*split args in denominator 
+SplitArg Den;
+
+*set external momenta to zero
+* this can be safely done as all denominators are either massive or
+* have internal momenta going in the loop and therefore there are no singularities (there will be spurious IR divergences though...)
+Identify Den(?a,q1,?b)=Den(?a,?b);
+Identify Den(?a,q2,?b)=Den(?a,?b);
+Identify Den(?a,q3,?b)=Den(?a,?b);
+Identify Den(?a,q4,?b)=Den(?a,?b);
+Identify Den(?a,-q1,?b)=Den(?a,?b);
+Identify Den(?a,-q2,?b)=Den(?a,?b);
+Identify Den(?a,-q3,?b)=Den(?a,?b);
+Identify Den(?a,-q4,?b)=Den(?a,?b);
+
+*adjust signs in denominators (-p)^2 = p^2
+Identify Den(-p3,gaug?,mass?)=Den(p3,gaug,mass);
+Identify Den(-p4,gaug?,mass?)=Den(p4,gaug,mass);
 
 Bracket Den;
 Print[];
