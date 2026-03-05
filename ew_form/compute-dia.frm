@@ -165,13 +165,22 @@ Identify Den(-p4,gaug?,mass?)=Den(p4,gaug,mass);
 	Identify Vec(ind?,q`i') = 0;
 #enddo
 
-Bracket Den;
+*project in operator basis
+Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
+
+* rewrite the scalar products in terms of denominators to have cancellations between numerator and denominator
+
+#do i = 3,4
+	Identify p`i'.p`i' = Den(p`i',0,0);
+#enddo
+
+*Bracket Den;
+Bracket p3.p3, p4.p4, Den;
 *Print[];
 Print +s;
 .end
 
-* rewrite the scalar products in terms of denominators
-Identify mom.mom1 = mom.mom
+
 
 
 * Compute the traces:
@@ -181,9 +190,7 @@ Identify mom.mom1 = mom.mom
 *Print +s;
 *.end
 
-*project in operator basis
-Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
-.sort
+
 
 *Print +s;
 *.end

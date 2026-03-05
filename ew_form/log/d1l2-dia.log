@@ -1,57 +1,6 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar  5 11:46:39 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar  5 12:27:18 2026
     #-
 
-   d1l2amp =
-
-       + Den(p3,xiz,M4)^2*Den(xiw,M3)^4 * (
-          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12
-         ,q2)^2*p3.p3*xiw^2*xiz*ufoGC58^2*ufoGC54
-          + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12
-         ,q2)*Vec(nu12,q3)*p3.p3*xiw^2*xiz*ufoGC58^2*ufoGC54
-          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12
-         ,q3)^2*p3.p3*xiw^2*xiz*ufoGC58^2*ufoGC54
-          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu14
-         ,q2)^2*p3.p3*d^-1*xiw^2*xiz*ufoGC58^2*ufoGC54
-          - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu14
-         ,q2)*Vec(nu14,q3)*p3.p3*d^-1*xiw^2*xiz*ufoGC58^2*ufoGC54
-          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu14
-         ,q3)^2*p3.p3*d^-1*xiw^2*xiz*ufoGC58^2*ufoGC54
-          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12
-         ,q2)^2*p3.p3*xiw^2*xiz*ufoGC58^2*ufoGC54
-          + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12
-         ,q2)*Vec(nu12,q3)*p3.p3*xiw^2*xiz*ufoGC58^2*ufoGC54
-          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12
-         ,q3)^2*p3.p3*xiw^2*xiz*ufoGC58^2*ufoGC54
-          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu14
-         ,q2)^2*p3.p3*d^-1*xiw^2*xiz*ufoGC58^2*ufoGC54
-          - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu14
-         ,q2)*Vec(nu14,q3)*p3.p3*d^-1*xiw^2*xiz*ufoGC58^2*ufoGC54
-          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu14
-         ,q3)^2*p3.p3*d^-1*xiw^2*xiz*ufoGC58^2*ufoGC54
-          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12
-         ,q2)^2*p3.p3*xiw^2*xiz*ufoGC58^2*ufoGC54
-          + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12
-         ,q2)*Vec(nu12,q3)*p3.p3*xiw^2*xiz*ufoGC58^2*ufoGC54
-          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12
-         ,q3)^2*p3.p3*xiw^2*xiz*ufoGC58^2*ufoGC54
-          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu14
-         ,q2)^2*p3.p3*d^-1*xiw^2*xiz*ufoGC58^2*ufoGC54
-          - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu14
-         ,q2)*Vec(nu14,q3)*p3.p3*d^-1*xiw^2*xiz*ufoGC58^2*ufoGC54
-          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu14
-         ,q3)^2*p3.p3*d^-1*xiw^2*xiz*ufoGC58^2*ufoGC54
-          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12
-         ,q2)^2*p3.p3*xiw^2*xiz*ufoGC58^2*ufoGC54
-          + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12
-         ,q2)*Vec(nu12,q3)*p3.p3*xiw^2*xiz*ufoGC58^2*ufoGC54
-          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12
-         ,q3)^2*p3.p3*xiw^2*xiz*ufoGC58^2*ufoGC54
-          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu14
-         ,q2)^2*p3.p3*d^-1*xiw^2*xiz*ufoGC58^2*ufoGC54
-          - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu14
-         ,q2)*Vec(nu14,q3)*p3.p3*d^-1*xiw^2*xiz*ufoGC58^2*ufoGC54
-          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu14
-         ,q3)^2*p3.p3*d^-1*xiw^2*xiz*ufoGC58^2*ufoGC54
-          );
+   d1l2amp = 0;
 
   0.00 sec out of 0.00 sec
