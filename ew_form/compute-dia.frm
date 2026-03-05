@@ -74,13 +74,13 @@ Identify cFT(- p1?, ?a) = - cFT(p1, ?a);
 *propagators substitutions
 * Dtran, Dlong are fermion propagators, their arguments are 2 Lorenx indices, the runnin momentum, the gauge and mass.
 *Dgoldst is the goldstone propagator, that should have a mass
-Identify Dph(ind1?,ind2?,?mom,gaug?) = (d_(ind1, ind2) - (1-gaug) * Vec(ind1,?mom) * Vec(ind2,?mom) * Den(?mom,0,0))* Den(?mom,0,0);
-Identify Dgoldst(?mom,gaug?,mass?) = Den(?mom, gaug, mass);
-Identify Dlong(ind1?,ind2?,?mom,gaug?,mass?) = (gaug*Vec(ind1,?mom)*Vec(ind2,?mom)*Den(?mom,gaug,mass))* Den(?mom,gaug,mass);
-Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Vec(ind2,?mom)*Den(?mom,gaug,mass))* Den(?mom,gaug,mass);
-Identify DH(?mom, mass?) = Den(?mom, 0, mass);
-Identify Dghost(?mom, gaug?) = Den(?mom,0,0);
-Identify Dghost(?mom, gaug?, mass?) = Den(?mom,gaug,mass);
+Identify Dph(ind1?,ind2?,mom?,gaug?) = (d_(ind1, ind2) - (1-gaug) * Vec(ind1,mom) * Vec(ind2,mom) * Den(mom,0,0))* Den(mom,0,0);
+Identify Dgoldst(mom?,gaug?,mass?) = Den(mom, gaug, mass);
+Identify Dlong(ind1?,ind2?,mom?,gaug?,mass?) = (gaug*Vec(ind1,mom)*Vec(ind2,mom)*Den(mom,gaug,mass))* Den(mom,gaug,mass);
+Identify Dtran(ind1?,ind2?,mom?,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,mom)*Vec(ind2,mom)*Den(mom,gaug,mass))* Den(mom,gaug,mass);
+Identify DH(mom?, mass?) = Den(mom, 0, mass);
+Identify Dghost(mom?, gaug?) = Den(mom,0,0);
+Identify Dghost(mom?, gaug?, mass?) = Den(mom,gaug,mass);
 
 #do i = 1,`NUMTRACES'
   Identify FT`i'(g7) = g7_(`i');
@@ -137,12 +137,15 @@ Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?) = d_(ind1,ind2) * 1/d * momen1.
 *tensor reduction for rank 1
 Identify Vecr(ind1?,momen1?) = 0;
 
+
 * we can now set external momenta to zero
 * this can be safely done as all denominators are either massive or
 * have internal momenta going in the loop and therefore there are no singularities (there will be spurious IR divergences though...)
 
 *split args in denominator 
 SplitArg Den;
+
+
 
 *set ext mom to zero in the denominators
 Identify Den(?a,q1,?b)=Den(?a,?b);
@@ -172,13 +175,10 @@ Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
 	Identify p`i'.p`i' = Den(p`i',0,0);
 #enddo
 
-*Bracket Den;
-Bracket p3.p3, p4.p4, Den;
+Bracket Den;
 *Print[];
 Print +s;
 .end
-
-
 
 
 * Compute the traces:
