@@ -146,7 +146,6 @@ Identify Vecr(ind1?,momen1?) = 0;
 SplitArg Den;
 
 
-
 *set ext mom to zero in the denominators
 Identify Den(?a,q1,?b)=Den(?a,?b);
 Identify Den(?a,q2,?b)=Den(?a,?b);
