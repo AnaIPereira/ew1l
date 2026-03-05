@@ -1,17 +1,205 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Mar  4 22:17:36 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar  5 11:46:39 2026
     #-
 
    d1l27amp =
-       + Den(p3,xiz,M4)*Den(xiw,M3)^4 * (  24 terms )
 
-       + Den(p3,xiz,M4)*Den(xiw,M3)^3 * (  20 terms )
+       + Den(p3,xiz,M4)*Den(xiw,M3)^4 * (
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12
+         ,q2)^2*d*ufoGC58^2*ufoGC54
+          + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12
+         ,q2)*Vec(nu12,q3)*d*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12
+         ,q3)^2*d*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu14
+         ,q2)^2*ufoGC58^2*ufoGC54
+          - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu14
+         ,q2)*Vec(nu14,q3)*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu14
+         ,q3)^2*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12
+         ,q2)^2*d*ufoGC58^2*ufoGC54
+          + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12
+         ,q2)*Vec(nu12,q3)*d*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12
+         ,q3)^2*d*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu14
+         ,q2)^2*ufoGC58^2*ufoGC54
+          - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu14
+         ,q2)*Vec(nu14,q3)*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu14
+         ,q3)^2*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12
+         ,q2)^2*d*ufoGC58^2*ufoGC54
+          + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12
+         ,q2)*Vec(nu12,q3)*d*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12
+         ,q3)^2*d*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu14
+         ,q2)^2*ufoGC58^2*ufoGC54
+          - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu14
+         ,q2)*Vec(nu14,q3)*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu14
+         ,q3)^2*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12
+         ,q2)^2*d*ufoGC58^2*ufoGC54
+          + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12
+         ,q2)*Vec(nu12,q3)*d*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12
+         ,q3)^2*d*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu14
+         ,q2)^2*ufoGC58^2*ufoGC54
+          - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu14
+         ,q2)*Vec(nu14,q3)*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu14
+         ,q3)^2*ufoGC58^2*ufoGC54
+          )
 
-       + Den(p3,xiz,M4)*Den(xiw,M3)^2 * (  2 terms )
+       + Den(p3,xiz,M4)*Den(xiw,M3)^3 * (
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*d*
+         ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*
+         ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*d*
+         ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*
+         ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*d*
+         ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*
+         ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*d*
+         ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*
+         ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu12)*g_(2,6_,nu11)*Vec(nu11,q2)*Vec(nu12,q2)*d*
+         ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu12)*g_(2,6_,nu11)*Vec(nu11,q2)*Vec(nu12,q3)*d*
+         ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu12)*g_(2,6_,nu11)*Vec(nu11,q3)*Vec(nu12,q2)*d*
+         ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu12)*g_(2,6_,nu11)*Vec(nu11,q3)*Vec(nu12,q3)*d*
+         ufoGC58^2*ufoGC54
+          + 1/8*g_(1,6_,nu13)*g_(2,6_,nu11)*Vec(nu11,q2)*Vec(nu13,q2)*
+         ufoGC58^2*ufoGC54
+          + 1/8*g_(1,6_,nu13)*g_(2,6_,nu11)*Vec(nu11,q2)*Vec(nu13,q3)*
+         ufoGC58^2*ufoGC54
+          + 1/8*g_(1,6_,nu13)*g_(2,6_,nu11)*Vec(nu11,q3)*Vec(nu13,q2)*
+         ufoGC58^2*ufoGC54
+          + 1/8*g_(1,6_,nu13)*g_(2,6_,nu11)*Vec(nu11,q3)*Vec(nu13,q3)*
+         ufoGC58^2*ufoGC54
+          + 1/8*g_(1,6_,nu14)*g_(2,6_,nu11)*Vec(nu11,q2)*Vec(nu14,q2)*
+         ufoGC58^2*ufoGC54
+          + 1/8*g_(1,6_,nu14)*g_(2,6_,nu11)*Vec(nu11,q2)*Vec(nu14,q3)*
+         ufoGC58^2*ufoGC54
+          + 1/8*g_(1,6_,nu14)*g_(2,6_,nu11)*Vec(nu11,q3)*Vec(nu14,q2)*
+         ufoGC58^2*ufoGC54
+          + 1/8*g_(1,6_,nu14)*g_(2,6_,nu11)*Vec(nu11,q3)*Vec(nu14,q3)*
+         ufoGC58^2*ufoGC54
+          )
 
-       + Den(p3,xiz,M4)^2*Den(xiw,M3)^4 * (  24 terms )
+       + Den(p3,xiz,M4)*Den(xiw,M3)^2 * (
+          + 1/4*g_(1,6_,nu11)*g_(2,6_,nu11)*d*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu11)*g_(2,6_,nu11)*ufoGC58^2*ufoGC54
+          )
 
-       + Den(p3,xiz,M4)^2*Den(xiw,M3)^3 * (  20 terms )
+       + Den(p3,xiz,M4)^2*Den(xiw,M3)^4 * (
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12
+         ,q2)^2*p3.p3*ufoGC58^2*ufoGC54
+          - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12
+         ,q2)*Vec(nu12,q3)*p3.p3*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12
+         ,q3)^2*p3.p3*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu14
+         ,q2)^2*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu14
+         ,q2)*Vec(nu14,q3)*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu14
+         ,q3)^2*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12
+         ,q2)^2*p3.p3*ufoGC58^2*ufoGC54
+          - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12
+         ,q2)*Vec(nu12,q3)*p3.p3*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12
+         ,q3)^2*p3.p3*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu14
+         ,q2)^2*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu14
+         ,q2)*Vec(nu14,q3)*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu14
+         ,q3)^2*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12
+         ,q2)^2*p3.p3*ufoGC58^2*ufoGC54
+          - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12
+         ,q2)*Vec(nu12,q3)*p3.p3*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12
+         ,q3)^2*p3.p3*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu14
+         ,q2)^2*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu14
+         ,q2)*Vec(nu14,q3)*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu14
+         ,q3)^2*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12
+         ,q2)^2*p3.p3*ufoGC58^2*ufoGC54
+          - 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12
+         ,q2)*Vec(nu12,q3)*p3.p3*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12
+         ,q3)^2*p3.p3*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu14
+         ,q2)^2*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          + 1/2*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu14
+         ,q2)*Vec(nu14,q3)*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu14
+         ,q3)^2*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          )
 
-       + Den(p3,xiz,M4)^2*Den(xiw,M3)^2 * (  3 terms );
+       + Den(p3,xiz,M4)^2*Den(xiw,M3)^3 * (
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*p3.p3*
+         ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*p3.p3*
+         ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*p3.p3*
+         ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*p3.p3*
+         ufoGC58^2*ufoGC54
+          - 1/8*g_(1,6_,nu10)*g_(2,6_,nu13)*Vec(nu10,q2)*Vec(nu13,q2)*p3.p3*
+         d^-1*ufoGC58^2*ufoGC54
+          - 1/8*g_(1,6_,nu10)*g_(2,6_,nu13)*Vec(nu10,q2)*Vec(nu13,q3)*p3.p3*
+         d^-1*ufoGC58^2*ufoGC54
+          - 1/8*g_(1,6_,nu10)*g_(2,6_,nu13)*Vec(nu10,q3)*Vec(nu13,q2)*p3.p3*
+         d^-1*ufoGC58^2*ufoGC54
+          - 1/8*g_(1,6_,nu10)*g_(2,6_,nu13)*Vec(nu10,q3)*Vec(nu13,q3)*p3.p3*
+         d^-1*ufoGC58^2*ufoGC54
+          - 1/8*g_(1,6_,nu10)*g_(2,6_,nu14)*Vec(nu10,q2)*Vec(nu14,q2)*p3.p3*
+         d^-1*ufoGC58^2*ufoGC54
+          - 1/8*g_(1,6_,nu10)*g_(2,6_,nu14)*Vec(nu10,q2)*Vec(nu14,q3)*p3.p3*
+         d^-1*ufoGC58^2*ufoGC54
+          - 1/8*g_(1,6_,nu10)*g_(2,6_,nu14)*Vec(nu10,q3)*Vec(nu14,q2)*p3.p3*
+         d^-1*ufoGC58^2*ufoGC54
+          - 1/8*g_(1,6_,nu10)*g_(2,6_,nu14)*Vec(nu10,q3)*Vec(nu14,q3)*p3.p3*
+         d^-1*ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu12)*g_(2,6_,nu11)*Vec(nu11,q2)*Vec(nu12,q2)*p3.p3*
+         ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu12)*g_(2,6_,nu11)*Vec(nu11,q2)*Vec(nu12,q3)*p3.p3*
+         ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu12)*g_(2,6_,nu11)*Vec(nu11,q3)*Vec(nu12,q2)*p3.p3*
+         ufoGC58^2*ufoGC54
+          + 1/4*g_(1,6_,nu12)*g_(2,6_,nu11)*Vec(nu11,q3)*Vec(nu12,q3)*p3.p3*
+         ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu14)*g_(2,6_,nu11)*Vec(nu11,q2)*Vec(nu14,q2)*p3.p3*
+         d^-1*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu14)*g_(2,6_,nu11)*Vec(nu11,q2)*Vec(nu14,q3)*p3.p3*
+         d^-1*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu14)*g_(2,6_,nu11)*Vec(nu11,q3)*Vec(nu14,q2)*p3.p3*
+         d^-1*ufoGC58^2*ufoGC54
+          - 1/4*g_(1,6_,nu14)*g_(2,6_,nu11)*Vec(nu11,q3)*Vec(nu14,q3)*p3.p3*
+         d^-1*ufoGC58^2*ufoGC54
+          )
+
+       + Den(p3,xiz,M4)^2*Den(xiw,M3)^2 * (
+          - 1/4*g_(1,6_,nu11)*g_(2,6_,nu11)*p3.p3*ufoGC58^2*ufoGC54
+          + 1/8*g_(1,6_,nu13)*g_(2,6_,nu13)*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          + 1/8*g_(1,6_,nu14)*g_(2,6_,nu14)*p3.p3*d^-1*ufoGC58^2*ufoGC54
+          );
 
   0.00 sec out of 0.00 sec

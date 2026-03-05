@@ -139,13 +139,14 @@ Identify Vecr(ind1?,momen1?) = 0;
 *Print[];
 *.end
 
+* we can now set external momenta to zero
+* this can be safely done as all denominators are either massive or
+* have internal momenta going in the loop and therefore there are no singularities (there will be spurious IR divergences though...)
 
 *split args in denominator 
 SplitArg Den;
 
-*set external momenta to zero
-* this can be safely done as all denominators are either massive or
-* have internal momenta going in the loop and therefore there are no singularities (there will be spurious IR divergences though...)
+*set ext mom to zero in the denominators
 Identify Den(?a,q1,?b)=Den(?a,?b);
 Identify Den(?a,q2,?b)=Den(?a,?b);
 Identify Den(?a,q3,?b)=Den(?a,?b);
@@ -159,8 +160,14 @@ Identify Den(?a,-q4,?b)=Den(?a,?b);
 Identify Den(-p3,gaug?,mass?)=Den(p3,gaug,mass);
 Identify Den(-p4,gaug?,mass?)=Den(p4,gaug,mass);
 
+*set ext mom to zero in the vectors
+#do i = 1,4
+	Identify Vec(ind?,q`i') = 0;
+#enddo
+
 Bracket Den;
-Print[];
+*Print[];
+Print +s;
 .end
 
 * rewrite the scalar products in terms of denominators
