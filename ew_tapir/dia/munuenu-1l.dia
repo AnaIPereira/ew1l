@@ -180,7 +180,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*DH(p3)
+	*DH(p3,M2)
 	*(ufoGC52*(d_(nu9,nu12)))
 	;
 
@@ -460,7 +460,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*DH(p3)
+	*DH(p3,M2)
 	*(ufoGC52*(d_(nu9,nu12)))
 	;
 
@@ -740,7 +740,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*DH(p3)
+	*DH(p3,M2)
 	*(ufoGC52*(d_(nu9,nu12)))
 	;
 
@@ -1020,7 +1020,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*DH(p3)
+	*DH(p3,M2)
 	*(ufoGC52*(d_(nu9,nu12)))
 	;
 
@@ -1468,7 +1468,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
-	*DH(p4)
+	*DH(p4,M2)
 	*(ufoGC90*(d_(nu9,nu14)))
 	*(ufoGC90*(d_(nu13,nu12)))
 	;
@@ -1506,7 +1506,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
-	*DH(p4)
+	*DH(p4,M2)
 	*(ufoGC90*(d_(nu9,nu14)))
 	*(ufoGC90*(d_(nu13,nu12)))
 	;
@@ -1544,7 +1544,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dghost(p3,xia)
-	*Dghost(p4,xiw)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
 	*(ufoGC3*(Mom(nu12,p3)+Mom(nu12,-p2)))
 	;
@@ -1582,7 +1582,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dghost(p3,xia)
-	*Dghost(p4,xiw)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC4*(Mom(nu9,p3)+Mom(nu9,p1)))
 	*(ufoGC4*(Mom(nu12,p4)+Mom(nu12,-p2)))
 	;
@@ -1619,8 +1619,8 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*Dghost(p3,xiz)
-	*Dghost(p4,xiw)
+	*Dghost(p3,xiz,M4)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
 	*(ufoGC68*(Mom(nu12,p3)+Mom(nu12,-p2)))
 	;
@@ -1657,8 +1657,8 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*Dghost(p3,xiz)
-	*Dghost(p4,xiw)
+	*Dghost(p3,xiz,M4)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
 	*(ufoGC69*(Mom(nu12,p4)+Mom(nu12,-p2)))
 	;
@@ -1694,9 +1694,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fe,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fe,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fve,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fve,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -1732,9 +1732,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fmu,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -1770,9 +1770,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fta,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fta,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvt,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvt,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -1808,9 +1808,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC119*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC59*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fu,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -1848,9 +1848,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC120*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC60*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fu,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -1888,9 +1888,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC121*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC61*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fu,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -1928,9 +1928,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC122*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC62*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fc,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -1968,9 +1968,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC123*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC63*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fc,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -2008,9 +2008,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC124*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC64*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fc,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -2048,9 +2048,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC125*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -2088,9 +2088,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC126*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -2128,9 +2128,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC127*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -2169,7 +2169,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*DH(p3)
+	*DH(p3,M2)
 	*Dgoldst(p4,xiw,M3)
 	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
 	*(ufoGC55*(Mom(nu12,p4)-Mom(nu12,p3)))
@@ -2588,7 +2588,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
-	*DH(p4)
+	*DH(p4,M2)
 	*(ufoGC90*(d_(nu9,nu14)))
 	*(ufoGC90*(d_(nu13,nu12)))
 	;
@@ -2626,7 +2626,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
-	*DH(p4)
+	*DH(p4,M2)
 	*(ufoGC90*(d_(nu9,nu14)))
 	*(ufoGC90*(d_(nu13,nu12)))
 	;
@@ -2664,7 +2664,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dghost(p3,xia)
-	*Dghost(p4,xiw)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
 	*(ufoGC3*(Mom(nu12,p3)+Mom(nu12,-p2)))
 	;
@@ -2702,7 +2702,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dghost(p3,xia)
-	*Dghost(p4,xiw)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC4*(Mom(nu9,p3)+Mom(nu9,p1)))
 	*(ufoGC4*(Mom(nu12,p4)+Mom(nu12,-p2)))
 	;
@@ -2739,8 +2739,8 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*Dghost(p3,xiz)
-	*Dghost(p4,xiw)
+	*Dghost(p3,xiz,M4)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
 	*(ufoGC68*(Mom(nu12,p3)+Mom(nu12,-p2)))
 	;
@@ -2777,8 +2777,8 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*Dghost(p3,xiz)
-	*Dghost(p4,xiw)
+	*Dghost(p3,xiz,M4)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
 	*(ufoGC69*(Mom(nu12,p4)+Mom(nu12,-p2)))
 	;
@@ -2814,9 +2814,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fe,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fe,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fve,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fve,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -2852,9 +2852,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fmu,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -2890,9 +2890,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fta,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fta,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvt,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvt,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -2928,9 +2928,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC119*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC59*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fu,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -2968,9 +2968,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC120*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC60*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fu,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -3008,9 +3008,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC121*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC61*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fu,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -3048,9 +3048,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC122*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC62*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fc,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -3088,9 +3088,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC123*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC63*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fc,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -3128,9 +3128,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC124*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC64*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fc,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -3168,9 +3168,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC125*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -3208,9 +3208,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC126*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -3248,9 +3248,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC127*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -3289,7 +3289,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*DH(p3)
+	*DH(p3,M2)
 	*Dgoldst(p4,xiw,M3)
 	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
 	*(ufoGC55*(Mom(nu12,p4)-Mom(nu12,p3)))
@@ -3708,7 +3708,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
-	*DH(p4)
+	*DH(p4,M2)
 	*(ufoGC90*(d_(nu9,nu14)))
 	*(ufoGC56*(Mom(nu13,-p2)-Mom(nu13,p4)))
 	;
@@ -3746,7 +3746,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
-	*DH(p4)
+	*DH(p4,M2)
 	*(ufoGC90*(d_(nu9,nu14)))
 	*(ufoGC56*(Mom(nu13,-p2)-Mom(nu13,p4)))
 	;
@@ -3784,7 +3784,7 @@
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
 	*Dghost(p3,xia)
-	*Dghost(p4,xiw)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
 	*xiw*(ufoGC92*(1))
 	;
@@ -3821,8 +3821,8 @@
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
-	*Dghost(p3,xiz)
-	*Dghost(p4,xiw)
+	*Dghost(p3,xiz,M4)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
 	*xiw*(ufoGC94*(1))
 	;
@@ -3859,8 +3859,8 @@
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
-	*Dghost(p3,xiz)
-	*Dghost(p4,xiw)
+	*Dghost(p3,xiz,M4)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
 	*xiz*(ufoGC95*(1))
 	;
@@ -3896,9 +3896,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*(ufoGC15*(auxPL(j16,j13))+ufoGC24*(auxPR(j16,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
 	;
@@ -3936,9 +3936,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*(ufoGC18*(auxPL(j16,j13))+ufoGC27*(auxPR(j16,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
 	;
@@ -3976,9 +3976,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*(ufoGC21*(auxPL(j16,j13))+ufoGC30*(auxPR(j16,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
 	;
@@ -4017,7 +4017,7 @@
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
-	*DH(p3)
+	*DH(p3,M2)
 	*Dgoldst(p4,xiw,M3)
 	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
 	*(ufoGC86*(1))
@@ -4398,7 +4398,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
-	*DH(p4)
+	*DH(p4,M2)
 	*(ufoGC90*(d_(nu9,nu14)))
 	*(ufoGC90*(d_(nu13,nu12)))
 	;
@@ -4436,7 +4436,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
-	*DH(p4)
+	*DH(p4,M2)
 	*(ufoGC90*(d_(nu9,nu14)))
 	*(ufoGC90*(d_(nu13,nu12)))
 	;
@@ -4474,7 +4474,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dghost(p3,xia)
-	*Dghost(p4,xiw)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
 	*(ufoGC3*(Mom(nu12,p3)+Mom(nu12,-p2)))
 	;
@@ -4512,7 +4512,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	*Dghost(p3,xia)
-	*Dghost(p4,xiw)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC4*(Mom(nu9,p3)+Mom(nu9,p1)))
 	*(ufoGC4*(Mom(nu12,p4)+Mom(nu12,-p2)))
 	;
@@ -4549,8 +4549,8 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*Dghost(p3,xiz)
-	*Dghost(p4,xiw)
+	*Dghost(p3,xiz,M4)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
 	*(ufoGC68*(Mom(nu12,p3)+Mom(nu12,-p2)))
 	;
@@ -4587,8 +4587,8 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*Dghost(p3,xiz)
-	*Dghost(p4,xiw)
+	*Dghost(p3,xiz,M4)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
 	*(ufoGC69*(Mom(nu12,p4)+Mom(nu12,-p2)))
 	;
@@ -4624,9 +4624,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fe,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fe,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fve,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fve,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -4662,9 +4662,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fmu,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -4700,9 +4700,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fta,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fta,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvt,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvt,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -4738,9 +4738,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC119*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC59*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fu,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -4778,9 +4778,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC120*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC60*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fu,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -4818,9 +4818,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC121*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC61*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fu,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -4858,9 +4858,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC122*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC62*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fc,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -4898,9 +4898,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC123*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC63*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fc,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -4938,9 +4938,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC124*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC64*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fc,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -4978,9 +4978,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC125*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -5018,9 +5018,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC126*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -5058,9 +5058,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC127*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
 	;
@@ -5099,7 +5099,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu12,nu11,p2,xiw,M3)
-	*DH(p3)
+	*DH(p3,M2)
 	*Dgoldst(p4,xiw,M3)
 	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
 	*(ufoGC55*(Mom(nu12,p4)-Mom(nu12,p3)))
@@ -5518,7 +5518,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
-	*DH(p4)
+	*DH(p4,M2)
 	*(ufoGC90*(d_(nu9,nu14)))
 	*(ufoGC90*(d_(nu13,nu12)))
 	;
@@ -5556,7 +5556,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
-	*DH(p4)
+	*DH(p4,M2)
 	*(ufoGC90*(d_(nu9,nu14)))
 	*(ufoGC90*(d_(nu13,nu12)))
 	;
@@ -5594,7 +5594,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dghost(p3,xia)
-	*Dghost(p4,xiw)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
 	*(ufoGC3*(Mom(nu12,p3)+Mom(nu12,-p2)))
 	;
@@ -5632,7 +5632,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	*Dghost(p3,xia)
-	*Dghost(p4,xiw)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC4*(Mom(nu9,p3)+Mom(nu9,p1)))
 	*(ufoGC4*(Mom(nu12,p4)+Mom(nu12,-p2)))
 	;
@@ -5669,8 +5669,8 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*Dghost(p3,xiz)
-	*Dghost(p4,xiw)
+	*Dghost(p3,xiz,M4)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
 	*(ufoGC68*(Mom(nu12,p3)+Mom(nu12,-p2)))
 	;
@@ -5707,8 +5707,8 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*Dghost(p3,xiz)
-	*Dghost(p4,xiw)
+	*Dghost(p3,xiz,M4)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
 	*(ufoGC69*(Mom(nu12,p4)+Mom(nu12,-p2)))
 	;
@@ -5744,9 +5744,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fe,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fe,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fve,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fve,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -5782,9 +5782,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fmu,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -5820,9 +5820,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC58*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fta,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fta,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvt,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvt,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -5858,9 +5858,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC119*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC59*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fu,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -5898,9 +5898,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC120*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC60*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fu,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -5938,9 +5938,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC121*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC61*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fu,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -5978,9 +5978,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC122*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC62*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fc,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -6018,9 +6018,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC123*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC63*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fc,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -6058,9 +6058,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC124*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC64*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fc,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fc,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -6098,9 +6098,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC125*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -6138,9 +6138,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC126*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -6178,9 +6178,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*(ufoGC127*(auxGamma(nu12,j16,iufo13)*auxPL(iufo13,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
 	;
@@ -6219,7 +6219,7 @@
 	*(ufoGC58*(auxGamma(nu11,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu12,nu11,p2,xiw,M3)
-	*DH(p3)
+	*DH(p3,M2)
 	*Dgoldst(p4,xiw,M3)
 	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
 	*(ufoGC55*(Mom(nu12,p4)-Mom(nu12,p3)))
@@ -6638,7 +6638,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
-	*DH(p4)
+	*DH(p4,M2)
 	*(ufoGC90*(d_(nu9,nu14)))
 	*(ufoGC56*(Mom(nu13,-p2)-Mom(nu13,p4)))
 	;
@@ -6676,7 +6676,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
-	*DH(p4)
+	*DH(p4,M2)
 	*(ufoGC90*(d_(nu9,nu14)))
 	*(ufoGC56*(Mom(nu13,-p2)-Mom(nu13,p4)))
 	;
@@ -6714,7 +6714,7 @@
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
 	*Dghost(p3,xia)
-	*Dghost(p4,xiw)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC3*(Mom(nu9,p4)+Mom(nu9,p1)))
 	*xiw*(ufoGC92*(1))
 	;
@@ -6751,8 +6751,8 @@
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
-	*Dghost(p3,xiz)
-	*Dghost(p4,xiw)
+	*Dghost(p3,xiz,M4)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC68*(Mom(nu9,p4)+Mom(nu9,p1)))
 	*xiw*(ufoGC94*(1))
 	;
@@ -6789,8 +6789,8 @@
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
-	*Dghost(p3,xiz)
-	*Dghost(p4,xiw)
+	*Dghost(p3,xiz,M4)
+	*Dghost(p4,xiw,M3)
 	*(ufoGC69*(Mom(nu9,p3)+Mom(nu9,p1)))
 	*xiz*(ufoGC95*(1))
 	;
@@ -6826,9 +6826,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*(ufoGC15*(auxPL(j16,j13))+ufoGC24*(auxPR(j16,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fd,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fd,j15,j16)
 	*(ufoGC65*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
 	;
@@ -6866,9 +6866,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*(ufoGC18*(auxPL(j16,j13))+ufoGC27*(auxPR(j16,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fs,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fs,j15,j16)
 	*(ufoGC66*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
 	;
@@ -6906,9 +6906,9 @@
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*(ufoGC21*(auxPL(j16,j13))+ufoGC30*(auxPR(j16,j13)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fb,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fb,j15,j16)
 	*(ufoGC67*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(ft,j13,j14)
+	*auxSlash(-p3,M1,j13,j14)*flavourTag(ft,j13,j14)
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
 	;
@@ -6947,7 +6947,7 @@
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p2,xiw,M3)
-	*DH(p3)
+	*DH(p3,M2)
 	*Dgoldst(p4,xiw,M3)
 	*(ufoGC56*(Mom(nu9,-p4)-Mom(nu9,-p3)))
 	*(ufoGC86*(1))
@@ -6983,9 +6983,9 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu11,j16,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu11,j16,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fmu,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*(ufoGC81*(auxGamma(nu12,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu11,nu12,p2,xiz,M4)
@@ -7021,9 +7021,9 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu11,j16,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu11,j16,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fmu,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*(ufoGC81*(auxGamma(nu12,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu11,nu12,p2,xiz,M4)
@@ -7059,7 +7059,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fvm,j11,j12)
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
@@ -7097,7 +7097,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fvm,j11,j12)
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
@@ -7135,7 +7135,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(j12,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fvm,j11,j12)
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
@@ -7173,7 +7173,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fvm,j11,j12)
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
@@ -7211,7 +7211,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fvm,j11,j12)
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
@@ -7249,7 +7249,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(j12,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fvm,j11,j12)
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
@@ -7287,7 +7287,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC3*(auxGamma(nu16,j12,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
@@ -7325,7 +7325,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
@@ -7363,7 +7363,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
@@ -7401,7 +7401,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC3*(auxGamma(nu16,j12,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
@@ -7439,7 +7439,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
@@ -7477,7 +7477,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
@@ -7515,7 +7515,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC3*(auxGamma(nu16,j12,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC107*(auxPR(i2,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p3,xiw,M3)
@@ -7553,7 +7553,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC107*(auxPR(i2,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p3,xiw,M3)
@@ -7591,7 +7591,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC107*(auxPR(i2,j11)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p3,xiw,M3)
@@ -7629,9 +7629,9 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu11,j16,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu11,j16,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fmu,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*(ufoGC81*(auxGamma(nu12,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu11,nu12,p2,xiz,M4)
@@ -7667,9 +7667,9 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu11,j16,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu11,j16,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fmu,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fmu,j15,j16)
 	*(ufoGC58*(auxGamma(nu9,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*(ufoGC81*(auxGamma(nu12,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu11,nu12,p2,xiz,M4)
@@ -7705,7 +7705,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fvm,j11,j12)
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
@@ -7743,7 +7743,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fvm,j11,j12)
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
@@ -7781,7 +7781,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(j12,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fvm,j11,j12)
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu13,nu14,p3,xiz,M4)
@@ -7819,7 +7819,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fvm,j11,j12)
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
@@ -7857,7 +7857,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC58*(auxGamma(nu15,j12,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fvm,j11,j12)
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
@@ -7895,7 +7895,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC107*(auxPR(j12,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fvm,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fvm,j11,j12)
 	*(ufoGC81*(auxGamma(nu14,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu13,nu14,p3,xiz,M4)
@@ -7933,7 +7933,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC3*(auxGamma(nu16,j12,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
@@ -7971,7 +7971,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
@@ -8009,7 +8009,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu14,nu13,p3,xiw,M3)
@@ -8047,7 +8047,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC3*(auxGamma(nu16,j12,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
@@ -8085,7 +8085,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
@@ -8123,7 +8123,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC58*(auxGamma(nu13,i2,iufo11)*auxPL(iufo11,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu14,nu13,p3,xiw,M3)
@@ -8161,7 +8161,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC3*(auxGamma(nu16,j12,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC107*(auxPR(i2,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p3,xiw,M3)
@@ -8199,7 +8199,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC107*(auxPR(i2,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p3,xiw,M3)
@@ -8237,7 +8237,7 @@
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu10,i1,iufo4)*auxPL(iufo4,i4)))
 	*(ufoGC80*(auxGamma(nu16,j12,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu16,j12,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fmu,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fmu,j11,j12)
 	*(ufoGC107*(auxPR(i2,j11)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dgoldst(p3,xiw,M3)
@@ -8274,9 +8274,9 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu11,j16,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fve,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fve,j15,j16)
 	*(ufoGC58*(auxGamma(nu10,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fe,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fe,j13,j14)
 	*(ufoGC80*(auxGamma(nu12,i1,iufo13)*auxPL(iufo13,j13))+ufoGC76*(auxGamma(nu12,i1,iufo13)*auxPR(iufo13,j13)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
@@ -8312,9 +8312,9 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu11,j16,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fve,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fve,j15,j16)
 	*(ufoGC58*(auxGamma(nu10,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fe,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fe,j13,j14)
 	*(ufoGC80*(auxGamma(nu12,i1,iufo13)*auxPL(iufo13,j13))+ufoGC76*(auxGamma(nu12,i1,iufo13)*auxPR(iufo13,j13)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
@@ -8350,7 +8350,7 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
@@ -8388,7 +8388,7 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
@@ -8426,7 +8426,7 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
@@ -8464,7 +8464,7 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
@@ -8502,7 +8502,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC3*(auxGamma(nu14,i1,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
@@ -8540,7 +8540,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC3*(auxGamma(nu14,i1,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
@@ -8578,7 +8578,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
@@ -8616,7 +8616,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
@@ -8654,7 +8654,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
@@ -8692,7 +8692,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
@@ -8730,9 +8730,9 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu11,j16,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fve,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fve,j15,j16)
 	*(ufoGC58*(auxGamma(nu10,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fe,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fe,j13,j14)
 	*(ufoGC80*(auxGamma(nu12,i1,iufo13)*auxPL(iufo13,j13))+ufoGC76*(auxGamma(nu12,i1,iufo13)*auxPR(iufo13,j13)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
@@ -8768,9 +8768,9 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu11,j16,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p4,j15,j16)*flavourTag(fve,j15,j16)
+	*auxSlash(-p4,0,j15,j16)*flavourTag(fve,j15,j16)
 	*(ufoGC58*(auxGamma(nu10,j14,iufo15)*auxPL(iufo15,j15)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fe,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fe,j13,j14)
 	*(ufoGC80*(auxGamma(nu12,i1,iufo13)*auxPL(iufo13,j13))+ufoGC76*(auxGamma(nu12,i1,iufo13)*auxPR(iufo13,j13)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
@@ -8806,7 +8806,7 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
@@ -8844,7 +8844,7 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
@@ -8882,7 +8882,7 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
@@ -8920,7 +8920,7 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
@@ -8958,7 +8958,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC3*(auxGamma(nu14,i1,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
@@ -8996,7 +8996,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC3*(auxGamma(nu14,i1,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
@@ -9034,7 +9034,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
@@ -9072,7 +9072,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
@@ -9110,7 +9110,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
@@ -9148,7 +9148,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,i2,iufo3)*auxPL(iufo3,i3)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
@@ -9186,7 +9186,7 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dgoldst(p1,xiw,M3)
@@ -9224,7 +9224,7 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dgoldst(p1,xiw,M3)
@@ -9262,7 +9262,7 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dgoldst(p1,xiw,M3)
@@ -9300,7 +9300,7 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dgoldst(p1,xiw,M3)
@@ -9338,7 +9338,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC3*(auxGamma(nu14,i1,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dgoldst(p1,xiw,M3)
@@ -9376,7 +9376,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC3*(auxGamma(nu14,i1,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dgoldst(p1,xiw,M3)
@@ -9414,7 +9414,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dgoldst(p1,xiw,M3)
@@ -9452,7 +9452,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dgoldst(p1,xiw,M3)
@@ -9490,7 +9490,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dgoldst(p1,xiw,M3)
@@ -9528,7 +9528,7 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu14,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu14,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC107*(auxPR(i2,i3)))
 	*Dgoldst(p1,xiw,M3)
@@ -9566,10 +9566,10 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*(ufoGC81*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dlong(nu9,nu10,p1,xiz,M4)
 	*Dlong(nu16,nu15,p4,xiw,M3)
@@ -9603,10 +9603,10 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*(ufoGC81*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dlong(nu9,nu10,p1,xiz,M4)
 	*Dtran(nu16,nu15,p4,xiw,M3)
@@ -9640,10 +9640,10 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*(ufoGC81*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dtran(nu9,nu10,p1,xiz,M4)
 	*Dlong(nu16,nu15,p4,xiw,M3)
@@ -9677,10 +9677,10 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*(ufoGC81*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dtran(nu9,nu10,p1,xiz,M4)
 	*Dtran(nu16,nu15,p4,xiw,M3)
@@ -9714,10 +9714,10 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC80*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu15,j14,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fmu,j13,j14)
 	*(ufoGC58*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu15,nu16,p4,xiz,M4)
@@ -9751,10 +9751,10 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC80*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu15,j14,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fmu,j13,j14)
 	*(ufoGC58*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu15,nu16,p4,xiz,M4)
@@ -9788,10 +9788,10 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC80*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu15,j14,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fmu,j13,j14)
 	*(ufoGC58*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu15,nu16,p4,xiz,M4)
@@ -9825,10 +9825,10 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC80*(auxGamma(nu15,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu15,j14,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fmu,j13,j14)
 	*(ufoGC58*(auxGamma(nu9,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu15,nu16,p4,xiz,M4)
@@ -9862,10 +9862,10 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC3*(auxGamma(nu10,i1,j11)))
 	*(ufoGC3*(auxGamma(nu9,j14,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fmu,j13,j14)
 	*(ufoGC58*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dph(nu10,nu9,p1,xia)
 	*Dlong(nu16,nu15,p4,xiw,M3)
@@ -9899,10 +9899,10 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC3*(auxGamma(nu10,i1,j11)))
 	*(ufoGC3*(auxGamma(nu9,j14,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fmu,j13,j14)
 	*(ufoGC58*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dph(nu10,nu9,p1,xia)
 	*Dtran(nu16,nu15,p4,xiw,M3)
@@ -9936,10 +9936,10 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC80*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu9,j14,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fmu,j13,j14)
 	*(ufoGC58*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dlong(nu9,nu10,p1,xiz,M4)
 	*Dlong(nu16,nu15,p4,xiw,M3)
@@ -9973,10 +9973,10 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC80*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu9,j14,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fmu,j13,j14)
 	*(ufoGC58*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dlong(nu9,nu10,p1,xiz,M4)
 	*Dtran(nu16,nu15,p4,xiw,M3)
@@ -10010,10 +10010,10 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC80*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu9,j14,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fmu,j13,j14)
 	*(ufoGC58*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dtran(nu9,nu10,p1,xiz,M4)
 	*Dlong(nu16,nu15,p4,xiw,M3)
@@ -10047,10 +10047,10 @@
 
 	(-1)*1
 	*(ufoGC58*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fe,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fe,j11,j12)
 	*(ufoGC80*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11))+ufoGC76*(auxGamma(nu10,i1,iufo11)*auxPR(iufo11,j11)))
 	*(ufoGC80*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3))+ufoGC76*(auxGamma(nu9,j14,iufo3)*auxPR(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fmu,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fmu,j13,j14)
 	*(ufoGC58*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dtran(nu9,nu10,p1,xiz,M4)
 	*Dtran(nu16,nu15,p4,xiw,M3)
@@ -10084,10 +10084,10 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*(ufoGC81*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu15,nu16,p4,xiz,M4)
@@ -10121,10 +10121,10 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*(ufoGC81*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dlong(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu15,nu16,p4,xiz,M4)
@@ -10158,10 +10158,10 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*(ufoGC81*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dlong(nu15,nu16,p4,xiz,M4)
@@ -10195,10 +10195,10 @@
 
 	(-1)*1
 	*(ufoGC81*(auxGamma(nu16,j12,iufo4)*auxPL(iufo4,i4)))
-	*auxSlash(-p2,j11,j12)*flavourTag(fve,j11,j12)
+	*auxSlash(-p2,0,j11,j12)*flavourTag(fve,j11,j12)
 	*(ufoGC58*(auxGamma(nu10,i1,iufo11)*auxPL(iufo11,j11)))
 	*(ufoGC58*(auxGamma(nu9,j14,iufo3)*auxPL(iufo3,i3)))
-	*auxSlash(-p3,j13,j14)*flavourTag(fvm,j13,j14)
+	*auxSlash(-p3,0,j13,j14)*flavourTag(fvm,j13,j14)
 	*(ufoGC81*(auxGamma(nu15,i2,iufo13)*auxPL(iufo13,j13)))
 	*Dtran(nu10,nu9,p1,xiw,M3)
 	*Dtran(nu15,nu16,p4,xiz,M4)
