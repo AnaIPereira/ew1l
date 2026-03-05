@@ -78,8 +78,9 @@ Identify Dph(ind1?,ind2?,?mom,gaug?) = (d_(ind1, ind2) - (1-gaug) * Vec(ind1,?mo
 Identify Dgoldst(?mom,gaug?,mass?) = Den(?mom, gaug, mass);
 Identify Dlong(ind1?,ind2?,?mom,gaug?,mass?) = (gaug*Vec(ind1,?mom)*Vec(ind2,?mom)*Den(?mom,gaug,mass))* Den(?mom,gaug,mass);
 Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Vec(ind2,?mom)*Den(?mom,gaug,mass))* Den(?mom,gaug,mass);
-
-
+Identify DH(?mom, mass?) = Den(?mom, 0, mass);
+Identify Dghost(?mom, gaug?) = Den(?mom,0,0);
+Identify Dghost(?mom, gaug?, mass?) = Den(?mom,gaug,mass);
 
 #do i = 1,`NUMTRACES'
   Identify FT`i'(g7) = g7_(`i');
@@ -135,10 +136,6 @@ Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?) = d_(ind1,ind2) * 1/d * momen1.
 
 *tensor reduction for rank 1
 Identify Vecr(ind1?,momen1?) = 0;
-
-*Bracket Den;
-*Print[];
-*.end
 
 * we can now set external momenta to zero
 * this can be safely done as all denominators are either massive or

@@ -1,0 +1,44 @@
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar  5 16:56:32 2026
+    #-
+
+   d1l15amp =
+
+       + Den(p3,xiz,M4)*Den(q2 + q3,xiw,M3)^4 * (
+          + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12
+         ,q2)^2*xiw*ufoGC58^2*ufoGC52
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12
+         ,q2)*Vec(nu12,q3)*xiw*ufoGC58^2*ufoGC52
+          + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*Vec(nu12
+         ,q3)^2*xiw*ufoGC58^2*ufoGC52
+          + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12
+         ,q2)^2*xiw*ufoGC58^2*ufoGC52
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12
+         ,q2)*Vec(nu12,q3)*xiw*ufoGC58^2*ufoGC52
+          + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*Vec(nu12
+         ,q3)^2*xiw*ufoGC58^2*ufoGC52
+          + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12
+         ,q2)^2*xiw*ufoGC58^2*ufoGC52
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12
+         ,q2)*Vec(nu12,q3)*xiw*ufoGC58^2*ufoGC52
+          + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*Vec(nu12
+         ,q3)^2*xiw*ufoGC58^2*ufoGC52
+          + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12
+         ,q2)^2*xiw*ufoGC58^2*ufoGC52
+          + 1/4*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12
+         ,q2)*Vec(nu12,q3)*xiw*ufoGC58^2*ufoGC52
+          + 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*Vec(nu12
+         ,q3)^2*xiw*ufoGC58^2*ufoGC52
+          )
+
+       + Den(p3,xiz,M4)*Den(q2 + q3,xiw,M3)^3 * (
+          - 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q2)*xiw*
+         ufoGC58^2*ufoGC52
+          - 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q2)*Vec(nu11,q3)*xiw*
+         ufoGC58^2*ufoGC52
+          - 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q2)*xiw*
+         ufoGC58^2*ufoGC52
+          - 1/8*g_(1,6_,nu10)*g_(2,6_,nu11)*Vec(nu10,q3)*Vec(nu11,q3)*xiw*
+         ufoGC58^2*ufoGC52
+          );
+
+  0.00 sec out of 0.00 sec
