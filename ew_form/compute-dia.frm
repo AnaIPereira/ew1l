@@ -112,7 +112,6 @@ Identify Vecr(?a) = Vec(?a);
 	Identify Vec(ind?,p`i') = Vecr(ind,p`i');
 #enddo
 
-
 *TENSOR REDUCTION : highest ranks first
 * contract all the scalar product pi^2, etc
 Identify Vecr(ind?,momen1?)*Vecr(ind?,momen2?) = momen1.momen2;
@@ -136,6 +135,7 @@ Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?) = d_(ind1,ind2) * 1/d * momen1.
 
 *tensor reduction for rank 1
 Identify Vecr(ind1?,momen1?) = 0;
+
 
 
 * we can now set external momenta to zero

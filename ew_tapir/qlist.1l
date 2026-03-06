@@ -4,8 +4,8 @@
 # output = 'qlist.tmp';
 # style = 'qgraf-tapir.sty';
 # model = 'UFO.lag';
-# in = fe , fvm ;
-# out = fmu, fve;
+# in = fmu, fve;
+# out = fe , fvm ;
 # loops = 1;
 # loop_momentum = k ;
 # options = onshell, notadpole ;
@@ -22,12 +22,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -46,12 +46,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -70,12 +70,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -94,12 +94,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -118,12 +118,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -142,12 +142,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -166,12 +166,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -190,12 +190,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -214,12 +214,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -238,12 +238,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -262,12 +262,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -286,12 +286,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -310,12 +310,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -334,12 +334,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -358,12 +358,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -382,12 +382,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -406,12 +406,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -430,12 +430,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -454,12 +454,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -478,12 +478,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -502,12 +502,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -526,12 +526,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -550,12 +550,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -574,12 +574,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -598,12 +598,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -622,12 +622,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -646,12 +646,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -670,12 +670,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -694,12 +694,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -718,12 +718,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -742,12 +742,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -766,12 +766,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -790,12 +790,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -815,12 +815,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -840,12 +840,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -865,12 +865,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -890,12 +890,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -915,12 +915,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -940,12 +940,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -965,12 +965,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -990,12 +990,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1015,12 +1015,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1040,12 +1040,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1065,12 +1065,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1090,12 +1090,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1115,12 +1115,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1140,12 +1140,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1165,12 +1165,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1190,12 +1190,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1215,12 +1215,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1240,12 +1240,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1265,12 +1265,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1290,12 +1290,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1315,12 +1315,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1340,12 +1340,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1365,12 +1365,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1390,12 +1390,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1415,12 +1415,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1440,12 +1440,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1465,12 +1465,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1490,12 +1490,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1515,12 +1515,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1540,12 +1540,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1565,12 +1565,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1590,12 +1590,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1615,12 +1615,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1640,12 +1640,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1665,12 +1665,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1690,12 +1690,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1715,12 +1715,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1740,12 +1740,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1765,12 +1765,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1790,12 +1790,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1815,12 +1815,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1840,12 +1840,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1865,12 +1865,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1890,12 +1890,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1915,12 +1915,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1940,12 +1940,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1965,12 +1965,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -1990,12 +1990,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2015,12 +2015,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2040,12 +2040,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2065,12 +2065,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2090,12 +2090,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2115,12 +2115,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2140,12 +2140,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2165,12 +2165,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2190,12 +2190,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2215,12 +2215,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2240,12 +2240,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2265,12 +2265,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2290,12 +2290,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2315,12 +2315,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2340,12 +2340,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2365,12 +2365,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2390,12 +2390,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2415,12 +2415,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2440,12 +2440,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2465,12 +2465,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2490,12 +2490,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2515,12 +2515,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2540,12 +2540,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2565,12 +2565,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2590,12 +2590,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2615,12 +2615,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2640,12 +2640,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2665,12 +2665,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WLm,WLp
@@ -2690,12 +2690,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -2715,12 +2715,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -2740,12 +2740,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -2765,12 +2765,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -2790,12 +2790,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -2815,12 +2815,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -2840,12 +2840,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -2865,12 +2865,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -2890,12 +2890,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -2915,12 +2915,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -2940,12 +2940,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -2965,12 +2965,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -2990,12 +2990,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3015,12 +3015,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3040,12 +3040,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3065,12 +3065,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3090,12 +3090,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3115,12 +3115,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3140,12 +3140,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3165,12 +3165,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3190,12 +3190,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3215,12 +3215,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3240,12 +3240,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3265,12 +3265,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3290,12 +3290,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3315,12 +3315,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3340,12 +3340,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3365,12 +3365,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3390,12 +3390,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3415,12 +3415,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3440,12 +3440,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3465,12 +3465,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3490,12 +3490,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3515,12 +3515,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3540,12 +3540,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3565,12 +3565,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3590,12 +3590,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3615,12 +3615,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3640,12 +3640,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3665,12 +3665,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3690,12 +3690,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3715,12 +3715,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3740,12 +3740,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3765,12 +3765,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3790,12 +3790,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3815,12 +3815,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3840,12 +3840,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3865,12 +3865,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3890,12 +3890,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3915,12 +3915,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3940,12 +3940,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3965,12 +3965,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -3990,12 +3990,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4015,12 +4015,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4040,12 +4040,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4065,12 +4065,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4090,12 +4090,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4115,12 +4115,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4140,12 +4140,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4165,12 +4165,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4190,12 +4190,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4215,12 +4215,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4240,12 +4240,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4265,12 +4265,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4290,12 +4290,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4315,12 +4315,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4340,12 +4340,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4365,12 +4365,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4390,12 +4390,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4415,12 +4415,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4440,12 +4440,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4465,12 +4465,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4490,12 +4490,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4515,12 +4515,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4540,12 +4540,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4565,12 +4565,12 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|1|fVe
+external_leg       q3|2|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|3,1|WTm,WTp
@@ -4590,18 +4590,18 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
 momentum           p2|3,2|ZL,ZL
-momentum           p3|2,4|fVm,fvm
-momentum           p4|4,3|fMu,fmu
+momentum           p3|2,4|fVe,fve
+momentum           p4|4,3|fE,fe
 }
 
 
@@ -4615,18 +4615,18 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
 momentum           p2|3,2|ZT,ZT
-momentum           p3|2,4|fVm,fvm
-momentum           p4|4,3|fMu,fmu
+momentum           p3|2,4|fVe,fve
+momentum           p4|4,3|fE,fe
 }
 
 
@@ -4640,16 +4640,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fVm,fvm
+momentum           p2|2,3|fVe,fve
 momentum           p3|4,2|ZL,ZL
 momentum           p4|3,4|WLm,WLp
 }
@@ -4665,16 +4665,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fVm,fvm
+momentum           p2|2,3|fVe,fve
 momentum           p3|4,2|ZL,ZL
 momentum           p4|3,4|WTm,WTp
 }
@@ -4690,16 +4690,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fVm,fvm
+momentum           p2|2,3|fVe,fve
 momentum           p3|4,2|ZL,ZL
 momentum           p4|3,4|Gm,Gp
 }
@@ -4715,16 +4715,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fVm,fvm
+momentum           p2|2,3|fVe,fve
 momentum           p3|4,2|ZT,ZT
 momentum           p4|3,4|WLm,WLp
 }
@@ -4740,16 +4740,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fVm,fvm
+momentum           p2|2,3|fVe,fve
 momentum           p3|4,2|ZT,ZT
 momentum           p4|3,4|WTm,WTp
 }
@@ -4765,16 +4765,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fVm,fvm
+momentum           p2|2,3|fVe,fve
 momentum           p3|4,2|ZT,ZT
 momentum           p4|3,4|Gm,Gp
 }
@@ -4790,16 +4790,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|WLm,WLp
 momentum           p4|4,3|a,a
 }
@@ -4815,16 +4815,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|WLm,WLp
 momentum           p4|4,3|ZL,ZL
 }
@@ -4840,16 +4840,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|WLm,WLp
 momentum           p4|4,3|ZT,ZT
 }
@@ -4865,16 +4865,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|WTm,WTp
 momentum           p4|4,3|a,a
 }
@@ -4890,16 +4890,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|WTm,WTp
 momentum           p4|4,3|ZL,ZL
 }
@@ -4915,16 +4915,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|WTm,WTp
 momentum           p4|4,3|ZT,ZT
 }
@@ -4940,16 +4940,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|Gm,Gp
 momentum           p4|4,3|a,a
 }
@@ -4965,16 +4965,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|Gm,Gp
 momentum           p4|4,3|ZL,ZL
 }
@@ -4990,16 +4990,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WLm,WLp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|Gm,Gp
 momentum           p4|4,3|ZT,ZT
 }
@@ -5015,18 +5015,18 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
 momentum           p2|3,2|ZL,ZL
-momentum           p3|2,4|fVm,fvm
-momentum           p4|4,3|fMu,fmu
+momentum           p3|2,4|fVe,fve
+momentum           p4|4,3|fE,fe
 }
 
 
@@ -5040,18 +5040,18 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
 momentum           p2|3,2|ZT,ZT
-momentum           p3|2,4|fVm,fvm
-momentum           p4|4,3|fMu,fmu
+momentum           p3|2,4|fVe,fve
+momentum           p4|4,3|fE,fe
 }
 
 
@@ -5065,16 +5065,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fVm,fvm
+momentum           p2|2,3|fVe,fve
 momentum           p3|4,2|ZL,ZL
 momentum           p4|3,4|WLm,WLp
 }
@@ -5090,16 +5090,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fVm,fvm
+momentum           p2|2,3|fVe,fve
 momentum           p3|4,2|ZL,ZL
 momentum           p4|3,4|WTm,WTp
 }
@@ -5115,16 +5115,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fVm,fvm
+momentum           p2|2,3|fVe,fve
 momentum           p3|4,2|ZL,ZL
 momentum           p4|3,4|Gm,Gp
 }
@@ -5140,16 +5140,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fVm,fvm
+momentum           p2|2,3|fVe,fve
 momentum           p3|4,2|ZT,ZT
 momentum           p4|3,4|WLm,WLp
 }
@@ -5165,16 +5165,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fVm,fvm
+momentum           p2|2,3|fVe,fve
 momentum           p3|4,2|ZT,ZT
 momentum           p4|3,4|WTm,WTp
 }
@@ -5190,16 +5190,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fVm,fvm
+momentum           p2|2,3|fVe,fve
 momentum           p3|4,2|ZT,ZT
 momentum           p4|3,4|Gm,Gp
 }
@@ -5215,16 +5215,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|WLm,WLp
 momentum           p4|4,3|a,a
 }
@@ -5240,16 +5240,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|WLm,WLp
 momentum           p4|4,3|ZL,ZL
 }
@@ -5265,16 +5265,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|WLm,WLp
 momentum           p4|4,3|ZT,ZT
 }
@@ -5290,16 +5290,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|WTm,WTp
 momentum           p4|4,3|a,a
 }
@@ -5315,16 +5315,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|WTm,WTp
 momentum           p4|4,3|ZL,ZL
 }
@@ -5340,16 +5340,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|WTm,WTp
 momentum           p4|4,3|ZT,ZT
 }
@@ -5365,16 +5365,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|Gm,Gp
 momentum           p4|4,3|a,a
 }
@@ -5390,16 +5390,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|Gm,Gp
 momentum           p4|4,3|ZL,ZL
 }
@@ -5415,16 +5415,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|3|fMu
-external_leg       q4|1|fVe
+external_leg       q3|3|fE
+external_leg       q4|1|fVm
 
 
 momentum           p1|4,1|WTm,WTp
-momentum           p2|2,3|fMu,fmu
+momentum           p2|2,3|fE,fe
 momentum           p3|2,4|Gm,Gp
 momentum           p4|4,3|ZT,ZT
 }
@@ -5440,18 +5440,18 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WLm,WLp
 momentum           p2|3,2|ZL,ZL
-momentum           p3|2,4|fE,fe
-momentum           p4|4,3|fVe,fve
+momentum           p3|2,4|fMu,fmu
+momentum           p4|4,3|fVm,fvm
 }
 
 
@@ -5465,18 +5465,18 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WLm,WLp
 momentum           p2|3,2|ZT,ZT
-momentum           p3|2,4|fE,fe
-momentum           p4|4,3|fVe,fve
+momentum           p3|2,4|fMu,fmu
+momentum           p4|4,3|fVm,fvm
 }
 
 
@@ -5490,16 +5490,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WLm,WLp
-momentum           p2|2,3|fVe,fve
+momentum           p2|2,3|fVm,fvm
 momentum           p3|4,2|WLm,WLp
 momentum           p4|4,3|ZL,ZL
 }
@@ -5515,16 +5515,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WLm,WLp
-momentum           p2|2,3|fVe,fve
+momentum           p2|2,3|fVm,fvm
 momentum           p3|4,2|WLm,WLp
 momentum           p4|4,3|ZT,ZT
 }
@@ -5540,16 +5540,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WLm,WLp
-momentum           p2|2,3|fVe,fve
+momentum           p2|2,3|fVm,fvm
 momentum           p3|4,2|WTm,WTp
 momentum           p4|4,3|ZL,ZL
 }
@@ -5565,16 +5565,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WLm,WLp
-momentum           p2|2,3|fVe,fve
+momentum           p2|2,3|fVm,fvm
 momentum           p3|4,2|WTm,WTp
 momentum           p4|4,3|ZT,ZT
 }
@@ -5590,16 +5590,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WLm,WLp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|a,a
 momentum           p4|4,3|WLm,WLp
 }
@@ -5615,16 +5615,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WLm,WLp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|a,a
 momentum           p4|4,3|WTm,WTp
 }
@@ -5640,16 +5640,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WLm,WLp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|ZL,ZL
 momentum           p4|4,3|WLm,WLp
 }
@@ -5665,16 +5665,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WLm,WLp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|ZL,ZL
 momentum           p4|4,3|WTm,WTp
 }
@@ -5690,16 +5690,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WLm,WLp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|ZT,ZT
 momentum           p4|4,3|WLm,WLp
 }
@@ -5715,16 +5715,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WLm,WLp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|ZT,ZT
 momentum           p4|4,3|WTm,WTp
 }
@@ -5740,18 +5740,18 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WTm,WTp
 momentum           p2|3,2|ZL,ZL
-momentum           p3|2,4|fE,fe
-momentum           p4|4,3|fVe,fve
+momentum           p3|2,4|fMu,fmu
+momentum           p4|4,3|fVm,fvm
 }
 
 
@@ -5765,18 +5765,18 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WTm,WTp
 momentum           p2|3,2|ZT,ZT
-momentum           p3|2,4|fE,fe
-momentum           p4|4,3|fVe,fve
+momentum           p3|2,4|fMu,fmu
+momentum           p4|4,3|fVm,fvm
 }
 
 
@@ -5790,16 +5790,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WTm,WTp
-momentum           p2|2,3|fVe,fve
+momentum           p2|2,3|fVm,fvm
 momentum           p3|4,2|WLm,WLp
 momentum           p4|4,3|ZL,ZL
 }
@@ -5815,16 +5815,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WTm,WTp
-momentum           p2|2,3|fVe,fve
+momentum           p2|2,3|fVm,fvm
 momentum           p3|4,2|WLm,WLp
 momentum           p4|4,3|ZT,ZT
 }
@@ -5840,16 +5840,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WTm,WTp
-momentum           p2|2,3|fVe,fve
+momentum           p2|2,3|fVm,fvm
 momentum           p3|4,2|WTm,WTp
 momentum           p4|4,3|ZL,ZL
 }
@@ -5865,16 +5865,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WTm,WTp
-momentum           p2|2,3|fVe,fve
+momentum           p2|2,3|fVm,fvm
 momentum           p3|4,2|WTm,WTp
 momentum           p4|4,3|ZT,ZT
 }
@@ -5890,16 +5890,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WTm,WTp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|a,a
 momentum           p4|4,3|WLm,WLp
 }
@@ -5915,16 +5915,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WTm,WTp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|a,a
 momentum           p4|4,3|WTm,WTp
 }
@@ -5940,16 +5940,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WTm,WTp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|ZL,ZL
 momentum           p4|4,3|WLm,WLp
 }
@@ -5965,16 +5965,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WTm,WTp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|ZL,ZL
 momentum           p4|4,3|WTm,WTp
 }
@@ -5990,16 +5990,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WTm,WTp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|ZT,ZT
 momentum           p4|4,3|WLm,WLp
 }
@@ -6015,16 +6015,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|WTm,WTp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|ZT,ZT
 momentum           p4|4,3|WTm,WTp
 }
@@ -6040,16 +6040,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|Gm,Gp
-momentum           p2|2,3|fVe,fve
+momentum           p2|2,3|fVm,fvm
 momentum           p3|4,2|WLm,WLp
 momentum           p4|4,3|ZL,ZL
 }
@@ -6065,16 +6065,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|Gm,Gp
-momentum           p2|2,3|fVe,fve
+momentum           p2|2,3|fVm,fvm
 momentum           p3|4,2|WLm,WLp
 momentum           p4|4,3|ZT,ZT
 }
@@ -6090,16 +6090,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|Gm,Gp
-momentum           p2|2,3|fVe,fve
+momentum           p2|2,3|fVm,fvm
 momentum           p3|4,2|WTm,WTp
 momentum           p4|4,3|ZL,ZL
 }
@@ -6115,16 +6115,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|Gm,Gp
-momentum           p2|2,3|fVe,fve
+momentum           p2|2,3|fVm,fvm
 momentum           p3|4,2|WTm,WTp
 momentum           p4|4,3|ZT,ZT
 }
@@ -6140,16 +6140,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|Gm,Gp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|a,a
 momentum           p4|4,3|WLm,WLp
 }
@@ -6165,16 +6165,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|Gm,Gp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|a,a
 momentum           p4|4,3|WTm,WTp
 }
@@ -6190,16 +6190,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|Gm,Gp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|ZL,ZL
 momentum           p4|4,3|WLm,WLp
 }
@@ -6215,16 +6215,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|Gm,Gp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|ZL,ZL
 momentum           p4|4,3|WTm,WTp
 }
@@ -6240,16 +6240,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|Gm,Gp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|ZT,ZT
 momentum           p4|4,3|WLm,WLp
 }
@@ -6265,16 +6265,16 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|2|fe
-external_leg       q2|1|fvm
+external_leg       q1|2|fmu
+external_leg       q2|1|fve
 
 
-external_leg       q3|1|fMu
-external_leg       q4|3|fVe
+external_leg       q3|1|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|1,4|Gm,Gp
-momentum           p2|2,3|fE,fe
+momentum           p2|2,3|fMu,fmu
 momentum           p3|4,2|ZT,ZT
 momentum           p4|4,3|WTm,WTp
 }
@@ -6290,17 +6290,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|4|fMu
-external_leg       q4|3|fVe
+external_leg       q3|4|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|ZL,ZL
-momentum           p2|1,3|fE,fe
-momentum           p3|2,4|fVm,fvm
+momentum           p2|1,3|fMu,fmu
+momentum           p3|2,4|fVe,fve
 momentum           p4|4,3|WLm,WLp
 }
 
@@ -6315,17 +6315,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|4|fMu
-external_leg       q4|3|fVe
+external_leg       q3|4|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|ZL,ZL
-momentum           p2|1,3|fE,fe
-momentum           p3|2,4|fVm,fvm
+momentum           p2|1,3|fMu,fmu
+momentum           p3|2,4|fVe,fve
 momentum           p4|4,3|WTm,WTp
 }
 
@@ -6340,17 +6340,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|4|fMu
-external_leg       q4|3|fVe
+external_leg       q3|4|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|ZT,ZT
-momentum           p2|1,3|fE,fe
-momentum           p3|2,4|fVm,fvm
+momentum           p2|1,3|fMu,fmu
+momentum           p3|2,4|fVe,fve
 momentum           p4|4,3|WLm,WLp
 }
 
@@ -6365,17 +6365,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|4|fMu
-external_leg       q4|3|fVe
+external_leg       q3|4|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|ZT,ZT
-momentum           p2|1,3|fE,fe
-momentum           p3|2,4|fVm,fvm
+momentum           p2|1,3|fMu,fmu
+momentum           p3|2,4|fVe,fve
 momentum           p4|4,3|WTm,WTp
 }
 
@@ -6390,17 +6390,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|4|fMu
-external_leg       q4|3|fVe
+external_leg       q3|4|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|WLm,WLp
-momentum           p2|1,3|fVe,fve
-momentum           p3|2,4|fMu,fmu
+momentum           p2|1,3|fVm,fvm
+momentum           p3|2,4|fE,fe
 momentum           p4|4,3|ZL,ZL
 }
 
@@ -6415,17 +6415,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|4|fMu
-external_leg       q4|3|fVe
+external_leg       q3|4|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|WLm,WLp
-momentum           p2|1,3|fVe,fve
-momentum           p3|2,4|fMu,fmu
+momentum           p2|1,3|fVm,fvm
+momentum           p3|2,4|fE,fe
 momentum           p4|4,3|ZT,ZT
 }
 
@@ -6440,17 +6440,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|4|fMu
-external_leg       q4|3|fVe
+external_leg       q3|4|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|WTm,WTp
-momentum           p2|1,3|fVe,fve
-momentum           p3|2,4|fMu,fmu
+momentum           p2|1,3|fVm,fvm
+momentum           p3|2,4|fE,fe
 momentum           p4|4,3|ZL,ZL
 }
 
@@ -6465,17 +6465,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|2|fvm
+external_leg       q1|1|fmu
+external_leg       q2|2|fve
 
 
-external_leg       q3|4|fMu
-external_leg       q4|3|fVe
+external_leg       q3|4|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|WTm,WTp
-momentum           p2|1,3|fVe,fve
-momentum           p3|2,4|fMu,fmu
+momentum           p2|1,3|fVm,fvm
+momentum           p3|2,4|fE,fe
 momentum           p4|4,3|ZT,ZT
 }
 
@@ -6490,17 +6490,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|4|fvm
+external_leg       q1|1|fmu
+external_leg       q2|4|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|3|fVe
+external_leg       q3|2|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|a,a
-momentum           p2|1,3|fE,fe
-momentum           p3|4,2|fMu,fmu
+momentum           p2|1,3|fMu,fmu
+momentum           p3|4,2|fE,fe
 momentum           p4|4,3|WLm,WLp
 }
 
@@ -6515,17 +6515,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|4|fvm
+external_leg       q1|1|fmu
+external_leg       q2|4|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|3|fVe
+external_leg       q3|2|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|a,a
-momentum           p2|1,3|fE,fe
-momentum           p3|4,2|fMu,fmu
+momentum           p2|1,3|fMu,fmu
+momentum           p3|4,2|fE,fe
 momentum           p4|4,3|WTm,WTp
 }
 
@@ -6540,17 +6540,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|4|fvm
+external_leg       q1|1|fmu
+external_leg       q2|4|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|3|fVe
+external_leg       q3|2|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|ZL,ZL
-momentum           p2|1,3|fE,fe
-momentum           p3|4,2|fMu,fmu
+momentum           p2|1,3|fMu,fmu
+momentum           p3|4,2|fE,fe
 momentum           p4|4,3|WLm,WLp
 }
 
@@ -6565,17 +6565,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|4|fvm
+external_leg       q1|1|fmu
+external_leg       q2|4|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|3|fVe
+external_leg       q3|2|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|ZL,ZL
-momentum           p2|1,3|fE,fe
-momentum           p3|4,2|fMu,fmu
+momentum           p2|1,3|fMu,fmu
+momentum           p3|4,2|fE,fe
 momentum           p4|4,3|WTm,WTp
 }
 
@@ -6590,17 +6590,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|4|fvm
+external_leg       q1|1|fmu
+external_leg       q2|4|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|3|fVe
+external_leg       q3|2|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|ZT,ZT
-momentum           p2|1,3|fE,fe
-momentum           p3|4,2|fMu,fmu
+momentum           p2|1,3|fMu,fmu
+momentum           p3|4,2|fE,fe
 momentum           p4|4,3|WLm,WLp
 }
 
@@ -6615,17 +6615,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|4|fvm
+external_leg       q1|1|fmu
+external_leg       q2|4|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|3|fVe
+external_leg       q3|2|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|ZT,ZT
-momentum           p2|1,3|fE,fe
-momentum           p3|4,2|fMu,fmu
+momentum           p2|1,3|fMu,fmu
+momentum           p3|4,2|fE,fe
 momentum           p4|4,3|WTm,WTp
 }
 
@@ -6640,17 +6640,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|4|fvm
+external_leg       q1|1|fmu
+external_leg       q2|4|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|3|fVe
+external_leg       q3|2|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|WLm,WLp
-momentum           p2|1,3|fVe,fve
-momentum           p3|4,2|fVm,fvm
+momentum           p2|1,3|fVm,fvm
+momentum           p3|4,2|fVe,fve
 momentum           p4|4,3|ZL,ZL
 }
 
@@ -6665,17 +6665,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|4|fvm
+external_leg       q1|1|fmu
+external_leg       q2|4|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|3|fVe
+external_leg       q3|2|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|WLm,WLp
-momentum           p2|1,3|fVe,fve
-momentum           p3|4,2|fVm,fvm
+momentum           p2|1,3|fVm,fvm
+momentum           p3|4,2|fVe,fve
 momentum           p4|4,3|ZT,ZT
 }
 
@@ -6690,17 +6690,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|4|fvm
+external_leg       q1|1|fmu
+external_leg       q2|4|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|3|fVe
+external_leg       q3|2|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|WTm,WTp
-momentum           p2|1,3|fVe,fve
-momentum           p3|4,2|fVm,fvm
+momentum           p2|1,3|fVm,fvm
+momentum           p3|4,2|fVe,fve
 momentum           p4|4,3|ZL,ZL
 }
 
@@ -6715,17 +6715,17 @@ number_legs_in     2
 number_legs_out    2
 
 
-external_leg       q1|1|fe
-external_leg       q2|4|fvm
+external_leg       q1|1|fmu
+external_leg       q2|4|fve
 
 
-external_leg       q3|2|fMu
-external_leg       q4|3|fVe
+external_leg       q3|2|fE
+external_leg       q4|3|fVm
 
 
 momentum           p1|2,1|WTm,WTp
-momentum           p2|1,3|fVe,fve
-momentum           p3|4,2|fVm,fvm
+momentum           p2|1,3|fVm,fvm
+momentum           p3|4,2|fVe,fve
 momentum           p4|4,3|ZT,ZT
 }
 
