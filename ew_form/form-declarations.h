@@ -17,7 +17,8 @@ Dimension d;
 AutoDeclare CFunction d1l, d2l;
 
 
-AutoDeclare Function cFT, FT;
+AutoDeclare Function FT;
+CFunction cFT,spinIndExt;
 Symbol g7, XX, g6
 
 * Kinematic variables and masses
@@ -51,7 +52,7 @@ Vector p1,...,p4;
 Vector q1,...,q4;
 Symbol p,q;
 *CFunction to hold rational polynomials:
-CFunction prf;
+CFunction prf,dentmp;
 
 * Propagator denominators:
 CFunction Den,Deng,Dlong,Dph,Dgoldst,Dtran,DH,Dghost;
@@ -80,7 +81,7 @@ CFunction colFac;
 
 
 * Maximal number of fermion lines which appear in the diagrams
-#define NUMTRACES "2"
+#define NUMTRACES "3"
 * Maximal number of propagators appearing in the diagrams
 #define NUMPROPS "4"
 

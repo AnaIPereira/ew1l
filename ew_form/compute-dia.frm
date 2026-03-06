@@ -35,45 +35,47 @@ Argument;
 EndArgument;
 .sort
 
-*On code;
-
 Identify Mom(?a) = Vec(?a);
 
 *Feynman rules
-* auxGamma are gamma matrices, their argument is a Lorentz index ans the spinor1 and spinor2.
-
-*Identify flavourTag(?f,i1?,i2?) = delta_(i1,i2);
+* auxGamma are gamma matrices, their argument is a Lorentz index and the spinor1 and spinor2.
+* Internal spinor indices are called iufo and j. External are called i.
 
 Identify auxPL(i1?,i2?) = cFT(g7,XX,i1,i2)/2;
 Identify auxPR(i1?,i2?) = cFT(g6,XX,i1,i2)/2;
 Identify auxSlash(?a,i1?,i2?) = cFT(?a,XX,i1,i2);
 Identify auxGamma(?a,i1?,i2?) = cFT(?a,XX,i1,i2);
-
 Identify cFT(- p1?, ?a) = - cFT(p1, ?a);
 
-#do i = 1,2
+* Start to build spinor line at some arbitrary point:
+#do i = 1,4
+	Identify, once cFT(?a) = FT`i'(?a);
+	Repeat;
+		Identify FT`i'(?a,i1?,i2?) * cFT(?b,i2?,i3?) = FT`i'(?a,XX,?b,XX,i1,i3);
+		Identify cFT(?b,i3?,i1?) * FT`i'(?a,i1?,i2?) = FT`i'(?b,XX,?a,XX,i3,i2);
+		Identify FT`i'(?a,i1?,i1?) = FT`i'(?a);
+	EndRepeat;
 
-  Identify once cFT(?a) = FT`i'(?a);
-  Repeat;
-    Identify FT`i'(?a,i1?,i2?) * cFT(?b,i2?,i3?) = FT`i'(?a,XX,?b,XX,i1,i3);
-    Identify cFT(?b,i3?,i1?) * FT`i'(?a,i1?,i2?) = FT`i'(?b,XX,?a,XX,i3,i2);
-    Identify FT`i'(?a,i1?,i2?) * cFT(?b,i3?,i1?) = FT`i'(?a,XX,?b,XX,i2,i3);
-    Identify cFT(?b,i3?,i1?) * FT`i'(?a,i2?,i3?) = FT`i'(?b,XX,?a,XX,i1,i2);
-    Identify FT`i'(?a,i1?,i1?) = FT`i'(?a);
-  EndRepeat;
-  Repeat;
-    Identify FT`i'(XX,?a) = FT`i'(?a);
-    Identify FT`i'(?a,XX) = FT`i'(?a);
-    Identify FT`i'(?a,XX,?b) = FT`i'(?a) * FT`i'(?b);
-  EndRepeat;
+	Repeat Identify FT`i'(?a,XX,?b) = FT`i'(?a) * FT`i'(?b);
+	Identify FT`i' = 1;
+#enddo
 
-  .sort
-
+* The external fermions now result in an FT`i'(i<k>,i<l>), where
+* i<k> and i<l> are spinor indices. There may be a g6 or g7:
+* take it out, and then keep the external spinor indices:
+#do i = 1,4
+	#do j = 1,10
+	#do k = 1,10
+		Identify FT`i'(?a,i`j',i`k') = FT`i'(?a) * FT`i'(i`j',i`k');
+		Identify FT`i'(i`j',i`k') = spinIndExt(`i',i`j',i`k');
+	#enddo
+	#enddo
+	Identify FT`i' = 1;
 #enddo
 
 *propagators substitutions
-* Dtran, Dlong are fermion propagators, their arguments are 2 Lorenx indices, the runnin momentum, the gauge and mass.
-*Dgoldst is the goldstone propagator, that should have a mass
+* Dtran, Dlong are gauge boson propagators, their arguments are 2 Lorenx indices, the runnin momentum, the gauge and mass.
+* Dgoldst is the goldstone propagator, that should have a mass
 Identify Dph(ind1?,ind2?,mom?,gaug?) = (d_(ind1, ind2) - (1-gaug) * Vec(ind1,mom) * Vec(ind2,mom) * Den(mom,0,0))* Den(mom,0,0);
 Identify Dgoldst(mom?,gaug?,mass?) = Den(mom, gaug, mass);
 Identify Dlong(ind1?,ind2?,mom?,gaug?,mass?) = (gaug*Vec(ind1,mom)*Vec(ind2,mom)*Den(mom,gaug,mass))* Den(mom,gaug,mass);
@@ -83,15 +85,10 @@ Identify Dghost(mom?, gaug?) = Den(mom,0,0);
 Identify Dghost(mom?, gaug?, mass?) = Den(mom,gaug,mass);
 
 #do i = 1,`NUMTRACES'
-  Identify FT`i'(g7) = g7_(`i');
-#enddo
-
-#do i = 1,`NUMTRACES'
+	Identify FT`i'(g6) = g6_(`i');
+	Identify FT`i'(g7) = g7_(`i');
 	Identify FT`i'(nu?) = g_(`i',nu);
-#enddo
-
-#do i = 1,`NUMTRACES'
-	Identify FT`i'(i1?,i2?) = 1;
+	Identify FT`i'(mom?,mass?) = g_(`i',mom) + gi_(`i')*mass;
 #enddo
 
 *split the momenta in the numerator
@@ -103,7 +100,6 @@ EndRepeat;
 FactArg Vecr;
 Identify Vecr(ind?,x?number_,mom?) = x * Vecr(ind,mom);
 Identify Vecr(?a) = Vec(?a);
-
 .sort
 
 *change the label in the loop momenta so that only internal momenta enter tensor reduction
@@ -135,18 +131,27 @@ Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?) = d_(ind1,ind2) * 1/d * momen1.
 
 *tensor reduction for rank 1
 Identify Vecr(ind1?,momen1?) = 0;
+.sort
 
+* Simplify the d-dependent coefficients which come from the tensor reduction:
+PolyRatFun prf;
+Denominators dentmp;
+Identify dentmp(x?) = prf(1,x);
+Identify d^x? = prf(d^x,1);
 
+Print +s;
+.end
 
 * we can now set external momenta to zero
 * this can be safely done as all denominators are either massive or
 * have internal momenta going in the loop and therefore there are no singularities (there will be spurious IR divergences though...)
 
 *split args in denominator 
-SplitArg Den;
+*SplitArg Den;
 
 
 *set ext mom to zero in the denominators
+** Multiply replace_(q1,0);
 Identify Den(?a,q1,?b)=Den(?a,?b);
 Identify Den(?a,q2,?b)=Den(?a,?b);
 Identify Den(?a,q3,?b)=Den(?a,?b);
@@ -166,12 +171,15 @@ Identify Den(-p4,gaug?,mass?)=Den(p4,gaug,mass);
 #enddo
 
 *project in operator basis
-Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
+*Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
+* TODO these needs to be investigated at the level of the "spinIndExt" structures
 
 * rewrite the scalar products in terms of denominators to have cancellations between numerator and denominator
 
 #do i = 3,4
-	Identify p`i'.p`i' = Den(p`i',0,0);
+*	TODO this is not correct, pi.pi = 1/Den(pi,0,0)
+*	Identify p`i'.p`i' = Den(p`i',0,0);
+	Identify p`i'.p`i'*Den(p`i',0,0) = 1;
 #enddo
 
 Bracket Den;
