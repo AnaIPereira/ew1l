@@ -28,45 +28,43 @@
 {cghWm,CghWm:*Dghost(<momentum>,<gauge_parameter_xiW>,<physical_mass_WTp>)|
 		||}
 
-
 {cghG,CghG:*Dghost(<momentum>,<gauge_parameter_xig>)|
 		*prop(<colour_index_vertex_2>,<colour_index_vertex_1>)||}
 
-{fve,fVe:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fve,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
+{fve,fVe:*auxSlash(-<momentum>,<mass>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fve,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		||}
 
-{fvm,fVm:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fvm,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
+{fvm,fVm:*auxSlash(-<momentum>,<mass>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fvm,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		||}
 
-{fvt,fVt:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fvt,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
+{fvt,fVt:*auxSlash(-<momentum>,<mass>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fvt,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		||}
 
-{fe,fE:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fe,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
+{fe,fE:*auxSlash(-<momentum>,<mass>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fe,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		||}
 
-{fmu,fMu:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fmu,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
+{fmu,fMu:*auxSlash(-<momentum>,<mass>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fmu,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		||}
 
-{fta,fTa:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fta,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
+{fta,fTa:*auxSlash(-<momentum>,<mass>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fta,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		||}
 
-{fu,fU:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fu,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
+{fu,fU:*auxSlash(-<momentum>,<mass>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fu,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		*d_(<spinor_index_vertex_2>,<spinor_index_vertex_1>)||}
 
-{fc,fC:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fc,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
+{fc,fC:*auxSlash(-<momentum>,<mass>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fc,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		*d_(<spinor_index_vertex_2>,<spinor_index_vertex_1>)||}
 
 {ft,fT:*auxSlash(-<momentum>,<mass>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(ft,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		*d_(<spinor_index_vertex_2>,<spinor_index_vertex_1>)||}
 
-
-{fd,fD:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fd,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
+{fd,fD:*auxSlash(-<momentum>,<mass>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fd,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		*d_(<spinor_index_vertex_2>,<spinor_index_vertex_1>)||}
 
-{fs,fS:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fs,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
+{fs,fS:*auxSlash(-<momentum>,<mass>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fs,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		*d_(<spinor_index_vertex_2>,<spinor_index_vertex_1>)||}
 
-{fb,fB:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fb,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
+{fb,fB:*auxSlash(-<momentum>,<mass>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fb,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		*d_(<spinor_index_vertex_2>,<spinor_index_vertex_1>)||}
 
 {H,H:*DH(<momentum>,<mass>)|
