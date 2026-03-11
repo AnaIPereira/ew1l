@@ -133,25 +133,10 @@ Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?) = d_(ind1,ind2) * 1/d * momen1.
 Identify Vecr(ind1?,momen1?) = 0;
 .sort
 
-* Simplify the d-dependent coefficients which come from the tensor reduction:
-PolyRatFun prf;
-Denominators dentmp;
-Identify dentmp(x?) = prf(1,x);
-Identify d^x? = prf(d^x,1);
-
-Print +s;
-.end
-
-* we can now set external momenta to zero
-* this can be safely done as all denominators are either massive or
-* have internal momenta going in the loop and therefore there are no singularities (there will be spurious IR divergences though...)
-
 *split args in denominator 
-*SplitArg Den;
-
-
+SplitArg Den;
 *set ext mom to zero in the denominators
-** Multiply replace_(q1,0);
+*Multiply replace_(q1,0);
 Identify Den(?a,q1,?b)=Den(?a,?b);
 Identify Den(?a,q2,?b)=Den(?a,?b);
 Identify Den(?a,q3,?b)=Den(?a,?b);
@@ -165,62 +150,31 @@ Identify Den(?a,-q4,?b)=Den(?a,?b);
 Identify Den(-p3,gaug?,mass?)=Den(p3,gaug,mass);
 Identify Den(-p4,gaug?,mass?)=Den(p4,gaug,mass);
 
+* Simplify the d-dependent coefficients which come from the tensor reduction:
+*PolyRatFun prf;
+*Denominators dentmp;
+Identify dentmp(x?) = prf(1,x);
+Identify d^x? = prf(d^x,1);
+Identify Den(gaug?, mass?) = prf(1,gaug * mass^2);
+
 *set ext mom to zero in the vectors
 #do i = 1,4
 	Identify Vec(ind?,q`i') = 0;
 #enddo
 
 *project in operator basis
-*Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
-* TODO these needs to be investigated at the level of the "spinIndExt" structures
+Identify g_(1,6_,ind?)*g_(2,6_,ind?)*spinIndExt(1,i1,i4)*spinIndExt(2,i2,i3) = Op;
 
 * rewrite the scalar products in terms of denominators to have cancellations between numerator and denominator
-
 #do i = 3,4
-*	TODO this is not correct, pi.pi = 1/Den(pi,0,0)
-*	Identify p`i'.p`i' = Den(p`i',0,0);
 	Identify p`i'.p`i'*Den(p`i',0,0) = 1;
+	Identify p`i'.p`i' = 1/Den(p`i',0,0);
 #enddo
 
 Bracket Den;
 *Print[];
 Print +s;
 .end
-
-
-* Compute the traces:
-*Tracen,1;
-*Tracen,2;
-*.sort
-*Print +s;
-*.end
-
-
-
-*Print +s;
-*.end
-
-
-
-* Clean up the notation:
-*PolyRatFun prf;
-* Kinematics
-*Identify q1.q1 = 0;
-*Identify q2.q2 = 0;
-*Identify q1.q2 = prf(s,2);
-*Identify M1^2 = prf(mts,1);
-*Identify s^n1? = prf(s^n1,1);
-*Identify d^n1? = prf(d^n1,1);
-.sort
-
-** Insert the IBP reduction rules from Kira:
-*#include ../kira-`LOOPS'l/results/`INT1'/kira_`INT1'.inc
-*Identify num(s?) = prf(s,1);
-*Identify den(s?) = prf(1,s);
-*Identify mts^n1? = prf(mts^n1,1);
-*Identify s^n1? = prf(s^n1,1);
-*Identify d^n1? = prf(d^n1,1);
-
 
 
 * Write the result to a file:
