@@ -1,15 +1,12 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Mar 11 16:05:20 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar 12 09:50:42 2026
     #-
 
    d1l138amp =
 
-       + Den(p4,0,0)*Den(p4,xiw,M3)^2 * (
-          - 1/4*g_(1,6_,nu11)*g_(2,6_,nu11)*spinIndExt(1,i1,i4)*spinIndExt(2,
-         i2,i3)*prf(1,1)*prf(1,M3^2*xiw)^2*p4.p4^2*xiw*ufoGC58^2*ufoGC4^2
-          - 1/4*g_(1,6_,nu13)*g_(2,6_,nu13)*spinIndExt(1,i1,i4)*spinIndExt(2,
-         i2,i3)*prf(1,M3^2*xiw)^2*prf(d^-1,1)*p4.p4^2*xiw*ufoGC58^2*ufoGC4^2
-          + 1/2*g_(1,6_,nu15)*g_(2,6_,nu15)*spinIndExt(1,i1,i4)*spinIndExt(2,
-         i2,i3)*prf(1,M3^2*xiw)^2*prf(d^-1,1)*p4.p4^2*xiw*ufoGC58^2*ufoGC4^2
+       + Den(p4,xiw,M3)^2 * (
+          + 1/4/(Den(p4,0,0))*prf(1,M3^4*xiw^2)*prf(d^-1,1)*xiw*Op*ufoGC58^2*
+         ufoGC4^2
+          - 1/4/(Den(p4,0,0))*prf(1,M3^2*xiw)^2*xiw*Op*ufoGC58^2*ufoGC4^2
           );
 
-  1.85 sec out of 1.86 sec
+  1.84 sec out of 1.84 sec

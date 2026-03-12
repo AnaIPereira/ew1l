@@ -1,25 +1,25 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Mar 11 16:05:32 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar 12 09:50:54 2026
     #-
 
    d1l181amp =
        + 1/8*g_(1,6_,nu9)*g_(2,7_,p3,nu9,p3)*g_(3,6_)*spinIndExt(1,i1,i4)*
          spinIndExt(3,i2,i3)*flavourTag(fd,j15,j16)*flavourTag(ft,j13,j14)*
-         prf(1,1)*prf(1,M3^2*xiw)^2*ufoGC58*ufoGC104*ufoGC15*ufoGC65
+         prf(1,M3^2*xiw)^2*ufoGC58*ufoGC104*ufoGC15*ufoGC65
           - 1/8*g_(1,6_,nu9)*g_(2,7_,p3,nu9,q2)*g_(3,6_)*spinIndExt(1,i1,i4)*
          spinIndExt(3,i2,i3)*flavourTag(fd,j15,j16)*flavourTag(ft,j13,j14)*
-         prf(1,1)*prf(1,M3^2*xiw)^2*ufoGC58*ufoGC104*ufoGC15*ufoGC65
+         prf(1,M3^2*xiw)^2*ufoGC58*ufoGC104*ufoGC15*ufoGC65
           - 1/8*g_(1,6_,nu9)*g_(2,7_,p3,nu9,q3)*g_(3,6_)*spinIndExt(1,i1,i4)*
          spinIndExt(3,i2,i3)*flavourTag(fd,j15,j16)*flavourTag(ft,j13,j14)*
-         prf(1,1)*prf(1,M3^2*xiw)^2*ufoGC58*ufoGC104*ufoGC15*ufoGC65
+         prf(1,M3^2*xiw)^2*ufoGC58*ufoGC104*ufoGC15*ufoGC65
           + 1/8*g_(1,6_,nu9)*g_(2,6_,nu9,p3)*g_(3,6_)*spinIndExt(1,i1,i4)*
          spinIndExt(3,i2,i3)*flavourTag(fd,j15,j16)*flavourTag(ft,j13,j14)*
-         prf(1,1)*prf(1,M3^2*xiw)^2*M1*ufoGC58*ufoGC104*ufoGC24*ufoGC65
+         prf(1,M3^2*xiw)^2*M1*ufoGC58*ufoGC104*ufoGC24*ufoGC65
           - 1/8*g_(1,6_,nu9)*g_(2,6_,nu9,q2)*g_(3,6_)*spinIndExt(1,i1,i4)*
          spinIndExt(3,i2,i3)*flavourTag(fd,j15,j16)*flavourTag(ft,j13,j14)*
-         prf(1,1)*prf(1,M3^2*xiw)^2*M1*ufoGC58*ufoGC104*ufoGC24*ufoGC65
+         prf(1,M3^2*xiw)^2*M1*ufoGC58*ufoGC104*ufoGC24*ufoGC65
           - 1/8*g_(1,6_,nu9)*g_(2,6_,nu9,q3)*g_(3,6_)*spinIndExt(1,i1,i4)*
          spinIndExt(3,i2,i3)*flavourTag(fd,j15,j16)*flavourTag(ft,j13,j14)*
-         prf(1,1)*prf(1,M3^2*xiw)^2*M1*ufoGC58*ufoGC104*ufoGC24*ufoGC65
+         prf(1,M3^2*xiw)^2*M1*ufoGC58*ufoGC104*ufoGC24*ufoGC65
          ;
 
   0.00 sec out of 0.00 sec

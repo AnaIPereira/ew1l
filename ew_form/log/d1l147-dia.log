@@ -1,11 +1,11 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Wed Mar 11 16:05:31 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar 12 09:50:53 2026
     #-
 
    d1l147amp =
 
        + Den(p4,0,M2)*Den(p4,xiw,M3)^2 * (
-          - 1/4*g_(1,6_,nu14)*g_(2,6_,nu14)*spinIndExt(1,i1,i4)*spinIndExt(2,
-         i2,i3)*prf(1,M3^2*xiw)^2*prf(d^-1,1)*p4.p4*xiw*ufoGC58^2*ufoGC90^2
+          - 1/4/(Den(p4,0,0))*prf(1,M3^4*xiw^2)*prf(d^-1,1)*xiw*Op*ufoGC58^2*
+         ufoGC90^2
           );
 
-  0.00 sec out of 0.01 sec
+  0.01 sec out of 0.01 sec

@@ -5,6 +5,7 @@ Symbol d,ep;
 * Indices declared following this will have dimension d:
 Dimension d;
 
+Symbol a1,...,a10;
 
 * Symbols used in tapir-generated topology files and defined by a
 * file in the tapir source:

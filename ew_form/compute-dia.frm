@@ -155,7 +155,10 @@ Identify Den(-p4,gaug?,mass?)=Den(p4,gaug,mass);
 *Denominators dentmp;
 Identify dentmp(x?) = prf(1,x);
 Identify d^x? = prf(d^x,1);
+Identify 1/x?number_ = prf(1,x);
 Identify Den(gaug?, mass?) = prf(1,gaug * mass^2);
+*join all prf functions into one only -  NOT WORKING
+Identify prf(a1?, a2?)*prf(a3?, a4?) = prf(a1* a3, a2* a4);
 
 *set ext mom to zero in the vectors
 #do i = 1,4
@@ -165,11 +168,17 @@ Identify Den(gaug?, mass?) = prf(1,gaug * mass^2);
 *project in operator basis
 Identify g_(1,6_,ind?)*g_(2,6_,ind?)*spinIndExt(1,i1,i4)*spinIndExt(2,i2,i3) = Op;
 
+*simplify denominators for partial fractioning
+Identify Den(mom?, 0, 0) = Den(mom, 0);
+Identify Den(mom?, 0, mass?) = Den(mom, mass);
+Identify Den(mom?, gaug?, mass?) = Den(mom, gaug*mass);
+
 * rewrite the scalar products in terms of denominators to have cancellations between numerator and denominator
 #do i = 3,4
-	Identify p`i'.p`i'*Den(p`i',0,0) = 1;
-	Identify p`i'.p`i' = 1/Den(p`i',0,0);
+	Identify p`i'.p`i'*Den(p`i',0) = 1;
+	Identify p`i'.p`i' = 1/Den(p`i',0);
 #enddo
+
 
 Bracket Den;
 *Print[];
