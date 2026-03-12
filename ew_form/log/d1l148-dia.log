@@ -1,15 +1,31 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar 12 09:50:53 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar 12 12:02:04 2026
     #-
 
    d1l148amp =
 
-       + Den(p4,0,M2)*Den(p4,xiw,M3)^2 * (
-          + 1/4/(Den(p4,0,0))*prf(1,M3^4*xiw^2)*prf(d^-1,1)*Op*ufoGC58^2*
-         ufoGC90^2
+       + Int1(p4,sqrt(xiw)*M3,1) * (
+          + 1/4*prf(1,M3^2*xiw)^2*prf(1, - M2^2 + sqrt(xiw)^2*M3^2)*Op*
+         ufoGC58^2*ufoGC90^2
           )
 
-       + Den(p4,0,M2)*Den(p4,xiw,M3) * (
-          - 1/4*prf(1,M3^2*xiw)^2*Op*ufoGC58^2*ufoGC90^2
+       + Int1(p4,M2,1) * (
+          - 1/4*prf(1,M3^2*xiw)^2*prf(1, - M2^2 + sqrt(xiw)^2*M3^2)*Op*
+         ufoGC58^2*ufoGC90^2
+          )
+
+       + Int1(p4,0,-1,p4,sqrt(xiw)*M3,1) * (
+          - 1/4*prf(1,M3^4*xiw^2)*prf(1, - M2^2 + sqrt(xiw)^2*M3^2)^2*prf(d^-1
+         ,1)*Op*ufoGC58^2*ufoGC90^2
+          )
+
+       + Int1(p4,0,-1,p4,sqrt(xiw)*M3,2) * (
+          - 1/4*prf(1,M3^4*xiw^2)*prf(1, - M2^2 + sqrt(xiw)^2*M3^2)*prf(d^-1,1
+         )*Op*ufoGC58^2*ufoGC90^2
+          )
+
+       + Int1(p4,0,-1,p4,M2,1) * (
+          + 1/4*prf(1,M3^4*xiw^2)*prf(1, - M2^2 + sqrt(xiw)^2*M3^2)^2*prf(d^-1
+         ,1)*Op*ufoGC58^2*ufoGC90^2
           );
 
   0.01 sec out of 0.01 sec

@@ -171,12 +171,11 @@ Identify g_(1,6_,ind?)*g_(2,6_,ind?)*spinIndExt(1,i1,i4)*spinIndExt(2,i2,i3) = O
 *simplify denominators for partial fractioning
 Identify Den(mom?, 0, 0) = Den(mom, 0);
 Identify Den(mom?, 0, mass?) = Den(mom, mass);
-Identify Den(mom?, gaug?, mass?) = Den(mom, gaug*mass);
+Identify Den(mom?, gaug?, mass?) = Den(mom, sqrt(gaug)*mass);
 
 * rewrite the scalar products in terms of denominators to have cancellations between numerator and denominator
 #do i = 3,4
 	Identify p`i'.p`i'*Den(p`i',0) = 1;
-	Identify p`i'.p`i'^x? = 1/(Den(p`i',0))^x;
 #enddo
 
 *join all dens in list for partial fractioning 
@@ -191,12 +190,37 @@ EndRepeat;
 Identify Int(?a, mom?, mass?, x?, mom?, mass?, x1?, ?b) = Int(?a, mom, mass, x+x1, ?b);
 Identify Int(?a, mom?, mass?, x?, ?c, mom?, mass?, x1?, ?b) = Int(?a, mom, mass, x+x1,?c, ?b);
 
-*Partial fraction decomposition
+*Partial fraction decomposition (implemented for only 1 loop cases)
 Repeat;
-Identify Int(mom?, mass?, x?pos_, mom?, mass1?, x1?pos_) = prf(1,mass^2-mass^2)*(Int(mom, mass, x, mom, mass1, x1-1)-Int(mom, mass, x-1, mom, mass1, x1));
+*3masses
+Identify Int(mom?, mass?, x?pos_, mom?, mass1?, x1?pos_,mom?, mass2?, x2?pos_) = 
+prf(1,(mass^2-mass1^2)*(mass^2-mass2^2))*Int(mom, mass, x-1, mom, mass1, x1,mom, mass2, x2)+
+prf(1,(mass1^2-mass^2)*(mass1^2-mass2^2))*Int(mom, mass, x, mom, mass1-1, x1,mom, mass2, x2)+
+prf(1,(mass2^2-mass^2)*(mass2^2-mass1^2))*Int(mom, mass, x, mom, mass1, x1,mom, mass2, x2-1);
+
+Identify Int(?a, mom?, mass?, 0, ?b) = Int(?a, ?b);
+
+*2masses
+Identify Int(mom?, mass?, x?pos_, mom?, mass1?, x1?pos_) = 
+prf(1,mass1^2-mass^2)*(Int(mom, mass, x, mom, mass1, x1-1)-Int(mom, mass, x-1, mom, mass1, x1));
+
 EndRepeat;
 
-Bracket Int;
+*join denominators and denominators in one line to then reduce to masters
+#do i = 3,4
+	Identify p`i'.p`i' = Int1(p`i',0,-1);
+#enddo
+
+Identify Int(?a) = Int1(?a);
+Repeat;
+Identify Int1(?a)*Int1(?b) = Int1(?a, ?b);
+
+*if the same den/num appear, sum the powers (regardless of the order they appear)
+Identify Int1(?a, mom?, mass?, x?, mom?, mass?, x1?, ?b) = Int1(?a, mom, mass, x+x1, ?b);
+Identify Int1(?a, mom?, mass?, x?, ?c, mom?, mass?, x1?, ?b) = Int1(?a, mom, mass, x+x1,?c, ?b);
+
+EndRepeat;
+Bracket Int, Int1;
 *Print[];
 Print +s;
 .end

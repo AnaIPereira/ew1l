@@ -1,9 +1,9 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar 12 09:50:57 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar 12 12:02:08 2026
     #-
 
    d1l261amp =
 
-       + Den(p4,xiw,M3)^2 * (
+       + Int1(p4,sqrt(xiw)*M3,2) * (
           - 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
          prf(d^-1,1)*xiw*ufoGC58^2*ufoGC3^2

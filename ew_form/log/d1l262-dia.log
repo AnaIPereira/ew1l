@@ -1,9 +1,84 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar 12 09:50:57 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar 12 12:02:08 2026
     #-
 
    d1l262amp =
 
-       + Den(p4,xiw,M3)^2 * (
+       + Int1(p4,sqrt(xiw)*M3,1) * (
+          + 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+          - 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+          + 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
+          - 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+          + 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+          - 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
+          - 1/4*g_(1,6_,nu9,q1,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+          + 1/4*g_(1,6_,nu9,q1,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+          - 1/4*g_(1,6_,nu9,q1,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
+          + 1/4*g_(1,6_,nu9,q1,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+          - 1/4*g_(1,6_,nu9,q1,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+          + 1/4*g_(1,6_,nu9,q1,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
+          - 1/4*g_(1,6_,nu9,q2,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+          + 1/4*g_(1,6_,nu9,q2,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+          - 1/4*g_(1,6_,nu9,q2,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
+          + 1/4*g_(1,6_,nu9,q2,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+          - 1/4*g_(1,6_,nu9,q2,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+          + 1/4*g_(1,6_,nu9,q2,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
+          - 1/4*g_(1,6_,nu9,q3,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+          + 1/4*g_(1,6_,nu9,q3,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+          - 1/4*g_(1,6_,nu9,q3,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
+          + 1/4*g_(1,6_,nu9,q3,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+          - 1/4*g_(1,6_,nu9,q3,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+          + 1/4*g_(1,6_,nu9,q3,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
+         spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
+          )
+
+       + Int1(p4,sqrt(xiw)*M3,2) * (
           + 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
          prf(d^-1,1)*ufoGC58^2*ufoGC3^2
@@ -222,79 +297,79 @@ FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar 12 09:
          flavourTag(fmu,j11,j12)*prf(1,1)*ufoGC58^2*ufoGC3^2
           )
 
-       + Den(p4,0,0)*Den(p4,xiw,M3) * (
+       + Int1(p4,0,1) * (
           - 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
           + 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
           - 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
           + 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
           - 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
           + 1/4*g_(1,6_,nu9,p4,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
           + 1/4*g_(1,6_,nu9,q1,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
           - 1/4*g_(1,6_,nu9,q1,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
           + 1/4*g_(1,6_,nu9,q1,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
           - 1/4*g_(1,6_,nu9,q1,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
           + 1/4*g_(1,6_,nu9,q1,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
           - 1/4*g_(1,6_,nu9,q1,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
           + 1/4*g_(1,6_,nu9,q2,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
           - 1/4*g_(1,6_,nu9,q2,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
           + 1/4*g_(1,6_,nu9,q2,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
           - 1/4*g_(1,6_,nu9,q2,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
           + 1/4*g_(1,6_,nu9,q2,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
           - 1/4*g_(1,6_,nu9,q2,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
           + 1/4*g_(1,6_,nu9,q3,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
           - 1/4*g_(1,6_,nu9,q3,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
           + 1/4*g_(1,6_,nu9,q3,nu15)*g_(2,6_,nu15,p4,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
           - 1/4*g_(1,6_,nu9,q3,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*xia*ufoGC58^2*ufoGC3^2
           + 1/4*g_(1,6_,nu9,q3,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(d^-1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,sqrt(xiw)^2*M3^2)*prf(d^-1,1)*ufoGC58^2*ufoGC3^2
           - 1/4*g_(1,6_,nu9,q3,nu15)*g_(2,6_,nu15,q2,nu9)*spinIndExt(1,i1,i4)*
          spinIndExt(2,i2,i3)*flavourTag(fe,j13,j14)*flavourTag(fmu,j11,j12)*
-         prf(1,1)*ufoGC58^2*ufoGC3^2
+         prf(1,1)*prf(1,sqrt(xiw)^2*M3^2)*ufoGC58^2*ufoGC3^2
           );
 
   0.01 sec out of 0.01 sec

@@ -58,8 +58,9 @@ CFunction prf,dentmp;
 * Propagator denominators:
 CFunction Den,Deng,Dlong,Dph,Dgoldst,Dtran,DH,Dghost;
 
-CFunction Int;
-
+*functions
+CFunction Int, Int1;
+CFunction sqrt;
 
 * gauge parameter
 *#define GAUGEa "xia"
