@@ -38,7 +38,7 @@ Symbol gaug, xia, xiw, xiz;
 AutoDeclare Index iufo;
 AutoDeclare Symbol ufoGC;
 
-Symbol x;
+Symbol x, x1,...,x10;
 
 *indices
 Symbol mu,spin;
@@ -57,6 +57,9 @@ CFunction prf,dentmp;
 
 * Propagator denominators:
 CFunction Den,Deng,Dlong,Dph,Dgoldst,Dtran,DH,Dghost;
+
+CFunction Int;
+
 
 * gauge parameter
 *#define GAUGEa "xia"

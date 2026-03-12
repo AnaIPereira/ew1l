@@ -176,11 +176,24 @@ Identify Den(mom?, gaug?, mass?) = Den(mom, gaug*mass);
 * rewrite the scalar products in terms of denominators to have cancellations between numerator and denominator
 #do i = 3,4
 	Identify p`i'.p`i'*Den(p`i',0) = 1;
-	Identify p`i'.p`i' = 1/Den(p`i',0);
+	Identify p`i'.p`i'^x? = 1/(Den(p`i',0))^x;
 #enddo
 
+*join all dens in list for partial fractioning 
+Identify Den(mom?, mass?)^x? = Int(mom, mass, x);
+Identify Den(mom?, mass?) = Int(mom, mass, 1);
 
-Bracket Den;
+Repeat;
+Identify Int(?a)*Int(?b) = Int(?a, ?b);
+EndRepeat;
+
+*if the same den appear, sum the powers (regardless of the order they appear)
+Identify Int(?a, mom?, mass?, x?, mom?, mass?, x1?, ?b) = Int(?a, mom, mass, x+x1, ?b);
+Identify Int(?a, mom?, mass?, x?, ?c, mom?, mass?, x1?, ?b) = Int(?a, mom, mass, x+x1,?c, ?b);
+
+
+
+Bracket Int;
 *Print[];
 Print +s;
 .end
