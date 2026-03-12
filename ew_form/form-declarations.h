@@ -23,7 +23,7 @@ CFunction cFT,spinIndExt;
 Symbol g7, XX, g6
 
 * Kinematic variables and masses
-Symbol M1,M2,M3,M4,mass;
+Symbol M1,M2,M3,M4,mass, mass1,...,mass10;
 Vector mom, mom1,mom2;
 Cfunction flavourTag;
 Symbol fve,fvm,fe,fmu,fta,fvt,fu,fd,fs,fb,fc,ft;

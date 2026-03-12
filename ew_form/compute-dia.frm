@@ -191,7 +191,10 @@ EndRepeat;
 Identify Int(?a, mom?, mass?, x?, mom?, mass?, x1?, ?b) = Int(?a, mom, mass, x+x1, ?b);
 Identify Int(?a, mom?, mass?, x?, ?c, mom?, mass?, x1?, ?b) = Int(?a, mom, mass, x+x1,?c, ?b);
 
-
+*Partial fraction decomposition
+Repeat;
+Identify Int(mom?, mass?, x?pos_, mom?, mass1?, x1?pos_) = prf(1,mass^2-mass^2)*(Int(mom, mass, x, mom, mass1, x1-1)-Int(mom, mass, x-1, mom, mass1, x1));
+EndRepeat;
 
 Bracket Int;
 *Print[];
@@ -203,6 +206,6 @@ Print +s;
 *.sort
 *#write <results/d`LOOPS'l`DIA'.h> "%E", d`LOOPS'l`DIA'amp
 
-*Bracket d2l1,...,d2l21;
+*Bracket d2l1,...,d2l270;
 *Print +s;
 *.end
