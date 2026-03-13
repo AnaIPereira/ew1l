@@ -19,15 +19,14 @@
 {cghA,CghA:*Dghost(<momentum>,<gauge_parameter_xia>)|
 		||}
 
-{cghZ,CghZ:*Dghost(<momentum>,<gauge_parameter_xiZ>,<physical_mass_ZT>)|
+{cghZ,CghZ:*Dghost(<momentum>,<gauge_parameter_xiZ>)|
 		||}
 
-{cghWp,CghWp:*Dghost(<momentum>,<gauge_parameter_xiW>,<physical_mass_WTp>)|
+{cghWp,CghWp:*Dghost(<momentum>,<gauge_parameter_xiW>)|
 		||}
 
-{cghWm,CghWm:*Dghost(<momentum>,<gauge_parameter_xiW>,<physical_mass_WTp>)|
+{cghWm,CghWm:*Dghost(<momentum>,<gauge_parameter_xiW>)|
 		||}
-
 
 {cghG,CghG:*Dghost(<momentum>,<gauge_parameter_xig>)|
 		*prop(<colour_index_vertex_2>,<colour_index_vertex_1>)||}
@@ -56,9 +55,8 @@
 {fc,fC:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fc,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		*d_(<spinor_index_vertex_2>,<spinor_index_vertex_1>)||}
 
-{ft,fT:*auxSlash(-<momentum>,<mass>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(ft,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
+{ft,fT:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(ft,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		*d_(<spinor_index_vertex_2>,<spinor_index_vertex_1>)||}
-
 
 {fd,fD:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fd,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		*d_(<spinor_index_vertex_2>,<spinor_index_vertex_1>)||}
@@ -69,12 +67,12 @@
 {fb,fB:*auxSlash(-<momentum>,<spinor_index_vertex_2>,<spinor_index_vertex_1>)*flavourTag(fb,<spinor_index_vertex_2>,<spinor_index_vertex_1>)|
 		*d_(<spinor_index_vertex_2>,<spinor_index_vertex_1>)||}
 
-{H,H:*DH(<momentum>,<mass>)|
+{H,H:*DH(<momentum>)|
 		||}
 
-{G0,G0:*Dgoldst(<momentum>,<gauge_parameter_xiZ>,<physical_mass_ZT>)|
+{G0,G0:*Dgoldst(<momentum>,<gauge_parameter_xiZ>)|
 		||}
 
-{Gp,Gm:*Dgoldst(<momentum>,<gauge_parameter_xiW>,<physical_mass_WTp>)|
+{Gp,Gm:*Dgoldst(<momentum>,<gauge_parameter_xiW>)|
 		||}
 

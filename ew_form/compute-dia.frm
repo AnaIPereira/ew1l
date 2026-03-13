@@ -17,6 +17,9 @@ On HighFirst;
 Local d`LOOPS'l`DIA'amp =
 	#include- ../ew_tapir/dia/munuenu-`LOOPS'l.dia # d`LOOPS'l`DIA'
 
+#ifndef `BRIDGEMOMENTA'
+	#define BRIDGEMOMENTA ""
+#endif
 
 * Load the mapped topology, and make the necessary momentum replacements
 #include ../ew_tapir/topo/mapping-`LOOPS'l.h # d`LOOPS'l`DIA'
@@ -32,150 +35,225 @@ Argument;
 EndArgument;
 .sort
 
-
+Identify Mom(?a) = Vec(?a);
 
 *Feynman rules
-* auxGamma are gamma matrices, their argument is a Lorentz index ans the spinor1 and spinor2.
+* auxGamma are gamma matrices, their argument is a Lorentz index and the spinor1 and spinor2.
+* Internal spinor indices are called iufo and j. External are called i.
 
 Identify auxPL(i1?,i2?) = cFT(g7,XX,i1,i2)/2;
 Identify auxPR(i1?,i2?) = cFT(g6,XX,i1,i2)/2;
 Identify auxSlash(?a,i1?,i2?) = cFT(?a,XX,i1,i2);
 Identify auxGamma(?a,i1?,i2?) = cFT(?a,XX,i1,i2);
+Identify cFT(- p1?, ?a) = - cFT(p1, ?a);
 
-#do i = 1,2
+* Start to build spinor line at some arbitrary point:
+#do i = 1,4
+	Identify, once cFT(?a) = FT`i'(?a);
+	Repeat;
+		Identify FT`i'(?a,i1?,i2?) * cFT(?b,i2?,i3?) = FT`i'(?a,XX,?b,XX,i1,i3);
+		Identify cFT(?b,i3?,i1?) * FT`i'(?a,i1?,i2?) = FT`i'(?b,XX,?a,XX,i3,i2);
+		Identify FT`i'(?a,i1?,i1?) = FT`i'(?a);
+	EndRepeat;
 
-  Identify once cFT(?a) = FT`i'(?a);
+	Repeat Identify FT`i'(?a,XX,?b) = FT`i'(?a) * FT`i'(?b);
+	Identify FT`i' = 1;
+#enddo
 
-  Repeat;
-    Identify FT`i'(?a,i1?,i2?) * cFT(?b,i2?,i3?) = FT`i'(?a,XX,?b,XX,i1,i3);
-    Identify cFT(?b,i3?,i1?) * FT`i'(?a,i1?,i2?) = FT`i'(?b,XX,?a,XX,i3,i2);
-    Identify FT`i'(?a,i1?,i1?) = FT`i'(?a);
-  EndRepeat;
-  Repeat;
-    Identify FT`i'(XX,?a) = FT`i'(?a);
-    Identify FT`i'(?a,XX) = FT`i'(?a);
-    Identify FT`i'(?a,XX,?b) = FT`i'(?a) * FT`i'(?b);
-  EndRepeat;
-
-  .sort
-
+* The external fermions now result in an FT`i'(i<k>,i<l>), where
+* i<k> and i<l> are spinor indices. There may be a g6 or g7:
+* take it out, and then keep the external spinor indices:
+#do i = 1,4
+	#do j = 1,10
+	#do k = 1,10
+		Identify FT`i'(?a,i`j',i`k') = FT`i'(?a) * FT`i'(i`j',i`k');
+		Identify FT`i'(i`j',i`k') = spinIndExt(`i',i`j',i`k');
+	#enddo
+	#enddo
+	Identify FT`i' = 1;
 #enddo
 
 *propagators substitutions
-* Dtran, Dlong are fermion propagators, their arguments are 2 Lorenx indices, the runnin momentum, the gauge and mass.
-Identify Dph(ind1?,ind2?,?mom,gaug?) = (d_(ind1, ind2) - (1-gaug) * Vec(ind1,?mom) * Vec(ind2,?mom) * Den(?mom))* Den(?mom);
-Identify Dgoldst(?mom,gaug?) = Deng(?mom, gaug, 0);
-Identify Dlong(ind1?,ind2?,?mom,gaug?,mass?) = (gaug*Vec(ind1,?mom)*Vec(ind2,?mom)*Deng(?mom,gaug,mass))* Deng(?mom,gaug,mass);
-Identify Dtran(ind1?,ind2?,?mom,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,?mom)*Vec(ind2,?mom)*Deng(?mom,gaug,mass))* Deng(?mom,gaug,mass);
+* Dtran, Dlong are gauge boson propagators, their arguments are 2 Lorenx indices, the runnin momentum, the gauge and mass.
+* Dgoldst is the goldstone propagator, that should have a mass
+Identify Dph(ind1?,ind2?,mom?,gaug?) = (d_(ind1, ind2) - (1-gaug) * Vec(ind1,mom) * Vec(ind2,mom) * Den(mom,0,0))* Den(mom,0,0);
+Identify Dgoldst(mom?,gaug?,mass?) = Den(mom, gaug, mass);
+Identify Dlong(ind1?,ind2?,mom?,gaug?,mass?) = (gaug*Vec(ind1,mom)*Vec(ind2,mom)*Den(mom,gaug,mass))* Den(mom,gaug,mass);
+Identify Dtran(ind1?,ind2?,mom?,gaug?,mass?) = (d_(ind1, ind2)-Vec(ind1,mom)*Vec(ind2,mom)*Den(mom,gaug,mass))* Den(mom,gaug,mass);
+Identify DH(mom?, mass?) = Den(mom, 0, mass);
+Identify Dghost(mom?, gaug?) = Den(mom,0,0);
+Identify Dghost(mom?, gaug?, mass?) = Den(mom,gaug,mass);
 
 #do i = 1,`NUMTRACES'
-  Identify FT`i'(g7) = g7_(`i');
-#enddo
-
-#do i = 1,`NUMTRACES'
+	Identify FT`i'(g6) = g6_(`i');
+	Identify FT`i'(g7) = g7_(`i');
 	Identify FT`i'(nu?) = g_(`i',nu);
+	Identify FT`i'(mom?,mass?) = g_(`i',mom) + gi_(`i')*mass;
 #enddo
 
-#do i = 1,`NUMTRACES'
-	Identify FT`i'(i1?,i2?) = 1;
-#enddo
-
-
-
-Print +s;
-.end
 
 *split the momenta in the numerator
 SplitArg Vec;
 Repeat;
-Identify Vec(ind?,?a,2 *p1?,?b) = 2 *Vec(ind,?a,p1,?b);
-Identify Vec(ind?,?a,3 *p1?,?b) = 3 *Vec(ind,?a,p1,?b);
-Identify Vec(ind?,?a,-p1?,?b) = -Vec(ind,?a,p1,?b);
-Identify Vec(ind?,p1?,p2?,?a) = Vec(ind,p1) + Vec(ind,p2,?a);
-Identify Vec(ind?, ?a, q1, ?b) = 0;
-Identify Vec(ind?, ?a, q2, ?b) = 0;
-Identify Vec(ind?, ?a, q3, ?b) = 0;
-Identify Vec(ind?, ?a, q4, ?b) = 0;
+	Identify Vec(ind?,mom?,?a) = Vecr(ind,mom) + Vec(ind,?a);
+	Identify Vec(ind?) = 0;
 EndRepeat;
+FactArg Vecr;
+Identify Vecr(ind?,x?number_,mom?) = x * Vecr(ind,mom);
+Identify Vecr(?a) = Vec(?a);
+.sort
 
-*set the momenta to zero in the propagators
+*change the label in the loop momenta so that only internal momenta enter tensor reduction
+* p1 to p4 are truly internal momenta because we have previously applied the bridges
+#do i = 1,4
+	Identify Vec(ind?,p`i') = Vecr(ind,p`i');
+#enddo
 
-*TENSOR REDUCTION
+*TENSOR REDUCTION : highest ranks first
 * contract all the scalar product pi^2, etc
-Identify Vec(ind?,momen?)*Vec(ind?,momen?) = momen.momen;
-Identify Vec(ind?,momen?)^2 = momen.momen;
+Identify Vecr(ind?,momen1?)*Vecr(ind?,momen2?) = momen1.momen2;
 
-*tensor reduction for rank 4
-Identify Vec(ind1?,momen?)*Vec(ind2?,momen?)*Vec(ind3?,momen1?)*Vec(ind4?,momen1?) =
-1/(d *(d^2 + d - 2))*(- momen.momen * momen1.momen1 + d* (momen.momen1)^2)*(d_(ind1,ind3)*d_(ind2,ind4) + d_(ind1,ind4)*d_(ind2,ind3));
 
-Identify Vec(ind1?,momen?)*Vec(ind2?,momen1?)*Vec(ind3?,momen1?)*Vec(ind4?,momen1?) =
-1/(d^2+2*d)*(momen.momen1)*(momen1.momen1)*(d_(ind1,ind2)*d_(ind3,ind4)+d_(ind1,ind4)*d_(ind3,ind2)+d_(ind1,ind3)*d_(ind2,ind4));
+*tensor reduction for rank 4 - no symmetries, most generic (commented for now as it might not be needed)
+*Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?)*Vecr(ind3?,momen3?)*Vecr(ind4?,momen4?)=1/(d* (-2 + d + d^2))*(d_(ind1, ind4)* d_(ind2, ind3) *((1 + d)* momen1.momen4 * momen2.momen3 - momen1.momen3 * momen2.momen4 - momen1.momen2 * momen3.momen4) +   d_(ind1, ind3) * d_(ind2, ind4)* (-momen1.momen4 momen2.momen3 +  (1 + d)* momen1.momen3 * momen2.momen4 - momen1.momen2 * momen3.momen4) + d_(ind1, ind2) * d_(ind3, ind4)* (-momen1.momen4 * momen2.momen4 - momen1.momen3 * momen2.momen4 + (1 + d) *momen1.momen2 * momen3.momen4));
+
+
+*tensor reduction for rank 4 with symmetries
+Identify Vecr(ind1?,momen?)*Vecr(ind2?,momen?)*Vecr(ind3?,momen1?)*Vecr(ind4?,momen1?) = 1/(d *(d^2 + d - 2))*(- momen.momen * momen1.momen1 + d* (momen.momen1)^2)*(d_(ind1,ind3)*d_(ind2,ind4) + d_(ind1,ind4)*d_(ind2,ind3));
+Identify Vecr(ind1?,momen?)*Vecr(ind3?,momen1?)*Vecr(ind2?,momen?)*Vecr(ind4?,momen1?) = 1/(d *(d^2 + d - 2))*(- momen.momen * momen1.momen1 + d* (momen.momen1)^2)*(d_(ind1,ind3)*d_(ind2,ind4) + d_(ind1,ind4)*d_(ind2,ind3));
+Identify Vecr(ind1?,momen?)*Vecr(ind2?,momen1?)*Vecr(ind3?,momen1?)*Vecr(ind4?,momen1?) =1/(d^2+2*d)*(momen.momen1)*(momen1.momen1)*(d_(ind1,ind2)*d_(ind3,ind4)+d_(ind1,ind4)*d_(ind3,ind2)+d_(ind1,ind3)*d_(ind2,ind4));
+
+
+*tensor reduction for rank 3
+Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?)*Vecr(ind3?,momen3?) = 0;
 
 *tensor reduction for rank 2
-Identify Vec(ind?,momen?)*Vec(ind1?,momen1?) = 1/d* momen.momen1 * d_(ind,ind1);
+Identify Vecr(ind1?,momen1?)*Vecr(ind2?,momen2?) = d_(ind1,ind2) * 1/d * momen1.momen2;
 
-* Compute the traces:
-*Tracen,1;
-*Tracen,2;
-*.sort
-*test
-*Print +s;
-*.end
+*tensor reduction for rank 1
+Identify Vecr(ind1?,momen1?) = 0;
+.sort
+
+*split args in denominator 
+SplitArg Den;
+*set ext mom to zero in the denominators
+*Multiply replace_(q1,0);
+Identify Den(?a,q1,?b)=Den(?a,?b);
+Identify Den(?a,q2,?b)=Den(?a,?b);
+Identify Den(?a,q3,?b)=Den(?a,?b);
+Identify Den(?a,q4,?b)=Den(?a,?b);
+Identify Den(?a,-q1,?b)=Den(?a,?b);
+Identify Den(?a,-q2,?b)=Den(?a,?b);
+Identify Den(?a,-q3,?b)=Den(?a,?b);
+Identify Den(?a,-q4,?b)=Den(?a,?b);
+
+*adjust signs in denominators (-p)^2 = p^2
+Identify Den(-p3,gaug?,mass?)=Den(p3,gaug,mass);
+Identify Den(-p4,gaug?,mass?)=Den(p4,gaug,mass);
+.sort
+
+* Simplify the d-dependent coefficients which come from the tensor reduction:
+PolyRatFun prf;
+Denominators dentmp;
+Identify dentmp(x?) = prf(1,x);
+Identify d^x? = prf(d^x,1);
+Identify 1/x?number_ = prf(1,x);
+Identify Den(gaug?, mass?) = prf(1,gaug * mass^2);
+*join all prf functions into one only -  NOT WORKING
+Identify prf(a1?, a2?)*prf(a3?, a4?) = prf(a1* a3, a2* a4);
+
+*set ext mom to zero in the vectors
+#do i = 1,4
+	Identify Vec(ind?,q`i') = 0;
+#enddo
 
 *project in operator basis
-Identify g_(1,6_,ind?)*g_(2,6_,ind?) = Op;
-.sort
+Identify g_(1,6_,ind?)*g_(2,6_,ind?)*spinIndExt(1,i1,i4)*spinIndExt(2,i2,i3) = Op;
 
-*Print +s;
-*.end
+*simplify denominators for partial fractioning
+Identify Den(mom?, 0, 0) = Den(mom, 0);
+Identify Den(mom?, 0, mass?) = Den(mom, mass);
+Identify Den(mom?, gaug?, mass?) = Den(mom, sqrt(gaug)*mass);
+Argument Den;
+	Identify sqrt(xiw) = sqrtxiw;
+	Identify sqrt(xiz) = sqrtxiz;
+EndArgument;
 
-
-
-* Write the propagators into the notation expected by the tapir topology file.
-* Massive, simj = 1/(Mj^2 - pi.pi)
-* Massless, 1/(-pi.pi)
-
-#do i = 1,`NUMPROPS'
-	Repeat Identify Den( p`i',M`j') = s`i'mj;
-	Repeat Identify Den( p`i',0) = -1/p`i'.p`i';
-	Repeat Identify Den(-p`i',0) = -1/p`i'.p`i';
+* rewrite the scalar products in terms of denominators to have cancellations between numerator and denominator
+#do i = 3,4
+	Identify p`i'.p`i'*Den(p`i',0) = 1;
 #enddo
+
+*join all dens in list for partial fractioning 
+Identify Den(mom?, mass?)^x? = Int(mom, mass, x);
+Identify Den(mom?, mass?) = Int(mom, mass, 1);
+
+Repeat;
+Identify Int(?a)*Int(?b) = Int(?a, ?b);
+EndRepeat;
+
+*if the same den appear, sum the powers (regardless of the order they appear)
+Identify Int(?a, mom?, mass?, x?, mom?, mass?, x1?, ?b) = Int(?a, mom, mass, x+x1, ?b);
+Identify Int(?a, mom?, mass?, x?, ?c, mom?, mass?, x1?, ?b) = Int(?a, mom, mass, x+x1,?c, ?b);
+
+*Add numerators to the same line as dens
+#do i = 3,4
+	Identify p`i'.p`i' = Int(p`i',0,-1);
+#enddo
+
+*join numerators and denominators
+Repeat;
+Identify Int(?a)*Int(?b) = Int(?a, ?b);
+EndRepeat;
+
+Bracket Int;
+Print[];
+.sort
+*cancelation between numerators and denominators (all numerators shoukd be cancelled after this(?))
+*this bit of code is not working - see diag 142 as example;
+Repeat;
+	Identify Int(?a, mom?, 0, x?neg_, ?b, mom?,mass?!{,0},x1?pos_, ?c) = 
+		Int(?a, mom,mass,x+1, mom,mass,x1-1, ?b, ?c) + 
+		prf(mass^2,1)*Int(?a, mom,mass,x1, ?b, ?c) ;
+	Identify Int(?a, mom?, mass?, 0, ?b) = Int(?a, ?b);
+EndRepeat;
+
+Bracket Int;
+Print[];
 .sort
 
+*Identify Int(p4,0,-1,p4,sqrt(xiz)*M4,2) = Int();
+
+*Partial fraction decomposition (implemented for only 1 loop cases)
+Repeat;
+*	3mass
+	Identify Int(mom?, mass?, x?pos_, mom?, mass1?, x1?pos_,mom?, mass2?, x2?pos_) = 
+		prf(1,(mass^2-mass1^2)*(mass^2-mass2^2))*Int(mom, mass, x-1, mom, mass1, x1,mom, mass2, x2)+
+		prf(1,(mass1^2-mass^2)*(mass1^2-mass2^2))*Int(mom, mass, x, mom, mass1-1, x1,mom, mass2, x2)+
+		prf(1,(mass2^2-mass^2)*(mass2^2-mass1^2))*Int(mom, mass, x, mom, mass1, x1,mom, mass2, x2-1);
+	Identify Int(?a, mom?, mass?, 0, ?b) = Int(?a, ?b);
+	
+*	2masses
+	Identify Int(mom?, mass?, x?pos_, mom?, mass1?, x1?pos_) = 
+		prf(1,mass1^2-mass^2)*(Int(mom, mass, x, mom, mass1, x1-1)-Int(mom, mass, x-1, mom, mass1, x1));
+EndRepeat;
+.sort
+
+Argument prf;
+	Identify sqrtxiw^2 = xiw;
+	Identify sqrtxiz^2 = xiz;
+EndArgument;
+
+Bracket Int;
+*Print[];
 Print +s;
 .end
-
-* Include the topology file generated by tapir, to write scalar products
-* as inverse propagators.
-*#include- /home/ana/Documents/Software/src/tapir/ew/topo/`INT1'
-
-
-* Clean up the notation:
-*PolyRatFun prf;
-* Kinematics
-*Identify q1.q1 = 0;
-*Identify q2.q2 = 0;
-*Identify q1.q2 = prf(s,2);
-*Identify M1^2 = prf(mts,1);
-*Identify s^n1? = prf(s^n1,1);
-*Identify d^n1? = prf(d^n1,1);
-.sort
-
-** Insert the IBP reduction rules from Kira:
-*#include ../kira-`LOOPS'l/results/`INT1'/kira_`INT1'.inc
-*Identify num(s?) = prf(s,1);
-*Identify den(s?) = prf(1,s);
-*Identify mts^n1? = prf(mts^n1,1);
-*Identify s^n1? = prf(s^n1,1);
-*Identify d^n1? = prf(d^n1,1);
-
 
 
 * Write the result to a file:
 *.sort
 *#write <results/d`LOOPS'l`DIA'.h> "%E", d`LOOPS'l`DIA'amp
 
-*Bracket d2l1,...,d2l21;
+*Bracket d2l1,...,d2l270;
 *Print +s;
 *.end

@@ -3,8 +3,8 @@ style = 'qgraf-tapir.sty';
 model = 'UFO.lag';
 
 * Incoming and outgoing particles :
-in = fe , fvm ;
-out = fmu, fve;
+in = fmu, fve;
+out = fe , fvm ;
 
 loops = 1;
 loop_momentum = k ;
