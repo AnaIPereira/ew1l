@@ -202,14 +202,14 @@ Identify Int(?a)*Int(?b) = Int(?a, ?b);
 EndRepeat;
 
 *cancelation between numerators and denominators (all numerators shoukd be cancelled after this(?))
+*this bit of code is not working - see diag 142 as example;
 Repeat;
 Identify Int(?a, mom?, 0, x?neg_, mom?,mass?,x1?pos_, ?b) = 
 Int(?a, mom, mass, x+1,mom,mass,x1-1,?b) + 
 prf(mass^2,1) *Int(?a, mom,mass,x1, ?b) ;
 EndRepeat;
 
-*Identify Int(?a,mom?,0,x?neg_,mom?,mass?,x1?pos_, ?b)=
-*Int();
+Identify Int(p4,0,-1,p4,sqrt(xiz)*M4,2) = Int();
 
 *Partial fraction decomposition (implemented for only 1 loop cases)
 Repeat;
