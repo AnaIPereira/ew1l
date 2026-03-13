@@ -33,7 +33,7 @@ CFunction Mom;
 AutoDeclare Vector momen;
 
 *Coupling constants and gauge parameters
-Symbol gaug, xia, xiw, xiz;
+Symbol gaug, xia, xiw, xiz, sqrtxiw, sqrtxiz;
 
 AutoDeclare Index iufo;
 AutoDeclare Symbol ufoGC;

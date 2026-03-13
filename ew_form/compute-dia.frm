@@ -150,10 +150,11 @@ Identify Den(?a,-q4,?b)=Den(?a,?b);
 *adjust signs in denominators (-p)^2 = p^2
 Identify Den(-p3,gaug?,mass?)=Den(p3,gaug,mass);
 Identify Den(-p4,gaug?,mass?)=Den(p4,gaug,mass);
+.sort
 
 * Simplify the d-dependent coefficients which come from the tensor reduction:
-*PolyRatFun prf;
-*Denominators dentmp;
+PolyRatFun prf;
+Denominators dentmp;
 Identify dentmp(x?) = prf(1,x);
 Identify d^x? = prf(d^x,1);
 Identify 1/x?number_ = prf(1,x);
@@ -173,6 +174,10 @@ Identify g_(1,6_,ind?)*g_(2,6_,ind?)*spinIndExt(1,i1,i4)*spinIndExt(2,i2,i3) = O
 Identify Den(mom?, 0, 0) = Den(mom, 0);
 Identify Den(mom?, 0, mass?) = Den(mom, mass);
 Identify Den(mom?, gaug?, mass?) = Den(mom, sqrt(gaug)*mass);
+Argument Den;
+	Identify sqrt(xiw) = sqrtxiw;
+	Identify sqrt(xiz) = sqrtxiz;
+EndArgument;
 
 * rewrite the scalar products in terms of denominators to have cancellations between numerator and denominator
 #do i = 3,4
@@ -201,36 +206,47 @@ Repeat;
 Identify Int(?a)*Int(?b) = Int(?a, ?b);
 EndRepeat;
 
+Bracket Int;
+Print[];
+.sort
 *cancelation between numerators and denominators (all numerators shoukd be cancelled after this(?))
 *this bit of code is not working - see diag 142 as example;
 Repeat;
-Identify Int(?a, mom?, 0, x?neg_, mom?,mass?,x1?pos_, ?b) = 
-Int(?a, mom, mass, x+1,mom,mass,x1-1,?b) + 
-prf(mass^2,1) *Int(?a, mom,mass,x1, ?b) ;
+	Identify Int(?a, mom?, 0, x?neg_, ?b, mom?,mass?!{,0},x1?pos_, ?c) = 
+		Int(?a, mom,mass,x+1, mom,mass,x1-1, ?b, ?c) + 
+		prf(mass^2,1)*Int(?a, mom,mass,x1, ?b, ?c) ;
+	Identify Int(?a, mom?, mass?, 0, ?b) = Int(?a, ?b);
 EndRepeat;
-
-Identify Int(p4,0,-1,p4,sqrt(xiz)*M4,2) = Int();
-
-*Partial fraction decomposition (implemented for only 1 loop cases)
-Repeat;
-*3mass
-Identify Int(mom?, mass?, x?pos_, mom?, mass1?, x1?pos_,mom?, mass2?, x2?pos_) = 
-prf(1,(mass^2-mass1^2)*(mass^2-mass2^2))*Int(mom, mass, x-1, mom, mass1, x1,mom, mass2, x2)+
-prf(1,(mass1^2-mass^2)*(mass1^2-mass2^2))*Int(mom, mass, x, mom, mass1-1, x1,mom, mass2, x2)+
-prf(1,(mass2^2-mass^2)*(mass2^2-mass1^2))*Int(mom, mass, x, mom, mass1, x1,mom, mass2, x2-1);
-
-Identify Int(?a, mom?, mass?, 0, ?b) = Int(?a, ?b);
-
-*2masses
-Identify Int(mom?, mass?, x?pos_, mom?, mass1?, x1?pos_) = 
-prf(1,mass1^2-mass^2)*(Int(mom, mass, x, mom, mass1, x1-1)-Int(mom, mass, x-1, mom, mass1, x1));
-
-EndRepeat;
-
 
 Bracket Int;
 Print[];
-*Print +s;
+.sort
+
+*Identify Int(p4,0,-1,p4,sqrt(xiz)*M4,2) = Int();
+
+*Partial fraction decomposition (implemented for only 1 loop cases)
+Repeat;
+*	3mass
+	Identify Int(mom?, mass?, x?pos_, mom?, mass1?, x1?pos_,mom?, mass2?, x2?pos_) = 
+		prf(1,(mass^2-mass1^2)*(mass^2-mass2^2))*Int(mom, mass, x-1, mom, mass1, x1,mom, mass2, x2)+
+		prf(1,(mass1^2-mass^2)*(mass1^2-mass2^2))*Int(mom, mass, x, mom, mass1-1, x1,mom, mass2, x2)+
+		prf(1,(mass2^2-mass^2)*(mass2^2-mass1^2))*Int(mom, mass, x, mom, mass1, x1,mom, mass2, x2-1);
+	Identify Int(?a, mom?, mass?, 0, ?b) = Int(?a, ?b);
+	
+*	2masses
+	Identify Int(mom?, mass?, x?pos_, mom?, mass1?, x1?pos_) = 
+		prf(1,mass1^2-mass^2)*(Int(mom, mass, x, mom, mass1, x1-1)-Int(mom, mass, x-1, mom, mass1, x1));
+EndRepeat;
+.sort
+
+Argument prf;
+	Identify sqrtxiw^2 = xiw;
+	Identify sqrtxiz^2 = xiz;
+EndArgument;
+
+Bracket Int;
+*Print[];
+Print +s;
 .end
 
 
