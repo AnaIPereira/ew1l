@@ -1,2 +1,3 @@
-ew_form/log/
-ew_form/drawings/
+log/
+*.log
+*.swp

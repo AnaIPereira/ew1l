@@ -1,9 +1,0 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Mar 13 11:58:30 2026
-    #-
-
-   d1l139amp =
-       + Int(p4,sqrt(xiw)*M3,1) * (  4 terms )
-
-       + Int(p4,sqrt(xiw)*M3,2) * (  2 terms );
-
-  3.26 sec out of 3.26 sec

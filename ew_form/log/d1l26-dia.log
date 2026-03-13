@@ -1,9 +1,0 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Mar 13 11:58:00 2026
-    #-
-
-   d1l26amp =
-       + Int(p3,sqrt(xiz)*M4,1) * (  2 terms )
-
-       + Int(p3,sqrt(xiz)*M4,2) * (  2 terms );
-
-  0.00 sec out of 0.00 sec
