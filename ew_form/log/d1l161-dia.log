@@ -1,16 +1,7 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar 12 12:02:04 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Mar 13 11:58:39 2026
     #-
 
    d1l161amp =
-       + 1/8*g_(1,6_,nu9)*g_(2,6_,nu11)*g_(3,7_,p3,nu11,p3,nu9)*spinIndExt(1,
-         i1,i4)*spinIndExt(2,i2,i3)*flavourTag(fb,j15,j16)*flavourTag(fc,j13,
-         j14)*prf(1,M3^2*xiw)^2*ufoGC58^2*ufoGC124*ufoGC64
-          - 1/8*g_(1,6_,nu9)*g_(2,6_,nu11)*g_(3,7_,q2,nu11,p3,nu9)*spinIndExt(
-         1,i1,i4)*spinIndExt(2,i2,i3)*flavourTag(fb,j15,j16)*flavourTag(fc,j13
-         ,j14)*prf(1,M3^2*xiw)^2*ufoGC58^2*ufoGC124*ufoGC64
-          - 1/8*g_(1,6_,nu9)*g_(2,6_,nu11)*g_(3,7_,q3,nu11,p3,nu9)*spinIndExt(
-         1,i1,i4)*spinIndExt(2,i2,i3)*flavourTag(fb,j15,j16)*flavourTag(fc,j13
-         ,j14)*prf(1,M3^2*xiw)^2*ufoGC58^2*ufoGC124*ufoGC64
-         ;
+       + 1 * (  3 terms );
 
   0.00 sec out of 0.00 sec

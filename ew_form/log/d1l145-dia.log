@@ -1,34 +1,17 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar 12 12:02:02 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Mar 13 11:58:37 2026
     #-
 
    d1l145amp =
+       + Int(p4,sqrt(xiw)*M3,1) * (  2 terms )
 
-       + Int1(p4,0,-2,p4,sqrt(xiw)*M3,2) * (
-          - 1/4*prf(1,M3^4*xiw^2)*prf(1, - sqrt(xiw)^2*M3^2 + sqrt(xiz)^2*M4^2
-         )*prf(d^-1,1)*Op*ufoGC58^2*ufoGC69^2
-          + 1/4*prf(1,M3^2*xiw)^2*prf(1, - sqrt(xiw)^2*M3^2 + sqrt(xiz)^2*M4^2
-         )*Op*ufoGC58^2*ufoGC69^2
-          )
+       + Int(p4,sqrt(xiw)*M3,2) * (  2 terms )
 
-       + Int1(p4,0,-2,p4,sqrt(xiz)*M4,2) * (
-          + 1/4*prf(1,M3^4*xiw^2)*prf(1, - sqrt(xiw)^2*M3^2 + sqrt(xiz)^2*M4^2
-         )*prf(d^-1,1)*Op*ufoGC58^2*ufoGC69^2
-          - 1/4*prf(1,M3^2*xiw)^2*prf(1, - sqrt(xiw)^2*M3^2 + sqrt(xiz)^2*M4^2
-         )*Op*ufoGC58^2*ufoGC69^2
-          )
+       + Int(p4,sqrt(xiz)*M4,1) * (  4 terms )
 
-       + Int1(p4,0,-1,p4,sqrt(xiw)*M3,1) * (
-          + 3/2*prf(1,M3^4*xiw^2)*prf(1, - sqrt(xiw)^2*M3^2 + sqrt(xiz)^2*M4^2
-         )*prf(d^-1,1)*Op*ufoGC58^2*ufoGC69^2
-          - 3/2*prf(1,M3^2*xiw)^2*prf(1, - sqrt(xiw)^2*M3^2 + sqrt(xiz)^2*M4^2
-         )*Op*ufoGC58^2*ufoGC69^2
-          )
+       + Int(p4,sqrt(xiz)*M4,2) * (  4 terms )
 
-       + Int1(p4,0,-1,p4,sqrt(xiz)*M4,1) * (
-          - 3/2*prf(1,M3^4*xiw^2)*prf(1, - sqrt(xiw)^2*M3^2 + sqrt(xiz)^2*M4^2
-         )*prf(d^-1,1)*Op*ufoGC58^2*ufoGC69^2
-          + 3/2*prf(1,M3^2*xiw)^2*prf(1, - sqrt(xiw)^2*M3^2 + sqrt(xiz)^2*M4^2
-         )*Op*ufoGC58^2*ufoGC69^2
-          );
+       + Int(p4,0,-1,p4,sqrt(xiw)*M3,1,p4,sqrt(xiz)*M4,1) * (  2 terms )
 
-  1.94 sec out of 1.95 sec
+       + Int(p4,0,-1,p4,sqrt(xiz)*M4,2) * (  2 terms );
+
+  1.90 sec out of 1.90 sec

@@ -1,14 +1,7 @@
-FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Thu Mar 12 12:01:25 2026
+FORM 5.0.0-beta.1 (Jan 15 2026, v5.0.0-beta.1-292-g4341c63)  Run: Fri Mar 13 11:58:00 2026
     #-
 
    d1l25amp =
-
-       + Int1(p3,0,1) * (
-          - 1/4*prf(1,M3^4*xiw^2)*prf(d^-1,1)*xia*Op*ufoGC58^2*ufoGC5
-          + 1/4*prf(1,M3^4*xiw^2)*prf(d^-1,1)*Op*ufoGC58^2*ufoGC5
-          + 1/4*prf(1,M3^4*xiw^2)*prf(d,1)*Op*ufoGC58^2*ufoGC5
-          + 1/4*prf(1,M3^2*xiw)^2*xia*Op*ufoGC58^2*ufoGC5
-          - 1/2*prf(1,M3^2*xiw)^2*Op*ufoGC58^2*ufoGC5
-          );
+       + Int(p3,0,1) * (  5 terms );
 
   0.01 sec out of 0.01 sec

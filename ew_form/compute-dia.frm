@@ -91,6 +91,7 @@ Identify Dghost(mom?, gaug?, mass?) = Den(mom,gaug,mass);
 	Identify FT`i'(mom?,mass?) = g_(`i',mom) + gi_(`i')*mass;
 #enddo
 
+
 *split the momenta in the numerator
 SplitArg Vec;
 Repeat;
@@ -190,9 +191,29 @@ EndRepeat;
 Identify Int(?a, mom?, mass?, x?, mom?, mass?, x1?, ?b) = Int(?a, mom, mass, x+x1, ?b);
 Identify Int(?a, mom?, mass?, x?, ?c, mom?, mass?, x1?, ?b) = Int(?a, mom, mass, x+x1,?c, ?b);
 
+*Add numerators to the same line as dens
+#do i = 3,4
+	Identify p`i'.p`i' = Int(p`i',0,-1);
+#enddo
+
+*join numerators and denominators
+Repeat;
+Identify Int(?a)*Int(?b) = Int(?a, ?b);
+EndRepeat;
+
+*cancelation between numerators and denominators (all numerators shoukd be cancelled after this(?))
+Repeat;
+Identify Int(?a, mom?, 0, x?neg_, mom?,mass?,x1?pos_, ?b) = 
+Int(?a, mom, mass, x+1,mom,mass,x1-1,?b) + 
+prf(mass^2,1) *Int(?a, mom,mass,x1, ?b) ;
+EndRepeat;
+
+*Identify Int(?a,mom?,0,x?neg_,mom?,mass?,x1?pos_, ?b)=
+*Int();
+
 *Partial fraction decomposition (implemented for only 1 loop cases)
 Repeat;
-*3masses
+*3mass
 Identify Int(mom?, mass?, x?pos_, mom?, mass1?, x1?pos_,mom?, mass2?, x2?pos_) = 
 prf(1,(mass^2-mass1^2)*(mass^2-mass2^2))*Int(mom, mass, x-1, mom, mass1, x1,mom, mass2, x2)+
 prf(1,(mass1^2-mass^2)*(mass1^2-mass2^2))*Int(mom, mass, x, mom, mass1-1, x1,mom, mass2, x2)+
@@ -206,23 +227,10 @@ prf(1,mass1^2-mass^2)*(Int(mom, mass, x, mom, mass1, x1-1)-Int(mom, mass, x-1, m
 
 EndRepeat;
 
-*join denominators and denominators in one line to then reduce to masters
-#do i = 3,4
-	Identify p`i'.p`i' = Int1(p`i',0,-1);
-#enddo
 
-Identify Int(?a) = Int1(?a);
-Repeat;
-Identify Int1(?a)*Int1(?b) = Int1(?a, ?b);
-
-*if the same den/num appear, sum the powers (regardless of the order they appear)
-Identify Int1(?a, mom?, mass?, x?, mom?, mass?, x1?, ?b) = Int1(?a, mom, mass, x+x1, ?b);
-Identify Int1(?a, mom?, mass?, x?, ?c, mom?, mass?, x1?, ?b) = Int1(?a, mom, mass, x+x1,?c, ?b);
-
-EndRepeat;
-Bracket Int, Int1;
-*Print[];
-Print +s;
+Bracket Int;
+Print[];
+*Print +s;
 .end
 
 
